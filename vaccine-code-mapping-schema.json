@@ -1,0 +1,114 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "patternProperties": {
+    "^cpt|cvx": {
+      "type": "object",
+      "minProperties": 1,
+      "patternProperties": {
+        "^[0-9]+": {
+          "type": "object",
+          "required": [
+            "cvx_code",
+            "name",
+            "description",
+            "status",
+            "cpt_codes",
+            "manufacturers",
+            "groups"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "cvx_code": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "cpt_codes": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "cpt_code": {
+                    "type": "string"
+                  },
+                  "cpt_desc": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "cpt_code",
+                  "cpt_desc"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "manufacturers": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "trade_name": {
+                    "type": "string"
+                  },
+                  "mvx_code": {
+                    "type": "string"
+                  },
+                  "manufacturer": {
+                    "type": "string"
+                  },
+                  "last_updated": {
+                    "type": "string"
+                  },
+                  "product_name_status": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "trade_name",
+                  "mvx_code",
+                  "manufacturer",
+                  "last_updated",
+                  "product_name_status"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "groups": {
+              "type": "object",
+              "patternProperties": {
+                "^[0-9]+": {
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "active": {
+                      "type": "boolean"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "active"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "minProperties": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "cpt",
+    "cvx"
+  ]
+}
