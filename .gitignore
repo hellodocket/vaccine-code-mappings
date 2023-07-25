@@ -54,7 +54,3 @@ Gemfile.lock
 
 # Used by RuboCop. Remote config files pulled in from inherit_from directive.
 # .rubocop-https?--*
-
-
-# Ignore the build artifact
-vaccine-code-mapping.json
