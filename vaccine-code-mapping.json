@@ -1294,7 +1294,10 @@
       "description": "Meningococcal MCV4O",
       "status": "Active",
       "cpt_codes": [
-
+        {
+          "cpt_code": "90734",
+          "cpt_desc": "Meningococcal conjugate vaccine, serogroups A, C, W, Y, quadrivalent, diphtheria toxoid carrier (MenACWY-D) or CRM197 carrier (MenACWY-CRM), for intramuscular use"
+        }
       ],
       "groups": {
         "108": {
@@ -3301,7 +3304,7 @@
           "trade_name": "SPIKEVAX",
           "mvx_code": "MOD",
           "manufacturer": "Moderna US, Inc.",
-          "last_updated": "2022-05-18",
+          "last_updated": "2023-09-06",
           "product_name_status": "Active"
         }
       ]
@@ -3328,7 +3331,7 @@
           "trade_name": "COMIRNATY",
           "mvx_code": "PFR",
           "manufacturer": "Pfizer, Inc",
-          "last_updated": "2022-05-18",
+          "last_updated": "2023-09-06",
           "product_name_status": "Active"
         },
         {
@@ -3560,7 +3563,7 @@
           "trade_name": "COMIRNATY",
           "mvx_code": "PFR",
           "manufacturer": "Pfizer, Inc",
-          "last_updated": "2022-05-18",
+          "last_updated": "2023-09-06",
           "product_name_status": "Active"
         },
         {
@@ -4263,7 +4266,7 @@
           "trade_name": "Arexvy",
           "mvx_code": "SKB",
           "manufacturer": "GlaxoSmithKline",
-          "last_updated": "2023-06-06",
+          "last_updated": "2023-07-12",
           "product_name_status": "Active"
         }
       ]
@@ -4292,16 +4295,133 @@
       "description": "RSV, bivalent, protein subunit RSVpreF, diluent reconstituted, 0.5 mL, PF",
       "status": "Active",
       "cpt_codes": [
-
+        {
+          "cpt_code": "90678",
+          "cpt_desc": "Respiratory syncytial virus vaccine, preF, subunit, bivalent, for intramuscular use"
+        }
       ],
       "groups": {
-        "305": {
-          "name": "RSV, BIVALENT, PROTEIN SUBUNIT RSVPREF, DILUENT RECONSTITUTED, 0.5 ML, PF",
+        "304": {
+          "name": "RSV",
           "active": true
         }
       },
       "manufacturers": [
-
+        {
+          "trade_name": "ABRYSVO",
+          "mvx_code": "PFR",
+          "manufacturer": "Pfizer, Inc",
+          "last_updated": "2023-07-12",
+          "product_name_status": "Active"
+        }
+      ]
+    },
+    "306": {
+      "cvx_code": "306",
+      "name": "RSV, mAb, nirsevimab-alip, 0.5 mL, neonate to 24 months",
+      "description": "RSV, mAb, nirsevimab-alip, 0.5 mL, neonate to 24 months",
+      "status": "Active",
+      "cpt_codes": [
+        {
+          "cpt_code": "90380",
+          "cpt_desc": "Respiratory syncytial virus, monoclonal antibody, seasonal dose; 0.5 mL dosage, for intramuscular use"
+        }
+      ],
+      "groups": {
+        "304": {
+          "name": "RSV",
+          "active": true
+        }
+      },
+      "manufacturers": [
+        {
+          "trade_name": "BEYFORTUS",
+          "mvx_code": "PMC",
+          "manufacturer": "Sanofi Pasteur",
+          "last_updated": "2023-07-21",
+          "product_name_status": "Active"
+        }
+      ]
+    },
+    "307": {
+      "cvx_code": "307",
+      "name": "RSV, mAb, nirsevimab-alip, 1 mL, neonate to 24 months",
+      "description": "RSV, mAb, nirsevimab-alip, 1 mL, neonate to 24 months",
+      "status": "Active",
+      "cpt_codes": [
+        {
+          "cpt_code": "90381",
+          "cpt_desc": "Respiratory syncytial virus, monoclonal antibody, seasonal dose; 1 mL dosage, for intramuscular use"
+        }
+      ],
+      "groups": {
+        "304": {
+          "name": "RSV",
+          "active": true
+        }
+      },
+      "manufacturers": [
+        {
+          "trade_name": "BEYFORTUS",
+          "mvx_code": "PMC",
+          "manufacturer": "Sanofi Pasteur",
+          "last_updated": "2023-07-21",
+          "product_name_status": "Active"
+        }
+      ]
+    },
+    "308": {
+      "cvx_code": "308",
+      "name": "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 3 mcg/0.3 mL",
+      "description": "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 3 mcg/0.3 mL",
+      "status": "Active",
+      "cpt_codes": [
+        {
+          "cpt_code": "91318",
+          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, 3 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use"
+        }
+      ],
+      "groups": {
+        "213": {
+          "name": "COVID-19",
+          "active": true
+        }
+      },
+      "manufacturers": [
+        {
+          "trade_name": "Pfizer-BioNTech COVID-19 Vaccine (US Only)",
+          "mvx_code": "PFR",
+          "manufacturer": "Pfizer, Inc",
+          "last_updated": "2023-09-06",
+          "product_name_status": "Active"
+        }
+      ]
+    },
+    "309": {
+      "cvx_code": "309",
+      "name": "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 30 mcg/0.3 mL",
+      "description": "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 30 mcg/0.3 mL",
+      "status": "Active",
+      "cpt_codes": [
+        {
+          "cpt_code": "91320",
+          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, 30 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use"
+        }
+      ],
+      "groups": {
+        "213": {
+          "name": "COVID-19",
+          "active": true
+        }
+      },
+      "manufacturers": [
+        {
+          "trade_name": "COMIRNATY",
+          "mvx_code": "PFR",
+          "manufacturer": "Pfizer, Inc",
+          "last_updated": "2023-09-06",
+          "product_name_status": "Active"
+        }
       ]
     },
     "31": {
@@ -4315,6 +4435,150 @@
       "groups": {
         "85": {
           "name": "HepA",
+          "active": false
+        }
+      },
+      "manufacturers": [
+
+      ]
+    },
+    "310": {
+      "cvx_code": "310",
+      "name": "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 10 mcg/0.3 mL",
+      "description": "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 10 mcg/0.3 mL",
+      "status": "Active",
+      "cpt_codes": [
+        {
+          "cpt_code": "91319",
+          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, 10 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use"
+        }
+      ],
+      "groups": {
+        "213": {
+          "name": "COVID-19",
+          "active": true
+        }
+      },
+      "manufacturers": [
+        {
+          "trade_name": "Pfizer-BioNTech COVID-19 Vaccine (US Only)",
+          "mvx_code": "PFR",
+          "manufacturer": "Pfizer, Inc",
+          "last_updated": "2023-09-06",
+          "product_name_status": "Active"
+        }
+      ]
+    },
+    "311": {
+      "cvx_code": "311",
+      "name": "COVID-19, mRNA, LNP-S, PF, 25 mcg/0.25 mL",
+      "description": "COVID-19, mRNA, LNP-S, PF, 25 mcg/0.25 mL",
+      "status": "Active",
+      "cpt_codes": [
+        {
+          "cpt_code": "91321",
+          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, 25 mcg/0.25 mL dosage, for intramuscular use"
+        }
+      ],
+      "groups": {
+        "213": {
+          "name": "COVID-19",
+          "active": true
+        }
+      },
+      "manufacturers": [
+        {
+          "trade_name": "Moderna COVID-19 Vaccine (US only)",
+          "mvx_code": "MOD",
+          "manufacturer": "Moderna US, Inc.",
+          "last_updated": "2023-09-06",
+          "product_name_status": "Active"
+        }
+      ]
+    },
+    "312": {
+      "cvx_code": "312",
+      "name": "COVID-19, mRNA, LNP-S, PF, 50 mcg/0.5 mL",
+      "description": "COVID-19, mRNA, LNP-S, PF, 50 mcg/0.5 mL",
+      "status": "Active",
+      "cpt_codes": [
+        {
+          "cpt_code": "91322",
+          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, 50 mcg/0.5 mL dosage, for intramuscular use"
+        }
+      ],
+      "groups": {
+        "213": {
+          "name": "COVID-19",
+          "active": true
+        }
+      },
+      "manufacturers": [
+        {
+          "trade_name": "SPIKEVAX",
+          "mvx_code": "MOD",
+          "manufacturer": "Moderna US, Inc.",
+          "last_updated": "2023-09-06",
+          "product_name_status": "Active"
+        }
+      ]
+    },
+    "313": {
+      "cvx_code": "313",
+      "name": "COVID-19, subunit, rS-nanoparticle, adjuvanted, PF, 5 mcg/0.5 mL",
+      "description": "COVID-19, subunit, rS-nanoparticle, adjuvanted, PF, 5 mcg/0.5 mL",
+      "status": "Active",
+      "cpt_codes": [
+        {
+          "cpt_code": "91304",
+          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, recombinant spike protein nanoparticle, saponin-based adjuvant, preservative free, 5 mcg/0.5 mL dosage, for intramuscular use"
+        }
+      ],
+      "groups": {
+        "213": {
+          "name": "COVID-19",
+          "active": true
+        }
+      },
+      "manufacturers": [
+        {
+          "trade_name": "Novavax COVID-19 Vaccine, Adjuvanted (US Only)",
+          "mvx_code": "NVX",
+          "manufacturer": "Novavax, Inc.",
+          "last_updated": "2023-09-06",
+          "product_name_status": "Active"
+        }
+      ]
+    },
+    "314": {
+      "cvx_code": "314",
+      "name": "Respiratory syncytial virus (RSV) vaccine, unspecified",
+      "description": "Respiratory syncytial virus (RSV) vaccine, unspecified",
+      "status": "Inactive",
+      "cpt_codes": [
+
+      ],
+      "groups": {
+        "304": {
+          "name": "RSV",
+          "active": false
+        }
+      },
+      "manufacturers": [
+
+      ]
+    },
+    "315": {
+      "cvx_code": "315",
+      "name": "Respiratory syncytial virus (RSV) MAB, unspecified",
+      "description": "Respiratory syncytial virus (RSV) MAB, unspecified",
+      "status": "Inactive",
+      "cpt_codes": [
+
+      ],
+      "groups": {
+        "304": {
+          "name": "RSV",
           "active": false
         }
       },
@@ -5702,10 +5966,7 @@
       "description": "RSV-IGIV",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90379",
-          "cpt_desc": "Respiratory syncytial virus immune globulin (RSV-IgIV), human, for intravenous use"
-        }
+
       ],
       "groups": {
         "71": {
@@ -6560,25 +6821,58 @@
 
       ]
     },
-    "90379": {
-      "cvx_code": "71",
-      "name": "RSV-IGIV",
-      "description": "RSV-IGIV",
-      "status": "Inactive",
+    "90380": {
+      "cvx_code": "306",
+      "name": "RSV, mAb, nirsevimab-alip, 0.5 mL, neonate to 24 months",
+      "description": "RSV, mAb, nirsevimab-alip, 0.5 mL, neonate to 24 months",
+      "status": "Active",
       "cpt_codes": [
         {
-          "cpt_code": "90379",
-          "cpt_desc": "Respiratory syncytial virus immune globulin (RSV-IgIV), human, for intravenous use"
+          "cpt_code": "90380",
+          "cpt_desc": "Respiratory syncytial virus, monoclonal antibody, seasonal dose; 0.5 mL dosage, for intramuscular use"
         }
       ],
       "groups": {
-        "71": {
-          "name": "RSV-IGIV",
+        "304": {
+          "name": "RSV",
           "active": true
         }
       },
       "manufacturers": [
-
+        {
+          "trade_name": "BEYFORTUS",
+          "mvx_code": "PMC",
+          "manufacturer": "Sanofi Pasteur",
+          "last_updated": "2023-07-21",
+          "product_name_status": "Active"
+        }
+      ]
+    },
+    "90381": {
+      "cvx_code": "307",
+      "name": "RSV, mAb, nirsevimab-alip, 1 mL, neonate to 24 months",
+      "description": "RSV, mAb, nirsevimab-alip, 1 mL, neonate to 24 months",
+      "status": "Active",
+      "cpt_codes": [
+        {
+          "cpt_code": "90381",
+          "cpt_desc": "Respiratory syncytial virus, monoclonal antibody, seasonal dose; 1 mL dosage, for intramuscular use"
+        }
+      ],
+      "groups": {
+        "304": {
+          "name": "RSV",
+          "active": true
+        }
+      },
+      "manufacturers": [
+        {
+          "trade_name": "BEYFORTUS",
+          "mvx_code": "PMC",
+          "manufacturer": "Sanofi Pasteur",
+          "last_updated": "2023-07-21",
+          "product_name_status": "Active"
+        }
       ]
     },
     "90389": {
@@ -8259,6 +8553,33 @@
         }
       ]
     },
+    "90678": {
+      "cvx_code": "305",
+      "name": "RSV, bivalent, protein subunit RSVpreF, diluent reconstituted, 0.5 mL, PF",
+      "description": "RSV, bivalent, protein subunit RSVpreF, diluent reconstituted, 0.5 mL, PF",
+      "status": "Active",
+      "cpt_codes": [
+        {
+          "cpt_code": "90678",
+          "cpt_desc": "Respiratory syncytial virus vaccine, preF, subunit, bivalent, for intramuscular use"
+        }
+      ],
+      "groups": {
+        "304": {
+          "name": "RSV",
+          "active": true
+        }
+      },
+      "manufacturers": [
+        {
+          "trade_name": "ABRYSVO",
+          "mvx_code": "PFR",
+          "manufacturer": "Pfizer, Inc",
+          "last_updated": "2023-07-12",
+          "product_name_status": "Active"
+        }
+      ]
+    },
     "90679": {
       "cvx_code": "303",
       "name": "RSV, recombinant, protein subunit RSVpreF, adjuvant reconstituted, 0.5 mL, PF",
@@ -8281,7 +8602,7 @@
           "trade_name": "Arexvy",
           "mvx_code": "SKB",
           "manufacturer": "GlaxoSmithKline",
-          "last_updated": "2023-06-06",
+          "last_updated": "2023-07-12",
           "product_name_status": "Active"
         }
       ]
@@ -9575,9 +9896,9 @@
       ]
     },
     "90734": {
-      "cvx_code": "114",
-      "name": "meningococcal MCV4P",
-      "description": "meningococcal MCV4P",
+      "cvx_code": "136",
+      "name": "Meningococcal MCV4O",
+      "description": "Meningococcal MCV4O",
       "status": "Active",
       "cpt_codes": [
         {
@@ -9593,10 +9914,17 @@
       },
       "manufacturers": [
         {
-          "trade_name": "MENACTRA",
-          "mvx_code": "PMC",
-          "manufacturer": "Sanofi Pasteur",
-          "last_updated": "2010-05-28",
+          "trade_name": "MENVEO",
+          "mvx_code": "NOV",
+          "manufacturer": "Novartis Pharmaceutical Corporation",
+          "last_updated": "2016-03-22",
+          "product_name_status": "Active"
+        },
+        {
+          "trade_name": "Menveo",
+          "mvx_code": "SKB",
+          "manufacturer": "GlaxoSmithKline",
+          "last_updated": "2016-03-22",
           "product_name_status": "Active"
         }
       ]
@@ -10134,7 +10462,7 @@
           "trade_name": "COMIRNATY",
           "mvx_code": "PFR",
           "manufacturer": "Pfizer, Inc",
-          "last_updated": "2022-05-18",
+          "last_updated": "2023-09-06",
           "product_name_status": "Active"
         },
         {
@@ -10179,7 +10507,7 @@
           "trade_name": "SPIKEVAX",
           "mvx_code": "MOD",
           "manufacturer": "Moderna US, Inc.",
-          "last_updated": "2022-05-18",
+          "last_updated": "2023-09-06",
           "product_name_status": "Active"
         }
       ]
@@ -10287,7 +10615,7 @@
           "trade_name": "COMIRNATY",
           "mvx_code": "PFR",
           "manufacturer": "Pfizer, Inc",
-          "last_updated": "2022-05-18",
+          "last_updated": "2023-09-06",
           "product_name_status": "Active"
         },
         {
@@ -10332,7 +10660,7 @@
           "trade_name": "SPIKEVAX",
           "mvx_code": "MOD",
           "manufacturer": "Moderna US, Inc.",
-          "last_updated": "2022-05-18",
+          "last_updated": "2023-09-06",
           "product_name_status": "Active"
         }
       ]
@@ -10638,6 +10966,141 @@
           "mvx_code": "PFR",
           "manufacturer": "Pfizer, Inc",
           "last_updated": "2022-11-16",
+          "product_name_status": "Active"
+        }
+      ]
+    },
+    "91318": {
+      "cvx_code": "308",
+      "name": "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 3 mcg/0.3 mL",
+      "description": "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 3 mcg/0.3 mL",
+      "status": "Active",
+      "cpt_codes": [
+        {
+          "cpt_code": "91318",
+          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, 3 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use"
+        }
+      ],
+      "groups": {
+        "213": {
+          "name": "COVID-19",
+          "active": true
+        }
+      },
+      "manufacturers": [
+        {
+          "trade_name": "Pfizer-BioNTech COVID-19 Vaccine (US Only)",
+          "mvx_code": "PFR",
+          "manufacturer": "Pfizer, Inc",
+          "last_updated": "2023-09-06",
+          "product_name_status": "Active"
+        }
+      ]
+    },
+    "91319": {
+      "cvx_code": "310",
+      "name": "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 10 mcg/0.3 mL",
+      "description": "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 10 mcg/0.3 mL",
+      "status": "Active",
+      "cpt_codes": [
+        {
+          "cpt_code": "91319",
+          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, 10 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use"
+        }
+      ],
+      "groups": {
+        "213": {
+          "name": "COVID-19",
+          "active": true
+        }
+      },
+      "manufacturers": [
+        {
+          "trade_name": "Pfizer-BioNTech COVID-19 Vaccine (US Only)",
+          "mvx_code": "PFR",
+          "manufacturer": "Pfizer, Inc",
+          "last_updated": "2023-09-06",
+          "product_name_status": "Active"
+        }
+      ]
+    },
+    "91320": {
+      "cvx_code": "309",
+      "name": "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 30 mcg/0.3 mL",
+      "description": "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 30 mcg/0.3 mL",
+      "status": "Active",
+      "cpt_codes": [
+        {
+          "cpt_code": "91320",
+          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, 30 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use"
+        }
+      ],
+      "groups": {
+        "213": {
+          "name": "COVID-19",
+          "active": true
+        }
+      },
+      "manufacturers": [
+        {
+          "trade_name": "COMIRNATY",
+          "mvx_code": "PFR",
+          "manufacturer": "Pfizer, Inc",
+          "last_updated": "2023-09-06",
+          "product_name_status": "Active"
+        }
+      ]
+    },
+    "91321": {
+      "cvx_code": "311",
+      "name": "COVID-19, mRNA, LNP-S, PF, 25 mcg/0.25 mL",
+      "description": "COVID-19, mRNA, LNP-S, PF, 25 mcg/0.25 mL",
+      "status": "Active",
+      "cpt_codes": [
+        {
+          "cpt_code": "91321",
+          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, 25 mcg/0.25 mL dosage, for intramuscular use"
+        }
+      ],
+      "groups": {
+        "213": {
+          "name": "COVID-19",
+          "active": true
+        }
+      },
+      "manufacturers": [
+        {
+          "trade_name": "Moderna COVID-19 Vaccine (US only)",
+          "mvx_code": "MOD",
+          "manufacturer": "Moderna US, Inc.",
+          "last_updated": "2023-09-06",
+          "product_name_status": "Active"
+        }
+      ]
+    },
+    "91322": {
+      "cvx_code": "312",
+      "name": "COVID-19, mRNA, LNP-S, PF, 50 mcg/0.5 mL",
+      "description": "COVID-19, mRNA, LNP-S, PF, 50 mcg/0.5 mL",
+      "status": "Active",
+      "cpt_codes": [
+        {
+          "cpt_code": "91322",
+          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, 50 mcg/0.5 mL dosage, for intramuscular use"
+        }
+      ],
+      "groups": {
+        "213": {
+          "name": "COVID-19",
+          "active": true
+        }
+      },
+      "manufacturers": [
+        {
+          "trade_name": "SPIKEVAX",
+          "mvx_code": "MOD",
+          "manufacturer": "Moderna US, Inc.",
+          "last_updated": "2023-09-06",
           "product_name_status": "Active"
         }
       ]
