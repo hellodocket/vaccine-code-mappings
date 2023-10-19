@@ -1,9 +1,9 @@
-name: Create Release
+name: Update Vaccine Code Mappings and Create Release
 
 on:
-  push:
-    tags:
-      - 'v*'
+  workflow_dispatch:
+  schedule:
+    - cron: '0 15 * * 1-5'
 
 jobs:
   build:
@@ -23,7 +23,29 @@ jobs:
       - name: Run Rake task
         run: bundle exec rake load_mapping
 
+      - name: Set Release Version
+        id: releaseVersion
+        run: echo "RELEASE_NAME=$(date +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
+
+      - name: Commit Vaccine Code Mapping Changes
+        run: |
+          BRANCH_NAME=$(echo ${GITHUB_REF#refs/heads/})
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add vaccine-code-mapping.json
+          if ! git diff --staged --quiet; then
+            git commit -m "💉 Update vaccine code mappings for ${{ steps.releaseVersion.outputs.RELEASE_NAME }}"
+            git push origin HEAD:$BRANCH_NAME
+          else
+            echo "No changes to commit"
+          fi
+      - name: Create and Push Release Tag
+        run: |
+          git tag test${{ steps.releaseVersion.outputs.RELEASE_NAME }}
+          git push origin test${{ steps.releaseVersion.outputs.RELEASE_NAME }}
+
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
           files: vaccine-code-mapping.json
+          tag_name: test${{ steps.releaseVersion.outputs.RELEASE_NAME }}
