@@ -4397,6 +4397,33 @@
         }
       ]
     },
+    "309": {
+      "cvx_code": "309",
+      "name": "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 30 mcg/0.3 mL",
+      "description": "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 30 mcg/0.3 mL",
+      "status": "Active",
+      "cpt_codes": [
+        {
+          "cpt_code": "91320",
+          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, 30 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use"
+        }
+      ],
+      "groups": {
+        "213": {
+          "name": "COVID-19",
+          "active": true
+        }
+      },
+      "manufacturers": [
+        {
+          "trade_name": "COMIRNATY",
+          "mvx_code": "PFR",
+          "manufacturer": "Pfizer, Inc",
+          "last_updated": "2023-09-06",
+          "product_name_status": "Active"
+        }
+      ]
+    },
     "31": {
       "cvx_code": "31",
       "name": "Hep A, pediatric, unspecified formulation",
