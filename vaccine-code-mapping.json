@@ -4599,7 +4599,10 @@
       "description": "meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF",
       "status": "Active",
       "cpt_codes": [
-
+        {
+          "cpt_code": "90623",
+          "cpt_desc": "Meningococcal pentavalent vaccine, conjugated Men A, C, W, Y- tetanus toxoid carrier, and Men B-FHbp, for intramuscular use"
+        }
       ],
       "groups": {
         "108": {
@@ -4617,6 +4620,33 @@
           "mvx_code": "PFR",
           "manufacturer": "Pfizer, Inc",
           "last_updated": "2023-11-02",
+          "product_name_status": "Active"
+        }
+      ]
+    },
+    "317": {
+      "cvx_code": "317",
+      "name": "Chikungunya live attenuated vaccine, 0.5 mL, PF",
+      "description": "Chikungunya live attenuated vaccine, 0.5 mL, PF",
+      "status": "Active",
+      "cpt_codes": [
+        {
+          "cpt_code": "90589",
+          "cpt_desc": "Chikungunya virus vaccine, live attenuated, for intramuscular use"
+        }
+      ],
+      "groups": {
+        "317": {
+          "name": "Chikungunya",
+          "active": true
+        }
+      },
+      "manufacturers": [
+        {
+          "trade_name": "IXCHIQ",
+          "mvx_code": "VAL",
+          "manufacturer": "Valneva",
+          "last_updated": "2023-12-14",
           "product_name_status": "Active"
         }
       ]
@@ -7112,6 +7142,33 @@
         }
       ]
     },
+    "90589": {
+      "cvx_code": "317",
+      "name": "Chikungunya live attenuated vaccine, 0.5 mL, PF",
+      "description": "Chikungunya live attenuated vaccine, 0.5 mL, PF",
+      "status": "Active",
+      "cpt_codes": [
+        {
+          "cpt_code": "90589",
+          "cpt_desc": "Chikungunya virus vaccine, live attenuated, for intramuscular use"
+        }
+      ],
+      "groups": {
+        "317": {
+          "name": "Chikungunya",
+          "active": true
+        }
+      },
+      "manufacturers": [
+        {
+          "trade_name": "IXCHIQ",
+          "mvx_code": "VAL",
+          "manufacturer": "Valneva",
+          "last_updated": "2023-12-14",
+          "product_name_status": "Active"
+        }
+      ]
+    },
     "90611": {
       "cvx_code": "206",
       "name": "Vaccinia, smallpox Mpox vaccine live, PF, SQ or ID injection",
@@ -7265,6 +7322,37 @@
           "manufacturer": "",
           "last_updated": "2010-09-01",
           "product_name_status": "Inactive"
+        }
+      ]
+    },
+    "90623": {
+      "cvx_code": "316",
+      "name": "meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF",
+      "description": "meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF",
+      "status": "Active",
+      "cpt_codes": [
+        {
+          "cpt_code": "90623",
+          "cpt_desc": "Meningococcal pentavalent vaccine, conjugated Men A, C, W, Y- tetanus toxoid carrier, and Men B-FHbp, for intramuscular use"
+        }
+      ],
+      "groups": {
+        "108": {
+          "name": "MENING",
+          "active": true
+        },
+        "164": {
+          "name": "MeningB",
+          "active": true
+        }
+      },
+      "manufacturers": [
+        {
+          "trade_name": "PENBRAYA",
+          "mvx_code": "PFR",
+          "manufacturer": "Pfizer, Inc",
+          "last_updated": "2023-11-02",
+          "product_name_status": "Active"
         }
       ]
     },
