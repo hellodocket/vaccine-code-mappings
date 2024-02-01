@@ -623,7 +623,10 @@
       "description": "Td (adult), 5 Lf tetanus toxoid, preservative free, adsorbed",
       "status": "Active",
       "cpt_codes": [
-
+        {
+          "cpt_code": "90714",
+          "cpt_desc": "Tetanus and diphtheria toxoids adsorbed (Td), preservative free, when administered to individuals 7 years or older, for intramuscular use"
+        }
       ],
       "groups": {
         "139": {
@@ -3993,8 +3996,8 @@
     },
     "24": {
       "cvx_code": "24",
-      "name": "anthrax",
-      "description": "anthrax",
+      "name": "Anthrax, pre-exposure prophylaxis, post-exposure prophylaxis",
+      "description": "Anthrax, pre-exposure prophylaxis, post-exposure prophylaxis",
       "status": "Active",
       "cpt_codes": [
         {
@@ -4014,13 +4017,6 @@
           "mvx_code": "MIP",
           "manufacturer": "Emergent BioSolutions",
           "last_updated": "2013-08-09",
-          "product_name_status": "Active"
-        },
-        {
-          "trade_name": "CYFENDUS",
-          "mvx_code": "MIP",
-          "manufacturer": "Emergent BioSolutions",
-          "last_updated": "2023-11-02",
           "product_name_status": "Active"
         }
       ]
@@ -4595,8 +4591,8 @@
     },
     "316": {
       "cvx_code": "316",
-      "name": "meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF",
-      "description": "meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF",
+      "name": "Meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF",
+      "description": "Meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF",
       "status": "Active",
       "cpt_codes": [
         {
@@ -4647,6 +4643,33 @@
           "mvx_code": "VAL",
           "manufacturer": "Valneva",
           "last_updated": "2023-12-14",
+          "product_name_status": "Active"
+        }
+      ]
+    },
+    "318": {
+      "cvx_code": "318",
+      "name": "Anthrax, post-exposure prophylaxis",
+      "description": "Anthrax, post-exposure prophylaxis",
+      "status": "Active",
+      "cpt_codes": [
+        {
+          "cpt_code": "90581",
+          "cpt_desc": "Anthrax vaccine, for subcutaneous or intramuscular use"
+        }
+      ],
+      "groups": {
+        "24": {
+          "name": "ANTHRAX",
+          "active": true
+        }
+      },
+      "manufacturers": [
+        {
+          "trade_name": "CYFENDUS",
+          "mvx_code": "MIP",
+          "manufacturer": "Emergent BioSolutions",
+          "last_updated": "2023-11-02",
           "product_name_status": "Active"
         }
       ]
@@ -7071,9 +7094,9 @@
       ]
     },
     "90581": {
-      "cvx_code": "24",
-      "name": "anthrax",
-      "description": "anthrax",
+      "cvx_code": "318",
+      "name": "Anthrax, post-exposure prophylaxis",
+      "description": "Anthrax, post-exposure prophylaxis",
       "status": "Active",
       "cpt_codes": [
         {
@@ -7088,13 +7111,6 @@
         }
       },
       "manufacturers": [
-        {
-          "trade_name": "BIOTHRAX",
-          "mvx_code": "MIP",
-          "manufacturer": "Emergent BioSolutions",
-          "last_updated": "2013-08-09",
-          "product_name_status": "Active"
-        },
         {
           "trade_name": "CYFENDUS",
           "mvx_code": "MIP",
@@ -7327,8 +7343,8 @@
     },
     "90623": {
       "cvx_code": "316",
-      "name": "meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF",
-      "description": "meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF",
+      "name": "Meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF",
+      "description": "Meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF",
       "status": "Active",
       "cpt_codes": [
         {
