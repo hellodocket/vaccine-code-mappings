@@ -11,7 +11,9 @@ jobs:
 
     permissions:
       contents: write
-
+    outputs:
+      new_commit: ${{ steps.commitChanges.outputs.NEW_COMMIT }}
+      release_name: ${{ steps.releaseVersion.outputs.RELEASE_NAME }}
     steps:
       - uses: actions/checkout@v3
       
@@ -28,6 +30,7 @@ jobs:
         run: echo "RELEASE_NAME=$(date +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
 
       - name: Commit Vaccine Code Mapping Changes
+        id: commitChanges
         run: |
           BRANCH_NAME=$(echo ${GITHUB_REF#refs/heads/})
           git config user.name "GitHub Action"
@@ -36,15 +39,19 @@ jobs:
           if ! git diff --staged --quiet; then
             git commit -m "💉 Update vaccine code mappings for ${{ steps.releaseVersion.outputs.RELEASE_NAME }}"
             git push origin HEAD:$BRANCH_NAME
+            echo "NEW_COMMIT=1" >> $GITHUB_OUTPUT
           else
             echo "No changes to commit"
+            echo "NEW_COMMIT=0" >> $GITHUB_OUTPUT
           fi
       - name: Create and Push Release Tag
+        if: ${{ steps.commitChanges.outputs.NEW_COMMIT == 1 }}
         run: |
           git tag ${{ steps.releaseVersion.outputs.RELEASE_NAME }}
           git push origin ${{ steps.releaseVersion.outputs.RELEASE_NAME }}
 
       - name: Release
+        if: ${{ steps.commitChanges.outputs.NEW_COMMIT == 1 }}
         uses: softprops/action-gh-release@v1
         with:
           files: vaccine-code-mapping.json
