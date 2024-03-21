@@ -443,7 +443,10 @@
       "description": "DTaP, 5 pertussis antigens",
       "status": "Active",
       "cpt_codes": [
-
+        {
+          "cpt_code": "90700",
+          "cpt_desc": "Diphtheria, tetanus toxoids, and acellular pertussis vaccine (DTaP), when administered to individuals younger than 7 years, for intramuscular use"
+        }
       ],
       "groups": {
         "107": {
@@ -2653,11 +2656,14 @@
     },
     "183": {
       "cvx_code": "183",
-      "name": "Yellow fever vaccine - alt",
-      "description": "Yellow fever vaccine - alt",
+      "name": "Yellow fever vaccine live - alt",
+      "description": "Yellow fever vaccine live - alt",
       "status": "Active",
       "cpt_codes": [
-
+        {
+          "cpt_code": "90717",
+          "cpt_desc": "Yellow fever vaccine, live, for subcutaneous use"
+        }
       ],
       "groups": {
         "184": {
@@ -2677,14 +2683,11 @@
     },
     "184": {
       "cvx_code": "184",
-      "name": "Yellow fever, unspecified formulation",
-      "description": "Yellow fever, unspecified formulation",
+      "name": "Yellow fever, unspecified",
+      "description": "Yellow fever, unspecified",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90717",
-          "cpt_desc": "Yellow fever vaccine, live, for subcutaneous use"
-        }
+
       ],
       "groups": {
         "184": {
@@ -4006,7 +4009,7 @@
         }
       ],
       "groups": {
-        "24": {
+        "319": {
           "name": "ANTHRAX",
           "active": true
         }
@@ -4659,7 +4662,7 @@
         }
       ],
       "groups": {
-        "24": {
+        "319": {
           "name": "ANTHRAX",
           "active": true
         }
@@ -4672,6 +4675,24 @@
           "last_updated": "2023-11-02",
           "product_name_status": "Active"
         }
+      ]
+    },
+    "319": {
+      "cvx_code": "319",
+      "name": "Anthrax vaccine, unspecified",
+      "description": "Anthrax vaccine, unspecified",
+      "status": "Inactive",
+      "cpt_codes": [
+
+      ],
+      "groups": {
+        "319": {
+          "name": "ANTHRAX",
+          "active": false
+        }
+      },
+      "manufacturers": [
+
       ]
     },
     "32": {
@@ -4803,11 +4824,14 @@
     },
     "37": {
       "cvx_code": "37",
-      "name": "yellow fever",
-      "description": "yellow fever",
+      "name": "yellow fever live",
+      "description": "yellow fever live",
       "status": "Active",
       "cpt_codes": [
-
+        {
+          "cpt_code": "90717",
+          "cpt_desc": "Yellow fever vaccine, live, for subcutaneous use"
+        }
       ],
       "groups": {
         "184": {
@@ -7105,7 +7129,7 @@
         }
       ],
       "groups": {
-        "24": {
+        "319": {
           "name": "ANTHRAX",
           "active": true
         }
@@ -9702,10 +9726,10 @@
       ]
     },
     "90717": {
-      "cvx_code": "184",
-      "name": "Yellow fever, unspecified formulation",
-      "description": "Yellow fever, unspecified formulation",
-      "status": "Inactive",
+      "cvx_code": "37",
+      "name": "yellow fever live",
+      "description": "yellow fever live",
+      "status": "Active",
       "cpt_codes": [
         {
           "cpt_code": "90717",
@@ -9715,11 +9739,17 @@
       "groups": {
         "184": {
           "name": "YELLOWFEVER",
-          "active": false
+          "active": true
         }
       },
       "manufacturers": [
-
+        {
+          "trade_name": "YF-VAX",
+          "mvx_code": "PMC",
+          "manufacturer": "Sanofi Pasteur",
+          "last_updated": "2010-05-28",
+          "product_name_status": "Active"
+        }
       ]
     },
     "90720": {
