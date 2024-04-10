@@ -4,6 +4,7 @@ require "nokogiri"
 require "htmlentities"
 require "json"
 require "json-schema"
+require "roo"
 
 def parse_name_value_into_map(name_value_xml)
   result = {}
@@ -15,8 +16,42 @@ def parse_name_value_into_map(name_value_xml)
   result
 end
 
+desc "Download and convert the Excel file for MIIC"
+task :load_miic_mapping do
+  def trade_name_overrides
+    # These only really need to be defined for COVID-19 for now since they're rapidly changing.
+    # The data comes from https://www.cdc.gov/vaccines/programs/iis/COVID-19-related-codes.html
+    # It's not included as part of the regular download/processing since only excel files are available.
+    # Note that only the US vaccines are here since the foreign vaccines
+    # are correctly named in the regular CVX code set.
+    {
+      "207": "Moderna COVID-19 Vaccine",
+      "208": "Pfizer-BioNTech COVID-19 Vaccine",
+      "210": "AstraZeneca COVID-19 Vaccine",
+      "211": "Novavax COVID-19 Vaccine",
+      "212": "Janssen COVID-19 Vaccine",
+      "213": "SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED",
+      "217": "Pfizer-BioNTech COVID-19 Vaccine",
+      "218": "Pfizer-BioNTech COVID-19 Vaccine",
+      "219": "Pfizer-BioNTech COVID-19 Vaccine"
+    }
+  end
+  miic_map_path = "./miic-mapping.csv"
+  url = "https://www.health.state.mn.us/people/immunize/miic/data/vaxcodes.xlsx"
+  miic_xls = HTTParty.get(url)
+  miic_xls_data = StringIO.new miic_xls.body
+  xls_file = Roo::Excelx.new(miic_xls_data)
+  File.write(miic_map_path, xls_file.to_csv)
+  # This is kind of dumb, but it's the quickest way to get this accomplished
+  csv_data = File.read(miic_map_path)
+  lines = csv_data.split("\n")
+  header = lines[0].tr(" ", "_")
+  csv_with_replaced_header = ([header] + lines[1..]).join("\n")
+  File.write(miic_map_path, csv_with_replaced_header)
+end
+
 desc "Load all of the appropriate CVX mappings from CDC-provided XML files."
-task :load_mapping do
+task :load_cdc_mapping do
   cvx_to_all = {}
 
   # This expects the xml format from multiple CDC data sets.

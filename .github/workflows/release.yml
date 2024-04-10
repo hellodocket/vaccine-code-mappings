@@ -22,8 +22,11 @@ jobs:
         with:
           bundler-cache: true
           
-      - name: Run Rake task
-        run: bundle exec rake load_mapping
+      - name: Run CDC Rake task
+        run: bundle exec rake load_cdc_mapping
+
+      - name: Run MIIC Rake task
+        run: bundle exec rake load_miic_mapping
 
       - name: Set Release Version
         id: releaseVersion
@@ -36,6 +39,7 @@ jobs:
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
           git add vaccine-code-mapping.json
+          git add miic-mapping.csv
           if ! git diff --staged --quiet; then
             git commit -m "💉 Update vaccine code mappings for ${{ steps.releaseVersion.outputs.RELEASE_NAME }}"
             git push origin HEAD:$BRANCH_NAME
@@ -54,5 +58,7 @@ jobs:
         if: ${{ steps.commitChanges.outputs.NEW_COMMIT == 1 }}
         uses: softprops/action-gh-release@v1
         with:
-          files: vaccine-code-mapping.json
+          files: |
+            vaccine-code-mapping.json,
+            miic-mapping.csv
           tag_name: ${{ steps.releaseVersion.outputs.RELEASE_NAME }}
