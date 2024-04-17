@@ -223,6 +223,8 @@
 "Meninge-B","Meningococcal B, fully recombinant","Trumenba","PFR","meningococcal B vaccine, fully recombinant",90621,"162","Active"
 "Meninge-B","Meningococcal B, unspecified formulation",,,"meningococcal B, unspecified formulation",,"164","Inactive"
 "Meninge-B","Meningococcal, unknown formulation",,,"meningococcal vaccine of unknown formulation and unknown serogroups",,"167","Inactive"
+"Meninge-B","Meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF","PENBRAYA","PFR","Meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF",90623,316,"Active"
+"Meninge-conj","Meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF","PENBRAYA","PFR","Meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF",90623,316,"Active"
 "Meninge-conj","MCV4-D","Menactra","PMC","meningococcal polysaccharide (groups A, C, Y and W-135) diphtheria toxoid conjugate vaccine (MCV4P)",90734,"114","Active"
 "Meninge-conj","Meningococcal C/Y-HIB PRP","Menhibrix","SKB","Meningococcal Groups C and Y and Haemophilus b Tetanus Toxoid Conjugate Vaccine",90644,"148","Active"
 "Meninge-conj","MCV4-CRM","Menveo","SKB","meningococcal oligosaccharide (groups A, C, Y and W-135) diphtheria toxoid conjugate vaccine (MCV4O)",90734,"136","Active"
