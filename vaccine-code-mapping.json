@@ -577,9 +577,9 @@
     },
     "111": {
       "cvx_code": "111",
-      "name": "influenza, live, intranasal",
-      "description": "influenza, live, intranasal",
-      "status": "Inactive",
+      "name": "Influenza, live, trivalent, intranasal",
+      "description": "Influenza, live, trivalent, intranasal",
+      "status": "Active",
       "cpt_codes": [
         {
           "cpt_code": "90660",
@@ -589,7 +589,7 @@
       "groups": {
         "88": {
           "name": "FLU",
-          "active": false
+          "active": true
         }
       },
       "manufacturers": [
@@ -599,6 +599,13 @@
           "manufacturer": "MedImmune, Inc. (AstraZeneca)",
           "last_updated": "2015-10-23",
           "product_name_status": "Inactive"
+        },
+        {
+          "trade_name": "FluMist trivalent",
+          "mvx_code": "MED",
+          "manufacturer": "MedImmune, Inc. (AstraZeneca)",
+          "last_updated": "2024-05-14",
+          "product_name_status": "Active"
         }
       ]
     },
@@ -1269,8 +1276,8 @@
     },
     "135": {
       "cvx_code": "135",
-      "name": "Influenza, high dose seasonal",
-      "description": "Influenza, high dose seasonal",
+      "name": "Influenza, high-dose, trivalent, PF",
+      "description": "Influenza, high-dose, trivalent, PF",
       "status": "Active",
       "cpt_codes": [
         {
@@ -1289,7 +1296,14 @@
           "trade_name": "FLUZONE-HIGH DOSE",
           "mvx_code": "PMC",
           "manufacturer": "Sanofi Pasteur",
-          "last_updated": "2010-05-28",
+          "last_updated": "2024-05-01",
+          "product_name_status": "Inactive"
+        },
+        {
+          "trade_name": "Fluzone High-Dose trivalent, preservative free",
+          "mvx_code": "PMC",
+          "manufacturer": "Sanofi Pasteur",
+          "last_updated": "2024-05-14",
           "product_name_status": "Active"
         }
       ]
@@ -1405,14 +1419,10 @@
     },
     "140": {
       "cvx_code": "140",
-      "name": "Influenza, seasonal, injectable, preservative free",
-      "description": "Influenza, seasonal, injectable, preservative free",
-      "status": "Inactive",
+      "name": "Influenza, split virus, trivalent, PF",
+      "description": "Influenza, split virus, trivalent, PF",
+      "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90655",
-          "cpt_desc": "Influenza virus vaccine, trivalent (IIV3), split virus, preservative free, 0.25 mL dosage, for intramuscular use"
-        },
         {
           "cpt_code": "90656",
           "cpt_desc": "Influenza virus vaccine, trivalent (IIV3), split virus, preservative free, 0.5 mL dosage, for intramuscular use"
@@ -1421,7 +1431,7 @@
       "groups": {
         "88": {
           "name": "FLU",
-          "active": false
+          "active": true
         }
       },
       "manufacturers": [
@@ -1431,6 +1441,13 @@
           "manufacturer": "Novartis Pharmaceutical Corporation",
           "last_updated": "2017-11-15",
           "product_name_status": "Inactive"
+        },
+        {
+          "trade_name": "Afluria trivalent, preservative free",
+          "mvx_code": "SEQ",
+          "manufacturer": "Seqirus",
+          "last_updated": "2024-05-14",
+          "product_name_status": "Active"
         },
         {
           "trade_name": "Afluria, preservative free",
@@ -1450,7 +1467,7 @@
           "trade_name": "FLUARIX",
           "mvx_code": "SKB",
           "manufacturer": "GlaxoSmithKline",
-          "last_updated": "2022-12-15",
+          "last_updated": "2024-05-13",
           "product_name_status": "Inactive"
         },
         {
@@ -1468,6 +1485,20 @@
           "product_name_status": "Inactive"
         },
         {
+          "trade_name": "Fluarix trivalent, preservative free",
+          "mvx_code": "SKB",
+          "manufacturer": "GlaxoSmithKline",
+          "last_updated": "2024-05-14",
+          "product_name_status": "Active"
+        },
+        {
+          "trade_name": "Flulaval trivalent, preservative free",
+          "mvx_code": "IDB",
+          "manufacturer": "ID Biomedical",
+          "last_updated": "2024-05-14",
+          "product_name_status": "Active"
+        },
+        {
           "trade_name": "Flulaval, preservative free",
           "mvx_code": "IDB",
           "manufacturer": "ID Biomedical",
@@ -1480,13 +1511,20 @@
           "manufacturer": "Seqirus",
           "last_updated": "2022-12-15",
           "product_name_status": "Inactive"
+        },
+        {
+          "trade_name": "Fluzone trivalent, preservative free",
+          "mvx_code": "PMC",
+          "manufacturer": "Sanofi Pasteur",
+          "last_updated": "2024-05-16",
+          "product_name_status": "Active"
         }
       ]
     },
     "141": {
       "cvx_code": "141",
-      "name": "Influenza, seasonal, injectable",
-      "description": "Influenza, seasonal, injectable",
+      "name": "Influenza, split virus, trivalent, preservative",
+      "description": "Influenza, split virus, trivalent, preservative",
       "status": "Active",
       "cpt_codes": [
         {
@@ -1513,38 +1551,52 @@
           "product_name_status": "Inactive"
         },
         {
+          "trade_name": "Afluria trivalent, with preservative",
+          "mvx_code": "SEQ",
+          "manufacturer": "Seqirus",
+          "last_updated": "2024-05-14",
+          "product_name_status": "Active"
+        },
+        {
           "trade_name": "Afluria",
           "mvx_code": "SEQ",
           "manufacturer": "Seqirus",
-          "last_updated": "2016-09-26",
-          "product_name_status": "Active"
+          "last_updated": "2024-04-25",
+          "product_name_status": "Inactive"
         },
         {
           "trade_name": "FLULAVAL",
           "mvx_code": "IDB",
           "manufacturer": "ID Biomedical",
-          "last_updated": "2013-09-10",
-          "product_name_status": "Active"
+          "last_updated": "2024-04-25",
+          "product_name_status": "Inactive"
         },
         {
           "trade_name": "FLUVIRIN",
           "mvx_code": "NOV",
           "manufacturer": "Novartis Pharmaceutical Corporation",
-          "last_updated": "2010-09-27",
-          "product_name_status": "Active"
+          "last_updated": "2024-04-25",
+          "product_name_status": "Inactive"
         },
         {
           "trade_name": "FLUZONE",
           "mvx_code": "PMC",
           "manufacturer": "Sanofi Pasteur",
-          "last_updated": "2010-09-27",
-          "product_name_status": "Active"
+          "last_updated": "2024-04-25",
+          "product_name_status": "Inactive"
         },
         {
           "trade_name": "Fluvirin",
           "mvx_code": "SEQ",
           "manufacturer": "Seqirus",
-          "last_updated": "2017-06-12",
+          "last_updated": "2024-04-25",
+          "product_name_status": "Inactive"
+        },
+        {
+          "trade_name": "Fluzone trivalent, with preservative",
+          "mvx_code": "PMC",
+          "manufacturer": "Sanofi Pasteur",
+          "last_updated": "2024-05-14",
           "product_name_status": "Active"
         }
       ]
@@ -1733,8 +1785,8 @@
     },
     "149": {
       "cvx_code": "149",
-      "name": "influenza, live, intranasal, quadrivalent",
-      "description": "influenza, live, intranasal, quadrivalent",
+      "name": "Influenza, live, quadrivalent, intranasal",
+      "description": "Influenza, live, quadrivalent, intranasal",
       "status": "Active",
       "cpt_codes": [
         {
@@ -1778,8 +1830,8 @@
     },
     "150": {
       "cvx_code": "150",
-      "name": "influenza, injectable, quadrivalent, preservative free",
-      "description": "influenza, injectable, quadrivalent, preservative free",
+      "name": "Influenza, split virus, quadrivalent, PF",
+      "description": "Influenza, split virus, quadrivalent, PF",
       "status": "Active",
       "cpt_codes": [
         {
@@ -1795,24 +1847,24 @@
       },
       "manufacturers": [
         {
-          "trade_name": "Afluria quadrivalent preservative free",
+          "trade_name": "Afluria quadrivalent, preservative free",
           "mvx_code": "SEQ",
           "manufacturer": "Seqirus",
-          "last_updated": "2016-10-04",
+          "last_updated": "2024-05-14",
           "product_name_status": "Active"
         },
         {
-          "trade_name": "Fluarix, quadrivalent, preservative free",
+          "trade_name": "Fluarix quadrivalent, preservative free",
           "mvx_code": "SKB",
           "manufacturer": "GlaxoSmithKline",
-          "last_updated": "2013-08-09",
+          "last_updated": "2024-05-14",
           "product_name_status": "Active"
         },
         {
-          "trade_name": "Flulaval, quadrivalent, preservative free",
+          "trade_name": "Flulaval quadrivalent, preservative free",
           "mvx_code": "IDB",
           "manufacturer": "ID Biomedical",
-          "last_updated": "2014-10-21",
+          "last_updated": "2024-05-14",
           "product_name_status": "Active"
         },
         {
@@ -1862,9 +1914,9 @@
     },
     "153": {
       "cvx_code": "153",
-      "name": "Influenza, injectable, MDCK, preservative free",
-      "description": "Influenza, injectable, MDCK, preservative free",
-      "status": "Inactive",
+      "name": "Influenza, MDCK, trivalent, PF",
+      "description": "Influenza, MDCK, trivalent, PF",
+      "status": "Active",
       "cpt_codes": [
         {
           "cpt_code": "90661",
@@ -1874,15 +1926,22 @@
       "groups": {
         "88": {
           "name": "FLU",
-          "active": false
+          "active": true
         }
       },
       "manufacturers": [
         {
+          "trade_name": "Flucelvax trivalent, preservative free",
+          "mvx_code": "SEQ",
+          "manufacturer": "Seqirus",
+          "last_updated": "2024-05-14",
+          "product_name_status": "Active"
+        },
+        {
           "trade_name": "Flucelvax",
           "mvx_code": "NOV",
           "manufacturer": "Novartis Pharmaceutical Corporation",
-          "last_updated": "2016-06-24",
+          "last_updated": "2024-05-01",
           "product_name_status": "Inactive"
         }
       ]
@@ -1907,8 +1966,8 @@
     },
     "155": {
       "cvx_code": "155",
-      "name": "influenza, recombinant, injectable, preservative free",
-      "description": "influenza, recombinant, injectable, preservative free",
+      "name": "Influenza, recombinant, trivalent, PF",
+      "description": "Influenza, recombinant, trivalent, PF",
       "status": "Active",
       "cpt_codes": [
         {
@@ -1924,11 +1983,18 @@
       },
       "manufacturers": [
         {
+          "trade_name": "Flublok trivalent, preservative free",
+          "mvx_code": "PMC",
+          "manufacturer": "Sanofi Pasteur",
+          "last_updated": "2024-05-14",
+          "product_name_status": "Active"
+        },
+        {
           "trade_name": "Flublok",
           "mvx_code": "PSC",
           "manufacturer": "Protein Sciences",
-          "last_updated": "2013-05-28",
-          "product_name_status": "Active"
+          "last_updated": "2024-05-01",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -1970,8 +2036,8 @@
     },
     "158": {
       "cvx_code": "158",
-      "name": "influenza, injectable, quadrivalent",
-      "description": "influenza, injectable, quadrivalent",
+      "name": "Influenza, split virus, quadrivalent, preservative",
+      "description": "Influenza, split virus, quadrivalent, preservative",
       "status": "Active",
       "cpt_codes": [
         {
@@ -1991,18 +2057,18 @@
       },
       "manufacturers": [
         {
-          "trade_name": "Afluria, quadrivalent",
+          "trade_name": "Afluria quadrivalent, with preservative",
           "mvx_code": "SEQ",
           "manufacturer": "Seqirus",
-          "last_updated": "2016-10-04",
+          "last_updated": "2024-05-14",
           "product_name_status": "Active"
         },
         {
           "trade_name": "Flulaval quadrivalent",
           "mvx_code": "IDB",
           "manufacturer": "ID Biomedical",
-          "last_updated": "2013-09-10",
-          "product_name_status": "Active"
+          "last_updated": "2024-05-14",
+          "product_name_status": "Inactive"
         },
         {
           "trade_name": "Fluzone, Quadrivalent",
@@ -2105,7 +2171,7 @@
           "trade_name": "Afluria quadrivalent, preservative free, pediatric",
           "mvx_code": "SEQ",
           "manufacturer": "Seqirus",
-          "last_updated": "2019-08-26",
+          "last_updated": "2024-05-14",
           "product_name_status": "Active"
         },
         {
@@ -2270,8 +2336,8 @@
     },
     "168": {
       "cvx_code": "168",
-      "name": "influenza, trivalent, adjuvanted",
-      "description": "influenza, trivalent, adjuvanted",
+      "name": "Influenza, adjuvanted, trivalent, PF",
+      "description": "Influenza, adjuvanted, trivalent, PF",
       "status": "Active",
       "cpt_codes": [
         {
@@ -2287,18 +2353,25 @@
       },
       "manufacturers": [
         {
+          "trade_name": "Fluad trivalent, preservative free",
+          "mvx_code": "SEQ",
+          "manufacturer": "Seqirus",
+          "last_updated": "2024-05-14",
+          "product_name_status": "Active"
+        },
+        {
           "trade_name": "Fluad",
           "mvx_code": "NOV",
           "manufacturer": "Novartis Pharmaceutical Corporation",
-          "last_updated": "2016-08-09",
-          "product_name_status": "Active"
+          "last_updated": "2024-05-02",
+          "product_name_status": "Inactive"
         },
         {
           "trade_name": "Fluad",
           "mvx_code": "SEQ",
           "manufacturer": "Seqirus",
-          "last_updated": "2016-08-09",
-          "product_name_status": "Active"
+          "last_updated": "2024-05-02",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -2369,8 +2442,8 @@
     },
     "171": {
       "cvx_code": "171",
-      "name": "Influenza, injectable, MDCK, preservative free, quadrivalent",
-      "description": "Influenza, injectable, MDCK, preservative free, quadrivalent",
+      "name": "Influenza, MDCK, quadrivalent, PF",
+      "description": "Influenza, MDCK, quadrivalent, PF",
       "status": "Active",
       "cpt_codes": [
         {
@@ -2386,10 +2459,10 @@
       },
       "manufacturers": [
         {
-          "trade_name": "flucelvax, quadrivalent, preservative free",
+          "trade_name": "Flucelvax quadrivalent, preservative free",
           "mvx_code": "SEQ",
           "manufacturer": "Seqirus",
-          "last_updated": "2016-06-16",
+          "last_updated": "2024-05-14",
           "product_name_status": "Active"
         }
       ]
@@ -2701,8 +2774,8 @@
     },
     "185": {
       "cvx_code": "185",
-      "name": "influenza, recombinant, quadrivalent,injectable, preservative free",
-      "description": "influenza, recombinant, quadrivalent,injectable, preservative free",
+      "name": "Influenza, recombinant, quadrivalent, PF",
+      "description": "Influenza, recombinant, quadrivalent, PF",
       "status": "Active",
       "cpt_codes": [
         {
@@ -2718,10 +2791,10 @@
       },
       "manufacturers": [
         {
-          "trade_name": "Flublok quadrivalent",
+          "trade_name": "Flublok quadrivalent, preservative free",
           "mvx_code": "PMC",
           "manufacturer": "Sanofi Pasteur",
-          "last_updated": "2019-05-02",
+          "last_updated": "2024-05-14",
           "product_name_status": "Active"
         },
         {
@@ -2735,8 +2808,8 @@
     },
     "186": {
       "cvx_code": "186",
-      "name": "Influenza, injectable, MDCK, quadrivalent, preservative",
-      "description": "Influenza, injectable, MDCK, quadrivalent, preservative",
+      "name": "Influenza, MDCK, quadrivalent, preservative",
+      "description": "Influenza, MDCK, quadrivalent, preservative",
       "status": "Active",
       "cpt_codes": [
         {
@@ -2752,10 +2825,10 @@
       },
       "manufacturers": [
         {
-          "trade_name": "Flucelvax, quadrivalent, with preservative",
+          "trade_name": "Flucelvax quadrivalent, with preservative",
           "mvx_code": "SEQ",
           "manufacturer": "Seqirus",
-          "last_updated": "2017-06-27",
+          "last_updated": "2024-05-14",
           "product_name_status": "Active"
         }
       ]
@@ -3006,8 +3079,8 @@
     },
     "197": {
       "cvx_code": "197",
-      "name": "influenza, high-dose, quadrivalent",
-      "description": "influenza, high-dose, quadrivalent",
+      "name": "Influenza, high-dose, quadrivalent, PF",
+      "description": "Influenza, high-dose, quadrivalent, PF",
       "status": "Active",
       "cpt_codes": [
         {
@@ -3023,10 +3096,10 @@
       },
       "manufacturers": [
         {
-          "trade_name": "FLUZONE High-Dose Quadrivalent",
+          "trade_name": "Fluzone High-Dose quadrivalent, preservative free",
           "mvx_code": "PMC",
           "manufacturer": "Sanofi Pasteur",
-          "last_updated": "2020-01-29",
+          "last_updated": "2024-05-14",
           "product_name_status": "Active"
         }
       ]
@@ -3225,8 +3298,8 @@
     },
     "205": {
       "cvx_code": "205",
-      "name": "Influenza vaccine, quadrivalent, adjuvanted",
-      "description": "Influenza vaccine, quadrivalent, adjuvanted",
+      "name": "Influenza, adjuvanted, quadrivalent, PF",
+      "description": "Influenza, adjuvanted, quadrivalent, PF",
       "status": "Active",
       "cpt_codes": [
         {
@@ -4719,6 +4792,33 @@
           "manufacturer": "Sanofi Pasteur",
           "last_updated": "2017-10-27",
           "product_name_status": "Inactive"
+        }
+      ]
+    },
+    "320": {
+      "cvx_code": "320",
+      "name": "Influenza, MDCK, trivalent, preservative",
+      "description": "Influenza, MDCK, trivalent, preservative",
+      "status": "Active",
+      "cpt_codes": [
+        {
+          "cpt_code": "90661",
+          "cpt_desc": "Influenza virus vaccine, trivalent (ccIIV3), derived from cell cultures, subunit, preservative and antibiotic free, 0.5 mL dosage, for intramuscular use"
+        }
+      ],
+      "groups": {
+        "88": {
+          "name": "FLU",
+          "active": true
+        }
+      },
+      "manufacturers": [
+        {
+          "trade_name": "Flucelvax trivalent, with preservative",
+          "mvx_code": "SEQ",
+          "manufacturer": "Seqirus",
+          "last_updated": "2024-05-14",
+          "product_name_status": "Active"
         }
       ]
     },
@@ -7860,8 +7960,8 @@
     },
     "90653": {
       "cvx_code": "168",
-      "name": "influenza, trivalent, adjuvanted",
-      "description": "influenza, trivalent, adjuvanted",
+      "name": "Influenza, adjuvanted, trivalent, PF",
+      "description": "Influenza, adjuvanted, trivalent, PF",
       "status": "Active",
       "cpt_codes": [
         {
@@ -7877,18 +7977,25 @@
       },
       "manufacturers": [
         {
+          "trade_name": "Fluad trivalent, preservative free",
+          "mvx_code": "SEQ",
+          "manufacturer": "Seqirus",
+          "last_updated": "2024-05-14",
+          "product_name_status": "Active"
+        },
+        {
           "trade_name": "Fluad",
           "mvx_code": "NOV",
           "manufacturer": "Novartis Pharmaceutical Corporation",
-          "last_updated": "2016-08-09",
-          "product_name_status": "Active"
+          "last_updated": "2024-05-02",
+          "product_name_status": "Inactive"
         },
         {
           "trade_name": "Fluad",
           "mvx_code": "SEQ",
           "manufacturer": "Seqirus",
-          "last_updated": "2016-08-09",
-          "product_name_status": "Active"
+          "last_updated": "2024-05-02",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -7919,96 +8026,12 @@
         }
       ]
     },
-    "90655": {
-      "cvx_code": "140",
-      "name": "Influenza, seasonal, injectable, preservative free",
-      "description": "Influenza, seasonal, injectable, preservative free",
-      "status": "Inactive",
-      "cpt_codes": [
-        {
-          "cpt_code": "90655",
-          "cpt_desc": "Influenza virus vaccine, trivalent (IIV3), split virus, preservative free, 0.25 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "90656",
-          "cpt_desc": "Influenza virus vaccine, trivalent (IIV3), split virus, preservative free, 0.5 mL dosage, for intramuscular use"
-        }
-      ],
-      "groups": {
-        "88": {
-          "name": "FLU",
-          "active": false
-        }
-      },
-      "manufacturers": [
-        {
-          "trade_name": "AGRIFLU",
-          "mvx_code": "NOV",
-          "manufacturer": "Novartis Pharmaceutical Corporation",
-          "last_updated": "2017-11-15",
-          "product_name_status": "Inactive"
-        },
-        {
-          "trade_name": "Afluria, preservative free",
-          "mvx_code": "CSL",
-          "manufacturer": "bioCSL",
-          "last_updated": "2022-12-15",
-          "product_name_status": "Inactive"
-        },
-        {
-          "trade_name": "Afluria, preservative free",
-          "mvx_code": "SEQ",
-          "manufacturer": "Seqirus",
-          "last_updated": "2022-12-15",
-          "product_name_status": "Inactive"
-        },
-        {
-          "trade_name": "FLUARIX",
-          "mvx_code": "SKB",
-          "manufacturer": "GlaxoSmithKline",
-          "last_updated": "2022-12-15",
-          "product_name_status": "Inactive"
-        },
-        {
-          "trade_name": "FLUVIRIN-PRESERVATIVE FREE",
-          "mvx_code": "NOV",
-          "manufacturer": "Novartis Pharmaceutical Corporation",
-          "last_updated": "2022-12-15",
-          "product_name_status": "Inactive"
-        },
-        {
-          "trade_name": "FLUZONE-PRESERVATIVE FREE",
-          "mvx_code": "PMC",
-          "manufacturer": "Sanofi Pasteur",
-          "last_updated": "2022-12-15",
-          "product_name_status": "Inactive"
-        },
-        {
-          "trade_name": "Flulaval, preservative free",
-          "mvx_code": "IDB",
-          "manufacturer": "ID Biomedical",
-          "last_updated": "2022-12-15",
-          "product_name_status": "Inactive"
-        },
-        {
-          "trade_name": "Fluvirin preservative free",
-          "mvx_code": "SEQ",
-          "manufacturer": "Seqirus",
-          "last_updated": "2022-12-15",
-          "product_name_status": "Inactive"
-        }
-      ]
-    },
     "90656": {
       "cvx_code": "140",
-      "name": "Influenza, seasonal, injectable, preservative free",
-      "description": "Influenza, seasonal, injectable, preservative free",
-      "status": "Inactive",
+      "name": "Influenza, split virus, trivalent, PF",
+      "description": "Influenza, split virus, trivalent, PF",
+      "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90655",
-          "cpt_desc": "Influenza virus vaccine, trivalent (IIV3), split virus, preservative free, 0.25 mL dosage, for intramuscular use"
-        },
         {
           "cpt_code": "90656",
           "cpt_desc": "Influenza virus vaccine, trivalent (IIV3), split virus, preservative free, 0.5 mL dosage, for intramuscular use"
@@ -8017,7 +8040,7 @@
       "groups": {
         "88": {
           "name": "FLU",
-          "active": false
+          "active": true
         }
       },
       "manufacturers": [
@@ -8027,6 +8050,13 @@
           "manufacturer": "Novartis Pharmaceutical Corporation",
           "last_updated": "2017-11-15",
           "product_name_status": "Inactive"
+        },
+        {
+          "trade_name": "Afluria trivalent, preservative free",
+          "mvx_code": "SEQ",
+          "manufacturer": "Seqirus",
+          "last_updated": "2024-05-14",
+          "product_name_status": "Active"
         },
         {
           "trade_name": "Afluria, preservative free",
@@ -8046,7 +8076,7 @@
           "trade_name": "FLUARIX",
           "mvx_code": "SKB",
           "manufacturer": "GlaxoSmithKline",
-          "last_updated": "2022-12-15",
+          "last_updated": "2024-05-13",
           "product_name_status": "Inactive"
         },
         {
@@ -8064,6 +8094,20 @@
           "product_name_status": "Inactive"
         },
         {
+          "trade_name": "Fluarix trivalent, preservative free",
+          "mvx_code": "SKB",
+          "manufacturer": "GlaxoSmithKline",
+          "last_updated": "2024-05-14",
+          "product_name_status": "Active"
+        },
+        {
+          "trade_name": "Flulaval trivalent, preservative free",
+          "mvx_code": "IDB",
+          "manufacturer": "ID Biomedical",
+          "last_updated": "2024-05-14",
+          "product_name_status": "Active"
+        },
+        {
           "trade_name": "Flulaval, preservative free",
           "mvx_code": "IDB",
           "manufacturer": "ID Biomedical",
@@ -8076,13 +8120,20 @@
           "manufacturer": "Seqirus",
           "last_updated": "2022-12-15",
           "product_name_status": "Inactive"
+        },
+        {
+          "trade_name": "Fluzone trivalent, preservative free",
+          "mvx_code": "PMC",
+          "manufacturer": "Sanofi Pasteur",
+          "last_updated": "2024-05-16",
+          "product_name_status": "Active"
         }
       ]
     },
     "90657": {
       "cvx_code": "141",
-      "name": "Influenza, seasonal, injectable",
-      "description": "Influenza, seasonal, injectable",
+      "name": "Influenza, split virus, trivalent, preservative",
+      "description": "Influenza, split virus, trivalent, preservative",
       "status": "Active",
       "cpt_codes": [
         {
@@ -8109,46 +8160,60 @@
           "product_name_status": "Inactive"
         },
         {
+          "trade_name": "Afluria trivalent, with preservative",
+          "mvx_code": "SEQ",
+          "manufacturer": "Seqirus",
+          "last_updated": "2024-05-14",
+          "product_name_status": "Active"
+        },
+        {
           "trade_name": "Afluria",
           "mvx_code": "SEQ",
           "manufacturer": "Seqirus",
-          "last_updated": "2016-09-26",
-          "product_name_status": "Active"
+          "last_updated": "2024-04-25",
+          "product_name_status": "Inactive"
         },
         {
           "trade_name": "FLULAVAL",
           "mvx_code": "IDB",
           "manufacturer": "ID Biomedical",
-          "last_updated": "2013-09-10",
-          "product_name_status": "Active"
+          "last_updated": "2024-04-25",
+          "product_name_status": "Inactive"
         },
         {
           "trade_name": "FLUVIRIN",
           "mvx_code": "NOV",
           "manufacturer": "Novartis Pharmaceutical Corporation",
-          "last_updated": "2010-09-27",
-          "product_name_status": "Active"
+          "last_updated": "2024-04-25",
+          "product_name_status": "Inactive"
         },
         {
           "trade_name": "FLUZONE",
           "mvx_code": "PMC",
           "manufacturer": "Sanofi Pasteur",
-          "last_updated": "2010-09-27",
-          "product_name_status": "Active"
+          "last_updated": "2024-04-25",
+          "product_name_status": "Inactive"
         },
         {
           "trade_name": "Fluvirin",
           "mvx_code": "SEQ",
           "manufacturer": "Seqirus",
-          "last_updated": "2017-06-12",
+          "last_updated": "2024-04-25",
+          "product_name_status": "Inactive"
+        },
+        {
+          "trade_name": "Fluzone trivalent, with preservative",
+          "mvx_code": "PMC",
+          "manufacturer": "Sanofi Pasteur",
+          "last_updated": "2024-05-14",
           "product_name_status": "Active"
         }
       ]
     },
     "90658": {
       "cvx_code": "141",
-      "name": "Influenza, seasonal, injectable",
-      "description": "Influenza, seasonal, injectable",
+      "name": "Influenza, split virus, trivalent, preservative",
+      "description": "Influenza, split virus, trivalent, preservative",
       "status": "Active",
       "cpt_codes": [
         {
@@ -8175,38 +8240,52 @@
           "product_name_status": "Inactive"
         },
         {
+          "trade_name": "Afluria trivalent, with preservative",
+          "mvx_code": "SEQ",
+          "manufacturer": "Seqirus",
+          "last_updated": "2024-05-14",
+          "product_name_status": "Active"
+        },
+        {
           "trade_name": "Afluria",
           "mvx_code": "SEQ",
           "manufacturer": "Seqirus",
-          "last_updated": "2016-09-26",
-          "product_name_status": "Active"
+          "last_updated": "2024-04-25",
+          "product_name_status": "Inactive"
         },
         {
           "trade_name": "FLULAVAL",
           "mvx_code": "IDB",
           "manufacturer": "ID Biomedical",
-          "last_updated": "2013-09-10",
-          "product_name_status": "Active"
+          "last_updated": "2024-04-25",
+          "product_name_status": "Inactive"
         },
         {
           "trade_name": "FLUVIRIN",
           "mvx_code": "NOV",
           "manufacturer": "Novartis Pharmaceutical Corporation",
-          "last_updated": "2010-09-27",
-          "product_name_status": "Active"
+          "last_updated": "2024-04-25",
+          "product_name_status": "Inactive"
         },
         {
           "trade_name": "FLUZONE",
           "mvx_code": "PMC",
           "manufacturer": "Sanofi Pasteur",
-          "last_updated": "2010-09-27",
-          "product_name_status": "Active"
+          "last_updated": "2024-04-25",
+          "product_name_status": "Inactive"
         },
         {
           "trade_name": "Fluvirin",
           "mvx_code": "SEQ",
           "manufacturer": "Seqirus",
-          "last_updated": "2017-06-12",
+          "last_updated": "2024-04-25",
+          "product_name_status": "Inactive"
+        },
+        {
+          "trade_name": "Fluzone trivalent, with preservative",
+          "mvx_code": "PMC",
+          "manufacturer": "Sanofi Pasteur",
+          "last_updated": "2024-05-14",
           "product_name_status": "Active"
         }
       ]
@@ -8234,9 +8313,9 @@
     },
     "90660": {
       "cvx_code": "111",
-      "name": "influenza, live, intranasal",
-      "description": "influenza, live, intranasal",
-      "status": "Inactive",
+      "name": "Influenza, live, trivalent, intranasal",
+      "description": "Influenza, live, trivalent, intranasal",
+      "status": "Active",
       "cpt_codes": [
         {
           "cpt_code": "90660",
@@ -8246,7 +8325,7 @@
       "groups": {
         "88": {
           "name": "FLU",
-          "active": false
+          "active": true
         }
       },
       "manufacturers": [
@@ -8256,14 +8335,21 @@
           "manufacturer": "MedImmune, Inc. (AstraZeneca)",
           "last_updated": "2015-10-23",
           "product_name_status": "Inactive"
+        },
+        {
+          "trade_name": "FluMist trivalent",
+          "mvx_code": "MED",
+          "manufacturer": "MedImmune, Inc. (AstraZeneca)",
+          "last_updated": "2024-05-14",
+          "product_name_status": "Active"
         }
       ]
     },
     "90661": {
       "cvx_code": "153",
-      "name": "Influenza, injectable, MDCK, preservative free",
-      "description": "Influenza, injectable, MDCK, preservative free",
-      "status": "Inactive",
+      "name": "Influenza, MDCK, trivalent, PF",
+      "description": "Influenza, MDCK, trivalent, PF",
+      "status": "Active",
       "cpt_codes": [
         {
           "cpt_code": "90661",
@@ -8273,23 +8359,30 @@
       "groups": {
         "88": {
           "name": "FLU",
-          "active": false
+          "active": true
         }
       },
       "manufacturers": [
         {
+          "trade_name": "Flucelvax trivalent, preservative free",
+          "mvx_code": "SEQ",
+          "manufacturer": "Seqirus",
+          "last_updated": "2024-05-14",
+          "product_name_status": "Active"
+        },
+        {
           "trade_name": "Flucelvax",
           "mvx_code": "NOV",
           "manufacturer": "Novartis Pharmaceutical Corporation",
-          "last_updated": "2016-06-24",
+          "last_updated": "2024-05-01",
           "product_name_status": "Inactive"
         }
       ]
     },
     "90662": {
-      "cvx_code": "135",
-      "name": "Influenza, high dose seasonal",
-      "description": "Influenza, high dose seasonal",
+      "cvx_code": "197",
+      "name": "Influenza, high-dose, quadrivalent, PF",
+      "description": "Influenza, high-dose, quadrivalent, PF",
       "status": "Active",
       "cpt_codes": [
         {
@@ -8305,10 +8398,10 @@
       },
       "manufacturers": [
         {
-          "trade_name": "FLUZONE-HIGH DOSE",
+          "trade_name": "Fluzone High-Dose quadrivalent, preservative free",
           "mvx_code": "PMC",
           "manufacturer": "Sanofi Pasteur",
-          "last_updated": "2010-05-28",
+          "last_updated": "2024-05-14",
           "product_name_status": "Active"
         }
       ]
@@ -8565,8 +8658,8 @@
     },
     "90672": {
       "cvx_code": "149",
-      "name": "influenza, live, intranasal, quadrivalent",
-      "description": "influenza, live, intranasal, quadrivalent",
+      "name": "Influenza, live, quadrivalent, intranasal",
+      "description": "Influenza, live, quadrivalent, intranasal",
       "status": "Active",
       "cpt_codes": [
         {
@@ -8592,8 +8685,8 @@
     },
     "90673": {
       "cvx_code": "155",
-      "name": "influenza, recombinant, injectable, preservative free",
-      "description": "influenza, recombinant, injectable, preservative free",
+      "name": "Influenza, recombinant, trivalent, PF",
+      "description": "Influenza, recombinant, trivalent, PF",
       "status": "Active",
       "cpt_codes": [
         {
@@ -8609,18 +8702,25 @@
       },
       "manufacturers": [
         {
+          "trade_name": "Flublok trivalent, preservative free",
+          "mvx_code": "PMC",
+          "manufacturer": "Sanofi Pasteur",
+          "last_updated": "2024-05-14",
+          "product_name_status": "Active"
+        },
+        {
           "trade_name": "Flublok",
           "mvx_code": "PSC",
           "manufacturer": "Protein Sciences",
-          "last_updated": "2013-05-28",
-          "product_name_status": "Active"
+          "last_updated": "2024-05-01",
+          "product_name_status": "Inactive"
         }
       ]
     },
     "90674": {
       "cvx_code": "171",
-      "name": "Influenza, injectable, MDCK, preservative free, quadrivalent",
-      "description": "Influenza, injectable, MDCK, preservative free, quadrivalent",
+      "name": "Influenza, MDCK, quadrivalent, PF",
+      "description": "Influenza, MDCK, quadrivalent, PF",
       "status": "Active",
       "cpt_codes": [
         {
@@ -8636,10 +8736,10 @@
       },
       "manufacturers": [
         {
-          "trade_name": "flucelvax, quadrivalent, preservative free",
+          "trade_name": "Flucelvax quadrivalent, preservative free",
           "mvx_code": "SEQ",
           "manufacturer": "Seqirus",
-          "last_updated": "2016-06-16",
+          "last_updated": "2024-05-14",
           "product_name_status": "Active"
         }
       ]
@@ -8833,8 +8933,8 @@
     },
     "90682": {
       "cvx_code": "185",
-      "name": "influenza, recombinant, quadrivalent,injectable, preservative free",
-      "description": "influenza, recombinant, quadrivalent,injectable, preservative free",
+      "name": "Influenza, recombinant, quadrivalent, PF",
+      "description": "Influenza, recombinant, quadrivalent, PF",
       "status": "Active",
       "cpt_codes": [
         {
@@ -8850,10 +8950,10 @@
       },
       "manufacturers": [
         {
-          "trade_name": "Flublok quadrivalent",
+          "trade_name": "Flublok quadrivalent, preservative free",
           "mvx_code": "PMC",
           "manufacturer": "Sanofi Pasteur",
-          "last_updated": "2019-05-02",
+          "last_updated": "2024-05-14",
           "product_name_status": "Active"
         },
         {
@@ -8887,7 +8987,7 @@
           "trade_name": "Afluria quadrivalent, preservative free, pediatric",
           "mvx_code": "SEQ",
           "manufacturer": "Seqirus",
-          "last_updated": "2019-08-26",
+          "last_updated": "2024-05-14",
           "product_name_status": "Active"
         },
         {
@@ -8901,8 +9001,8 @@
     },
     "90686": {
       "cvx_code": "150",
-      "name": "influenza, injectable, quadrivalent, preservative free",
-      "description": "influenza, injectable, quadrivalent, preservative free",
+      "name": "Influenza, split virus, quadrivalent, PF",
+      "description": "Influenza, split virus, quadrivalent, PF",
       "status": "Active",
       "cpt_codes": [
         {
@@ -8918,24 +9018,24 @@
       },
       "manufacturers": [
         {
-          "trade_name": "Afluria quadrivalent preservative free",
+          "trade_name": "Afluria quadrivalent, preservative free",
           "mvx_code": "SEQ",
           "manufacturer": "Seqirus",
-          "last_updated": "2016-10-04",
+          "last_updated": "2024-05-14",
           "product_name_status": "Active"
         },
         {
-          "trade_name": "Fluarix, quadrivalent, preservative free",
+          "trade_name": "Fluarix quadrivalent, preservative free",
           "mvx_code": "SKB",
           "manufacturer": "GlaxoSmithKline",
-          "last_updated": "2013-08-09",
+          "last_updated": "2024-05-14",
           "product_name_status": "Active"
         },
         {
-          "trade_name": "Flulaval, quadrivalent, preservative free",
+          "trade_name": "Flulaval quadrivalent, preservative free",
           "mvx_code": "IDB",
           "manufacturer": "ID Biomedical",
-          "last_updated": "2014-10-21",
+          "last_updated": "2024-05-14",
           "product_name_status": "Active"
         },
         {
@@ -8949,8 +9049,8 @@
     },
     "90687": {
       "cvx_code": "158",
-      "name": "influenza, injectable, quadrivalent",
-      "description": "influenza, injectable, quadrivalent",
+      "name": "Influenza, split virus, quadrivalent, preservative",
+      "description": "Influenza, split virus, quadrivalent, preservative",
       "status": "Active",
       "cpt_codes": [
         {
@@ -8970,18 +9070,18 @@
       },
       "manufacturers": [
         {
-          "trade_name": "Afluria, quadrivalent",
+          "trade_name": "Afluria quadrivalent, with preservative",
           "mvx_code": "SEQ",
           "manufacturer": "Seqirus",
-          "last_updated": "2016-10-04",
+          "last_updated": "2024-05-14",
           "product_name_status": "Active"
         },
         {
           "trade_name": "Flulaval quadrivalent",
           "mvx_code": "IDB",
           "manufacturer": "ID Biomedical",
-          "last_updated": "2013-09-10",
-          "product_name_status": "Active"
+          "last_updated": "2024-05-14",
+          "product_name_status": "Inactive"
         },
         {
           "trade_name": "Fluzone, Quadrivalent",
@@ -8994,8 +9094,8 @@
     },
     "90688": {
       "cvx_code": "158",
-      "name": "influenza, injectable, quadrivalent",
-      "description": "influenza, injectable, quadrivalent",
+      "name": "Influenza, split virus, quadrivalent, preservative",
+      "description": "Influenza, split virus, quadrivalent, preservative",
       "status": "Active",
       "cpt_codes": [
         {
@@ -9015,18 +9115,18 @@
       },
       "manufacturers": [
         {
-          "trade_name": "Afluria, quadrivalent",
+          "trade_name": "Afluria quadrivalent, with preservative",
           "mvx_code": "SEQ",
           "manufacturer": "Seqirus",
-          "last_updated": "2016-10-04",
+          "last_updated": "2024-05-14",
           "product_name_status": "Active"
         },
         {
           "trade_name": "Flulaval quadrivalent",
           "mvx_code": "IDB",
           "manufacturer": "ID Biomedical",
-          "last_updated": "2013-09-10",
-          "product_name_status": "Active"
+          "last_updated": "2024-05-14",
+          "product_name_status": "Inactive"
         },
         {
           "trade_name": "Fluzone, Quadrivalent",
@@ -9148,8 +9248,8 @@
     },
     "90694": {
       "cvx_code": "205",
-      "name": "Influenza vaccine, quadrivalent, adjuvanted",
-      "description": "Influenza vaccine, quadrivalent, adjuvanted",
+      "name": "Influenza, adjuvanted, quadrivalent, PF",
+      "description": "Influenza, adjuvanted, quadrivalent, PF",
       "status": "Active",
       "cpt_codes": [
         {
@@ -10537,8 +10637,8 @@
     },
     "90756": {
       "cvx_code": "186",
-      "name": "Influenza, injectable, MDCK, quadrivalent, preservative",
-      "description": "Influenza, injectable, MDCK, quadrivalent, preservative",
+      "name": "Influenza, MDCK, quadrivalent, preservative",
+      "description": "Influenza, MDCK, quadrivalent, preservative",
       "status": "Active",
       "cpt_codes": [
         {
@@ -10554,10 +10654,10 @@
       },
       "manufacturers": [
         {
-          "trade_name": "Flucelvax, quadrivalent, with preservative",
+          "trade_name": "Flucelvax quadrivalent, with preservative",
           "mvx_code": "SEQ",
           "manufacturer": "Seqirus",
-          "last_updated": "2017-06-27",
+          "last_updated": "2024-05-14",
           "product_name_status": "Active"
         }
       ]
