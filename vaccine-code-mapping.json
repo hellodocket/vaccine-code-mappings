@@ -683,8 +683,8 @@
           "trade_name": "MENACTRA",
           "mvx_code": "PMC",
           "manufacturer": "Sanofi Pasteur",
-          "last_updated": "2010-05-28",
-          "product_name_status": "Active"
+          "last_updated": "2024-06-05",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -1516,7 +1516,7 @@
           "trade_name": "Fluzone trivalent, preservative free",
           "mvx_code": "PMC",
           "manufacturer": "Sanofi Pasteur",
-          "last_updated": "2024-05-16",
+          "last_updated": "2024-05-17",
           "product_name_status": "Active"
         }
       ]
@@ -2525,7 +2525,14 @@
           "trade_name": "VAXCHORA",
           "mvx_code": "PAX",
           "manufacturer": "Emergent Travel Health, Inc (Formerly PaxVax)",
-          "last_updated": "2016-06-17",
+          "last_updated": "2024-06-12",
+          "product_name_status": "Inactive"
+        },
+        {
+          "trade_name": "Vaxchora",
+          "mvx_code": "BN",
+          "manufacturer": "Bavarian Nordic A/S",
+          "last_updated": "2024-06-12",
           "product_name_status": "Active"
         }
       ]
@@ -3484,7 +3491,7 @@
       "cpt_codes": [
         {
           "cpt_code": "91304",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, recombinant spike protein nanoparticle, saponin-based adjuvant, preservative free, 5 mcg/0.5 mL dosage, for intramuscular use"
+          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, recombinant spike protein nanoparticle, saponin-based adjuvant, 5 mcg/0.5 mL dosage, for intramuscular use"
         }
       ],
       "groups": {
@@ -4610,7 +4617,7 @@
       "cpt_codes": [
         {
           "cpt_code": "91304",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, recombinant spike protein nanoparticle, saponin-based adjuvant, preservative free, 5 mcg/0.5 mL dosage, for intramuscular use"
+          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, recombinant spike protein nanoparticle, saponin-based adjuvant, 5 mcg/0.5 mL dosage, for intramuscular use"
         }
       ],
       "groups": {
@@ -4818,6 +4825,105 @@
           "mvx_code": "SEQ",
           "manufacturer": "Seqirus",
           "last_updated": "2024-05-14",
+          "product_name_status": "Active"
+        }
+      ]
+    },
+    "321": {
+      "cvx_code": "321",
+      "name": "Influenza-avian, H5N8, monovalent, PF",
+      "description": "Influenza-avian, H5N8, monovalent, PF",
+      "status": "Active",
+      "cpt_codes": [
+
+      ],
+      "groups": {
+        "323": {
+          "name": "FLU-Avian-H5",
+          "active": true
+        }
+      },
+      "manufacturers": [
+
+      ]
+    },
+    "322": {
+      "cvx_code": "322",
+      "name": "Influenza-avian, H5N8, monovalent, preservative",
+      "description": "Influenza-avian, H5N8, monovalent, preservative",
+      "status": "Active",
+      "cpt_codes": [
+
+      ],
+      "groups": {
+        "323": {
+          "name": "FLU-Avian-H5",
+          "active": true
+        }
+      },
+      "manufacturers": [
+
+      ]
+    },
+    "323": {
+      "cvx_code": "323",
+      "name": "Influenza-avian, H5, unspecified formulation",
+      "description": "Influenza-avian, H5, unspecified formulation",
+      "status": "Inactive",
+      "cpt_codes": [
+
+      ],
+      "groups": {
+        "323": {
+          "name": "FLU-Avian-H5",
+          "active": false
+        }
+      },
+      "manufacturers": [
+
+      ]
+    },
+    "324": {
+      "cvx_code": "324",
+      "name": "Poliovirus, inactivated, fractional-dose (fIPV)",
+      "description": "Poliovirus, inactivated, fractional-dose (fIPV)",
+      "status": "Non-US",
+      "cpt_codes": [
+
+      ],
+      "groups": {
+        "89": {
+          "name": "POLIO",
+          "active": false
+        }
+      },
+      "manufacturers": [
+
+      ]
+    },
+    "326": {
+      "cvx_code": "326",
+      "name": "RSV, mRNA, injectable, PF",
+      "description": "RSV, mRNA, injectable, PF",
+      "status": "Active",
+      "cpt_codes": [
+        {
+          "cpt_code": "90683",
+          "cpt_desc": "Respiratory syncytial virus vaccine, mRNA lipid nanoparticles, for intramuscular use"
+        }
+      ],
+      "groups": {
+        "304": {
+          "name": "RSV",
+          "active": true
+        }
+      },
+      "manufacturers": [
+        {
+          "trade_name": "mRESVIA",
+          "mvx_code": "MOD",
+          "manufacturer": "Moderna US, Inc.",
+          "last_updated": "2024-06-06",
           "product_name_status": "Active"
         }
       ]
@@ -7518,7 +7624,14 @@
           "trade_name": "VAXCHORA",
           "mvx_code": "PAX",
           "manufacturer": "Emergent Travel Health, Inc (Formerly PaxVax)",
-          "last_updated": "2016-06-17",
+          "last_updated": "2024-06-12",
+          "product_name_status": "Inactive"
+        },
+        {
+          "trade_name": "Vaxchora",
+          "mvx_code": "BN",
+          "manufacturer": "Bavarian Nordic A/S",
+          "last_updated": "2024-06-12",
           "product_name_status": "Active"
         }
       ]
@@ -8125,7 +8238,7 @@
           "trade_name": "Fluzone trivalent, preservative free",
           "mvx_code": "PMC",
           "manufacturer": "Sanofi Pasteur",
-          "last_updated": "2024-05-16",
+          "last_updated": "2024-05-17",
           "product_name_status": "Active"
         }
       ]
@@ -8962,6 +9075,33 @@
           "manufacturer": "Protein Sciences",
           "last_updated": "2019-05-02",
           "product_name_status": "Inactive"
+        }
+      ]
+    },
+    "90683": {
+      "cvx_code": "326",
+      "name": "RSV, mRNA, injectable, PF",
+      "description": "RSV, mRNA, injectable, PF",
+      "status": "Active",
+      "cpt_codes": [
+        {
+          "cpt_code": "90683",
+          "cpt_desc": "Respiratory syncytial virus vaccine, mRNA lipid nanoparticles, for intramuscular use"
+        }
+      ],
+      "groups": {
+        "304": {
+          "name": "RSV",
+          "active": true
+        }
+      },
+      "manufacturers": [
+        {
+          "trade_name": "mRESVIA",
+          "mvx_code": "MOD",
+          "manufacturer": "Moderna US, Inc.",
+          "last_updated": "2024-06-06",
+          "product_name_status": "Active"
         }
       ]
     },
@@ -10850,7 +10990,7 @@
       "cpt_codes": [
         {
           "cpt_code": "91304",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, recombinant spike protein nanoparticle, saponin-based adjuvant, preservative free, 5 mcg/0.5 mL dosage, for intramuscular use"
+          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, recombinant spike protein nanoparticle, saponin-based adjuvant, 5 mcg/0.5 mL dosage, for intramuscular use"
         }
       ],
       "groups": {
