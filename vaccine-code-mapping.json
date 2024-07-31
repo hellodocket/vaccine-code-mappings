@@ -1920,7 +1920,7 @@
       "cpt_codes": [
         {
           "cpt_code": "90661",
-          "cpt_desc": "Influenza virus vaccine, trivalent (ccIIV3), derived from cell cultures, subunit, preservative and antibiotic free, 0.5 mL dosage, for intramuscular use"
+          "cpt_desc": "Influenza virus vaccine, trivalent (ccIIV3), derived from cell cultures, subunit, antibiotic free, 0.5 mL dosage, for intramuscular use"
         }
       ],
       "groups": {
@@ -2543,7 +2543,10 @@
       "description": "Rabies - IM Diploid cell culture",
       "status": "Active",
       "cpt_codes": [
-
+        {
+          "cpt_code": "90675",
+          "cpt_desc": "Rabies vaccine, for intramuscular use"
+        }
       ],
       "groups": {
         "90": {
@@ -2567,7 +2570,10 @@
       "description": "Rabies - IM fibroblast culture",
       "status": "Active",
       "cpt_codes": [
-
+        {
+          "cpt_code": "90675",
+          "cpt_desc": "Rabies vaccine, for intramuscular use"
+        }
       ],
       "groups": {
         "90": {
@@ -2576,6 +2582,13 @@
         }
       },
       "manufacturers": [
+        {
+          "trade_name": "RABAVERT",
+          "mvx_code": "BN",
+          "manufacturer": "Bavarian Nordic A/S",
+          "last_updated": "2024-07-25",
+          "product_name_status": "Active"
+        },
         {
           "trade_name": "RABAVERT",
           "mvx_code": "NOV",
@@ -2587,8 +2600,8 @@
           "trade_name": "RABAVERT",
           "mvx_code": "SKB",
           "manufacturer": "GlaxoSmithKline",
-          "last_updated": "2016-10-19",
-          "product_name_status": "Active"
+          "last_updated": "2024-07-25",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -4130,11 +4143,18 @@
           "product_name_status": "Inactive"
         },
         {
+          "trade_name": "Vivotif- BN",
+          "mvx_code": "BN",
+          "manufacturer": "Bavarian Nordic A/S",
+          "last_updated": "2024-07-12",
+          "product_name_status": "Active"
+        },
+        {
           "trade_name": "Vivotif",
           "mvx_code": "PAX",
           "manufacturer": "Emergent Travel Health, Inc (Formerly PaxVax)",
-          "last_updated": "2021-07-23",
-          "product_name_status": "Active"
+          "last_updated": "2024-07-12",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -4810,7 +4830,7 @@
       "cpt_codes": [
         {
           "cpt_code": "90661",
-          "cpt_desc": "Influenza virus vaccine, trivalent (ccIIV3), derived from cell cultures, subunit, preservative and antibiotic free, 0.5 mL dosage, for intramuscular use"
+          "cpt_desc": "Influenza virus vaccine, trivalent (ccIIV3), derived from cell cultures, subunit, antibiotic free, 0.5 mL dosage, for intramuscular use"
         }
       ],
       "groups": {
@@ -4924,6 +4944,33 @@
           "mvx_code": "MOD",
           "manufacturer": "Moderna US, Inc.",
           "last_updated": "2024-06-06",
+          "product_name_status": "Active"
+        }
+      ]
+    },
+    "327": {
+      "cvx_code": "327",
+      "name": "Pneumococcal conjugate PCV21, polysaccharide CRM197 conjugate, PF",
+      "description": "Pneumococcal conjugate PCV21, polysaccharide CRM197 conjugate, PF",
+      "status": "Active",
+      "cpt_codes": [
+        {
+          "cpt_code": "90684",
+          "cpt_desc": "Pneumococcal conjugate vaccine, 21 valent (PCV21), for intramuscular use"
+        }
+      ],
+      "groups": {
+        "152": {
+          "name": "PneumoPCV",
+          "active": true
+        }
+      },
+      "manufacturers": [
+        {
+          "trade_name": "CAPVAXIVE",
+          "mvx_code": "MSD",
+          "manufacturer": "Merck and Co., Inc.",
+          "last_updated": "2024-07-11",
           "product_name_status": "Active"
         }
       ]
@@ -6707,14 +6754,7 @@
       "description": "rabies, unspecified formulation",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90675",
-          "cpt_desc": "Rabies vaccine, for intramuscular use"
-        },
-        {
-          "cpt_code": "90726",
-          "cpt_desc": "Rabies vaccine"
-        }
+
       ],
       "groups": {
         "90": {
@@ -8466,7 +8506,7 @@
       "cpt_codes": [
         {
           "cpt_code": "90661",
-          "cpt_desc": "Influenza virus vaccine, trivalent (ccIIV3), derived from cell cultures, subunit, preservative and antibiotic free, 0.5 mL dosage, for intramuscular use"
+          "cpt_desc": "Influenza virus vaccine, trivalent (ccIIV3), derived from cell cultures, subunit, antibiotic free, 0.5 mL dosage, for intramuscular use"
         }
       ],
       "groups": {
@@ -8858,28 +8898,30 @@
       ]
     },
     "90675": {
-      "cvx_code": "90",
-      "name": "rabies, unspecified formulation",
-      "description": "rabies, unspecified formulation",
-      "status": "Inactive",
+      "cvx_code": "175",
+      "name": "Rabies - IM Diploid cell culture",
+      "description": "Rabies - IM Diploid cell culture",
+      "status": "Active",
       "cpt_codes": [
         {
           "cpt_code": "90675",
           "cpt_desc": "Rabies vaccine, for intramuscular use"
-        },
-        {
-          "cpt_code": "90726",
-          "cpt_desc": "Rabies vaccine"
         }
       ],
       "groups": {
         "90": {
           "name": "RABIES",
-          "active": false
+          "active": true
         }
       },
       "manufacturers": [
-
+        {
+          "trade_name": "IMOVAX",
+          "mvx_code": "PMC",
+          "manufacturer": "Sanofi Pasteur",
+          "last_updated": "2016-10-19",
+          "product_name_status": "Active"
+        }
       ]
     },
     "90676": {
@@ -9105,6 +9147,33 @@
         }
       ]
     },
+    "90684": {
+      "cvx_code": "327",
+      "name": "Pneumococcal conjugate PCV21, polysaccharide CRM197 conjugate, PF",
+      "description": "Pneumococcal conjugate PCV21, polysaccharide CRM197 conjugate, PF",
+      "status": "Active",
+      "cpt_codes": [
+        {
+          "cpt_code": "90684",
+          "cpt_desc": "Pneumococcal conjugate vaccine, 21 valent (PCV21), for intramuscular use"
+        }
+      ],
+      "groups": {
+        "152": {
+          "name": "PneumoPCV",
+          "active": true
+        }
+      },
+      "manufacturers": [
+        {
+          "trade_name": "CAPVAXIVE",
+          "mvx_code": "MSD",
+          "manufacturer": "Merck and Co., Inc.",
+          "last_updated": "2024-07-11",
+          "product_name_status": "Active"
+        }
+      ]
+    },
     "90685": {
       "cvx_code": "161",
       "name": "Influenza, injectable,quadrivalent, preservative free, pediatric",
@@ -9303,11 +9372,18 @@
           "product_name_status": "Inactive"
         },
         {
+          "trade_name": "Vivotif- BN",
+          "mvx_code": "BN",
+          "manufacturer": "Bavarian Nordic A/S",
+          "last_updated": "2024-07-12",
+          "product_name_status": "Active"
+        },
+        {
           "trade_name": "Vivotif",
           "mvx_code": "PAX",
           "manufacturer": "Emergent Travel Health, Inc (Formerly PaxVax)",
-          "last_updated": "2021-07-23",
-          "product_name_status": "Active"
+          "last_updated": "2024-07-12",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -10124,31 +10200,6 @@
       "groups": {
         "26": {
           "name": "cholera",
-          "active": false
-        }
-      },
-      "manufacturers": [
-
-      ]
-    },
-    "90726": {
-      "cvx_code": "90",
-      "name": "rabies, unspecified formulation",
-      "description": "rabies, unspecified formulation",
-      "status": "Inactive",
-      "cpt_codes": [
-        {
-          "cpt_code": "90675",
-          "cpt_desc": "Rabies vaccine, for intramuscular use"
-        },
-        {
-          "cpt_code": "90726",
-          "cpt_desc": "Rabies vaccine"
-        }
-      ],
-      "groups": {
-        "90": {
-          "name": "RABIES",
           "active": false
         }
       },
