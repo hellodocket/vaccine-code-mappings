@@ -39,7 +39,7 @@ task :load_miic_mapping do
   miic_map_path = "./miic-mapping.csv"
   url = "https://www.health.state.mn.us/people/immunize/miic/data/vaxcodes.xlsx"
   miic_xls = HTTParty.get(url, headers: {
-    "User-Agent" => "Docket/1.0", # MIIC gives back a 403 if a user agent is not populated
+    "User-Agent" => "Mozilla/5.0 (X11; Linux x86_64) Docket/1.0", # MIIC gives back a 403 if a user agent is not populated
   })
   miic_xls_data = StringIO.new miic_xls.body
   xls_file = Roo::Excelx.new(miic_xls_data)
