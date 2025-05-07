@@ -25,9 +25,6 @@ jobs:
       - name: Run CDC Rake task
         run: bundle exec rake load_cdc_mapping
 
-      - name: Run MIIC Rake task
-        run: bundle exec rake load_miic_mapping
-
       - name: Set Release Version
         id: releaseVersion
         run: echo "RELEASE_NAME=$(date +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"

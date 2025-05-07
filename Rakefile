@@ -18,6 +18,10 @@ end
 
 desc "Download and convert the Excel file for MIIC"
 task :load_miic_mapping do
+  # This was removed from the GitHub workflow on 2025-05-07.
+  # MIIC seems to have removed the data file, so this will fail indefinitely.
+  # There is an email out to Aaron, Miriam, and Sydney from MN to ask what happened.
+
   def trade_name_overrides
     # These only really need to be defined for COVID-19 for now since they're rapidly changing.
     # The data comes from https://www.cdc.gov/vaccines/programs/iis/COVID-19-related-codes.html
