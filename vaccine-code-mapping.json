@@ -9,10 +9,6 @@
         {
           "cpt_code": "90701",
           "cpt_desc": "Diphtheria, tetanus toxoids, and whole cell pertussis vaccine (DTP), for intramuscular use"
-        },
-        {
-          "cpt_code": "90701",
-          "cpt_desc": "Diphtheria, tetanus toxoids, and whole cell pertussis vaccine (DTP), for intramuscular use"
         }
       ],
       "groups": {
@@ -58,10 +54,6 @@
         {
           "cpt_code": "90707",
           "cpt_desc": "Measles, mumps and rubella virus vaccine (MMR), live, for subcutaneous use"
-        },
-        {
-          "cpt_code": "90707",
-          "cpt_desc": "Measles, mumps and rubella virus vaccine (MMR), live, for subcutaneous use"
         }
       ],
       "groups": {
@@ -96,10 +88,6 @@
         {
           "cpt_code": "90708",
           "cpt_desc": "Measles and rubella virus vaccine, live, for subcutaneous use"
-        },
-        {
-          "cpt_code": "90708",
-          "cpt_desc": "Measles and rubella virus vaccine, live, for subcutaneous use"
         }
       ],
       "groups": {
@@ -118,10 +106,6 @@
       "description": "measles",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90705",
-          "cpt_desc": "Measles virus vaccine, live, for subcutaneous use"
-        },
         {
           "cpt_code": "90705",
           "cpt_desc": "Measles virus vaccine, live, for subcutaneous use"
@@ -152,10 +136,6 @@
         {
           "cpt_code": "90706",
           "cpt_desc": "Rubella virus vaccine, live, for subcutaneous use"
-        },
-        {
-          "cpt_code": "90706",
-          "cpt_desc": "Rubella virus vaccine, live, for subcutaneous use"
         }
       ],
       "groups": {
@@ -180,10 +160,6 @@
       "description": "mumps",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90704",
-          "cpt_desc": "Mumps virus vaccine, live, for subcutaneous use"
-        },
         {
           "cpt_code": "90704",
           "cpt_desc": "Mumps virus vaccine, live, for subcutaneous use"
@@ -214,14 +190,6 @@
         {
           "cpt_code": "90743",
           "cpt_desc": "Hepatitis B vaccine (HepB), adolescent, 2 dose schedule, for intramuscular use"
-        },
-        {
-          "cpt_code": "90743",
-          "cpt_desc": "Hepatitis B vaccine (HepB), adolescent, 2 dose schedule, for intramuscular use"
-        },
-        {
-          "cpt_code": "90744",
-          "cpt_desc": "Hepatitis B vaccine (HepB), pediatric/adolescent dosage, 3 dose schedule, for intramuscular use"
         },
         {
           "cpt_code": "90744",
@@ -257,10 +225,6 @@
       "description": "Td (adult), 2 Lf tetanus toxoid, preservative free, adsorbed",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90714",
-          "cpt_desc": "Tetanus and diphtheria toxoids adsorbed (Td), preservative free, when administered to individuals 7 years or older, for intramuscular use"
-        },
         {
           "cpt_code": "90714",
           "cpt_desc": "Tetanus and diphtheria toxoids adsorbed (Td), preservative free, when administered to individuals 7 years or older, for intramuscular use"
@@ -305,10 +269,6 @@
         {
           "cpt_code": "90713",
           "cpt_desc": "Poliovirus vaccine, inactivated (IPV), for subcutaneous or intramuscular use"
-        },
-        {
-          "cpt_code": "90713",
-          "cpt_desc": "Poliovirus vaccine, inactivated (IPV), for subcutaneous or intramuscular use"
         }
       ],
       "groups": {
@@ -333,10 +293,6 @@
       "description": "pneumococcal conjugate PCV 7",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90669",
-          "cpt_desc": "Pneumococcal conjugate vaccine, 7 valent, for intramuscular use"
-        },
         {
           "cpt_code": "90669",
           "cpt_desc": "Pneumococcal conjugate vaccine, 7 valent, for intramuscular use"
@@ -371,10 +327,6 @@
       "description": "typhoid, ViCPs",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90691",
-          "cpt_desc": "Typhoid vaccine, Vi capsular polysaccharide (ViCPs), for intramuscular use"
-        },
         {
           "cpt_code": "90691",
           "cpt_desc": "Typhoid vaccine, Vi capsular polysaccharide (ViCPs), for intramuscular use"
@@ -449,10 +401,6 @@
         {
           "cpt_code": "90636",
           "cpt_desc": "Hepatitis A and hepatitis B vaccine (HepA-HepB), adult dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "90636",
-          "cpt_desc": "Hepatitis A and hepatitis B vaccine (HepA-HepB), adult dosage, for intramuscular use"
         }
       ],
       "groups": {
@@ -484,10 +432,6 @@
 
       ],
       "groups": {
-        "75": {
-          "name": "Orthopoxvirus",
-          "active": false
-        },
         "325": {
           "name": "Orthopoxvirus",
           "active": false
@@ -503,10 +447,6 @@
       "description": "DTaP, 5 pertussis antigens",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90700",
-          "cpt_desc": "Diphtheria, tetanus toxoids, and acellular pertussis vaccine (DTaP), when administered to individuals younger than 7 years, for intramuscular use"
-        },
         {
           "cpt_code": "90700",
           "cpt_desc": "Diphtheria, tetanus toxoids, and acellular pertussis vaccine (DTaP), when administered to individuals younger than 7 years, for intramuscular use"
@@ -613,10 +553,6 @@
         {
           "cpt_code": "90723",
           "cpt_desc": "Diphtheria, tetanus toxoids, acellular pertussis vaccine, hepatitis B, and inactivated poliovirus vaccine (DTaP-HepB-IPV), for intramuscular use"
-        },
-        {
-          "cpt_code": "90723",
-          "cpt_desc": "Diphtheria, tetanus toxoids, acellular pertussis vaccine, hepatitis B, and inactivated poliovirus vaccine (DTaP-HepB-IPV), for intramuscular use"
         }
       ],
       "groups": {
@@ -649,10 +585,6 @@
       "description": "Influenza, live, trivalent, intranasal",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90660",
-          "cpt_desc": "Influenza virus vaccine, trivalent, live (LAIV3), for intranasal use"
-        },
         {
           "cpt_code": "90660",
           "cpt_desc": "Influenza virus vaccine, trivalent, live (LAIV3), for intranasal use"
@@ -708,10 +640,6 @@
         {
           "cpt_code": "90714",
           "cpt_desc": "Tetanus and diphtheria toxoids adsorbed (Td), preservative free, when administered to individuals 7 years or older, for intramuscular use"
-        },
-        {
-          "cpt_code": "90714",
-          "cpt_desc": "Tetanus and diphtheria toxoids adsorbed (Td), preservative free, when administered to individuals 7 years or older, for intramuscular use"
         }
       ],
       "groups": {
@@ -746,10 +674,6 @@
         {
           "cpt_code": "90734",
           "cpt_desc": "Meningococcal conjugate vaccine, serogroups A, C, W, Y, quadrivalent, diphtheria toxoid carrier (MenACWY-D) or CRM197 carrier (MenACWY-CRM), for intramuscular use"
-        },
-        {
-          "cpt_code": "90734",
-          "cpt_desc": "Meningococcal conjugate vaccine, serogroups A, C, W, Y, quadrivalent, diphtheria toxoid carrier (MenACWY-D) or CRM197 carrier (MenACWY-CRM), for intramuscular use"
         }
       ],
       "groups": {
@@ -774,10 +698,6 @@
       "description": "Tdap",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90715",
-          "cpt_desc": "Tetanus, diphtheria toxoids and acellular pertussis vaccine (Tdap), when administered to individuals 7 years or older, for intramuscular use"
-        },
         {
           "cpt_code": "90715",
           "cpt_desc": "Tetanus, diphtheria toxoids and acellular pertussis vaccine (Tdap), when administered to individuals 7 years or older, for intramuscular use"
@@ -812,10 +732,6 @@
       "description": "rotavirus, pentavalent",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90680",
-          "cpt_desc": "Rotavirus vaccine, pentavalent (RV5), 3 dose schedule, live, for oral use"
-        },
         {
           "cpt_code": "90680",
           "cpt_desc": "Rotavirus vaccine, pentavalent (RV5), 3 dose schedule, live, for oral use"
@@ -864,10 +780,6 @@
         {
           "cpt_code": "90650",
           "cpt_desc": "Human Papillomavirus vaccine, types 16, 18, bivalent (2vHPV), 3 dose schedule, for intramuscular use"
-        },
-        {
-          "cpt_code": "90650",
-          "cpt_desc": "Human Papillomavirus vaccine, types 16, 18, bivalent (2vHPV), 3 dose schedule, for intramuscular use"
         }
       ],
       "groups": {
@@ -892,10 +804,6 @@
       "description": "rotavirus, monovalent",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90681",
-          "cpt_desc": "Rotavirus vaccine, human, attenuated (RV1), 2 dose schedule, live, for oral use"
-        },
         {
           "cpt_code": "90681",
           "cpt_desc": "Rotavirus vaccine, human, attenuated (RV1), 2 dose schedule, live, for oral use"
@@ -926,10 +834,6 @@
         {
           "cpt_code": "90296",
           "cpt_desc": "Diphtheria antitoxin, equine, any route"
-        },
-        {
-          "cpt_code": "90296",
-          "cpt_desc": "Diphtheria antitoxin, equine, any route"
         }
       ],
       "groups": {
@@ -948,10 +852,6 @@
       "description": "DTaP-Hib-IPV",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90698",
-          "cpt_desc": "Diphtheria, tetanus toxoids, acellular pertussis vaccine, Haemophilus influenzae type b, and inactivated poliovirus vaccine, (DTaP-IPV/Hib), for intramuscular use"
-        },
         {
           "cpt_code": "90698",
           "cpt_desc": "Diphtheria, tetanus toxoids, acellular pertussis vaccine, Haemophilus influenzae type b, and inactivated poliovirus vaccine, (DTaP-IPV/Hib), for intramuscular use"
@@ -987,10 +887,6 @@
       "description": "zoster live",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90736",
-          "cpt_desc": "Zoster (shingles) vaccine (HZV), live, for subcutaneous injection"
-        },
         {
           "cpt_code": "90736",
           "cpt_desc": "Zoster (shingles) vaccine (HZV), live, for subcutaneous injection"
@@ -1057,10 +953,6 @@
         {
           "cpt_code": "90664",
           "cpt_desc": "Influenza virus vaccine, live (LAIV), pandemic formulation, for intranasal use"
-        },
-        {
-          "cpt_code": "90664",
-          "cpt_desc": "Influenza virus vaccine, live (LAIV), pandemic formulation, for intranasal use"
         }
       ],
       "groups": {
@@ -1085,10 +977,6 @@
       "description": "Novel influenza-H1N1-09, preservative-free",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90666",
-          "cpt_desc": "Influenza virus vaccine (IIV), pandemic formulation, split virus, preservative free, for intramuscular use"
-        },
         {
           "cpt_code": "90666",
           "cpt_desc": "Influenza virus vaccine (IIV), pandemic formulation, split virus, preservative free, for intramuscular use"
@@ -1130,10 +1018,6 @@
       "description": "Novel influenza-H1N1-09",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90668",
-          "cpt_desc": "Influenza virus vaccine (IIV), pandemic formulation, split virus, for intramuscular use"
-        },
         {
           "cpt_code": "90668",
           "cpt_desc": "Influenza virus vaccine (IIV), pandemic formulation, split virus, for intramuscular use"
@@ -1180,14 +1064,6 @@
           "cpt_desc": "H1N1 immunization administration (intramuscular, intranasal), including counseling when performed"
         },
         {
-          "cpt_code": "90470",
-          "cpt_desc": "H1N1 immunization administration (intramuscular, intranasal), including counseling when performed"
-        },
-        {
-          "cpt_code": "90663",
-          "cpt_desc": "Influenza virus vaccine, pandemic formulation, H1N1"
-        },
-        {
           "cpt_code": "90663",
           "cpt_desc": "Influenza virus vaccine, pandemic formulation, H1N1"
         }
@@ -1229,10 +1105,6 @@
         {
           "cpt_code": "90389",
           "cpt_desc": "Tetanus immune globulin (TIg), human, for intramuscular use"
-        },
-        {
-          "cpt_code": "90389",
-          "cpt_desc": "Tetanus immune globulin (TIg), human, for intramuscular use"
         }
       ],
       "groups": {
@@ -1251,10 +1123,6 @@
       "description": "DTaP-IPV",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90696",
-          "cpt_desc": "Diphtheria, tetanus toxoids, acellular pertussis vaccine and inactivated poliovirus vaccine (DTaP-IPV), when administered to children 4 through 6 years of age, for intramuscular use"
-        },
         {
           "cpt_code": "90696",
           "cpt_desc": "Diphtheria, tetanus toxoids, acellular pertussis vaccine and inactivated poliovirus vaccine (DTaP-IPV), when administered to children 4 through 6 years of age, for intramuscular use"
@@ -1344,10 +1212,6 @@
         {
           "cpt_code": "90670",
           "cpt_desc": "Pneumococcal conjugate vaccine, 13 valent (PCV13), for intramuscular use"
-        },
-        {
-          "cpt_code": "90670",
-          "cpt_desc": "Pneumococcal conjugate vaccine, 13 valent (PCV13), for intramuscular use"
         }
       ],
       "groups": {
@@ -1379,10 +1243,6 @@
       "description": "Japanese Encephalitis IM",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90738",
-          "cpt_desc": "Japanese encephalitis virus vaccine, inactivated, for intramuscular use"
-        },
         {
           "cpt_code": "90738",
           "cpt_desc": "Japanese encephalitis virus vaccine, inactivated, for intramuscular use"
@@ -1427,10 +1287,6 @@
         {
           "cpt_code": "90662",
           "cpt_desc": "Influenza virus vaccine (IIV), split virus, preservative free, enhanced immunogenicity via increased antigen content, for intramuscular use"
-        },
-        {
-          "cpt_code": "90662",
-          "cpt_desc": "Influenza virus vaccine (IIV), split virus, preservative free, enhanced immunogenicity via increased antigen content, for intramuscular use"
         }
       ],
       "groups": {
@@ -1462,10 +1318,6 @@
       "description": "Meningococcal MCV4O",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90734",
-          "cpt_desc": "Meningococcal conjugate vaccine, serogroups A, C, W, Y, quadrivalent, diphtheria toxoid carrier (MenACWY-D) or CRM197 carrier (MenACWY-CRM), for intramuscular use"
-        },
         {
           "cpt_code": "90734",
           "cpt_desc": "Meningococcal conjugate vaccine, serogroups A, C, W, Y, quadrivalent, diphtheria toxoid carrier (MenACWY-D) or CRM197 carrier (MenACWY-CRM), for intramuscular use"
@@ -1557,10 +1409,6 @@
         {
           "cpt_code": "90741",
           "cpt_desc": "Immunization, passive; immune serum globulin, human (ISG)"
-        },
-        {
-          "cpt_code": "90741",
-          "cpt_desc": "Immunization, passive; immune serum globulin, human (ISG)"
         }
       ],
       "groups": {
@@ -1579,10 +1427,6 @@
       "description": "Influenza, split virus, trivalent, PF",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90656",
-          "cpt_desc": "Influenza virus vaccine, trivalent (IIV3), split virus, preservative free, 0.5 mL dosage, for intramuscular use"
-        },
         {
           "cpt_code": "90656",
           "cpt_desc": "Influenza virus vaccine, trivalent (IIV3), split virus, preservative free, 0.5 mL dosage, for intramuscular use"
@@ -1690,14 +1534,6 @@
         {
           "cpt_code": "90657",
           "cpt_desc": "Influenza virus vaccine, trivalent (IIV3), split virus, 0.25 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "90657",
-          "cpt_desc": "Influenza virus vaccine, trivalent (IIV3), split virus, 0.25 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "90658",
-          "cpt_desc": "Influenza virus vaccine, trivalent (IIV3), split virus, 0.5 mL dosage, for intramuscular use"
         },
         {
           "cpt_code": "90658",
@@ -1827,10 +1663,6 @@
         {
           "cpt_code": "90654",
           "cpt_desc": "Influenza virus vaccine, trivalent (IIV3), split virus, preservative-free, for intradermal use"
-        },
-        {
-          "cpt_code": "90654",
-          "cpt_desc": "Influenza virus vaccine, trivalent (IIV3), split virus, preservative-free, for intradermal use"
         }
       ],
       "groups": {
@@ -1873,10 +1705,6 @@
       "description": "DTaP,IPV,Hib,HepB",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90697",
-          "cpt_desc": "Diphtheria, tetanus toxoids, acellular pertussis vaccine, inactivated poliovirus vaccine, Haemophilus influenzae type b PRP-OMP conjugate vaccine, and hepatitis B vaccine (DTaP-IPV-Hib-HepB), for intramuscular use"
-        },
         {
           "cpt_code": "90697",
           "cpt_desc": "Diphtheria, tetanus toxoids, acellular pertussis vaccine, inactivated poliovirus vaccine, Haemophilus influenzae type b PRP-OMP conjugate vaccine, and hepatitis B vaccine (DTaP-IPV-Hib-HepB), for intramuscular use"
@@ -1937,10 +1765,6 @@
         {
           "cpt_code": "90644",
           "cpt_desc": "Meningococcal conjugate vaccine, serogroups C &amp; Y and Haemophilus influenzae type b vaccine (Hib-MenCY), 4 dose schedule, when administered to children 6 weeks-18 months of age, for intramuscular use"
-        },
-        {
-          "cpt_code": "90644",
-          "cpt_desc": "Meningococcal conjugate vaccine, serogroups C &amp; Y and Haemophilus influenzae type b vaccine (Hib-MenCY), 4 dose schedule, when administered to children 6 weeks-18 months of age, for intramuscular use"
         }
       ],
       "groups": {
@@ -1969,10 +1793,6 @@
       "description": "Influenza, live, quadrivalent, intranasal",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90672",
-          "cpt_desc": "Influenza virus vaccine, quadrivalent, live (LAIV4), for intranasal use"
-        },
         {
           "cpt_code": "90672",
           "cpt_desc": "Influenza virus vaccine, quadrivalent, live (LAIV4), for intranasal use"
@@ -2018,10 +1838,6 @@
       "description": "Influenza, split virus, quadrivalent, PF",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90686",
-          "cpt_desc": "Influenza virus vaccine, quadrivalent (IIV4), split virus, preservative free, 0.5 mL dosage, for intramuscular use"
-        },
         {
           "cpt_code": "90686",
           "cpt_desc": "Influenza virus vaccine, quadrivalent (IIV4), split virus, preservative free, 0.5 mL dosage, for intramuscular use"
@@ -2109,10 +1925,6 @@
         {
           "cpt_code": "90661",
           "cpt_desc": "Influenza virus vaccine, trivalent (ccIIV3), derived from cell cultures, subunit, antibiotic free, 0.5 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "90661",
-          "cpt_desc": "Influenza virus vaccine, trivalent (ccIIV3), derived from cell cultures, subunit, antibiotic free, 0.5 mL dosage, for intramuscular use"
         }
       ],
       "groups": {
@@ -2162,10 +1974,6 @@
       "description": "Influenza, recombinant, trivalent, PF",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90673",
-          "cpt_desc": "Influenza virus vaccine, trivalent (RIV3), derived from recombinant DNA, hemagglutinin (HA) protein only, preservative and antibiotic free, for intramuscular use"
-        },
         {
           "cpt_code": "90673",
           "cpt_desc": "Influenza virus vaccine, trivalent (RIV3), derived from recombinant DNA, hemagglutinin (HA) protein only, preservative and antibiotic free, for intramuscular use"
@@ -2241,14 +2049,6 @@
           "cpt_desc": "Influenza virus vaccine, quadrivalent (IIV4), split virus, 0.25 mL dosage, for intramuscular use"
         },
         {
-          "cpt_code": "90687",
-          "cpt_desc": "Influenza virus vaccine, quadrivalent (IIV4), split virus, 0.25 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "90688",
-          "cpt_desc": "Influenza virus vaccine, quadrivalent (IIV4), split virus, 0.5 mL dosage, for intramuscular use"
-        },
-        {
           "cpt_code": "90688",
           "cpt_desc": "Influenza virus vaccine, quadrivalent (IIV4), split virus, 0.5 mL dosage, for intramuscular use"
         }
@@ -2310,10 +2110,6 @@
         {
           "cpt_code": "90659",
           "cpt_desc": "Influenza virus vaccine, whole virus, for intramuscular or jet injection use"
-        },
-        {
-          "cpt_code": "90659",
-          "cpt_desc": "Influenza virus vaccine, whole virus, for intramuscular or jet injection use"
         }
       ],
       "groups": {
@@ -2366,10 +2162,6 @@
         {
           "cpt_code": "90685",
           "cpt_desc": "Influenza virus vaccine, quadrivalent (IIV4), split virus, preservative free, 0.25 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "90685",
-          "cpt_desc": "Influenza virus vaccine, quadrivalent (IIV4), split virus, preservative free, 0.25 mL dosage, for intramuscular use"
         }
       ],
       "groups": {
@@ -2404,10 +2196,6 @@
         {
           "cpt_code": "90621",
           "cpt_desc": "Meningococcal recombinant lipoprotein vaccine, serogroup B (MenB-FHbp), 2 or 3 dose schedule, for intramuscular use"
-        },
-        {
-          "cpt_code": "90621",
-          "cpt_desc": "Meningococcal recombinant lipoprotein vaccine, serogroup B (MenB-FHbp), 2 or 3 dose schedule, for intramuscular use"
         }
       ],
       "groups": {
@@ -2435,10 +2223,6 @@
         {
           "cpt_code": "90620",
           "cpt_desc": "Meningococcal recombinant protein and outer membrane vesicle vaccine, serogroup B (MenB-4C), for intramuscular use"
-        },
-        {
-          "cpt_code": "90620",
-          "cpt_desc": "Meningococcal recombinant protein and outer membrane vesicle vaccine, serogroup B (MenB-4C), 2 dose schedule, for intramuscular use"
         }
       ],
       "groups": {
@@ -2491,10 +2275,6 @@
         {
           "cpt_code": "90651",
           "cpt_desc": "Human Papillomavirus vaccine types 6, 11, 16, 18, 31, 33, 45, 52, 58, nonavalent (9vHPV), 2 or 3 dose schedule, for intramuscular use"
-        },
-        {
-          "cpt_code": "90651",
-          "cpt_desc": "Human Papillomavirus vaccine types 6, 11, 16, 18, 31, 33, 45, 52, 58, nonavalent (9vHPV), 2 or 3 dose schedule, for intramuscular use"
         }
       ],
       "groups": {
@@ -2519,10 +2299,6 @@
       "description": "influenza, intradermal, quadrivalent, preservative free",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90630",
-          "cpt_desc": "Influenza virus vaccine, quadrivalent (IIV4), split virus, preservative free, for intradermal use"
-        },
         {
           "cpt_code": "90630",
           "cpt_desc": "Influenza virus vaccine, quadrivalent (IIV4), split virus, preservative free, for intradermal use"
@@ -2568,10 +2344,6 @@
       "description": "Influenza, adjuvanted, trivalent, PF",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90653",
-          "cpt_desc": "Influenza vaccine, inactivated (IIV), subunit, adjuvanted, for intramuscular use"
-        },
         {
           "cpt_code": "90653",
           "cpt_desc": "Influenza vaccine, inactivated (IIV), subunit, adjuvanted, for intramuscular use"
@@ -2634,10 +2406,6 @@
         {
           "cpt_code": "90737",
           "cpt_desc": "Hemophilus influenza B"
-        },
-        {
-          "cpt_code": "90737",
-          "cpt_desc": "Hemophilus influenza B"
         }
       ],
       "groups": {
@@ -2682,10 +2450,6 @@
       "description": "Influenza, MDCK, quadrivalent, PF",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90674",
-          "cpt_desc": "Influenza virus vaccine, quadrivalent (ccIIV4), derived from cell cultures, subunit, preservative and antibiotic free, 0.5 mL dosage, for intramuscular use"
-        },
         {
           "cpt_code": "90674",
           "cpt_desc": "Influenza virus vaccine, quadrivalent (ccIIV4), derived from cell cultures, subunit, preservative and antibiotic free, 0.5 mL dosage, for intramuscular use"
@@ -2752,10 +2516,6 @@
         {
           "cpt_code": "90625",
           "cpt_desc": "Cholera vaccine, live, adult dosage, 1 dose schedule, for oral use"
-        },
-        {
-          "cpt_code": "90625",
-          "cpt_desc": "Cholera vaccine, live, adult dosage, 1 dose schedule, for oral use"
         }
       ],
       "groups": {
@@ -2790,10 +2550,6 @@
         {
           "cpt_code": "90675",
           "cpt_desc": "Rabies vaccine, for intramuscular use"
-        },
-        {
-          "cpt_code": "90675",
-          "cpt_desc": "Rabies vaccine, for intramuscular use"
         }
       ],
       "groups": {
@@ -2818,10 +2574,6 @@
       "description": "Rabies - IM fibroblast culture",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90675",
-          "cpt_desc": "Rabies vaccine, for intramuscular use"
-        },
         {
           "cpt_code": "90675",
           "cpt_desc": "Rabies vaccine, for intramuscular use"
@@ -2987,10 +2739,6 @@
         {
           "cpt_code": "90712",
           "cpt_desc": "Poliovirus vaccine, (any type[s]) (OPV), live, for oral use"
-        },
-        {
-          "cpt_code": "90712",
-          "cpt_desc": "Poliovirus vaccine, (any type[s]) (OPV), live, for oral use"
         }
       ],
       "groups": {
@@ -3009,10 +2757,6 @@
       "description": "Yellow fever vaccine live - alt",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90717",
-          "cpt_desc": "Yellow fever vaccine, live, for subcutaneous use"
-        },
         {
           "cpt_code": "90717",
           "cpt_desc": "Yellow fever vaccine, live, for subcutaneous use"
@@ -3061,10 +2805,6 @@
         {
           "cpt_code": "90682",
           "cpt_desc": "Influenza virus vaccine, quadrivalent (RIV4), derived from recombinant DNA, hemagglutinin (HA) protein only, preservative and antibiotic free, for intramuscular use"
-        },
-        {
-          "cpt_code": "90682",
-          "cpt_desc": "Influenza virus vaccine, quadrivalent (RIV4), derived from recombinant DNA, hemagglutinin (HA) protein only, preservative and antibiotic free, for intramuscular use"
         }
       ],
       "groups": {
@@ -3099,10 +2839,6 @@
         {
           "cpt_code": "90756",
           "cpt_desc": "Influenza virus vaccine, quadrivalent (ccIIV4), derived from cell cultures, subunit, antibiotic free, 0.5 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "90756",
-          "cpt_desc": "Influenza virus vaccine, quadrivalent (ccIIV4), derived from cell cultures, subunit, antibiotic free, 0.5 mL dosage, for intramuscular use"
         }
       ],
       "groups": {
@@ -3127,10 +2863,6 @@
       "description": "zoster recombinant",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90750",
-          "cpt_desc": "Zoster (shingles) vaccine (HZV), recombinant, subunit, adjuvanted, for intramuscular use"
-        },
         {
           "cpt_code": "90750",
           "cpt_desc": "Zoster (shingles) vaccine (HZV), recombinant, subunit, adjuvanted, for intramuscular use"
@@ -3179,10 +2911,6 @@
         {
           "cpt_code": "90739",
           "cpt_desc": "Hepatitis B vaccine (HepB), CpG-adjuvanted, adult dosage, 2 dose or 4 dose schedule, for intramuscular use"
-        },
-        {
-          "cpt_code": "90739",
-          "cpt_desc": "Hepatitis B vaccine (HepB), CpG-adjuvanted, adult dosage, 2 dose or 4 dose schedule, for intramuscular use"
         }
       ],
       "groups": {
@@ -3210,14 +2938,6 @@
         {
           "cpt_code": "90585",
           "cpt_desc": "Bacillus Calmette-Guerin vaccine (BCG) for tuberculosis, live, for percutaneous use"
-        },
-        {
-          "cpt_code": "90585",
-          "cpt_desc": "Bacillus Calmette-Guerin vaccine (BCG) for tuberculosis, live, for percutaneous use"
-        },
-        {
-          "cpt_code": "90728",
-          "cpt_desc": "BCG vaccine"
         },
         {
           "cpt_code": "90728",
@@ -3390,10 +3110,6 @@
         {
           "cpt_code": "90662",
           "cpt_desc": "Influenza virus vaccine (IIV), split virus, preservative free, enhanced immunogenicity via increased antigen content, for intramuscular use"
-        },
-        {
-          "cpt_code": "90662",
-          "cpt_desc": "Influenza virus vaccine (IIV), split virus, preservative free, enhanced immunogenicity via increased antigen content, for intramuscular use"
         }
       ],
       "groups": {
@@ -3436,10 +3152,6 @@
       "description": "DTaP",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90700",
-          "cpt_desc": "Diphtheria, tetanus toxoids, and acellular pertussis vaccine (DTaP), when administered to individuals younger than 7 years, for intramuscular use"
-        },
         {
           "cpt_code": "90700",
           "cpt_desc": "Diphtheria, tetanus toxoids, and acellular pertussis vaccine (DTaP), when administered to individuals younger than 7 years, for intramuscular use"
@@ -3563,10 +3275,6 @@
         {
           "cpt_code": "90619",
           "cpt_desc": "Meningococcal conjugate vaccine, serogroups A, C, W, Y, quadrivalent, tetanus toxoid carrier (MenACWY-TT), for intramuscular use"
-        },
-        {
-          "cpt_code": "90619",
-          "cpt_desc": "Meningococcal conjugate vaccine, serogroups A, C, W, Y, quadrivalent, tetanus toxoid carrier (MenACWY-TT), for intramuscular use"
         }
       ],
       "groups": {
@@ -3591,10 +3299,6 @@
       "description": "Ebola Zaire vaccine, live, recombinant, 1mL dose",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90758",
-          "cpt_desc": "Zaire ebolavirus vaccine, live, for intramuscular use"
-        },
         {
           "cpt_code": "90758",
           "cpt_desc": "Zaire ebolavirus vaccine, live, for intramuscular use"
@@ -3625,10 +3329,6 @@
         {
           "cpt_code": "90694",
           "cpt_desc": "Influenza virus vaccine, quadrivalent (aIIV4), inactivated, adjuvanted, preservative free, 0.5 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "90694",
-          "cpt_desc": "Influenza virus vaccine, quadrivalent (aIIV4), inactivated, adjuvanted, preservative free, 0.5 mL dosage, for intramuscular use"
         }
       ],
       "groups": {
@@ -3656,17 +3356,9 @@
         {
           "cpt_code": "90611",
           "cpt_desc": "Smallpox and monkeypox vaccine, attenuated vaccinia virus, live, non-replicating, preservative free, 0.5 mL dosage, suspension, for subcutaneous use"
-        },
-        {
-          "cpt_code": "90611",
-          "cpt_desc": "Smallpox and monkeypox vaccine, attenuated vaccinia virus, live, non-replicating, preservative free, 0.5 mL dosage, suspension, for subcutaneous use"
         }
       ],
       "groups": {
-        "75": {
-          "name": "Orthopoxvirus",
-          "active": true
-        },
         "325": {
           "name": "Orthopoxvirus",
           "active": true
@@ -3691,14 +3383,6 @@
         {
           "cpt_code": "91301",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 100 mcg/0.5 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "91301",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 100 mcg/0.5 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "91306",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 50 mcg/0.25 mL dosage, for intramuscular use"
         },
         {
           "cpt_code": "91306",
@@ -3737,10 +3421,6 @@
         {
           "cpt_code": "91300",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 30 mcg/0.3 mL dosage, diluent reconstituted, for intramuscular use"
-        },
-        {
-          "cpt_code": "91300",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 30 mcg/0.3 mL dosage, diluent reconstituted, for intramuscular use"
         }
       ],
       "groups": {
@@ -3775,10 +3455,6 @@
         {
           "cpt_code": "90716",
           "cpt_desc": "Varicella virus vaccine (VAR), live, for subcutaneous use"
-        },
-        {
-          "cpt_code": "90716",
-          "cpt_desc": "Varicella virus vaccine (VAR), live, for subcutaneous use"
         }
       ],
       "groups": {
@@ -3803,10 +3479,6 @@
       "description": "COVID-19 vaccine, vector-nr, rS-ChAdOx1, PF, 0.5 mL",
       "status": "Non-US",
       "cpt_codes": [
-        {
-          "cpt_code": "91302",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, DNA, spike protein, chimpanzee adenovirus Oxford 1 (ChAdOx1) vector, preservative free, 5x1010 viral particles/0.5 mL dosage, for intramuscular use"
-        },
         {
           "cpt_code": "91302",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, DNA, spike protein, chimpanzee adenovirus Oxford 1 (ChAdOx1) vector, preservative free, 5x1010 viral particles/0.5 mL dosage, for intramuscular use"
@@ -3837,10 +3509,6 @@
         {
           "cpt_code": "91304",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, recombinant spike protein nanoparticle, saponin-based adjuvant, 5 mcg/0.5 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "91304",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, recombinant spike protein nanoparticle, saponin-based adjuvant, 5 mcg/0.5 mL dosage, for intramuscular use"
         }
       ],
       "groups": {
@@ -3865,10 +3533,6 @@
       "description": "COVID-19 vaccine, vector-nr, rS-Ad26, PF, 0.5 mL",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "91303",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, DNA, spike protein, adenovirus type 26 (Ad26) vector, preservative free, 5x1010 viral particles/0.5 mL dosage, for intramuscular use"
-        },
         {
           "cpt_code": "91303",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, DNA, spike protein, adenovirus type 26 (Ad26) vector, preservative free, 5x1010 viral particles/0.5 mL dosage, for intramuscular use"
@@ -3935,10 +3599,6 @@
         {
           "cpt_code": "90671",
           "cpt_desc": "Pneumococcal conjugate vaccine, 15 valent (PCV15), for intramuscular use"
-        },
-        {
-          "cpt_code": "90671",
-          "cpt_desc": "Pneumococcal conjugate vaccine, 15 valent (PCV15), for intramuscular use"
         }
       ],
       "groups": {
@@ -3966,10 +3626,6 @@
         {
           "cpt_code": "90677",
           "cpt_desc": "Pneumococcal conjugate vaccine, 20 valent (PCV20), for intramuscular use"
-        },
-        {
-          "cpt_code": "90677",
-          "cpt_desc": "Pneumococcal conjugate vaccine, 20 valent (PCV20), for intramuscular use"
         }
       ],
       "groups": {
@@ -3994,10 +3650,6 @@
       "description": "COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose, tris-sucrose",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "91305",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 30 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use"
-        },
         {
           "cpt_code": "91305",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 30 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use"
@@ -4035,10 +3687,6 @@
         {
           "cpt_code": "91307",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 10 mcg/0.2 mL dosage, diluent reconstituted, tris-sucrose formulation, for intramuscular use"
-        },
-        {
-          "cpt_code": "91307",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 10 mcg/0.2 mL dosage, diluent reconstituted, tris-sucrose formulation, for intramuscular use"
         }
       ],
       "groups": {
@@ -4066,10 +3714,6 @@
         {
           "cpt_code": "91308",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 3 mcg/0.2 mL dosage, diluent reconstituted, tris-sucrose formulation, for intramuscular use"
-        },
-        {
-          "cpt_code": "91308",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 3 mcg/0.2 mL dosage, diluent reconstituted, tris-sucrose formulation, for intramuscular use"
         }
       ],
       "groups": {
@@ -4094,10 +3738,6 @@
       "description": "DTP-Hib",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90720",
-          "cpt_desc": "Diphtheria, tetanus toxoids, and whole cell pertussis vaccine and Hemophilus influenza B vaccine (DTP-Hib), for intramuscular use"
-        },
         {
           "cpt_code": "90720",
           "cpt_desc": "Diphtheria, tetanus toxoids, and whole cell pertussis vaccine and Hemophilus influenza B vaccine (DTP-Hib), for intramuscular use"
@@ -4132,10 +3772,6 @@
         {
           "cpt_code": "90759",
           "cpt_desc": "Hepatitis B vaccine (HepB), 3-antigen (S, Pre-S1, Pre-S2), 10 mcg dosage, 3 dose schedule, for intramuscular use"
-        },
-        {
-          "cpt_code": "90759",
-          "cpt_desc": "Hepatitis B vaccine (HepB), 3-antigen (S, Pre-S1, Pre-S2), 10 mcg dosage, 3 dose schedule, for intramuscular use"
         }
       ],
       "groups": {
@@ -4160,10 +3796,6 @@
       "description": "COVID-19, mRNA, LNP-S, PF, 50 mcg/0.5 mL dose",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "91309",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 50 mcg/0.5 mL dosage, for intramuscular use"
-        },
         {
           "cpt_code": "91309",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 50 mcg/0.5 mL dosage, for intramuscular use"
@@ -4212,10 +3844,6 @@
         {
           "cpt_code": "90626",
           "cpt_desc": "Tick-borne encephalitis virus vaccine, inactivated; 0.25 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "90626",
-          "cpt_desc": "Tick-borne encephalitis virus vaccine, inactivated; 0.25 mL dosage, for intramuscular use"
         }
       ],
       "groups": {
@@ -4243,10 +3871,6 @@
         {
           "cpt_code": "90627",
           "cpt_desc": "Tick-borne encephalitis virus vaccine, inactivated; 0.5 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "90627",
-          "cpt_desc": "Tick-borne encephalitis virus vaccine, inactivated; 0.5 mL dosage, for intramuscular use"
         }
       ],
       "groups": {
@@ -4271,10 +3895,6 @@
       "description": "COVID-19, D614, recomb, preS dTM, AS03 adjuvant add, PF, 5mcg/0.5mL",
       "status": "Never Active",
       "cpt_codes": [
-        {
-          "cpt_code": "91310",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, monovalent, preservative free, 5 mcg/0.5 mL dosage, adjuvant AS03 emulsion, for intramuscular use"
-        },
         {
           "cpt_code": "91310",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, monovalent, preservative free, 5 mcg/0.5 mL dosage, adjuvant AS03 emulsion, for intramuscular use"
@@ -4353,10 +3973,6 @@
         {
           "cpt_code": "91311",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 25 mcg/0.25 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "91311",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 25 mcg/0.25 mL dosage, for intramuscular use"
         }
       ],
       "groups": {
@@ -4384,14 +4000,6 @@
         {
           "cpt_code": "91313",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, bivalent, preservative free, 50 mcg/0.5 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "91313",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, bivalent, preservative free, 50 mcg/0.5 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "91314",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, bivalent, preservative free, 25 mcg/0.25 mL dosage, for intramuscular use"
         },
         {
           "cpt_code": "91314",
@@ -4423,10 +4031,6 @@
         {
           "cpt_code": "90727",
           "cpt_desc": "Plague vaccine, for intramuscular use"
-        },
-        {
-          "cpt_code": "90727",
-          "cpt_desc": "Plague vaccine, for intramuscular use"
         }
       ],
       "groups": {
@@ -4445,10 +4049,6 @@
       "description": "COVID-19, mRNA, LNP-S, bivalent, PF, 10 mcg/0.2 mL",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "91316",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, bivalent, preservative free, 10 mcg/0.2 mL dosage, for intramuscular use"
-        },
         {
           "cpt_code": "91316",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, bivalent, preservative free, 10 mcg/0.2 mL dosage, for intramuscular use"
@@ -4503,10 +4103,6 @@
         {
           "cpt_code": "90581",
           "cpt_desc": "Anthrax vaccine, for subcutaneous or intramuscular use"
-        },
-        {
-          "cpt_code": "90581",
-          "cpt_desc": "Anthrax vaccine, for subcutaneous or intramuscular use"
         }
       ],
       "groups": {
@@ -4531,10 +4127,6 @@
       "description": "typhoid, oral",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90690",
-          "cpt_desc": "Typhoid vaccine, live, oral"
-        },
         {
           "cpt_code": "90690",
           "cpt_desc": "Typhoid vaccine, live, oral"
@@ -4579,10 +4171,6 @@
         {
           "cpt_code": "90725",
           "cpt_desc": "Cholera vaccine for injectable use"
-        },
-        {
-          "cpt_code": "90725",
-          "cpt_desc": "Cholera vaccine for injectable use"
         }
       ],
       "groups": {
@@ -4604,10 +4192,6 @@
         {
           "cpt_code": "90287",
           "cpt_desc": "Botulinum antitoxin, equine, any route"
-        },
-        {
-          "cpt_code": "90287",
-          "cpt_desc": "Botulinum antitoxin, equine, any route"
         }
       ],
       "groups": {
@@ -4626,10 +4210,6 @@
       "description": "DT (pediatric)",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90702",
-          "cpt_desc": "Diphtheria and tetanus toxoids adsorbed (DT) when administered to individuals younger than 7 years, for intramuscular use"
-        },
         {
           "cpt_code": "90702",
           "cpt_desc": "Diphtheria and tetanus toxoids adsorbed (DT) when administered to individuals younger than 7 years, for intramuscular use"
@@ -4660,10 +4240,6 @@
         {
           "cpt_code": "90291",
           "cpt_desc": "Cytomegalovirus immune globulin (CMV-IgIV), human, for intravenous use"
-        },
-        {
-          "cpt_code": "90291",
-          "cpt_desc": "Cytomegalovirus immune globulin (CMV-IgIV), human, for intravenous use"
         }
       ],
       "groups": {
@@ -4685,10 +4261,6 @@
         {
           "cpt_code": "90371",
           "cpt_desc": "Hepatitis B immune globulin (HBIg), human, for intramuscular use"
-        },
-        {
-          "cpt_code": "90371",
-          "cpt_desc": "Hepatitis B immune globulin (HBIg), human, for intramuscular use"
         }
       ],
       "groups": {
@@ -4707,10 +4279,6 @@
       "description": "COVID-19, mRNA, LNP-S, bivalent, PF, 30 mcg/0.3 mL dose",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "91312",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, bivalent spike protein, preservative free, 30 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use"
-        },
         {
           "cpt_code": "91312",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, bivalent spike protein, preservative free, 30 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use"
@@ -4741,10 +4309,6 @@
         {
           "cpt_code": "91315",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, bivalent spike protein, preservative free, 10 mcg/0.2 mL dosage, diluent reconstituted, tris-sucrose formulation, for intramuscular use"
-        },
-        {
-          "cpt_code": "91315",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, bivalent spike protein, preservative free, 10 mcg/0.2 mL dosage, diluent reconstituted, tris-sucrose formulation, for intramuscular use"
         }
       ],
       "groups": {
@@ -4772,10 +4336,6 @@
         {
           "cpt_code": "91317",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, bivalent spike protein, preservative free, 3 mcg/0.2 mL dosage, diluent reconstituted, tris-sucrose formulation, for intramuscular use"
-        },
-        {
-          "cpt_code": "91317",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, bivalent spike protein, preservative free, 3 mcg/0.2 mL dosage, diluent reconstituted, tris-sucrose formulation, for intramuscular use"
         }
       ],
       "groups": {
@@ -4800,10 +4360,6 @@
       "description": "RSV, recombinant, protein subunit RSVpreF, adjuvant reconstituted, 0.5 mL, PF",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90679",
-          "cpt_desc": "Respiratory syncytial virus vaccine, preF, recombinant, subunit, adjuvanted, for intramuscular use"
-        },
         {
           "cpt_code": "90679",
           "cpt_desc": "Respiratory syncytial virus vaccine, preF, recombinant, subunit, adjuvanted, for intramuscular use"
@@ -4852,10 +4408,6 @@
         {
           "cpt_code": "90678",
           "cpt_desc": "Respiratory syncytial virus vaccine, preF, subunit, bivalent, for intramuscular use"
-        },
-        {
-          "cpt_code": "90678",
-          "cpt_desc": "Respiratory syncytial virus vaccine, preF, subunit, bivalent, for intramuscular use"
         }
       ],
       "groups": {
@@ -4880,10 +4432,6 @@
       "description": "RSV, mAb, nirsevimab-alip, 0.5 mL, neonate to 24 months",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90380",
-          "cpt_desc": "Respiratory syncytial virus, monoclonal antibody, seasonal dose; 0.5 mL dosage, for intramuscular use"
-        },
         {
           "cpt_code": "90380",
           "cpt_desc": "Respiratory syncytial virus, monoclonal antibody, seasonal dose; 0.5 mL dosage, for intramuscular use"
@@ -4914,10 +4462,6 @@
         {
           "cpt_code": "90381",
           "cpt_desc": "Respiratory syncytial virus, monoclonal antibody, seasonal dose; 1 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "90381",
-          "cpt_desc": "Respiratory syncytial virus, monoclonal antibody, seasonal dose; 1 mL dosage, for intramuscular use"
         }
       ],
       "groups": {
@@ -4945,10 +4489,6 @@
         {
           "cpt_code": "91318",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, 3 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use"
-        },
-        {
-          "cpt_code": "91318",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, 3 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use"
         }
       ],
       "groups": {
@@ -4973,10 +4513,6 @@
       "description": "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 30 mcg/0.3 mL",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "91320",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, 30 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use"
-        },
         {
           "cpt_code": "91320",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, 30 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use"
@@ -5025,10 +4561,6 @@
         {
           "cpt_code": "91319",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, 10 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use"
-        },
-        {
-          "cpt_code": "91319",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, 10 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use"
         }
       ],
       "groups": {
@@ -5053,10 +4585,6 @@
       "description": "COVID-19, mRNA, LNP-S, PF, 25 mcg/0.25 mL",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "91321",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, 25 mcg/0.25 mL dosage, for intramuscular use"
-        },
         {
           "cpt_code": "91321",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, 25 mcg/0.25 mL dosage, for intramuscular use"
@@ -5087,10 +4615,6 @@
         {
           "cpt_code": "91322",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, 50 mcg/0.5 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "91322",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, 50 mcg/0.5 mL dosage, for intramuscular use"
         }
       ],
       "groups": {
@@ -5115,10 +4639,6 @@
       "description": "COVID-19, subunit, rS-nanoparticle, adjuvanted, PF, 5 mcg/0.5 mL",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "91304",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, recombinant spike protein nanoparticle, saponin-based adjuvant, 5 mcg/0.5 mL dosage, for intramuscular use"
-        },
         {
           "cpt_code": "91304",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, recombinant spike protein nanoparticle, saponin-based adjuvant, 5 mcg/0.5 mL dosage, for intramuscular use"
@@ -5185,10 +4705,6 @@
         {
           "cpt_code": "90623",
           "cpt_desc": "Meningococcal pentavalent vaccine, conjugated Men A, C, W, Y- tetanus toxoid carrier, and Men B-FHbp, for intramuscular use"
-        },
-        {
-          "cpt_code": "90623",
-          "cpt_desc": "Meningococcal pentavalent vaccine, conjugated Men A, C, W, Y- tetanus toxoid carrier, and Men B-FHbp, for intramuscular use"
         }
       ],
       "groups": {
@@ -5220,10 +4736,6 @@
         {
           "cpt_code": "90589",
           "cpt_desc": "Chikungunya virus vaccine, live attenuated, for intramuscular use"
-        },
-        {
-          "cpt_code": "90589",
-          "cpt_desc": "Chikungunya virus vaccine, live attenuated, for intramuscular use"
         }
       ],
       "groups": {
@@ -5248,10 +4760,6 @@
       "description": "Anthrax, post-exposure prophylaxis",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90581",
-          "cpt_desc": "Anthrax vaccine, for subcutaneous or intramuscular use"
-        },
         {
           "cpt_code": "90581",
           "cpt_desc": "Anthrax vaccine, for subcutaneous or intramuscular use"
@@ -5300,10 +4808,6 @@
         {
           "cpt_code": "90733",
           "cpt_desc": "Meningococcal polysaccharide vaccine, serogroups A, C, Y, W-135, quadrivalent (MPSV4), for subcutaneous use"
-        },
-        {
-          "cpt_code": "90733",
-          "cpt_desc": "Meningococcal polysaccharide vaccine, serogroups A, C, Y, W-135, quadrivalent (MPSV4), for subcutaneous use"
         }
       ],
       "groups": {
@@ -5328,10 +4832,6 @@
       "description": "Influenza, MDCK, trivalent, preservative",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90661",
-          "cpt_desc": "Influenza virus vaccine, trivalent (ccIIV3), derived from cell cultures, subunit, antibiotic free, 0.5 mL dosage, for intramuscular use"
-        },
         {
           "cpt_code": "90661",
           "cpt_desc": "Influenza virus vaccine, trivalent (ccIIV3), derived from cell cultures, subunit, antibiotic free, 0.5 mL dosage, for intramuscular use"
@@ -5452,10 +4952,6 @@
         {
           "cpt_code": "90683",
           "cpt_desc": "Respiratory syncytial virus vaccine, mRNA lipid nanoparticles, for intramuscular use"
-        },
-        {
-          "cpt_code": "90683",
-          "cpt_desc": "Respiratory syncytial virus vaccine, mRNA lipid nanoparticles, for intramuscular use"
         }
       ],
       "groups": {
@@ -5483,10 +4979,6 @@
         {
           "cpt_code": "90684",
           "cpt_desc": "Pneumococcal conjugate vaccine, 21 valent (PCV21), for intramuscular use"
-        },
-        {
-          "cpt_code": "90684",
-          "cpt_desc": "Pneumococcal conjugate vaccine, 21 valent (PCV21), for intramuscular use"
         }
       ],
       "groups": {
@@ -5511,10 +5003,6 @@
       "description": "Meningococcal oligosaccharide (MenACWY), (MenB), PF",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90624",
-          "cpt_desc": "Meningococcal pentavalent vaccine, Men B-4C recombinant proteins and outer membrane vesicle and conjugated Men A, C, W, Y-diphtheria toxoid carrier, for intramuscular use"
-        },
         {
           "cpt_code": "90624",
           "cpt_desc": "Meningococcal pentavalent vaccine, Men B-4C recombinant proteins and outer membrane vesicle and conjugated Men A, C, W, Y-diphtheria toxoid carrier, for intramuscular use"
@@ -5576,10 +5064,6 @@
         {
           "cpt_code": "90732",
           "cpt_desc": "Pneumococcal polysaccharide vaccine, 23-valent (PPSV23), adult or immunosuppressed patient dosage, when administered to individuals 2 years or older, for subcutaneous or intramuscular use"
-        },
-        {
-          "cpt_code": "90732",
-          "cpt_desc": "Pneumococcal polysaccharide vaccine, 23-valent (PPSV23), adult or immunosuppressed patient dosage, when administered to individuals 2 years or older, for subcutaneous or intramuscular use"
         }
       ],
       "groups": {
@@ -5631,7 +5115,13 @@
         }
       },
       "manufacturers": [
-
+        {
+          "trade_name": "FLUZONE Trivalent Southern Hemisphere",
+          "mvx_code": "PMC",
+          "manufacturer": "Sanofi Pasteur",
+          "last_updated": "2025-04-22",
+          "product_name_status": "Active"
+        }
       ]
     },
     "34": {
@@ -5643,14 +5133,6 @@
         {
           "cpt_code": "90375",
           "cpt_desc": "Rabies immune globulin (RIg), human, for intramuscular and/or subcutaneous use"
-        },
-        {
-          "cpt_code": "90375",
-          "cpt_desc": "Rabies immune globulin (RIg), human, for intramuscular and/or subcutaneous use"
-        },
-        {
-          "cpt_code": "90376",
-          "cpt_desc": "Rabies immune globulin, heat-treated (RIg-HT), human, for intramuscular and/or subcutaneous use"
         },
         {
           "cpt_code": "90376",
@@ -5673,10 +5155,6 @@
       "description": "tetanus toxoid, adsorbed",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90703",
-          "cpt_desc": "Tetanus toxoid adsorbed, for intramuscular use"
-        },
         {
           "cpt_code": "90703",
           "cpt_desc": "Tetanus toxoid adsorbed, for intramuscular use"
@@ -5707,10 +5185,6 @@
         {
           "cpt_code": "90396",
           "cpt_desc": "Varicella-zoster immune globulin, human, for intramuscular use"
-        },
-        {
-          "cpt_code": "90396",
-          "cpt_desc": "Varicella-zoster immune globulin, human, for intramuscular use"
         }
       ],
       "groups": {
@@ -5729,10 +5203,6 @@
       "description": "yellow fever live",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90717",
-          "cpt_desc": "Yellow fever vaccine, live, for subcutaneous use"
-        },
         {
           "cpt_code": "90717",
           "cpt_desc": "Yellow fever vaccine, live, for subcutaneous use"
@@ -5787,10 +5257,6 @@
         {
           "cpt_code": "90735",
           "cpt_desc": "Japanese encephalitis virus vaccine, for subcutaneous use"
-        },
-        {
-          "cpt_code": "90735",
-          "cpt_desc": "Japanese encephalitis virus vaccine, for subcutaneous use"
         }
       ],
       "groups": {
@@ -5815,10 +5281,6 @@
       "description": "rabies, intradermal injection",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90676",
-          "cpt_desc": "Rabies vaccine, for intradermal use"
-        },
         {
           "cpt_code": "90676",
           "cpt_desc": "Rabies vaccine, for intradermal use"
@@ -5849,10 +5311,6 @@
         {
           "cpt_code": "90692",
           "cpt_desc": "Typhoid vaccine, heat- and phenol-inactivated (H-P), for subcutaneous or intradermal use"
-        },
-        {
-          "cpt_code": "90692",
-          "cpt_desc": "Typhoid vaccine, heat- and phenol-inactivated (H-P), for subcutaneous or intradermal use"
         }
       ],
       "groups": {
@@ -5871,10 +5329,6 @@
       "description": "Hep B, adolescent/high risk infant",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90745",
-          "cpt_desc": "Hepatitis B vaccine, adolescent/high risk infant dosage, for intramuscular use"
-        },
         {
           "cpt_code": "90745",
           "cpt_desc": "Hepatitis B vaccine, adolescent/high risk infant dosage, for intramuscular use"
@@ -5899,14 +5353,6 @@
         {
           "cpt_code": "90743",
           "cpt_desc": "Hepatitis B vaccine (HepB), adolescent, 2 dose schedule, for intramuscular use"
-        },
-        {
-          "cpt_code": "90743",
-          "cpt_desc": "Hepatitis B vaccine (HepB), adolescent, 2 dose schedule, for intramuscular use"
-        },
-        {
-          "cpt_code": "90746",
-          "cpt_desc": "Hepatitis B vaccine (HepB), adult dosage, 3 dose schedule, for intramuscular use"
         },
         {
           "cpt_code": "90746",
@@ -5947,14 +5393,6 @@
           "cpt_desc": "Hepatitis B vaccine (HepB), dialysis or immunosuppressed patient dosage, 3 dose schedule, for intramuscular use"
         },
         {
-          "cpt_code": "90740",
-          "cpt_desc": "Hepatitis B vaccine (HepB), dialysis or immunosuppressed patient dosage, 3 dose schedule, for intramuscular use"
-        },
-        {
-          "cpt_code": "90747",
-          "cpt_desc": "Hepatitis B vaccine (HepB), dialysis or immunosuppressed patient dosage, 4 dose schedule, for intramuscular use"
-        },
-        {
           "cpt_code": "90747",
           "cpt_desc": "Hepatitis B vaccine (HepB), dialysis or immunosuppressed patient dosage, 4 dose schedule, for intramuscular use"
         }
@@ -5991,10 +5429,6 @@
         {
           "cpt_code": "90731",
           "cpt_desc": "Hepatitis B vaccine"
-        },
-        {
-          "cpt_code": "90731",
-          "cpt_desc": "Hepatitis B vaccine"
         }
       ],
       "groups": {
@@ -6013,10 +5447,6 @@
       "description": "Hib (PRP-D)",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90646",
-          "cpt_desc": "Hemophilus influenza b vaccine (Hib), PRP-D conjugate, for booster use only, intramuscular use"
-        },
         {
           "cpt_code": "90646",
           "cpt_desc": "Hemophilus influenza b vaccine (Hib), PRP-D conjugate, for booster use only, intramuscular use"
@@ -6047,10 +5477,6 @@
         {
           "cpt_code": "90645",
           "cpt_desc": "Hemophilus influenza b vaccine (Hib), HbOC conjugate (4 dose schedule), for intramuscular use"
-        },
-        {
-          "cpt_code": "90645",
-          "cpt_desc": "Hemophilus influenza b vaccine (Hib), HbOC conjugate (4 dose schedule), for intramuscular use"
         }
       ],
       "groups": {
@@ -6075,10 +5501,6 @@
       "description": "Hib (PRP-T)",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90648",
-          "cpt_desc": "Haemophilus influenzae type b vaccine (Hib), PRP-T conjugate, 4 dose schedule, for intramuscular use"
-        },
         {
           "cpt_code": "90648",
           "cpt_desc": "Haemophilus influenzae type b vaccine (Hib), PRP-T conjugate, 4 dose schedule, for intramuscular use"
@@ -6123,10 +5545,6 @@
         {
           "cpt_code": "90647",
           "cpt_desc": "Haemophilus influenzae type b vaccine (Hib), PRP-OMP conjugate, 3 dose schedule, for intramuscular use"
-        },
-        {
-          "cpt_code": "90647",
-          "cpt_desc": "Haemophilus influenzae type b vaccine (Hib), PRP-OMP conjugate, 3 dose schedule, for intramuscular use"
         }
       ],
       "groups": {
@@ -6151,10 +5569,6 @@
       "description": "DTaP-Hib",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90721",
-          "cpt_desc": "Diphtheria, tetanus toxoids, and acellular pertussis vaccine and Hemophilus influenza B vaccine (DTaP/Hib), for intramuscular use"
-        },
         {
           "cpt_code": "90721",
           "cpt_desc": "Diphtheria, tetanus toxoids, and acellular pertussis vaccine and Hemophilus influenza B vaccine (DTaP/Hib), for intramuscular use"
@@ -6378,10 +5792,6 @@
       "description": "Hib-Hep B",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90748",
-          "cpt_desc": "Hepatitis B and Haemophilus influenzae type b vaccine (Hib-HepB), for intramuscular use"
-        },
         {
           "cpt_code": "90748",
           "cpt_desc": "Hepatitis B and Haemophilus influenzae type b vaccine (Hib-HepB), for intramuscular use"
@@ -6620,10 +6030,6 @@
         {
           "cpt_code": "90632",
           "cpt_desc": "Hepatitis A vaccine (HepA), adult dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "90632",
-          "cpt_desc": "Hepatitis A vaccine (HepA), adult dosage, for intramuscular use"
         }
       ],
       "groups": {
@@ -6700,10 +6106,6 @@
         {
           "cpt_code": "90693",
           "cpt_desc": "Typhoid vaccine, acetone-killed, dried (AKD), for subcutaneous use (U.S. military)"
-        },
-        {
-          "cpt_code": "90693",
-          "cpt_desc": "Typhoid vaccine, acetone-killed, dried (AKD), for subcutaneous use (U.S. military)"
         }
       ],
       "groups": {
@@ -6731,10 +6133,6 @@
         {
           "cpt_code": "90476",
           "cpt_desc": "Adenovirus vaccine, type 4, live, for oral use"
-        },
-        {
-          "cpt_code": "90476",
-          "cpt_desc": "Adenovirus vaccine, type 4, live, for oral use"
         }
       ],
       "groups": {
@@ -6753,10 +6151,6 @@
       "description": "adenovirus, type 7",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90477",
-          "cpt_desc": "Adenovirus vaccine, type 7, live, for oral use"
-        },
         {
           "cpt_code": "90477",
           "cpt_desc": "Adenovirus vaccine, type 7, live, for oral use"
@@ -6781,17 +6175,9 @@
         {
           "cpt_code": "90587",
           "cpt_desc": "Dengue vaccine, quadrivalent, live, 3 dose schedule, for subcutaneous use"
-        },
-        {
-          "cpt_code": "90587",
-          "cpt_desc": "Dengue vaccine, quadrivalent, live, 3 dose schedule, for subcutaneous use"
         }
       ],
       "groups": {
-        "56": {
-          "name": "DENGUE",
-          "active": true
-        },
         "330": {
           "name": "DENGUE",
           "active": true
@@ -6906,10 +6292,6 @@
         {
           "cpt_code": "90649",
           "cpt_desc": "Human Papillomavirus vaccine, types 6, 11, 16, 18, quadrivalent (4vHPV), 3 dose schedule, for intramuscular use"
-        },
-        {
-          "cpt_code": "90649",
-          "cpt_desc": "Human Papillomavirus vaccine, types 6, 11, 16, 18, quadrivalent (4vHPV), 3 dose schedule, for intramuscular use"
         }
       ],
       "groups": {
@@ -6988,10 +6370,6 @@
       "description": "Lyme disease",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90665",
-          "cpt_desc": "Lyme disease vaccine, adult dosage, for intramuscular use"
-        },
         {
           "cpt_code": "90665",
           "cpt_desc": "Lyme disease vaccine, adult dosage, for intramuscular use"
@@ -7160,17 +6538,9 @@
         {
           "cpt_code": "90622",
           "cpt_desc": "Vaccinia (smallpox) virus vaccine, live, lyophilized, 0.3 mL dosage, for percutaneous use"
-        },
-        {
-          "cpt_code": "90622",
-          "cpt_desc": "Vaccinia (smallpox) virus vaccine, live, lyophilized, 0.3 mL dosage, for percutaneous use"
         }
       ],
       "groups": {
-        "75": {
-          "name": "Orthopoxvirus",
-          "active": true
-        },
         "325": {
           "name": "Orthopoxvirus",
           "active": true
@@ -7260,10 +6630,6 @@
       "description": "vaccinia immune globulin",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90393",
-          "cpt_desc": "Vaccinia immune globulin, human, for intramuscular use"
-        },
         {
           "cpt_code": "90393",
           "cpt_desc": "Vaccinia immune globulin, human, for intramuscular use"
@@ -7366,10 +6732,6 @@
         {
           "cpt_code": "90633",
           "cpt_desc": "Hepatitis A vaccine (HepA), pediatric/adolescent dosage-2 dose schedule, for intramuscular use"
-        },
-        {
-          "cpt_code": "90633",
-          "cpt_desc": "Hepatitis A vaccine (HepA), pediatric/adolescent dosage-2 dose schedule, for intramuscular use"
         }
       ],
       "groups": {
@@ -7404,10 +6766,6 @@
         {
           "cpt_code": "90634",
           "cpt_desc": "Hepatitis A vaccine (HepA), pediatric/adolescent dosage-3 dose schedule, for intramuscular use"
-        },
-        {
-          "cpt_code": "90634",
-          "cpt_desc": "Hepatitis A vaccine (HepA), pediatric/adolescent dosage-3 dose schedule, for intramuscular use"
         }
       ],
       "groups": {
@@ -7426,10 +6784,6 @@
       "description": "Hep A, unspecified formulation",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90730",
-          "cpt_desc": "Hepatitis A vaccine"
-        },
         {
           "cpt_code": "90730",
           "cpt_desc": "Hepatitis A vaccine"
@@ -7454,10 +6808,6 @@
         {
           "cpt_code": "90281",
           "cpt_desc": "Immune globulin (Ig), human, for intramuscular use"
-        },
-        {
-          "cpt_code": "90281",
-          "cpt_desc": "Immune globulin (Ig), human, for intramuscular use"
         }
       ],
       "groups": {
@@ -7479,10 +6829,6 @@
         {
           "cpt_code": "90283",
           "cpt_desc": "Immune globulin (IgIV), human, for intravenous use"
-        },
-        {
-          "cpt_code": "90283",
-          "cpt_desc": "Immune globulin (IgIV), human, for intravenous use"
         }
       ],
       "groups": {
@@ -7501,10 +6847,6 @@
       "description": "influenza, unspecified formulation",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90724",
-          "cpt_desc": "Influenza virus vaccine"
-        },
         {
           "cpt_code": "90724",
           "cpt_desc": "Influenza virus vaccine"
@@ -7544,10 +6886,6 @@
       "description": "rabies, unspecified formulation",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90726",
-          "cpt_desc": "Rabies vaccine"
-        },
         {
           "cpt_code": "90726",
           "cpt_desc": "Rabies vaccine"
@@ -7608,10 +6946,6 @@
         {
           "cpt_code": "90378",
           "cpt_desc": "Respiratory syncytial virus, monoclonal antibody, recombinant, for intramuscular use, 50 mg, each"
-        },
-        {
-          "cpt_code": "90378",
-          "cpt_desc": "Respiratory syncytial virus, monoclonal antibody, recombinant, for intramuscular use, 50 mg, each"
         }
       ],
       "groups": {
@@ -7630,10 +6964,6 @@
       "description": "MMRV",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90710",
-          "cpt_desc": "Measles, mumps, rubella, and varicella vaccine (MMRV), live, for subcutaneous use"
-        },
         {
           "cpt_code": "90710",
           "cpt_desc": "Measles, mumps, rubella, and varicella vaccine (MMRV), live, for subcutaneous use"
@@ -7796,10 +7126,6 @@
         {
           "cpt_code": "90281",
           "cpt_desc": "Immune globulin (Ig), human, for intramuscular use"
-        },
-        {
-          "cpt_code": "90281",
-          "cpt_desc": "Immune globulin (Ig), human, for intramuscular use"
         }
       ],
       "groups": {
@@ -7818,10 +7144,6 @@
       "description": "IGIV",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90283",
-          "cpt_desc": "Immune globulin (IgIV), human, for intravenous use"
-        },
         {
           "cpt_code": "90283",
           "cpt_desc": "Immune globulin (IgIV), human, for intravenous use"
@@ -7846,10 +7168,6 @@
         {
           "cpt_code": "90287",
           "cpt_desc": "Botulinum antitoxin, equine, any route"
-        },
-        {
-          "cpt_code": "90287",
-          "cpt_desc": "Botulinum antitoxin, equine, any route"
         }
       ],
       "groups": {
@@ -7868,10 +7186,6 @@
       "description": "CMVIG",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90291",
-          "cpt_desc": "Cytomegalovirus immune globulin (CMV-IgIV), human, for intravenous use"
-        },
         {
           "cpt_code": "90291",
           "cpt_desc": "Cytomegalovirus immune globulin (CMV-IgIV), human, for intravenous use"
@@ -7896,10 +7210,6 @@
         {
           "cpt_code": "90296",
           "cpt_desc": "Diphtheria antitoxin, equine, any route"
-        },
-        {
-          "cpt_code": "90296",
-          "cpt_desc": "Diphtheria antitoxin, equine, any route"
         }
       ],
       "groups": {
@@ -7918,10 +7228,6 @@
       "description": "HBIG",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90371",
-          "cpt_desc": "Hepatitis B immune globulin (HBIg), human, for intramuscular use"
-        },
         {
           "cpt_code": "90371",
           "cpt_desc": "Hepatitis B immune globulin (HBIg), human, for intramuscular use"
@@ -7946,14 +7252,6 @@
         {
           "cpt_code": "90375",
           "cpt_desc": "Rabies immune globulin (RIg), human, for intramuscular and/or subcutaneous use"
-        },
-        {
-          "cpt_code": "90375",
-          "cpt_desc": "Rabies immune globulin (RIg), human, for intramuscular and/or subcutaneous use"
-        },
-        {
-          "cpt_code": "90376",
-          "cpt_desc": "Rabies immune globulin, heat-treated (RIg-HT), human, for intramuscular and/or subcutaneous use"
         },
         {
           "cpt_code": "90376",
@@ -7981,14 +7279,6 @@
           "cpt_desc": "Rabies immune globulin (RIg), human, for intramuscular and/or subcutaneous use"
         },
         {
-          "cpt_code": "90375",
-          "cpt_desc": "Rabies immune globulin (RIg), human, for intramuscular and/or subcutaneous use"
-        },
-        {
-          "cpt_code": "90376",
-          "cpt_desc": "Rabies immune globulin, heat-treated (RIg-HT), human, for intramuscular and/or subcutaneous use"
-        },
-        {
           "cpt_code": "90376",
           "cpt_desc": "Rabies immune globulin, heat-treated (RIg-HT), human, for intramuscular and/or subcutaneous use"
         }
@@ -8012,10 +7302,6 @@
         {
           "cpt_code": "90378",
           "cpt_desc": "Respiratory syncytial virus, monoclonal antibody, recombinant, for intramuscular use, 50 mg, each"
-        },
-        {
-          "cpt_code": "90378",
-          "cpt_desc": "Respiratory syncytial virus, monoclonal antibody, recombinant, for intramuscular use, 50 mg, each"
         }
       ],
       "groups": {
@@ -8034,10 +7320,6 @@
       "description": "RSV, mAb, nirsevimab-alip, 0.5 mL, neonate to 24 months",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90380",
-          "cpt_desc": "Respiratory syncytial virus, monoclonal antibody, seasonal dose; 0.5 mL dosage, for intramuscular use"
-        },
         {
           "cpt_code": "90380",
           "cpt_desc": "Respiratory syncytial virus, monoclonal antibody, seasonal dose; 0.5 mL dosage, for intramuscular use"
@@ -8068,10 +7350,6 @@
         {
           "cpt_code": "90381",
           "cpt_desc": "Respiratory syncytial virus, monoclonal antibody, seasonal dose; 1 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "90381",
-          "cpt_desc": "Respiratory syncytial virus, monoclonal antibody, seasonal dose; 1 mL dosage, for intramuscular use"
         }
       ],
       "groups": {
@@ -8099,10 +7377,6 @@
         {
           "cpt_code": "90389",
           "cpt_desc": "Tetanus immune globulin (TIg), human, for intramuscular use"
-        },
-        {
-          "cpt_code": "90389",
-          "cpt_desc": "Tetanus immune globulin (TIg), human, for intramuscular use"
         }
       ],
       "groups": {
@@ -8124,10 +7398,6 @@
         {
           "cpt_code": "90393",
           "cpt_desc": "Vaccinia immune globulin, human, for intramuscular use"
-        },
-        {
-          "cpt_code": "90393",
-          "cpt_desc": "Vaccinia immune globulin, human, for intramuscular use"
         }
       ],
       "groups": {
@@ -8146,10 +7416,6 @@
       "description": "VZIG",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90396",
-          "cpt_desc": "Varicella-zoster immune globulin, human, for intramuscular use"
-        },
         {
           "cpt_code": "90396",
           "cpt_desc": "Varicella-zoster immune globulin, human, for intramuscular use"
@@ -8176,14 +7442,6 @@
           "cpt_desc": "H1N1 immunization administration (intramuscular, intranasal), including counseling when performed"
         },
         {
-          "cpt_code": "90470",
-          "cpt_desc": "H1N1 immunization administration (intramuscular, intranasal), including counseling when performed"
-        },
-        {
-          "cpt_code": "90663",
-          "cpt_desc": "Influenza virus vaccine, pandemic formulation, H1N1"
-        },
-        {
           "cpt_code": "90663",
           "cpt_desc": "Influenza virus vaccine, pandemic formulation, H1N1"
         }
@@ -8204,10 +7462,6 @@
       "description": "adenovirus, type 4",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90476",
-          "cpt_desc": "Adenovirus vaccine, type 4, live, for oral use"
-        },
         {
           "cpt_code": "90476",
           "cpt_desc": "Adenovirus vaccine, type 4, live, for oral use"
@@ -8232,10 +7486,6 @@
         {
           "cpt_code": "90477",
           "cpt_desc": "Adenovirus vaccine, type 7, live, for oral use"
-        },
-        {
-          "cpt_code": "90477",
-          "cpt_desc": "Adenovirus vaccine, type 7, live, for oral use"
         }
       ],
       "groups": {
@@ -8254,10 +7504,6 @@
       "description": "Anthrax, post-exposure prophylaxis",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90581",
-          "cpt_desc": "Anthrax vaccine, for subcutaneous or intramuscular use"
-        },
         {
           "cpt_code": "90581",
           "cpt_desc": "Anthrax vaccine, for subcutaneous or intramuscular use"
@@ -8288,14 +7534,6 @@
         {
           "cpt_code": "90585",
           "cpt_desc": "Bacillus Calmette-Guerin vaccine (BCG) for tuberculosis, live, for percutaneous use"
-        },
-        {
-          "cpt_code": "90585",
-          "cpt_desc": "Bacillus Calmette-Guerin vaccine (BCG) for tuberculosis, live, for percutaneous use"
-        },
-        {
-          "cpt_code": "90728",
-          "cpt_desc": "BCG vaccine"
         },
         {
           "cpt_code": "90728",
@@ -8334,17 +7572,9 @@
         {
           "cpt_code": "90587",
           "cpt_desc": "Dengue vaccine, quadrivalent, live, 3 dose schedule, for subcutaneous use"
-        },
-        {
-          "cpt_code": "90587",
-          "cpt_desc": "Dengue vaccine, quadrivalent, live, 3 dose schedule, for subcutaneous use"
         }
       ],
       "groups": {
-        "56": {
-          "name": "DENGUE",
-          "active": true
-        },
         "330": {
           "name": "DENGUE",
           "active": true
@@ -8366,10 +7596,6 @@
       "description": "Chikungunya live attenuated vaccine, 0.5 mL, PF",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90589",
-          "cpt_desc": "Chikungunya virus vaccine, live attenuated, for intramuscular use"
-        },
         {
           "cpt_code": "90589",
           "cpt_desc": "Chikungunya virus vaccine, live attenuated, for intramuscular use"
@@ -8427,17 +7653,9 @@
         {
           "cpt_code": "90611",
           "cpt_desc": "Smallpox and monkeypox vaccine, attenuated vaccinia virus, live, non-replicating, preservative free, 0.5 mL dosage, suspension, for subcutaneous use"
-        },
-        {
-          "cpt_code": "90611",
-          "cpt_desc": "Smallpox and monkeypox vaccine, attenuated vaccinia virus, live, non-replicating, preservative free, 0.5 mL dosage, suspension, for subcutaneous use"
         }
       ],
       "groups": {
-        "75": {
-          "name": "Orthopoxvirus",
-          "active": true
-        },
         "325": {
           "name": "Orthopoxvirus",
           "active": true
@@ -8459,10 +7677,6 @@
       "description": "meningococcal conjugate quadrivalent, MenACWY-TT (MCV4)",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90619",
-          "cpt_desc": "Meningococcal conjugate vaccine, serogroups A, C, W, Y, quadrivalent, tetanus toxoid carrier (MenACWY-TT), for intramuscular use"
-        },
         {
           "cpt_code": "90619",
           "cpt_desc": "Meningococcal conjugate vaccine, serogroups A, C, W, Y, quadrivalent, tetanus toxoid carrier (MenACWY-TT), for intramuscular use"
@@ -8493,10 +7707,6 @@
         {
           "cpt_code": "90620",
           "cpt_desc": "Meningococcal recombinant protein and outer membrane vesicle vaccine, serogroup B (MenB-4C), for intramuscular use"
-        },
-        {
-          "cpt_code": "90620",
-          "cpt_desc": "Meningococcal recombinant protein and outer membrane vesicle vaccine, serogroup B (MenB-4C), 2 dose schedule, for intramuscular use"
         }
       ],
       "groups": {
@@ -8531,10 +7741,6 @@
         {
           "cpt_code": "90621",
           "cpt_desc": "Meningococcal recombinant lipoprotein vaccine, serogroup B (MenB-FHbp), 2 or 3 dose schedule, for intramuscular use"
-        },
-        {
-          "cpt_code": "90621",
-          "cpt_desc": "Meningococcal recombinant lipoprotein vaccine, serogroup B (MenB-FHbp), 2 or 3 dose schedule, for intramuscular use"
         }
       ],
       "groups": {
@@ -8562,17 +7768,9 @@
         {
           "cpt_code": "90622",
           "cpt_desc": "Vaccinia (smallpox) virus vaccine, live, lyophilized, 0.3 mL dosage, for percutaneous use"
-        },
-        {
-          "cpt_code": "90622",
-          "cpt_desc": "Vaccinia (smallpox) virus vaccine, live, lyophilized, 0.3 mL dosage, for percutaneous use"
         }
       ],
       "groups": {
-        "75": {
-          "name": "Orthopoxvirus",
-          "active": true
-        },
         "325": {
           "name": "Orthopoxvirus",
           "active": true
@@ -8611,10 +7809,6 @@
         {
           "cpt_code": "90623",
           "cpt_desc": "Meningococcal pentavalent vaccine, conjugated Men A, C, W, Y- tetanus toxoid carrier, and Men B-FHbp, for intramuscular use"
-        },
-        {
-          "cpt_code": "90623",
-          "cpt_desc": "Meningococcal pentavalent vaccine, conjugated Men A, C, W, Y- tetanus toxoid carrier, and Men B-FHbp, for intramuscular use"
         }
       ],
       "groups": {
@@ -8646,10 +7840,6 @@
         {
           "cpt_code": "90624",
           "cpt_desc": "Meningococcal pentavalent vaccine, Men B-4C recombinant proteins and outer membrane vesicle and conjugated Men A, C, W, Y-diphtheria toxoid carrier, for intramuscular use"
-        },
-        {
-          "cpt_code": "90624",
-          "cpt_desc": "Meningococcal pentavalent vaccine, Men B-4C recombinant proteins and outer membrane vesicle and conjugated Men A, C, W, Y-diphtheria toxoid carrier, for intramuscular use"
         }
       ],
       "groups": {
@@ -8678,10 +7868,6 @@
       "description": "cholera, live attenuated",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90625",
-          "cpt_desc": "Cholera vaccine, live, adult dosage, 1 dose schedule, for oral use"
-        },
         {
           "cpt_code": "90625",
           "cpt_desc": "Cholera vaccine, live, adult dosage, 1 dose schedule, for oral use"
@@ -8719,10 +7905,6 @@
         {
           "cpt_code": "90626",
           "cpt_desc": "Tick-borne encephalitis virus vaccine, inactivated; 0.25 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "90626",
-          "cpt_desc": "Tick-borne encephalitis virus vaccine, inactivated; 0.25 mL dosage, for intramuscular use"
         }
       ],
       "groups": {
@@ -8747,10 +7929,6 @@
       "description": "Tick-borne encephalitis, inactivated, PF, 0.5mL",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90627",
-          "cpt_desc": "Tick-borne encephalitis virus vaccine, inactivated; 0.5 mL dosage, for intramuscular use"
-        },
         {
           "cpt_code": "90627",
           "cpt_desc": "Tick-borne encephalitis virus vaccine, inactivated; 0.5 mL dosage, for intramuscular use"
@@ -8781,10 +7959,6 @@
         {
           "cpt_code": "90630",
           "cpt_desc": "Influenza virus vaccine, quadrivalent (IIV4), split virus, preservative free, for intradermal use"
-        },
-        {
-          "cpt_code": "90630",
-          "cpt_desc": "Influenza virus vaccine, quadrivalent (IIV4), split virus, preservative free, for intradermal use"
         }
       ],
       "groups": {
@@ -8809,10 +7983,6 @@
       "description": "Hep A, adult",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90632",
-          "cpt_desc": "Hepatitis A vaccine (HepA), adult dosage, for intramuscular use"
-        },
         {
           "cpt_code": "90632",
           "cpt_desc": "Hepatitis A vaccine (HepA), adult dosage, for intramuscular use"
@@ -8850,10 +8020,6 @@
         {
           "cpt_code": "90633",
           "cpt_desc": "Hepatitis A vaccine (HepA), pediatric/adolescent dosage-2 dose schedule, for intramuscular use"
-        },
-        {
-          "cpt_code": "90633",
-          "cpt_desc": "Hepatitis A vaccine (HepA), pediatric/adolescent dosage-2 dose schedule, for intramuscular use"
         }
       ],
       "groups": {
@@ -8888,10 +8054,6 @@
         {
           "cpt_code": "90634",
           "cpt_desc": "Hepatitis A vaccine (HepA), pediatric/adolescent dosage-3 dose schedule, for intramuscular use"
-        },
-        {
-          "cpt_code": "90634",
-          "cpt_desc": "Hepatitis A vaccine (HepA), pediatric/adolescent dosage-3 dose schedule, for intramuscular use"
         }
       ],
       "groups": {
@@ -8910,10 +8072,6 @@
       "description": "Hep A-Hep B",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90636",
-          "cpt_desc": "Hepatitis A and hepatitis B vaccine (HepA-HepB), adult dosage, for intramuscular use"
-        },
         {
           "cpt_code": "90636",
           "cpt_desc": "Hepatitis A and hepatitis B vaccine (HepA-HepB), adult dosage, for intramuscular use"
@@ -8948,10 +8106,6 @@
         {
           "cpt_code": "90644",
           "cpt_desc": "Meningococcal conjugate vaccine, serogroups C &amp; Y and Haemophilus influenzae type b vaccine (Hib-MenCY), 4 dose schedule, when administered to children 6 weeks-18 months of age, for intramuscular use"
-        },
-        {
-          "cpt_code": "90644",
-          "cpt_desc": "Meningococcal conjugate vaccine, serogroups C &amp; Y and Haemophilus influenzae type b vaccine (Hib-MenCY), 4 dose schedule, when administered to children 6 weeks-18 months of age, for intramuscular use"
         }
       ],
       "groups": {
@@ -8983,10 +8137,6 @@
         {
           "cpt_code": "90645",
           "cpt_desc": "Hemophilus influenza b vaccine (Hib), HbOC conjugate (4 dose schedule), for intramuscular use"
-        },
-        {
-          "cpt_code": "90645",
-          "cpt_desc": "Hemophilus influenza b vaccine (Hib), HbOC conjugate (4 dose schedule), for intramuscular use"
         }
       ],
       "groups": {
@@ -9011,10 +8161,6 @@
       "description": "Hib (PRP-D)",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90646",
-          "cpt_desc": "Hemophilus influenza b vaccine (Hib), PRP-D conjugate, for booster use only, intramuscular use"
-        },
         {
           "cpt_code": "90646",
           "cpt_desc": "Hemophilus influenza b vaccine (Hib), PRP-D conjugate, for booster use only, intramuscular use"
@@ -9045,10 +8191,6 @@
         {
           "cpt_code": "90647",
           "cpt_desc": "Haemophilus influenzae type b vaccine (Hib), PRP-OMP conjugate, 3 dose schedule, for intramuscular use"
-        },
-        {
-          "cpt_code": "90647",
-          "cpt_desc": "Haemophilus influenzae type b vaccine (Hib), PRP-OMP conjugate, 3 dose schedule, for intramuscular use"
         }
       ],
       "groups": {
@@ -9073,10 +8215,6 @@
       "description": "Hib (PRP-T)",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90648",
-          "cpt_desc": "Haemophilus influenzae type b vaccine (Hib), PRP-T conjugate, 4 dose schedule, for intramuscular use"
-        },
         {
           "cpt_code": "90648",
           "cpt_desc": "Haemophilus influenzae type b vaccine (Hib), PRP-T conjugate, 4 dose schedule, for intramuscular use"
@@ -9121,10 +8259,6 @@
         {
           "cpt_code": "90649",
           "cpt_desc": "Human Papillomavirus vaccine, types 6, 11, 16, 18, quadrivalent (4vHPV), 3 dose schedule, for intramuscular use"
-        },
-        {
-          "cpt_code": "90649",
-          "cpt_desc": "Human Papillomavirus vaccine, types 6, 11, 16, 18, quadrivalent (4vHPV), 3 dose schedule, for intramuscular use"
         }
       ],
       "groups": {
@@ -9149,10 +8283,6 @@
       "description": "HPV, bivalent",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90650",
-          "cpt_desc": "Human Papillomavirus vaccine, types 16, 18, bivalent (2vHPV), 3 dose schedule, for intramuscular use"
-        },
         {
           "cpt_code": "90650",
           "cpt_desc": "Human Papillomavirus vaccine, types 16, 18, bivalent (2vHPV), 3 dose schedule, for intramuscular use"
@@ -9183,10 +8313,6 @@
         {
           "cpt_code": "90651",
           "cpt_desc": "Human Papillomavirus vaccine types 6, 11, 16, 18, 31, 33, 45, 52, 58, nonavalent (9vHPV), 2 or 3 dose schedule, for intramuscular use"
-        },
-        {
-          "cpt_code": "90651",
-          "cpt_desc": "Human Papillomavirus vaccine types 6, 11, 16, 18, 31, 33, 45, 52, 58, nonavalent (9vHPV), 2 or 3 dose schedule, for intramuscular use"
         }
       ],
       "groups": {
@@ -9211,10 +8337,6 @@
       "description": "Influenza, adjuvanted, trivalent, PF",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90653",
-          "cpt_desc": "Influenza vaccine, inactivated (IIV), subunit, adjuvanted, for intramuscular use"
-        },
         {
           "cpt_code": "90653",
           "cpt_desc": "Influenza vaccine, inactivated (IIV), subunit, adjuvanted, for intramuscular use"
@@ -9259,10 +8381,6 @@
         {
           "cpt_code": "90654",
           "cpt_desc": "Influenza virus vaccine, trivalent (IIV3), split virus, preservative-free, for intradermal use"
-        },
-        {
-          "cpt_code": "90654",
-          "cpt_desc": "Influenza virus vaccine, trivalent (IIV3), split virus, preservative-free, for intradermal use"
         }
       ],
       "groups": {
@@ -9287,10 +8405,6 @@
       "description": "Influenza, split virus, trivalent, PF",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90656",
-          "cpt_desc": "Influenza virus vaccine, trivalent (IIV3), split virus, preservative free, 0.5 mL dosage, for intramuscular use"
-        },
         {
           "cpt_code": "90656",
           "cpt_desc": "Influenza virus vaccine, trivalent (IIV3), split virus, preservative free, 0.5 mL dosage, for intramuscular use"
@@ -9400,14 +8514,6 @@
           "cpt_desc": "Influenza virus vaccine, trivalent (IIV3), split virus, 0.25 mL dosage, for intramuscular use"
         },
         {
-          "cpt_code": "90657",
-          "cpt_desc": "Influenza virus vaccine, trivalent (IIV3), split virus, 0.25 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "90658",
-          "cpt_desc": "Influenza virus vaccine, trivalent (IIV3), split virus, 0.5 mL dosage, for intramuscular use"
-        },
-        {
           "cpt_code": "90658",
           "cpt_desc": "Influenza virus vaccine, trivalent (IIV3), split virus, 0.5 mL dosage, for intramuscular use"
         }
@@ -9488,14 +8594,6 @@
           "cpt_desc": "Influenza virus vaccine, trivalent (IIV3), split virus, 0.25 mL dosage, for intramuscular use"
         },
         {
-          "cpt_code": "90657",
-          "cpt_desc": "Influenza virus vaccine, trivalent (IIV3), split virus, 0.25 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "90658",
-          "cpt_desc": "Influenza virus vaccine, trivalent (IIV3), split virus, 0.5 mL dosage, for intramuscular use"
-        },
-        {
           "cpt_code": "90658",
           "cpt_desc": "Influenza virus vaccine, trivalent (IIV3), split virus, 0.5 mL dosage, for intramuscular use"
         }
@@ -9574,10 +8672,6 @@
         {
           "cpt_code": "90659",
           "cpt_desc": "Influenza virus vaccine, whole virus, for intramuscular or jet injection use"
-        },
-        {
-          "cpt_code": "90659",
-          "cpt_desc": "Influenza virus vaccine, whole virus, for intramuscular or jet injection use"
         }
       ],
       "groups": {
@@ -9596,10 +8690,6 @@
       "description": "Influenza, live, trivalent, intranasal",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90660",
-          "cpt_desc": "Influenza virus vaccine, trivalent, live (LAIV3), for intranasal use"
-        },
         {
           "cpt_code": "90660",
           "cpt_desc": "Influenza virus vaccine, trivalent, live (LAIV3), for intranasal use"
@@ -9637,10 +8727,6 @@
         {
           "cpt_code": "90661",
           "cpt_desc": "Influenza virus vaccine, trivalent (ccIIV3), derived from cell cultures, subunit, antibiotic free, 0.5 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "90661",
-          "cpt_desc": "Influenza virus vaccine, trivalent (ccIIV3), derived from cell cultures, subunit, antibiotic free, 0.5 mL dosage, for intramuscular use"
         }
       ],
       "groups": {
@@ -9675,10 +8761,6 @@
         {
           "cpt_code": "90662",
           "cpt_desc": "Influenza virus vaccine (IIV), split virus, preservative free, enhanced immunogenicity via increased antigen content, for intramuscular use"
-        },
-        {
-          "cpt_code": "90662",
-          "cpt_desc": "Influenza virus vaccine (IIV), split virus, preservative free, enhanced immunogenicity via increased antigen content, for intramuscular use"
         }
       ],
       "groups": {
@@ -9708,14 +8790,6 @@
           "cpt_desc": "H1N1 immunization administration (intramuscular, intranasal), including counseling when performed"
         },
         {
-          "cpt_code": "90470",
-          "cpt_desc": "H1N1 immunization administration (intramuscular, intranasal), including counseling when performed"
-        },
-        {
-          "cpt_code": "90663",
-          "cpt_desc": "Influenza virus vaccine, pandemic formulation, H1N1"
-        },
-        {
           "cpt_code": "90663",
           "cpt_desc": "Influenza virus vaccine, pandemic formulation, H1N1"
         }
@@ -9736,10 +8810,6 @@
       "description": "Novel Influenza-H1N1-09, nasal",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90664",
-          "cpt_desc": "Influenza virus vaccine, live (LAIV), pandemic formulation, for intranasal use"
-        },
         {
           "cpt_code": "90664",
           "cpt_desc": "Influenza virus vaccine, live (LAIV), pandemic formulation, for intranasal use"
@@ -9770,10 +8840,6 @@
         {
           "cpt_code": "90665",
           "cpt_desc": "Lyme disease vaccine, adult dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "90665",
-          "cpt_desc": "Lyme disease vaccine, adult dosage, for intramuscular use"
         }
       ],
       "groups": {
@@ -9792,10 +8858,6 @@
       "description": "Novel influenza-H1N1-09, preservative-free",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90666",
-          "cpt_desc": "Influenza virus vaccine (IIV), pandemic formulation, split virus, preservative free, for intramuscular use"
-        },
         {
           "cpt_code": "90666",
           "cpt_desc": "Influenza virus vaccine (IIV), pandemic formulation, split virus, preservative free, for intramuscular use"
@@ -9840,10 +8902,6 @@
         {
           "cpt_code": "90668",
           "cpt_desc": "Influenza virus vaccine (IIV), pandemic formulation, split virus, for intramuscular use"
-        },
-        {
-          "cpt_code": "90668",
-          "cpt_desc": "Influenza virus vaccine (IIV), pandemic formulation, split virus, for intramuscular use"
         }
       ],
       "groups": {
@@ -9885,10 +8943,6 @@
         {
           "cpt_code": "90669",
           "cpt_desc": "Pneumococcal conjugate vaccine, 7 valent, for intramuscular use"
-        },
-        {
-          "cpt_code": "90669",
-          "cpt_desc": "Pneumococcal conjugate vaccine, 7 valent, for intramuscular use"
         }
       ],
       "groups": {
@@ -9920,10 +8974,6 @@
       "description": "Pneumococcal conjugate PCV 13",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90670",
-          "cpt_desc": "Pneumococcal conjugate vaccine, 13 valent (PCV13), for intramuscular use"
-        },
         {
           "cpt_code": "90670",
           "cpt_desc": "Pneumococcal conjugate vaccine, 13 valent (PCV13), for intramuscular use"
@@ -9961,10 +9011,6 @@
         {
           "cpt_code": "90671",
           "cpt_desc": "Pneumococcal conjugate vaccine, 15 valent (PCV15), for intramuscular use"
-        },
-        {
-          "cpt_code": "90671",
-          "cpt_desc": "Pneumococcal conjugate vaccine, 15 valent (PCV15), for intramuscular use"
         }
       ],
       "groups": {
@@ -9992,10 +9038,6 @@
         {
           "cpt_code": "90672",
           "cpt_desc": "Influenza virus vaccine, quadrivalent, live (LAIV4), for intranasal use"
-        },
-        {
-          "cpt_code": "90672",
-          "cpt_desc": "Influenza virus vaccine, quadrivalent, live (LAIV4), for intranasal use"
         }
       ],
       "groups": {
@@ -10020,10 +9062,6 @@
       "description": "Influenza, recombinant, trivalent, PF",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90673",
-          "cpt_desc": "Influenza virus vaccine, trivalent (RIV3), derived from recombinant DNA, hemagglutinin (HA) protein only, preservative and antibiotic free, for intramuscular use"
-        },
         {
           "cpt_code": "90673",
           "cpt_desc": "Influenza virus vaccine, trivalent (RIV3), derived from recombinant DNA, hemagglutinin (HA) protein only, preservative and antibiotic free, for intramuscular use"
@@ -10061,10 +9099,6 @@
         {
           "cpt_code": "90674",
           "cpt_desc": "Influenza virus vaccine, quadrivalent (ccIIV4), derived from cell cultures, subunit, preservative and antibiotic free, 0.5 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "90674",
-          "cpt_desc": "Influenza virus vaccine, quadrivalent (ccIIV4), derived from cell cultures, subunit, preservative and antibiotic free, 0.5 mL dosage, for intramuscular use"
         }
       ],
       "groups": {
@@ -10089,10 +9123,6 @@
       "description": "Rabies - IM Diploid cell culture",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90675",
-          "cpt_desc": "Rabies vaccine, for intramuscular use"
-        },
         {
           "cpt_code": "90675",
           "cpt_desc": "Rabies vaccine, for intramuscular use"
@@ -10123,10 +9153,6 @@
         {
           "cpt_code": "90676",
           "cpt_desc": "Rabies vaccine, for intradermal use"
-        },
-        {
-          "cpt_code": "90676",
-          "cpt_desc": "Rabies vaccine, for intradermal use"
         }
       ],
       "groups": {
@@ -10151,10 +9177,6 @@
       "description": "Pneumococcal conjugate PCV20, polysaccharide CRM197 conjugate, adjuvant, PF",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90677",
-          "cpt_desc": "Pneumococcal conjugate vaccine, 20 valent (PCV20), for intramuscular use"
-        },
         {
           "cpt_code": "90677",
           "cpt_desc": "Pneumococcal conjugate vaccine, 20 valent (PCV20), for intramuscular use"
@@ -10185,10 +9207,6 @@
         {
           "cpt_code": "90678",
           "cpt_desc": "Respiratory syncytial virus vaccine, preF, subunit, bivalent, for intramuscular use"
-        },
-        {
-          "cpt_code": "90678",
-          "cpt_desc": "Respiratory syncytial virus vaccine, preF, subunit, bivalent, for intramuscular use"
         }
       ],
       "groups": {
@@ -10213,10 +9231,6 @@
       "description": "RSV, recombinant, protein subunit RSVpreF, adjuvant reconstituted, 0.5 mL, PF",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90679",
-          "cpt_desc": "Respiratory syncytial virus vaccine, preF, recombinant, subunit, adjuvanted, for intramuscular use"
-        },
         {
           "cpt_code": "90679",
           "cpt_desc": "Respiratory syncytial virus vaccine, preF, recombinant, subunit, adjuvanted, for intramuscular use"
@@ -10247,10 +9261,6 @@
         {
           "cpt_code": "90680",
           "cpt_desc": "Rotavirus vaccine, pentavalent (RV5), 3 dose schedule, live, for oral use"
-        },
-        {
-          "cpt_code": "90680",
-          "cpt_desc": "Rotavirus vaccine, pentavalent (RV5), 3 dose schedule, live, for oral use"
         }
       ],
       "groups": {
@@ -10278,10 +9288,6 @@
         {
           "cpt_code": "90681",
           "cpt_desc": "Rotavirus vaccine, human, attenuated (RV1), 2 dose schedule, live, for oral use"
-        },
-        {
-          "cpt_code": "90681",
-          "cpt_desc": "Rotavirus vaccine, human, attenuated (RV1), 2 dose schedule, live, for oral use"
         }
       ],
       "groups": {
@@ -10306,10 +9312,6 @@
       "description": "Influenza, recombinant, quadrivalent, PF",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90682",
-          "cpt_desc": "Influenza virus vaccine, quadrivalent (RIV4), derived from recombinant DNA, hemagglutinin (HA) protein only, preservative and antibiotic free, for intramuscular use"
-        },
         {
           "cpt_code": "90682",
           "cpt_desc": "Influenza virus vaccine, quadrivalent (RIV4), derived from recombinant DNA, hemagglutinin (HA) protein only, preservative and antibiotic free, for intramuscular use"
@@ -10347,10 +9349,6 @@
         {
           "cpt_code": "90683",
           "cpt_desc": "Respiratory syncytial virus vaccine, mRNA lipid nanoparticles, for intramuscular use"
-        },
-        {
-          "cpt_code": "90683",
-          "cpt_desc": "Respiratory syncytial virus vaccine, mRNA lipid nanoparticles, for intramuscular use"
         }
       ],
       "groups": {
@@ -10378,10 +9376,6 @@
         {
           "cpt_code": "90684",
           "cpt_desc": "Pneumococcal conjugate vaccine, 21 valent (PCV21), for intramuscular use"
-        },
-        {
-          "cpt_code": "90684",
-          "cpt_desc": "Pneumococcal conjugate vaccine, 21 valent (PCV21), for intramuscular use"
         }
       ],
       "groups": {
@@ -10406,10 +9400,6 @@
       "description": "Influenza, injectable,quadrivalent, preservative free, pediatric",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90685",
-          "cpt_desc": "Influenza virus vaccine, quadrivalent (IIV4), split virus, preservative free, 0.25 mL dosage, for intramuscular use"
-        },
         {
           "cpt_code": "90685",
           "cpt_desc": "Influenza virus vaccine, quadrivalent (IIV4), split virus, preservative free, 0.25 mL dosage, for intramuscular use"
@@ -10444,10 +9434,6 @@
       "description": "Influenza, split virus, quadrivalent, PF",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90686",
-          "cpt_desc": "Influenza virus vaccine, quadrivalent (IIV4), split virus, preservative free, 0.5 mL dosage, for intramuscular use"
-        },
         {
           "cpt_code": "90686",
           "cpt_desc": "Influenza virus vaccine, quadrivalent (IIV4), split virus, preservative free, 0.5 mL dosage, for intramuscular use"
@@ -10501,14 +9487,6 @@
           "cpt_desc": "Influenza virus vaccine, quadrivalent (IIV4), split virus, 0.25 mL dosage, for intramuscular use"
         },
         {
-          "cpt_code": "90687",
-          "cpt_desc": "Influenza virus vaccine, quadrivalent (IIV4), split virus, 0.25 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "90688",
-          "cpt_desc": "Influenza virus vaccine, quadrivalent (IIV4), split virus, 0.5 mL dosage, for intramuscular use"
-        },
-        {
           "cpt_code": "90688",
           "cpt_desc": "Influenza virus vaccine, quadrivalent (IIV4), split virus, 0.5 mL dosage, for intramuscular use"
         }
@@ -10554,14 +9532,6 @@
           "cpt_desc": "Influenza virus vaccine, quadrivalent (IIV4), split virus, 0.25 mL dosage, for intramuscular use"
         },
         {
-          "cpt_code": "90687",
-          "cpt_desc": "Influenza virus vaccine, quadrivalent (IIV4), split virus, 0.25 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "90688",
-          "cpt_desc": "Influenza virus vaccine, quadrivalent (IIV4), split virus, 0.5 mL dosage, for intramuscular use"
-        },
-        {
           "cpt_code": "90688",
           "cpt_desc": "Influenza virus vaccine, quadrivalent (IIV4), split virus, 0.5 mL dosage, for intramuscular use"
         }
@@ -10602,10 +9572,6 @@
       "description": "typhoid, oral",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90690",
-          "cpt_desc": "Typhoid vaccine, live, oral"
-        },
         {
           "cpt_code": "90690",
           "cpt_desc": "Typhoid vaccine, live, oral"
@@ -10650,10 +9616,6 @@
         {
           "cpt_code": "90691",
           "cpt_desc": "Typhoid vaccine, Vi capsular polysaccharide (ViCPs), for intramuscular use"
-        },
-        {
-          "cpt_code": "90691",
-          "cpt_desc": "Typhoid vaccine, Vi capsular polysaccharide (ViCPs), for intramuscular use"
         }
       ],
       "groups": {
@@ -10681,10 +9643,6 @@
         {
           "cpt_code": "90692",
           "cpt_desc": "Typhoid vaccine, heat- and phenol-inactivated (H-P), for subcutaneous or intradermal use"
-        },
-        {
-          "cpt_code": "90692",
-          "cpt_desc": "Typhoid vaccine, heat- and phenol-inactivated (H-P), for subcutaneous or intradermal use"
         }
       ],
       "groups": {
@@ -10703,10 +9661,6 @@
       "description": "typhoid, parenteral, AKD (U.S. military)",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90693",
-          "cpt_desc": "Typhoid vaccine, acetone-killed, dried (AKD), for subcutaneous use (U.S. military)"
-        },
         {
           "cpt_code": "90693",
           "cpt_desc": "Typhoid vaccine, acetone-killed, dried (AKD), for subcutaneous use (U.S. military)"
@@ -10737,10 +9691,6 @@
         {
           "cpt_code": "90694",
           "cpt_desc": "Influenza virus vaccine, quadrivalent (aIIV4), inactivated, adjuvanted, preservative free, 0.5 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "90694",
-          "cpt_desc": "Influenza virus vaccine, quadrivalent (aIIV4), inactivated, adjuvanted, preservative free, 0.5 mL dosage, for intramuscular use"
         }
       ],
       "groups": {
@@ -10765,10 +9715,6 @@
       "description": "DTaP-IPV",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90696",
-          "cpt_desc": "Diphtheria, tetanus toxoids, acellular pertussis vaccine and inactivated poliovirus vaccine (DTaP-IPV), when administered to children 4 through 6 years of age, for intramuscular use"
-        },
         {
           "cpt_code": "90696",
           "cpt_desc": "Diphtheria, tetanus toxoids, acellular pertussis vaccine and inactivated poliovirus vaccine (DTaP-IPV), when administered to children 4 through 6 years of age, for intramuscular use"
@@ -10807,10 +9753,6 @@
       "description": "DTaP,IPV,Hib,HepB",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90697",
-          "cpt_desc": "Diphtheria, tetanus toxoids, acellular pertussis vaccine, inactivated poliovirus vaccine, Haemophilus influenzae type b PRP-OMP conjugate vaccine, and hepatitis B vaccine (DTaP-IPV-Hib-HepB), for intramuscular use"
-        },
         {
           "cpt_code": "90697",
           "cpt_desc": "Diphtheria, tetanus toxoids, acellular pertussis vaccine, inactivated poliovirus vaccine, Haemophilus influenzae type b PRP-OMP conjugate vaccine, and hepatitis B vaccine (DTaP-IPV-Hib-HepB), for intramuscular use"
@@ -10853,10 +9795,6 @@
         {
           "cpt_code": "90698",
           "cpt_desc": "Diphtheria, tetanus toxoids, acellular pertussis vaccine, Haemophilus influenzae type b, and inactivated poliovirus vaccine, (DTaP-IPV/Hib), for intramuscular use"
-        },
-        {
-          "cpt_code": "90698",
-          "cpt_desc": "Diphtheria, tetanus toxoids, acellular pertussis vaccine, Haemophilus influenzae type b, and inactivated poliovirus vaccine, (DTaP-IPV/Hib), for intramuscular use"
         }
       ],
       "groups": {
@@ -10889,10 +9827,6 @@
       "description": "DTaP",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90700",
-          "cpt_desc": "Diphtheria, tetanus toxoids, and acellular pertussis vaccine (DTaP), when administered to individuals younger than 7 years, for intramuscular use"
-        },
         {
           "cpt_code": "90700",
           "cpt_desc": "Diphtheria, tetanus toxoids, and acellular pertussis vaccine (DTaP), when administered to individuals younger than 7 years, for intramuscular use"
@@ -10944,10 +9878,6 @@
         {
           "cpt_code": "90701",
           "cpt_desc": "Diphtheria, tetanus toxoids, and whole cell pertussis vaccine (DTP), for intramuscular use"
-        },
-        {
-          "cpt_code": "90701",
-          "cpt_desc": "Diphtheria, tetanus toxoids, and whole cell pertussis vaccine (DTP), for intramuscular use"
         }
       ],
       "groups": {
@@ -10966,10 +9896,6 @@
       "description": "DT (pediatric)",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90702",
-          "cpt_desc": "Diphtheria and tetanus toxoids adsorbed (DT) when administered to individuals younger than 7 years, for intramuscular use"
-        },
         {
           "cpt_code": "90702",
           "cpt_desc": "Diphtheria and tetanus toxoids adsorbed (DT) when administered to individuals younger than 7 years, for intramuscular use"
@@ -11000,10 +9926,6 @@
         {
           "cpt_code": "90703",
           "cpt_desc": "Tetanus toxoid adsorbed, for intramuscular use"
-        },
-        {
-          "cpt_code": "90703",
-          "cpt_desc": "Tetanus toxoid adsorbed, for intramuscular use"
         }
       ],
       "groups": {
@@ -11028,10 +9950,6 @@
       "description": "mumps",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90704",
-          "cpt_desc": "Mumps virus vaccine, live, for subcutaneous use"
-        },
         {
           "cpt_code": "90704",
           "cpt_desc": "Mumps virus vaccine, live, for subcutaneous use"
@@ -11062,10 +9980,6 @@
         {
           "cpt_code": "90705",
           "cpt_desc": "Measles virus vaccine, live, for subcutaneous use"
-        },
-        {
-          "cpt_code": "90705",
-          "cpt_desc": "Measles virus vaccine, live, for subcutaneous use"
         }
       ],
       "groups": {
@@ -11093,10 +10007,6 @@
         {
           "cpt_code": "90706",
           "cpt_desc": "Rubella virus vaccine, live, for subcutaneous use"
-        },
-        {
-          "cpt_code": "90706",
-          "cpt_desc": "Rubella virus vaccine, live, for subcutaneous use"
         }
       ],
       "groups": {
@@ -11121,10 +10031,6 @@
       "description": "MMR",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90707",
-          "cpt_desc": "Measles, mumps and rubella virus vaccine (MMR), live, for subcutaneous use"
-        },
         {
           "cpt_code": "90707",
           "cpt_desc": "Measles, mumps and rubella virus vaccine (MMR), live, for subcutaneous use"
@@ -11162,10 +10068,6 @@
         {
           "cpt_code": "90708",
           "cpt_desc": "Measles and rubella virus vaccine, live, for subcutaneous use"
-        },
-        {
-          "cpt_code": "90708",
-          "cpt_desc": "Measles and rubella virus vaccine, live, for subcutaneous use"
         }
       ],
       "groups": {
@@ -11184,10 +10086,6 @@
       "description": "MMRV",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90710",
-          "cpt_desc": "Measles, mumps, rubella, and varicella vaccine (MMRV), live, for subcutaneous use"
-        },
         {
           "cpt_code": "90710",
           "cpt_desc": "Measles, mumps, rubella, and varicella vaccine (MMRV), live, for subcutaneous use"
@@ -11222,10 +10120,6 @@
         {
           "cpt_code": "90712",
           "cpt_desc": "Poliovirus vaccine, (any type[s]) (OPV), live, for oral use"
-        },
-        {
-          "cpt_code": "90712",
-          "cpt_desc": "Poliovirus vaccine, (any type[s]) (OPV), live, for oral use"
         }
       ],
       "groups": {
@@ -11244,10 +10138,6 @@
       "description": "IPV",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90713",
-          "cpt_desc": "Poliovirus vaccine, inactivated (IPV), for subcutaneous or intramuscular use"
-        },
         {
           "cpt_code": "90713",
           "cpt_desc": "Poliovirus vaccine, inactivated (IPV), for subcutaneous or intramuscular use"
@@ -11275,10 +10165,6 @@
       "description": "Td (adult), 2 Lf tetanus toxoid, preservative free, adsorbed",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90714",
-          "cpt_desc": "Tetanus and diphtheria toxoids adsorbed (Td), preservative free, when administered to individuals 7 years or older, for intramuscular use"
-        },
         {
           "cpt_code": "90714",
           "cpt_desc": "Tetanus and diphtheria toxoids adsorbed (Td), preservative free, when administered to individuals 7 years or older, for intramuscular use"
@@ -11323,10 +10209,6 @@
         {
           "cpt_code": "90715",
           "cpt_desc": "Tetanus, diphtheria toxoids and acellular pertussis vaccine (Tdap), when administered to individuals 7 years or older, for intramuscular use"
-        },
-        {
-          "cpt_code": "90715",
-          "cpt_desc": "Tetanus, diphtheria toxoids and acellular pertussis vaccine (Tdap), when administered to individuals 7 years or older, for intramuscular use"
         }
       ],
       "groups": {
@@ -11361,10 +10243,6 @@
         {
           "cpt_code": "90716",
           "cpt_desc": "Varicella virus vaccine (VAR), live, for subcutaneous use"
-        },
-        {
-          "cpt_code": "90716",
-          "cpt_desc": "Varicella virus vaccine (VAR), live, for subcutaneous use"
         }
       ],
       "groups": {
@@ -11392,10 +10270,6 @@
         {
           "cpt_code": "90717",
           "cpt_desc": "Yellow fever vaccine, live, for subcutaneous use"
-        },
-        {
-          "cpt_code": "90717",
-          "cpt_desc": "Yellow fever vaccine, live, for subcutaneous use"
         }
       ],
       "groups": {
@@ -11420,10 +10294,6 @@
       "description": "DTP-Hib",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90720",
-          "cpt_desc": "Diphtheria, tetanus toxoids, and whole cell pertussis vaccine and Hemophilus influenza B vaccine (DTP-Hib), for intramuscular use"
-        },
         {
           "cpt_code": "90720",
           "cpt_desc": "Diphtheria, tetanus toxoids, and whole cell pertussis vaccine and Hemophilus influenza B vaccine (DTP-Hib), for intramuscular use"
@@ -11458,10 +10328,6 @@
         {
           "cpt_code": "90721",
           "cpt_desc": "Diphtheria, tetanus toxoids, and acellular pertussis vaccine and Hemophilus influenza B vaccine (DTaP/Hib), for intramuscular use"
-        },
-        {
-          "cpt_code": "90721",
-          "cpt_desc": "Diphtheria, tetanus toxoids, and acellular pertussis vaccine and Hemophilus influenza B vaccine (DTaP/Hib), for intramuscular use"
         }
       ],
       "groups": {
@@ -11490,10 +10356,6 @@
       "description": "DTaP-Hep B-IPV",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90723",
-          "cpt_desc": "Diphtheria, tetanus toxoids, acellular pertussis vaccine, hepatitis B, and inactivated poliovirus vaccine (DTaP-HepB-IPV), for intramuscular use"
-        },
         {
           "cpt_code": "90723",
           "cpt_desc": "Diphtheria, tetanus toxoids, acellular pertussis vaccine, hepatitis B, and inactivated poliovirus vaccine (DTaP-HepB-IPV), for intramuscular use"
@@ -11532,10 +10394,6 @@
         {
           "cpt_code": "90724",
           "cpt_desc": "Influenza virus vaccine"
-        },
-        {
-          "cpt_code": "90724",
-          "cpt_desc": "Influenza virus vaccine"
         }
       ],
       "groups": {
@@ -11554,10 +10412,6 @@
       "description": "cholera, unspecified formulation",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90725",
-          "cpt_desc": "Cholera vaccine for injectable use"
-        },
         {
           "cpt_code": "90725",
           "cpt_desc": "Cholera vaccine for injectable use"
@@ -11582,10 +10436,6 @@
         {
           "cpt_code": "90726",
           "cpt_desc": "Rabies vaccine"
-        },
-        {
-          "cpt_code": "90726",
-          "cpt_desc": "Rabies vaccine"
         }
       ],
       "groups": {
@@ -11604,10 +10454,6 @@
       "description": "plague",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90727",
-          "cpt_desc": "Plague vaccine, for intramuscular use"
-        },
         {
           "cpt_code": "90727",
           "cpt_desc": "Plague vaccine, for intramuscular use"
@@ -11632,14 +10478,6 @@
         {
           "cpt_code": "90585",
           "cpt_desc": "Bacillus Calmette-Guerin vaccine (BCG) for tuberculosis, live, for percutaneous use"
-        },
-        {
-          "cpt_code": "90585",
-          "cpt_desc": "Bacillus Calmette-Guerin vaccine (BCG) for tuberculosis, live, for percutaneous use"
-        },
-        {
-          "cpt_code": "90728",
-          "cpt_desc": "BCG vaccine"
         },
         {
           "cpt_code": "90728",
@@ -11678,10 +10516,6 @@
         {
           "cpt_code": "90730",
           "cpt_desc": "Hepatitis A vaccine"
-        },
-        {
-          "cpt_code": "90730",
-          "cpt_desc": "Hepatitis A vaccine"
         }
       ],
       "groups": {
@@ -11703,10 +10537,6 @@
         {
           "cpt_code": "90731",
           "cpt_desc": "Hepatitis B vaccine"
-        },
-        {
-          "cpt_code": "90731",
-          "cpt_desc": "Hepatitis B vaccine"
         }
       ],
       "groups": {
@@ -11725,10 +10555,6 @@
       "description": "pneumococcal polysaccharide PPV23",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90732",
-          "cpt_desc": "Pneumococcal polysaccharide vaccine, 23-valent (PPSV23), adult or immunosuppressed patient dosage, when administered to individuals 2 years or older, for subcutaneous or intramuscular use"
-        },
         {
           "cpt_code": "90732",
           "cpt_desc": "Pneumococcal polysaccharide vaccine, 23-valent (PPSV23), adult or immunosuppressed patient dosage, when administered to individuals 2 years or older, for subcutaneous or intramuscular use"
@@ -11759,10 +10585,6 @@
         {
           "cpt_code": "90733",
           "cpt_desc": "Meningococcal polysaccharide vaccine, serogroups A, C, Y, W-135, quadrivalent (MPSV4), for subcutaneous use"
-        },
-        {
-          "cpt_code": "90733",
-          "cpt_desc": "Meningococcal polysaccharide vaccine, serogroups A, C, Y, W-135, quadrivalent (MPSV4), for subcutaneous use"
         }
       ],
       "groups": {
@@ -11787,10 +10609,6 @@
       "description": "Meningococcal MCV4O",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90734",
-          "cpt_desc": "Meningococcal conjugate vaccine, serogroups A, C, W, Y, quadrivalent, diphtheria toxoid carrier (MenACWY-D) or CRM197 carrier (MenACWY-CRM), for intramuscular use"
-        },
         {
           "cpt_code": "90734",
           "cpt_desc": "Meningococcal conjugate vaccine, serogroups A, C, W, Y, quadrivalent, diphtheria toxoid carrier (MenACWY-D) or CRM197 carrier (MenACWY-CRM), for intramuscular use"
@@ -11828,10 +10646,6 @@
         {
           "cpt_code": "90735",
           "cpt_desc": "Japanese encephalitis virus vaccine, for subcutaneous use"
-        },
-        {
-          "cpt_code": "90735",
-          "cpt_desc": "Japanese encephalitis virus vaccine, for subcutaneous use"
         }
       ],
       "groups": {
@@ -11856,10 +10670,6 @@
       "description": "zoster live",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90736",
-          "cpt_desc": "Zoster (shingles) vaccine (HZV), live, for subcutaneous injection"
-        },
         {
           "cpt_code": "90736",
           "cpt_desc": "Zoster (shingles) vaccine (HZV), live, for subcutaneous injection"
@@ -11890,10 +10700,6 @@
         {
           "cpt_code": "90737",
           "cpt_desc": "Hemophilus influenza B"
-        },
-        {
-          "cpt_code": "90737",
-          "cpt_desc": "Hemophilus influenza B"
         }
       ],
       "groups": {
@@ -11912,10 +10718,6 @@
       "description": "Japanese Encephalitis IM",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90738",
-          "cpt_desc": "Japanese encephalitis virus vaccine, inactivated, for intramuscular use"
-        },
         {
           "cpt_code": "90738",
           "cpt_desc": "Japanese encephalitis virus vaccine, inactivated, for intramuscular use"
@@ -11960,10 +10762,6 @@
         {
           "cpt_code": "90739",
           "cpt_desc": "Hepatitis B vaccine (HepB), CpG-adjuvanted, adult dosage, 2 dose or 4 dose schedule, for intramuscular use"
-        },
-        {
-          "cpt_code": "90739",
-          "cpt_desc": "Hepatitis B vaccine (HepB), CpG-adjuvanted, adult dosage, 2 dose or 4 dose schedule, for intramuscular use"
         }
       ],
       "groups": {
@@ -11991,14 +10789,6 @@
         {
           "cpt_code": "90740",
           "cpt_desc": "Hepatitis B vaccine (HepB), dialysis or immunosuppressed patient dosage, 3 dose schedule, for intramuscular use"
-        },
-        {
-          "cpt_code": "90740",
-          "cpt_desc": "Hepatitis B vaccine (HepB), dialysis or immunosuppressed patient dosage, 3 dose schedule, for intramuscular use"
-        },
-        {
-          "cpt_code": "90747",
-          "cpt_desc": "Hepatitis B vaccine (HepB), dialysis or immunosuppressed patient dosage, 4 dose schedule, for intramuscular use"
         },
         {
           "cpt_code": "90747",
@@ -12037,10 +10827,6 @@
         {
           "cpt_code": "90741",
           "cpt_desc": "Immunization, passive; immune serum globulin, human (ISG)"
-        },
-        {
-          "cpt_code": "90741",
-          "cpt_desc": "Immunization, passive; immune serum globulin, human (ISG)"
         }
       ],
       "groups": {
@@ -12062,14 +10848,6 @@
         {
           "cpt_code": "90743",
           "cpt_desc": "Hepatitis B vaccine (HepB), adolescent, 2 dose schedule, for intramuscular use"
-        },
-        {
-          "cpt_code": "90743",
-          "cpt_desc": "Hepatitis B vaccine (HepB), adolescent, 2 dose schedule, for intramuscular use"
-        },
-        {
-          "cpt_code": "90744",
-          "cpt_desc": "Hepatitis B vaccine (HepB), pediatric/adolescent dosage, 3 dose schedule, for intramuscular use"
         },
         {
           "cpt_code": "90744",
@@ -12110,14 +10888,6 @@
           "cpt_desc": "Hepatitis B vaccine (HepB), adolescent, 2 dose schedule, for intramuscular use"
         },
         {
-          "cpt_code": "90743",
-          "cpt_desc": "Hepatitis B vaccine (HepB), adolescent, 2 dose schedule, for intramuscular use"
-        },
-        {
-          "cpt_code": "90744",
-          "cpt_desc": "Hepatitis B vaccine (HepB), pediatric/adolescent dosage, 3 dose schedule, for intramuscular use"
-        },
-        {
           "cpt_code": "90744",
           "cpt_desc": "Hepatitis B vaccine (HepB), pediatric/adolescent dosage, 3 dose schedule, for intramuscular use"
         }
@@ -12154,10 +10924,6 @@
         {
           "cpt_code": "90745",
           "cpt_desc": "Hepatitis B vaccine, adolescent/high risk infant dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "90745",
-          "cpt_desc": "Hepatitis B vaccine, adolescent/high risk infant dosage, for intramuscular use"
         }
       ],
       "groups": {
@@ -12179,14 +10945,6 @@
         {
           "cpt_code": "90743",
           "cpt_desc": "Hepatitis B vaccine (HepB), adolescent, 2 dose schedule, for intramuscular use"
-        },
-        {
-          "cpt_code": "90743",
-          "cpt_desc": "Hepatitis B vaccine (HepB), adolescent, 2 dose schedule, for intramuscular use"
-        },
-        {
-          "cpt_code": "90746",
-          "cpt_desc": "Hepatitis B vaccine (HepB), adult dosage, 3 dose schedule, for intramuscular use"
         },
         {
           "cpt_code": "90746",
@@ -12227,14 +10985,6 @@
           "cpt_desc": "Hepatitis B vaccine (HepB), dialysis or immunosuppressed patient dosage, 3 dose schedule, for intramuscular use"
         },
         {
-          "cpt_code": "90740",
-          "cpt_desc": "Hepatitis B vaccine (HepB), dialysis or immunosuppressed patient dosage, 3 dose schedule, for intramuscular use"
-        },
-        {
-          "cpt_code": "90747",
-          "cpt_desc": "Hepatitis B vaccine (HepB), dialysis or immunosuppressed patient dosage, 4 dose schedule, for intramuscular use"
-        },
-        {
           "cpt_code": "90747",
           "cpt_desc": "Hepatitis B vaccine (HepB), dialysis or immunosuppressed patient dosage, 4 dose schedule, for intramuscular use"
         }
@@ -12271,10 +11021,6 @@
         {
           "cpt_code": "90748",
           "cpt_desc": "Hepatitis B and Haemophilus influenzae type b vaccine (Hib-HepB), for intramuscular use"
-        },
-        {
-          "cpt_code": "90748",
-          "cpt_desc": "Hepatitis B and Haemophilus influenzae type b vaccine (Hib-HepB), for intramuscular use"
         }
       ],
       "groups": {
@@ -12306,10 +11052,6 @@
         {
           "cpt_code": "90750",
           "cpt_desc": "Zoster (shingles) vaccine (HZV), recombinant, subunit, adjuvanted, for intramuscular use"
-        },
-        {
-          "cpt_code": "90750",
-          "cpt_desc": "Zoster (shingles) vaccine (HZV), recombinant, subunit, adjuvanted, for intramuscular use"
         }
       ],
       "groups": {
@@ -12334,10 +11076,6 @@
       "description": "Influenza, MDCK, quadrivalent, preservative",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "90756",
-          "cpt_desc": "Influenza virus vaccine, quadrivalent (ccIIV4), derived from cell cultures, subunit, antibiotic free, 0.5 mL dosage, for intramuscular use"
-        },
         {
           "cpt_code": "90756",
           "cpt_desc": "Influenza virus vaccine, quadrivalent (ccIIV4), derived from cell cultures, subunit, antibiotic free, 0.5 mL dosage, for intramuscular use"
@@ -12368,10 +11106,6 @@
         {
           "cpt_code": "90758",
           "cpt_desc": "Zaire ebolavirus vaccine, live, for intramuscular use"
-        },
-        {
-          "cpt_code": "90758",
-          "cpt_desc": "Zaire ebolavirus vaccine, live, for intramuscular use"
         }
       ],
       "groups": {
@@ -12399,10 +11133,6 @@
         {
           "cpt_code": "90759",
           "cpt_desc": "Hepatitis B vaccine (HepB), 3-antigen (S, Pre-S1, Pre-S2), 10 mcg dosage, 3 dose schedule, for intramuscular use"
-        },
-        {
-          "cpt_code": "90759",
-          "cpt_desc": "Hepatitis B vaccine (HepB), 3-antigen (S, Pre-S1, Pre-S2), 10 mcg dosage, 3 dose schedule, for intramuscular use"
         }
       ],
       "groups": {
@@ -12427,10 +11157,6 @@
       "description": "COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "91300",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 30 mcg/0.3 mL dosage, diluent reconstituted, for intramuscular use"
-        },
         {
           "cpt_code": "91300",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 30 mcg/0.3 mL dosage, diluent reconstituted, for intramuscular use"
@@ -12470,14 +11196,6 @@
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 100 mcg/0.5 mL dosage, for intramuscular use"
         },
         {
-          "cpt_code": "91301",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 100 mcg/0.5 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "91306",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 50 mcg/0.25 mL dosage, for intramuscular use"
-        },
-        {
           "cpt_code": "91306",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 50 mcg/0.25 mL dosage, for intramuscular use"
         }
@@ -12514,10 +11232,6 @@
         {
           "cpt_code": "91302",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, DNA, spike protein, chimpanzee adenovirus Oxford 1 (ChAdOx1) vector, preservative free, 5x1010 viral particles/0.5 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "91302",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, DNA, spike protein, chimpanzee adenovirus Oxford 1 (ChAdOx1) vector, preservative free, 5x1010 viral particles/0.5 mL dosage, for intramuscular use"
         }
       ],
       "groups": {
@@ -12542,10 +11256,6 @@
       "description": "COVID-19 vaccine, vector-nr, rS-Ad26, PF, 0.5 mL",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "91303",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, DNA, spike protein, adenovirus type 26 (Ad26) vector, preservative free, 5x1010 viral particles/0.5 mL dosage, for intramuscular use"
-        },
         {
           "cpt_code": "91303",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, DNA, spike protein, adenovirus type 26 (Ad26) vector, preservative free, 5x1010 viral particles/0.5 mL dosage, for intramuscular use"
@@ -12576,10 +11286,6 @@
         {
           "cpt_code": "91304",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, recombinant spike protein nanoparticle, saponin-based adjuvant, 5 mcg/0.5 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "91304",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, recombinant spike protein nanoparticle, saponin-based adjuvant, 5 mcg/0.5 mL dosage, for intramuscular use"
         }
       ],
       "groups": {
@@ -12604,10 +11310,6 @@
       "description": "COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose, tris-sucrose",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "91305",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 30 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use"
-        },
         {
           "cpt_code": "91305",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 30 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use"
@@ -12647,14 +11349,6 @@
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 100 mcg/0.5 mL dosage, for intramuscular use"
         },
         {
-          "cpt_code": "91301",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 100 mcg/0.5 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "91306",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 50 mcg/0.25 mL dosage, for intramuscular use"
-        },
-        {
           "cpt_code": "91306",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 50 mcg/0.25 mL dosage, for intramuscular use"
         }
@@ -12691,10 +11385,6 @@
         {
           "cpt_code": "91307",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 10 mcg/0.2 mL dosage, diluent reconstituted, tris-sucrose formulation, for intramuscular use"
-        },
-        {
-          "cpt_code": "91307",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 10 mcg/0.2 mL dosage, diluent reconstituted, tris-sucrose formulation, for intramuscular use"
         }
       ],
       "groups": {
@@ -12719,10 +11409,6 @@
       "description": "COVID-19, mRNA, LNP-S, PF, 3 mcg/0.2 mL dose, tris-sucrose",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "91308",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 3 mcg/0.2 mL dosage, diluent reconstituted, tris-sucrose formulation, for intramuscular use"
-        },
         {
           "cpt_code": "91308",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 3 mcg/0.2 mL dosage, diluent reconstituted, tris-sucrose formulation, for intramuscular use"
@@ -12753,10 +11439,6 @@
         {
           "cpt_code": "91309",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 50 mcg/0.5 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "91309",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 50 mcg/0.5 mL dosage, for intramuscular use"
         }
       ],
       "groups": {
@@ -12781,10 +11463,6 @@
       "description": "COVID-19, D614, recomb, preS dTM, AS03 adjuvant add, PF, 5mcg/0.5mL",
       "status": "Never Active",
       "cpt_codes": [
-        {
-          "cpt_code": "91310",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, monovalent, preservative free, 5 mcg/0.5 mL dosage, adjuvant AS03 emulsion, for intramuscular use"
-        },
         {
           "cpt_code": "91310",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, monovalent, preservative free, 5 mcg/0.5 mL dosage, adjuvant AS03 emulsion, for intramuscular use"
@@ -12815,10 +11493,6 @@
         {
           "cpt_code": "91311",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 25 mcg/0.25 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "91311",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, preservative free, 25 mcg/0.25 mL dosage, for intramuscular use"
         }
       ],
       "groups": {
@@ -12843,10 +11517,6 @@
       "description": "COVID-19, mRNA, LNP-S, bivalent, PF, 30 mcg/0.3 mL dose",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "91312",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, bivalent spike protein, preservative free, 30 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use"
-        },
         {
           "cpt_code": "91312",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, bivalent spike protein, preservative free, 30 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use"
@@ -12877,14 +11547,6 @@
         {
           "cpt_code": "91313",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, bivalent, preservative free, 50 mcg/0.5 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "91313",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, bivalent, preservative free, 50 mcg/0.5 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "91314",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, bivalent, preservative free, 25 mcg/0.25 mL dosage, for intramuscular use"
         },
         {
           "cpt_code": "91314",
@@ -12918,14 +11580,6 @@
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, bivalent, preservative free, 50 mcg/0.5 mL dosage, for intramuscular use"
         },
         {
-          "cpt_code": "91313",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, bivalent, preservative free, 50 mcg/0.5 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "91314",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, bivalent, preservative free, 25 mcg/0.25 mL dosage, for intramuscular use"
-        },
-        {
           "cpt_code": "91314",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, bivalent, preservative free, 25 mcg/0.25 mL dosage, for intramuscular use"
         }
@@ -12952,10 +11606,6 @@
       "description": "COVID-19, mRNA, LNP-S, bivalent, PF, 10 mcg/0.2 mL dose",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "91315",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, bivalent spike protein, preservative free, 10 mcg/0.2 mL dosage, diluent reconstituted, tris-sucrose formulation, for intramuscular use"
-        },
         {
           "cpt_code": "91315",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, bivalent spike protein, preservative free, 10 mcg/0.2 mL dosage, diluent reconstituted, tris-sucrose formulation, for intramuscular use"
@@ -12986,10 +11636,6 @@
         {
           "cpt_code": "91316",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, bivalent, preservative free, 10 mcg/0.2 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "91316",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, bivalent, preservative free, 10 mcg/0.2 mL dosage, for intramuscular use"
         }
       ],
       "groups": {
@@ -13014,10 +11660,6 @@
       "description": "COVID-19, mRNA, LNP-S, bivalent, PF, 3 mcg/0.2 mL dose",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "91317",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, bivalent spike protein, preservative free, 3 mcg/0.2 mL dosage, diluent reconstituted, tris-sucrose formulation, for intramuscular use"
-        },
         {
           "cpt_code": "91317",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, bivalent spike protein, preservative free, 3 mcg/0.2 mL dosage, diluent reconstituted, tris-sucrose formulation, for intramuscular use"
@@ -13048,10 +11690,6 @@
         {
           "cpt_code": "91318",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, 3 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use"
-        },
-        {
-          "cpt_code": "91318",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, 3 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use"
         }
       ],
       "groups": {
@@ -13076,10 +11714,6 @@
       "description": "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 10 mcg/0.3 mL",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "91319",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, 10 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use"
-        },
         {
           "cpt_code": "91319",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, 10 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use"
@@ -13110,10 +11744,6 @@
         {
           "cpt_code": "91320",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, 30 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use"
-        },
-        {
-          "cpt_code": "91320",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, spike protein, 30 mcg/0.3 mL dosage, tris-sucrose formulation, for intramuscular use"
         }
       ],
       "groups": {
@@ -13141,10 +11771,6 @@
         {
           "cpt_code": "91321",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, 25 mcg/0.25 mL dosage, for intramuscular use"
-        },
-        {
-          "cpt_code": "91321",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, 25 mcg/0.25 mL dosage, for intramuscular use"
         }
       ],
       "groups": {
@@ -13169,10 +11795,6 @@
       "description": "COVID-19, mRNA, LNP-S, PF, 50 mcg/0.5 mL",
       "status": "Active",
       "cpt_codes": [
-        {
-          "cpt_code": "91322",
-          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, 50 mcg/0.5 mL dosage, for intramuscular use"
-        },
         {
           "cpt_code": "91322",
           "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, 50 mcg/0.5 mL dosage, for intramuscular use"
