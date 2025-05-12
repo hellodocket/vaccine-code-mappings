@@ -5,6 +5,7 @@ require "htmlentities"
 require "json"
 require "json-schema"
 require "roo"
+require "csv"
 
 def parse_name_value_into_map(name_value_xml)
   result = {}
@@ -320,4 +321,57 @@ def trade_name_overrides
     "218": "Pfizer-BioNTech COVID-19 Vaccine",
     "219": "Pfizer-BioNTech COVID-19 Vaccine"
   }
+end
+
+desc "Compare MIIC mapping to the CDC mapping of already-downloaded files."
+task :compare_mapping do
+  miic_map_path = "./miic-mapping.csv"
+  miic_data = File.read(miic_map_path)
+  miic_csv = CSV.parse(miic_data, headers: true)
+
+  cdc_map_path = "./vaccine-code-mapping.json"
+  cdc_data = File.read(cdc_map_path)
+  cdc_json = JSON.parse(cdc_data)
+
+  cdc_codes = cdc_json["cvx"].keys.sort_by { |c| c.to_i }
+  miic_codes = miic_csv["CVX_CODE"].filter { |c| !c.nil? && c != '' }.map { |c| c.to_s.strip }.sort
+
+  puts "Vaccine Group Name Mismatches - show on the main 'Records' page in Docket"
+  puts "CVX_Group_Code,CDC_Name,MIIC_Name"
+  cdc_groups = cdc_json["cvx"].map { |k, v| v["groups"] }.flatten.map { |k| { cvx: k.first[0], name: k.first[1]["name"] || '' } }.uniq.sort_by { |g| g[:cvx].to_i }
+  miic_groups = miic_csv.map { |row| { cvx: row["CVX_CODE"] || '', name: row["VACCINE_GROUP"] } }.uniq.sort_by { |g| g[:cvx] }
+  cdc_groups.each do |cdc_group|
+    miic_group = miic_groups.find { |row| row[:cvx] == cdc_group[:cvx] }
+    if miic_group.nil?
+      next
+    end
+
+    # Compare the two items
+    if cdc_group[:name] != miic_group[:name]
+      puts "#{cdc_group[:cvx]},\"#{cdc_group[:name]}\",\"#{miic_group[:name]}\""
+    end
+  end
+
+  puts ""
+  puts "Exact Vaccine Name Mismatches - show on the PDF and in the vaccine details screen in Docket"
+  puts "CVX_Code,CDC_Name,MIIC_Name"
+  cdc_codes.each do |cdc_cvx|
+    cdc_item = cdc_json["cvx"][cdc_cvx]
+    miic_item = miic_csv.find { |row| row["CVX_CODE"] == cdc_cvx }
+    if miic_item.nil?
+      next
+    end
+
+    # Compare the two items
+    if cdc_item["name"] != miic_item["VACCINE"]
+      puts "#{cdc_cvx},\"#{cdc_item["name"]}\",\"#{miic_item["VACCINE"]}\""
+    end
+  end
+
+
+  puts ""
+  only_cdc = cdc_codes - miic_codes
+  puts "CVX codes only in the CDC data set: #{only_cdc}"
+  only_miic = miic_codes - cdc_codes
+  puts "CVX codes only in the MIIC data set: #{only_miic}"
 end
