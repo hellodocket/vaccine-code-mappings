@@ -23,8 +23,8 @@
     },
     "02": {
       "cvx_code": "02",
-      "name": "OPV",
-      "description": "OPV",
+      "name": "OPV, trivalent",
+      "description": "OPV, trivalent",
       "status": "Inactive",
       "cpt_codes": [
 
@@ -2071,7 +2071,7 @@
           "trade_name": "Flulaval quadrivalent",
           "mvx_code": "IDB",
           "manufacturer": "ID Biomedical",
-          "last_updated": "2024-05-14",
+          "last_updated": "2025-07-01",
           "product_name_status": "Inactive"
         },
         {
@@ -5124,6 +5124,33 @@
         }
       ]
     },
+    "332": {
+      "cvx_code": "332",
+      "name": "RSV, mAb, clesrovimab-cfor, 0.7 mL, neonate and infant, PF",
+      "description": "RSV, mAb, clesrovimab-cfor, 0.7 mL, neonate and infant, PF",
+      "status": "Active",
+      "cpt_codes": [
+        {
+          "cpt_code": "90382",
+          "cpt_desc": "Respiratory syncytial virus, monoclonal antibody, seasonal dose, 0.7 mL, for intramuscular use"
+        }
+      ],
+      "groups": {
+        "304": {
+          "name": "RSV",
+          "active": true
+        }
+      },
+      "manufacturers": [
+        {
+          "trade_name": "ENFLONSIA",
+          "mvx_code": "MSD",
+          "manufacturer": "Merck and Co., Inc.",
+          "last_updated": "2025-07-02",
+          "product_name_status": "Active"
+        }
+      ]
+    },
     "34": {
       "cvx_code": "34",
       "name": "RIG",
@@ -7368,6 +7395,33 @@
         }
       ]
     },
+    "90382": {
+      "cvx_code": "332",
+      "name": "RSV, mAb, clesrovimab-cfor, 0.7 mL, neonate and infant, PF",
+      "description": "RSV, mAb, clesrovimab-cfor, 0.7 mL, neonate and infant, PF",
+      "status": "Active",
+      "cpt_codes": [
+        {
+          "cpt_code": "90382",
+          "cpt_desc": "Respiratory syncytial virus, monoclonal antibody, seasonal dose, 0.7 mL, for intramuscular use"
+        }
+      ],
+      "groups": {
+        "304": {
+          "name": "RSV",
+          "active": true
+        }
+      },
+      "manufacturers": [
+        {
+          "trade_name": "ENFLONSIA",
+          "mvx_code": "MSD",
+          "manufacturer": "Merck and Co., Inc.",
+          "last_updated": "2025-07-02",
+          "product_name_status": "Active"
+        }
+      ]
+    },
     "90389": {
       "cvx_code": "13",
       "name": "TIG",
@@ -9509,7 +9563,7 @@
           "trade_name": "Flulaval quadrivalent",
           "mvx_code": "IDB",
           "manufacturer": "ID Biomedical",
-          "last_updated": "2024-05-14",
+          "last_updated": "2025-07-01",
           "product_name_status": "Inactive"
         },
         {
@@ -9554,7 +9608,7 @@
           "trade_name": "Flulaval quadrivalent",
           "mvx_code": "IDB",
           "manufacturer": "ID Biomedical",
-          "last_updated": "2024-05-14",
+          "last_updated": "2025-07-01",
           "product_name_status": "Inactive"
         },
         {
