@@ -581,8 +581,8 @@
     },
     "111": {
       "cvx_code": "111",
-      "name": "Influenza, live, trivalent, intranasal",
-      "description": "Influenza, live, trivalent, intranasal",
+      "name": "Influenza, live, trivalent, intranasal, PF",
+      "description": "Influenza, live, trivalent, intranasal, PF",
       "status": "Active",
       "cpt_codes": [
         {
@@ -5151,6 +5151,30 @@
         }
       ]
     },
+    "333": {
+      "cvx_code": "333",
+      "name": "Influenza, live, trivalent, intranasal, self/caregiver admin, PF",
+      "description": "Influenza, live, trivalent, intranasal, self/caregiver admin, PF",
+      "status": "Active",
+      "cpt_codes": [
+
+      ],
+      "groups": {
+        "88": {
+          "name": "FLU",
+          "active": true
+        }
+      },
+      "manufacturers": [
+        {
+          "trade_name": "FluMist trivalent (self/caregiver administered)",
+          "mvx_code": "MED",
+          "manufacturer": "MedImmune, Inc. (AstraZeneca)",
+          "last_updated": "2025-07-15",
+          "product_name_status": "Active"
+        }
+      ]
+    },
     "34": {
       "cvx_code": "34",
       "name": "RIG",
@@ -8740,8 +8764,8 @@
     },
     "90660": {
       "cvx_code": "111",
-      "name": "Influenza, live, trivalent, intranasal",
-      "description": "Influenza, live, trivalent, intranasal",
+      "name": "Influenza, live, trivalent, intranasal, PF",
+      "description": "Influenza, live, trivalent, intranasal, PF",
       "status": "Active",
       "cpt_codes": [
         {
