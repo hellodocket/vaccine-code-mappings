@@ -3400,8 +3400,8 @@
           "trade_name": "Moderna COVID-19 Vaccine (non-US Spikevax)",
           "mvx_code": "MOD",
           "manufacturer": "Moderna US, Inc.",
-          "last_updated": "2022-11-30",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         },
         {
           "trade_name": "SPIKEVAX",
@@ -3441,8 +3441,8 @@
           "trade_name": "Pfizer-BioNTech COVID-19 Vaccine (EUA labeled)  COMIRNATY (BLA labeled)",
           "mvx_code": "PFR",
           "manufacturer": "Pfizer, Inc",
-          "last_updated": "2021-09-10",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -3495,8 +3495,8 @@
           "trade_name": "AstraZeneca COVID-19 Vaccine (Non-US tradenames include VAXZEVRIA, COVISHIELD)",
           "mvx_code": "ASZ",
           "manufacturer": "AstraZeneca",
-          "last_updated": "2022-10-18",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -3522,8 +3522,8 @@
           "trade_name": "Novavax COVID-19 Vaccine (Non-US Tradenames NUVAXOVID, COVOVAX)",
           "mvx_code": "NVX",
           "manufacturer": "Novavax, Inc.",
-          "last_updated": "2022-11-16",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -3549,8 +3549,8 @@
           "trade_name": "Janssen (J&J) COVID-19 Vaccine",
           "mvx_code": "JSN",
           "manufacturer": "Janssen",
-          "last_updated": "2021-07-12",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -3673,8 +3673,8 @@
           "trade_name": "Pfizer-BioNTech COVID-19 Vaccine (EUA labeled)  COMIRNATY (BLA labeled)",
           "mvx_code": "PFR",
           "manufacturer": "Pfizer, Inc",
-          "last_updated": "2021-09-10",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -3700,8 +3700,8 @@
           "trade_name": "Pfizer-BioNTech COVID-19 Vaccine (EUA labeled)  COMIRNATY (BLA labeled)",
           "mvx_code": "PFR",
           "manufacturer": "Pfizer, Inc",
-          "last_updated": "2021-09-10",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -3727,8 +3727,8 @@
           "trade_name": "Pfizer-BioNTech COVID-19 Vaccine (EUA labeled)  COMIRNATY (BLA labeled)",
           "mvx_code": "PFR",
           "manufacturer": "Pfizer, Inc",
-          "last_updated": "2021-09-10",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -3812,8 +3812,8 @@
           "trade_name": "Moderna COVID-19 Vaccine (non-US Spikevax)",
           "mvx_code": "MOD",
           "manufacturer": "Moderna US, Inc.",
-          "last_updated": "2022-11-30",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -3911,8 +3911,8 @@
           "trade_name": "Sanofi COVID-19",
           "mvx_code": "PMC",
           "manufacturer": "Sanofi Pasteur",
-          "last_updated": "2022-10-18",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -3935,8 +3935,8 @@
           "trade_name": "Sanofi COVID-19",
           "mvx_code": "PMC",
           "manufacturer": "Sanofi Pasteur",
-          "last_updated": "2022-10-18",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -3959,8 +3959,8 @@
           "trade_name": "Moderna COVID-19 Vaccine (non-US Spikevax)",
           "mvx_code": "MOD",
           "manufacturer": "Moderna US, Inc.",
-          "last_updated": "2022-11-30",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -3986,8 +3986,8 @@
           "trade_name": "Moderna COVID-19 Vaccine (non-US Spikevax)",
           "mvx_code": "MOD",
           "manufacturer": "Moderna US, Inc.",
-          "last_updated": "2022-11-30",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -4017,8 +4017,8 @@
           "trade_name": "Moderna COVID-19 Bivalent, Original + BA.4/BA.5 (Non-US Tradename Spikevax Bivalent)",
           "mvx_code": "MOD",
           "manufacturer": "Moderna US, Inc.",
-          "last_updated": "2022-11-16",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -4065,8 +4065,8 @@
           "trade_name": "Moderna COVID-19 Bivalent, Original + BA.4/BA.5 (Non-US Tradename Spikevax Bivalent)",
           "mvx_code": "MOD",
           "manufacturer": "Moderna US, Inc.",
-          "last_updated": "2022-11-16",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -4295,8 +4295,8 @@
           "trade_name": "Pfizer-BioNTech COVID-19 Bivalent, Original + BA.4/BA.5 (Non-US Tradename COMIRNATY Bivalent)",
           "mvx_code": "PFR",
           "manufacturer": "Pfizer, Inc",
-          "last_updated": "2022-11-16",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -4322,8 +4322,8 @@
           "trade_name": "Pfizer-BioNTech COVID-19 Bivalent, Original + BA.4/BA.5 (Non-US Tradename COMIRNATY Bivalent)",
           "mvx_code": "PFR",
           "manufacturer": "Pfizer, Inc",
-          "last_updated": "2022-11-16",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -4349,8 +4349,8 @@
           "trade_name": "Pfizer-BioNTech COVID-19 Bivalent, Original + BA.4/BA.5 (Non-US Tradename COMIRNATY Bivalent)",
           "mvx_code": "PFR",
           "manufacturer": "Pfizer, Inc",
-          "last_updated": "2022-11-16",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -4484,7 +4484,7 @@
       "cvx_code": "308",
       "name": "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 3 mcg/0.3 mL",
       "description": "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 3 mcg/0.3 mL",
-      "status": "Active",
+      "status": "Inactive",
       "cpt_codes": [
         {
           "cpt_code": "91318",
@@ -4494,7 +4494,7 @@
       "groups": {
         "213": {
           "name": "COVID-19",
-          "active": true
+          "active": false
         }
       },
       "manufacturers": [
@@ -4502,8 +4502,8 @@
           "trade_name": "Pfizer-BioNTech COVID-19 Vaccine (US Only)",
           "mvx_code": "PFR",
           "manufacturer": "Pfizer, Inc",
-          "last_updated": "2023-09-06",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -4571,11 +4571,18 @@
       },
       "manufacturers": [
         {
-          "trade_name": "Pfizer-BioNTech COVID-19 Vaccine (US Only)",
+          "trade_name": "COMIRNATY",
           "mvx_code": "PFR",
           "manufacturer": "Pfizer, Inc",
           "last_updated": "2023-09-06",
           "product_name_status": "Active"
+        },
+        {
+          "trade_name": "Pfizer-BioNTech COVID-19 Vaccine (US Only)",
+          "mvx_code": "PFR",
+          "manufacturer": "Pfizer, Inc",
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -4599,6 +4606,13 @@
       "manufacturers": [
         {
           "trade_name": "Moderna COVID-19 Vaccine (US only)",
+          "mvx_code": "MOD",
+          "manufacturer": "Moderna US, Inc.",
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
+        },
+        {
+          "trade_name": "SPIKEVAX",
           "mvx_code": "MOD",
           "manufacturer": "Moderna US, Inc.",
           "last_updated": "2023-09-06",
@@ -4652,11 +4666,18 @@
       },
       "manufacturers": [
         {
+          "trade_name": "NUVAXOVID",
+          "mvx_code": "NVX",
+          "manufacturer": "Novavax, Inc.",
+          "last_updated": "2025-08-28",
+          "product_name_status": "Active"
+        },
+        {
           "trade_name": "Novavax COVID-19 Vaccine, Adjuvanted (US Only)",
           "mvx_code": "NVX",
           "manufacturer": "Novavax, Inc.",
-          "last_updated": "2023-09-06",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -5175,6 +5196,33 @@
         }
       ]
     },
+    "334": {
+      "cvx_code": "334",
+      "name": "COVID-19, mRNA, LNP-S, PF, 10 mcg/0.2 mL",
+      "description": "COVID-19, mRNA, LNP-S, PF, 10 mcg/0.2 mL",
+      "status": "Active",
+      "cpt_codes": [
+        {
+          "cpt_code": "91323",
+          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, 10 mcg/0.2 mL dosage, for intramuscular use"
+        }
+      ],
+      "groups": {
+        "213": {
+          "name": "COVID-19",
+          "active": true
+        }
+      },
+      "manufacturers": [
+        {
+          "trade_name": "mNEXSPIKE",
+          "mvx_code": "MOD",
+          "manufacturer": "Moderna US, Inc.",
+          "last_updated": "2025-08-28",
+          "product_name_status": "Active"
+        }
+      ]
+    },
     "34": {
       "cvx_code": "34",
       "name": "RIG",
@@ -5647,8 +5695,8 @@
     },
     "500": {
       "cvx_code": "500",
-      "name": "COVID-19 Non-US Vaccine, Product Unknown",
-      "description": "COVID-19 Non-US Vaccine, Product Unknown",
+      "name": "COVID-19 Non-US Vaccine, UNSPECIFIED",
+      "description": "COVID-19 Non-US Vaccine, UNSPECIFIED",
       "status": "Non-US",
       "cpt_codes": [
 
@@ -6067,8 +6115,8 @@
           "trade_name": "Moderna COVID-19 Bivalent, Original + BA.1 (Non-US Tradename Spikevax Bivalent)",
           "mvx_code": "MOD",
           "manufacturer": "Moderna US, Inc.",
-          "last_updated": "2022-11-17",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -11258,8 +11306,8 @@
           "trade_name": "Pfizer-BioNTech COVID-19 Vaccine (EUA labeled)  COMIRNATY (BLA labeled)",
           "mvx_code": "PFR",
           "manufacturer": "Pfizer, Inc",
-          "last_updated": "2021-09-10",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -11289,8 +11337,8 @@
           "trade_name": "Moderna COVID-19 Vaccine (non-US Spikevax)",
           "mvx_code": "MOD",
           "manufacturer": "Moderna US, Inc.",
-          "last_updated": "2022-11-30",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         },
         {
           "trade_name": "SPIKEVAX",
@@ -11323,8 +11371,8 @@
           "trade_name": "AstraZeneca COVID-19 Vaccine (Non-US tradenames include VAXZEVRIA, COVISHIELD)",
           "mvx_code": "ASZ",
           "manufacturer": "AstraZeneca",
-          "last_updated": "2022-10-18",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -11350,8 +11398,8 @@
           "trade_name": "Janssen (J&J) COVID-19 Vaccine",
           "mvx_code": "JSN",
           "manufacturer": "Janssen",
-          "last_updated": "2021-07-12",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -11377,8 +11425,8 @@
           "trade_name": "Novavax COVID-19 Vaccine (Non-US Tradenames NUVAXOVID, COVOVAX)",
           "mvx_code": "NVX",
           "manufacturer": "Novavax, Inc.",
-          "last_updated": "2022-11-16",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -11411,8 +11459,8 @@
           "trade_name": "Pfizer-BioNTech COVID-19 Vaccine (EUA labeled)  COMIRNATY (BLA labeled)",
           "mvx_code": "PFR",
           "manufacturer": "Pfizer, Inc",
-          "last_updated": "2021-09-10",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -11442,8 +11490,8 @@
           "trade_name": "Moderna COVID-19 Vaccine (non-US Spikevax)",
           "mvx_code": "MOD",
           "manufacturer": "Moderna US, Inc.",
-          "last_updated": "2022-11-30",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         },
         {
           "trade_name": "SPIKEVAX",
@@ -11476,8 +11524,8 @@
           "trade_name": "Pfizer-BioNTech COVID-19 Vaccine (EUA labeled)  COMIRNATY (BLA labeled)",
           "mvx_code": "PFR",
           "manufacturer": "Pfizer, Inc",
-          "last_updated": "2021-09-10",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -11503,8 +11551,8 @@
           "trade_name": "Pfizer-BioNTech COVID-19 Vaccine (EUA labeled)  COMIRNATY (BLA labeled)",
           "mvx_code": "PFR",
           "manufacturer": "Pfizer, Inc",
-          "last_updated": "2021-09-10",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -11530,8 +11578,8 @@
           "trade_name": "Moderna COVID-19 Vaccine (non-US Spikevax)",
           "mvx_code": "MOD",
           "manufacturer": "Moderna US, Inc.",
-          "last_updated": "2022-11-30",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -11557,8 +11605,8 @@
           "trade_name": "Sanofi COVID-19",
           "mvx_code": "PMC",
           "manufacturer": "Sanofi Pasteur",
-          "last_updated": "2022-10-18",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -11584,8 +11632,8 @@
           "trade_name": "Moderna COVID-19 Vaccine (non-US Spikevax)",
           "mvx_code": "MOD",
           "manufacturer": "Moderna US, Inc.",
-          "last_updated": "2022-11-30",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -11611,8 +11659,8 @@
           "trade_name": "Pfizer-BioNTech COVID-19 Bivalent, Original + BA.4/BA.5 (Non-US Tradename COMIRNATY Bivalent)",
           "mvx_code": "PFR",
           "manufacturer": "Pfizer, Inc",
-          "last_updated": "2022-11-16",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -11642,8 +11690,8 @@
           "trade_name": "Moderna COVID-19 Bivalent, Original + BA.4/BA.5 (Non-US Tradename Spikevax Bivalent)",
           "mvx_code": "MOD",
           "manufacturer": "Moderna US, Inc.",
-          "last_updated": "2022-11-16",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -11673,8 +11721,8 @@
           "trade_name": "Moderna COVID-19 Bivalent, Original + BA.4/BA.5 (Non-US Tradename Spikevax Bivalent)",
           "mvx_code": "MOD",
           "manufacturer": "Moderna US, Inc.",
-          "last_updated": "2022-11-16",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -11700,8 +11748,8 @@
           "trade_name": "Pfizer-BioNTech COVID-19 Bivalent, Original + BA.4/BA.5 (Non-US Tradename COMIRNATY Bivalent)",
           "mvx_code": "PFR",
           "manufacturer": "Pfizer, Inc",
-          "last_updated": "2022-11-16",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -11727,8 +11775,8 @@
           "trade_name": "Moderna COVID-19 Bivalent, Original + BA.4/BA.5 (Non-US Tradename Spikevax Bivalent)",
           "mvx_code": "MOD",
           "manufacturer": "Moderna US, Inc.",
-          "last_updated": "2022-11-16",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -11754,8 +11802,8 @@
           "trade_name": "Pfizer-BioNTech COVID-19 Bivalent, Original + BA.4/BA.5 (Non-US Tradename COMIRNATY Bivalent)",
           "mvx_code": "PFR",
           "manufacturer": "Pfizer, Inc",
-          "last_updated": "2022-11-16",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -11763,7 +11811,7 @@
       "cvx_code": "308",
       "name": "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 3 mcg/0.3 mL",
       "description": "COVID-19, mRNA, LNP-S, PF, tris-sucrose, 3 mcg/0.3 mL",
-      "status": "Active",
+      "status": "Inactive",
       "cpt_codes": [
         {
           "cpt_code": "91318",
@@ -11773,7 +11821,7 @@
       "groups": {
         "213": {
           "name": "COVID-19",
-          "active": true
+          "active": false
         }
       },
       "manufacturers": [
@@ -11781,8 +11829,8 @@
           "trade_name": "Pfizer-BioNTech COVID-19 Vaccine (US Only)",
           "mvx_code": "PFR",
           "manufacturer": "Pfizer, Inc",
-          "last_updated": "2023-09-06",
-          "product_name_status": "Active"
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -11805,11 +11853,18 @@
       },
       "manufacturers": [
         {
-          "trade_name": "Pfizer-BioNTech COVID-19 Vaccine (US Only)",
+          "trade_name": "COMIRNATY",
           "mvx_code": "PFR",
           "manufacturer": "Pfizer, Inc",
           "last_updated": "2023-09-06",
           "product_name_status": "Active"
+        },
+        {
+          "trade_name": "Pfizer-BioNTech COVID-19 Vaccine (US Only)",
+          "mvx_code": "PFR",
+          "manufacturer": "Pfizer, Inc",
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
         }
       ]
     },
@@ -11862,6 +11917,13 @@
           "trade_name": "Moderna COVID-19 Vaccine (US only)",
           "mvx_code": "MOD",
           "manufacturer": "Moderna US, Inc.",
+          "last_updated": "2025-09-09",
+          "product_name_status": "Inactive"
+        },
+        {
+          "trade_name": "SPIKEVAX",
+          "mvx_code": "MOD",
+          "manufacturer": "Moderna US, Inc.",
           "last_updated": "2023-09-06",
           "product_name_status": "Active"
         }
@@ -11890,6 +11952,33 @@
           "mvx_code": "MOD",
           "manufacturer": "Moderna US, Inc.",
           "last_updated": "2023-09-06",
+          "product_name_status": "Active"
+        }
+      ]
+    },
+    "91323": {
+      "cvx_code": "334",
+      "name": "COVID-19, mRNA, LNP-S, PF, 10 mcg/0.2 mL",
+      "description": "COVID-19, mRNA, LNP-S, PF, 10 mcg/0.2 mL",
+      "status": "Active",
+      "cpt_codes": [
+        {
+          "cpt_code": "91323",
+          "cpt_desc": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (coronavirus disease [COVID-19]) vaccine, mRNA-LNP, 10 mcg/0.2 mL dosage, for intramuscular use"
+        }
+      ],
+      "groups": {
+        "213": {
+          "name": "COVID-19",
+          "active": true
+        }
+      },
+      "manufacturers": [
+        {
+          "trade_name": "mNEXSPIKE",
+          "mvx_code": "MOD",
+          "manufacturer": "Moderna US, Inc.",
+          "last_updated": "2025-08-28",
           "product_name_status": "Active"
         }
       ]
