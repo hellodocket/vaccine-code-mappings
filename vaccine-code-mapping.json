@@ -17,14 +17,18 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "02": {
       "cvx_code": "02",
       "name": "OPV, trivalent",
       "description": "OPV, trivalent",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "89": {
           "name": "POLIO",
@@ -92,7 +96,9 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "05": {
       "cvx_code": "05",
@@ -347,7 +353,9 @@
       "name": "DTP-Hib-Hep B",
       "description": "DTP-Hib-Hep B",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "17": {
           "name": "HIB",
@@ -362,21 +370,27 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "103": {
       "cvx_code": "103",
       "name": "meningococcal C conjugate",
       "description": "meningococcal C conjugate",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "108": {
           "name": "MENING",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "104": {
       "cvx_code": "104",
@@ -414,14 +428,18 @@
       "name": "vaccinia (smallpox) diluted",
       "description": "vaccinia (smallpox) diluted",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "325": {
           "name": "Orthopoxvirus",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "106": {
       "cvx_code": "106",
@@ -455,35 +473,45 @@
       "name": "DTaP, unspecified formulation",
       "description": "DTaP, unspecified formulation",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "107": {
           "name": "DTAP",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "108": {
       "cvx_code": "108",
       "name": "meningococcal ACWY, unspecified formulation",
       "description": "meningococcal ACWY, unspecified formulation",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "108": {
           "name": "MENING",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "109": {
       "cvx_code": "109",
       "name": "pneumococcal, unspecified formulation",
       "description": "pneumococcal, unspecified formulation",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "33": {
           "name": "PneumoPPV",
@@ -494,21 +522,27 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "11": {
       "cvx_code": "11",
       "name": "pertussis",
       "description": "pertussis",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "11": {
           "name": "PERTUSSIS",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "110": {
       "cvx_code": "110",
@@ -584,14 +618,18 @@
       "name": "tetanus toxoid, unspecified formulation",
       "description": "tetanus toxoid, unspecified formulation",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "112": {
           "name": "TETANUS TOXOID, UNSPECIFIED FORMULATION",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "113": {
       "cvx_code": "113",
@@ -720,14 +758,18 @@
       "name": "VZIG (IND)",
       "description": "VZIG (IND)",
       "status": "Never Active",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "117": {
           "name": "VZIG (IND)",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "118": {
       "cvx_code": "118",
@@ -804,7 +846,9 @@
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "120": {
       "cvx_code": "120",
@@ -873,28 +917,36 @@
       "name": "rotavirus, unspecified formulation",
       "description": "rotavirus, unspecified formulation",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "122": {
           "name": "ROTAVIRUS",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "123": {
       "cvx_code": "123",
       "name": "influenza, H5N1-1203",
       "description": "influenza, H5N1-1203",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "123": {
           "name": "H5N1 flu",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "125": {
       "cvx_code": "125",
@@ -1026,21 +1078,27 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "129": {
       "cvx_code": "129",
       "name": "Japanese Encephalitis, unspecified formulation",
       "description": "Japanese Encephalitis, unspecified formulation",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "129": {
           "name": "Japanese encephalitis",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "13": {
       "cvx_code": "13",
@@ -1059,7 +1117,9 @@
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "130": {
       "cvx_code": "130",
@@ -1104,21 +1164,27 @@
       "name": "typhus, historical",
       "description": "typhus, historical",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "131": {
           "name": "TYPHUS, HISTORICAL",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "132": {
       "cvx_code": "132",
       "name": "DTaP-IPV-HIB-HEP B, historical",
       "description": "DTaP-IPV-HIB-HEP B, historical",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "17": {
           "name": "HIB",
@@ -1137,7 +1203,9 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "133": {
       "cvx_code": "133",
@@ -1287,42 +1355,54 @@
       "name": "HPV, unspecified formulation",
       "description": "HPV, unspecified formulation",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "137": {
           "name": "HPV",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "138": {
       "cvx_code": "138",
       "name": "Td (adult)",
       "description": "Td (adult)",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "139": {
           "name": "Td",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "139": {
       "cvx_code": "139",
       "name": "Td(adult) unspecified formulation",
       "description": "Td(adult) unspecified formulation",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "139": {
           "name": "Td",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "14": {
       "cvx_code": "14",
@@ -1341,7 +1421,9 @@
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "140": {
       "cvx_code": "140",
@@ -1532,21 +1614,27 @@
       "name": "tetanus toxoid, not adsorbed",
       "description": "tetanus toxoid, not adsorbed",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "142": {
           "name": "TETANUS TOXOID, NOT ADSORBED",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "143": {
       "cvx_code": "143",
       "name": "Adenovirus types 4 and 7",
       "description": "Adenovirus types 4 and 7",
       "status": "Active",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "82": {
           "name": "ADENO",
@@ -1602,14 +1690,18 @@
       "name": "RSV-MAb (new)",
       "description": "RSV-MAb (new)",
       "status": "Never Active",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "145": {
           "name": "RSV-MAB (NEW)",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "146": {
       "cvx_code": "146",
@@ -1655,14 +1747,18 @@
       "name": "meningococcal MCV4, unspecified formulation",
       "description": "meningococcal MCV4, unspecified formulation",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "108": {
           "name": "MENING",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "148": {
       "cvx_code": "148",
@@ -1727,14 +1823,18 @@
       "name": "influenza, split (incl. purified surface antigen)",
       "description": "influenza, split (incl. purified surface antigen)",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "88": {
           "name": "FLU",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "150": {
       "cvx_code": "150",
@@ -1789,28 +1889,36 @@
       "name": "influenza nasal, unspecified formulation",
       "description": "influenza nasal, unspecified formulation",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "88": {
           "name": "FLU",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "152": {
       "cvx_code": "152",
       "name": "Pneumococcal Conjugate, unspecified formulation",
       "description": "Pneumococcal Conjugate, unspecified formulation",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "152": {
           "name": "PneumoPCV",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "153": {
       "cvx_code": "153",
@@ -1851,14 +1959,18 @@
       "name": "Hep A, IG",
       "description": "Hep A, IG",
       "status": "Never Active",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "154": {
           "name": "HEP A, IG",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "155": {
       "cvx_code": "155",
@@ -1899,28 +2011,36 @@
       "name": "Rho(D)-IG",
       "description": "Rho(D)-IG",
       "status": "Active",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "156": {
           "name": "RHO(D)-IG",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "157": {
       "cvx_code": "157",
       "name": "Rho(D) -IG IM",
       "description": "Rho(D) -IG IM",
       "status": "Active",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "157": {
           "name": "RHO(D) -IG IM",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "158": {
       "cvx_code": "158",
@@ -1972,14 +2092,18 @@
       "name": "Rho(D) - Unspecified formulation",
       "description": "Rho(D) - Unspecified formulation",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "159": {
           "name": "RHO(D) - UNSPECIFIED FORMULATION",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "16": {
       "cvx_code": "16",
@@ -1998,14 +2122,18 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "160": {
       "cvx_code": "160",
       "name": "Influenza A monovalent (H5N1), ADJUVANTED-2013",
       "description": "Influenza A monovalent (H5N1), ADJUVANTED-2013",
       "status": "Active",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "123": {
           "name": "H5N1 flu",
@@ -2129,14 +2257,18 @@
       "name": "meningococcal B, unspecified",
       "description": "meningococcal B, unspecified",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "164": {
           "name": "MeningB",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "165": {
       "cvx_code": "165",
@@ -2197,14 +2329,18 @@
       "name": "meningococcal, unknown serogroups",
       "description": "meningococcal, unknown serogroups",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "167": {
           "name": "MENINGOCOCCAL, UNKNOWN SEROGROUPS",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "168": {
       "cvx_code": "168",
@@ -2252,14 +2388,18 @@
       "name": "Hep A, live attenuated",
       "description": "Hep A, live attenuated",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "169": {
           "name": "HEP A, LIVE ATTENUATED",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "17": {
       "cvx_code": "17",
@@ -2278,14 +2418,18 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "170": {
       "cvx_code": "170",
       "name": "DTAP/IPV/HIB - non-US",
       "description": "DTAP/IPV/HIB - non-US",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "17": {
           "name": "HIB",
@@ -2300,7 +2444,9 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "171": {
       "cvx_code": "171",
@@ -2334,28 +2480,36 @@
       "name": "cholera, WC-rBS",
       "description": "cholera, WC-rBS",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "26": {
           "name": "cholera",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "173": {
       "cvx_code": "173",
       "name": "cholera, BivWC",
       "description": "cholera, BivWC",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "26": {
           "name": "cholera",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "174": {
       "cvx_code": "174",
@@ -2464,49 +2618,63 @@
       "name": "PCV10",
       "description": "PCV10",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "152": {
           "name": "PneumoPCV",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "178": {
       "cvx_code": "178",
       "name": "OPV bivalent",
       "description": "OPV bivalent",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "178": {
           "name": "OPV BIVALENT",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "179": {
       "cvx_code": "179",
       "name": "OPV ,monovalent, unspecified",
       "description": "OPV ,monovalent, unspecified",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "179": {
           "name": "OPV ,MONOVALENT, UNSPECIFIED",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "18": {
       "cvx_code": "18",
       "name": "rabies, intramuscular injection",
       "description": "rabies, intramuscular injection",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "90": {
           "name": "RABIES",
@@ -2535,28 +2703,36 @@
       "name": "tetanus immune globulin",
       "description": "tetanus immune globulin",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "180": {
           "name": "TETANUS IMMUNE GLOBULIN",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "181": {
       "cvx_code": "181",
       "name": "anthrax immune globulin",
       "description": "anthrax immune globulin",
       "status": "Active",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "181": {
           "name": "ANTHRAX IMMUNE GLOBULIN",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "182": {
       "cvx_code": "182",
@@ -2575,7 +2751,9 @@
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "183": {
       "cvx_code": "183",
@@ -2609,14 +2787,18 @@
       "name": "Yellow fever, unspecified",
       "description": "Yellow fever, unspecified",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "184": {
           "name": "YELLOWFEVER",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "185": {
       "cvx_code": "185",
@@ -2711,14 +2893,18 @@
       "name": "zoster, unspecified formulation",
       "description": "zoster, unspecified formulation",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "188": {
           "name": "ZOSTER",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "189": {
       "cvx_code": "189",
@@ -2790,49 +2976,63 @@
       "name": "Typhoid conjugate vaccine (TCV)",
       "description": "Typhoid conjugate vaccine (TCV)",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "190": {
           "name": "TYPHOID CONJUGATE VACCINE (TCV)",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "191": {
       "cvx_code": "191",
       "name": "meningococcal A polysaccharide (non-US)",
       "description": "meningococcal A polysaccharide (non-US)",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "191": {
           "name": "MENINGOCOCCAL A POLYSACCHARIDE (NON-US)",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "192": {
       "cvx_code": "192",
       "name": "meningococcal AC polysaccharide (non-US)",
       "description": "meningococcal AC polysaccharide (non-US)",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "192": {
           "name": "MENINGOCOCCAL AC POLYSACCHARIDE (NON-US)",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "193": {
       "cvx_code": "193",
       "name": "Hep A-Hep B, pediatric/adolescent",
       "description": "Hep A-Hep B, pediatric/adolescent",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "45": {
           "name": "HepB",
@@ -2843,28 +3043,36 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "194": {
       "cvx_code": "194",
       "name": "Influenza, Southern Hemisphere",
       "description": "Influenza, Southern Hemisphere",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "88": {
           "name": "FLU",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "195": {
       "cvx_code": "195",
       "name": "DT, IPV adsorbed",
       "description": "DT, IPV adsorbed",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "89": {
           "name": "POLIO",
@@ -2875,21 +3083,27 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "196": {
       "cvx_code": "196",
       "name": "Td, adsorbed, preservative free, adult use, Lf unspecified",
       "description": "Td, adsorbed, preservative free, adult use, Lf unspecified",
       "status": "Active",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "139": {
           "name": "Td",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "197": {
       "cvx_code": "197",
@@ -2923,14 +3137,18 @@
       "name": "DTP-hepB-Hib Pentavalent Non-US",
       "description": "DTP-hepB-Hib Pentavalent Non-US",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "198": {
           "name": "DTP-HEPB-HIB PENTAVALENT NON-US",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "20": {
       "cvx_code": "20",
@@ -2985,7 +3203,9 @@
       "name": "influenza, Southern Hemisphere, pediatric, preservative free",
       "description": "influenza, Southern Hemisphere, pediatric, preservative free",
       "status": "Active",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "88": {
           "name": "FLU",
@@ -3007,7 +3227,9 @@
       "name": "Influenza, Southern Hemisphere, quadrivalent, PF",
       "description": "Influenza, Southern Hemisphere, quadrivalent, PF",
       "status": "Active",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "88": {
           "name": "FLU",
@@ -3029,7 +3251,9 @@
       "name": "influenza, Southern Hemisphere, quadrivalent, with preservative",
       "description": "influenza, Southern Hemisphere, quadrivalent, with preservative",
       "status": "Active",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "88": {
           "name": "FLU",
@@ -3339,28 +3563,36 @@
       "name": "SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED",
       "description": "SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "213": {
           "name": "COVID-19",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "214": {
       "cvx_code": "214",
       "name": "Ebola, unspecified",
       "description": "Ebola, unspecified",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "214": {
           "name": "Ebola",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "215": {
       "cvx_code": "215",
@@ -3594,14 +3826,18 @@
       "name": "Tick-borne encephalitis, unspecified",
       "description": "Tick-borne encephalitis, unspecified",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "222": {
           "name": "Tick-borne encephalitis",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "223": {
       "cvx_code": "223",
@@ -3689,7 +3925,9 @@
       "name": "COVID-19, D614, recomb, preS dTM, AS03 adjuvant add, PF, 10mcg/0.5mL",
       "description": "COVID-19, D614, recomb, preS dTM, AS03 adjuvant add, PF, 10mcg/0.5mL",
       "status": "Never Active",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "213": {
           "name": "COVID-19",
@@ -3711,7 +3949,9 @@
       "name": "COVID-19, mRNA, LNP-S, PF, pediatric 50 mcg/0.5 mL dose",
       "description": "COVID-19, mRNA, LNP-S, PF, pediatric 50 mcg/0.5 mL dose",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "213": {
           "name": "COVID-19",
@@ -3803,7 +4043,9 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "230": {
       "cvx_code": "230",
@@ -3837,7 +4079,9 @@
       "name": "influenza, Southern Hemisphere, high-dose, quadrivalent",
       "description": "influenza, Southern Hemisphere, high-dose, quadrivalent",
       "status": "Active",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "88": {
           "name": "FLU",
@@ -3939,7 +4183,9 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "27": {
       "cvx_code": "27",
@@ -3958,7 +4204,9 @@
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "28": {
       "cvx_code": "28",
@@ -4004,7 +4252,9 @@
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "30": {
       "cvx_code": "30",
@@ -4023,7 +4273,9 @@
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "300": {
       "cvx_code": "300",
@@ -4138,14 +4390,18 @@
       "name": "Respiratory syncytial virus (RSV), unspecified",
       "description": "Respiratory syncytial virus (RSV), unspecified",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "304": {
           "name": "RSV",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "305": {
       "cvx_code": "305",
@@ -4287,14 +4543,18 @@
       "name": "Hep A, pediatric, unspecified formulation",
       "description": "Hep A, pediatric, unspecified formulation",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "85": {
           "name": "HepA",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "310": {
       "cvx_code": "310",
@@ -4430,28 +4690,36 @@
       "name": "Respiratory syncytial virus (RSV) vaccine, unspecified",
       "description": "Respiratory syncytial virus (RSV) vaccine, unspecified",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "304": {
           "name": "RSV",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "315": {
       "cvx_code": "315",
       "name": "Respiratory syncytial virus (RSV) MAB, unspecified",
       "description": "Respiratory syncytial virus (RSV) MAB, unspecified",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "304": {
           "name": "RSV",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "316": {
       "cvx_code": "316",
@@ -4543,14 +4811,18 @@
       "name": "Anthrax vaccine, unspecified",
       "description": "Anthrax vaccine, unspecified",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "319": {
           "name": "ANTHRAX",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "32": {
       "cvx_code": "32",
@@ -4611,70 +4883,90 @@
       "name": "Influenza-avian, H5N8, monovalent, PF",
       "description": "Influenza-avian, H5N8, monovalent, PF",
       "status": "Active",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "323": {
           "name": "FLU-Avian-H5",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "322": {
       "cvx_code": "322",
       "name": "Influenza-avian, H5N8, monovalent, preservative",
       "description": "Influenza-avian, H5N8, monovalent, preservative",
       "status": "Active",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "323": {
           "name": "FLU-Avian-H5",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "323": {
       "cvx_code": "323",
       "name": "Influenza-avian, H5, unspecified formulation",
       "description": "Influenza-avian, H5, unspecified formulation",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "323": {
           "name": "FLU-Avian-H5",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "324": {
       "cvx_code": "324",
       "name": "Poliovirus, inactivated, fractional-dose (fIPV)",
       "description": "Poliovirus, inactivated, fractional-dose (fIPV)",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "89": {
           "name": "POLIO",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "325": {
       "cvx_code": "325",
       "name": "Vaccinia (smallpox, mpox), unspecified",
       "description": "Vaccinia (smallpox, mpox), unspecified",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "325": {
           "name": "Orthopoxvirus",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "326": {
       "cvx_code": "326",
@@ -4820,21 +5112,27 @@
       "name": "Dengue fever, unspecified",
       "description": "Dengue fever, unspecified",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "330": {
           "name": "DENGUE",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "331": {
       "cvx_code": "331",
       "name": "Influenza, Southern Hemisphere, trivalent, PF",
       "description": "Influenza, Southern Hemisphere, trivalent, PF",
       "status": "Active",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "88": {
           "name": "FLU",
@@ -4883,7 +5181,9 @@
       "name": "Influenza, live, trivalent, intranasal, self/caregiver admin, PF",
       "description": "Influenza, live, trivalent, intranasal, self/caregiver admin, PF",
       "status": "Active",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "88": {
           "name": "FLU",
@@ -4948,7 +5248,9 @@
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "35": {
       "cvx_code": "35",
@@ -4994,7 +5296,9 @@
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "37": {
       "cvx_code": "37",
@@ -5028,7 +5332,9 @@
       "name": "rubella/mumps",
       "description": "rubella/mumps",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "03": {
           "name": "MMR",
@@ -5116,7 +5422,9 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "42": {
       "cvx_code": "42",
@@ -5135,7 +5443,9 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "43": {
       "cvx_code": "43",
@@ -5230,7 +5540,9 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "46": {
       "cvx_code": "46",
@@ -5390,35 +5702,45 @@
       "name": "COVID-19 Non-US Vaccine, UNSPECIFIED",
       "description": "COVID-19 Non-US Vaccine, UNSPECIFIED",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "213": {
           "name": "COVID-19",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "501": {
       "cvx_code": "501",
       "name": "COVID-19 IV Non-US Vaccine (QAZCOVID-IN)",
       "description": "COVID-19 IV Non-US Vaccine (QAZCOVID-IN)",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "213": {
           "name": "COVID-19",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "502": {
       "cvx_code": "502",
       "name": "COVID-19 IV Non-US Vaccine (COVAXIN)",
       "description": "COVID-19 IV Non-US Vaccine (COVAXIN)",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "213": {
           "name": "COVID-19",
@@ -5440,49 +5762,63 @@
       "name": "COVID-19 LAV Non-US Vaccine (COVIVAC)",
       "description": "COVID-19 LAV Non-US Vaccine (COVIVAC)",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "213": {
           "name": "COVID-19",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "504": {
       "cvx_code": "504",
       "name": "COVID-19 VVnr Non-US Vaccine (Sputnik Light)",
       "description": "COVID-19 VVnr Non-US Vaccine (Sputnik Light)",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "213": {
           "name": "COVID-19",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "505": {
       "cvx_code": "505",
       "name": "COVID-19 VVnr Non-US Vaccine (Sputnik V)",
       "description": "COVID-19 VVnr Non-US Vaccine (Sputnik V)",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "213": {
           "name": "COVID-19",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "506": {
       "cvx_code": "506",
       "name": "COVID-19 VVnr Non-US Vaccine (CanSino Biological Inc./Beijing Institute of Biotechnology",
       "description": "COVID-19 VVnr Non-US Vaccine (CanSino Biological Inc./Beijing Institute of Biotechnology",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "213": {
           "name": "COVID-19",
@@ -5504,42 +5840,54 @@
       "name": "COVID-19 PS Non-US Vaccine (Anhui Zhifei Longcom Biopharm + Inst of Micro, Chinese Acad of Sciences)",
       "description": "COVID-19 PS Non-US Vaccine (Anhui Zhifei Longcom Biopharm + Inst of Micro, Chinese Acad of Sciences)",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "213": {
           "name": "COVID-19",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "508": {
       "cvx_code": "508",
       "name": "COVID-19 PS Non-US Vaccine (Jiangsu Province Centers for Disease Control and Prevention)",
       "description": "COVID-19 PS Non-US Vaccine (Jiangsu Province Centers for Disease Control and Prevention)",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "213": {
           "name": "COVID-19",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "509": {
       "cvx_code": "509",
       "name": "COVID-19 PS Non-US Vaccine (EpiVacCorona)",
       "description": "COVID-19 PS Non-US Vaccine (EpiVacCorona)",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "213": {
           "name": "COVID-19",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "51": {
       "cvx_code": "51",
@@ -5577,7 +5925,9 @@
       "name": "COVID-19 IV Non-US Vaccine (BIBP, Sinopharm)",
       "description": "COVID-19 IV Non-US Vaccine (BIBP, Sinopharm)",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "213": {
           "name": "COVID-19",
@@ -5599,7 +5949,9 @@
       "name": "COVID-19 IV Non-US Vaccine (CoronaVac, Sinovac)",
       "description": "COVID-19 IV Non-US Vaccine (CoronaVac, Sinovac)",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "213": {
           "name": "COVID-19",
@@ -5621,7 +5973,9 @@
       "name": "SARS-COV-2 COVID-19 VLP Non-US Vaccine (Medicago, Covifenz)",
       "description": "SARS-COV-2 COVID-19 VLP Non-US Vaccine (Medicago, Covifenz)",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "213": {
           "name": "COVID-19",
@@ -5643,91 +5997,117 @@
       "name": "SARS-COV-2 COVID-19 PS Non-US Vaccine (Anhui Zhifei Longcom, Zifivax)",
       "description": "SARS-COV-2 COVID-19 PS Non-US Vaccine (Anhui Zhifei Longcom, Zifivax)",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "213": {
           "name": "COVID-19",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "514": {
       "cvx_code": "514",
       "name": "SARS-COV-2 COVID-19 DNA Non-US Vaccine (Zydus Cadila, ZyCoV-D)",
       "description": "SARS-COV-2 COVID-19 DNA Non-US Vaccine (Zydus Cadila, ZyCoV-D)",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "213": {
           "name": "COVID-19",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "515": {
       "cvx_code": "515",
       "name": "SARS-COV-2 COVID-19 PS Non-US Vaccine (Medigen, MVC-COV1901)",
       "description": "SARS-COV-2 COVID-19 PS Non-US Vaccine (Medigen, MVC-COV1901)",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "213": {
           "name": "COVID-19",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "516": {
       "cvx_code": "516",
       "name": "COV-2 COVID-19 Inactivated Non-US Vaccine Product (Minhai Biotechnology Co, KCONVAC)",
       "description": "COV-2 COVID-19 Inactivated Non-US Vaccine Product (Minhai Biotechnology Co, KCONVAC)",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "213": {
           "name": "COVID-19",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "517": {
       "cvx_code": "517",
       "name": "SARS-COV-2 COVID-19 PS Non-US Vaccine (Biological E Limited, Corbevax)",
       "description": "SARS-COV-2 COVID-19 PS Non-US Vaccine (Biological E Limited, Corbevax)",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "213": {
           "name": "COVID-19",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "518": {
       "cvx_code": "518",
       "name": "COVID-19 Inactivated, Non-US Vaccine (VLA2001, Valneva)",
       "description": "COVID-19 Inactivated, Non-US Vaccine (VLA2001, Valneva)",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "213": {
           "name": "COVID-19",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "519": {
       "cvx_code": "519",
       "name": "COVID-19 mRNA, bivalent, original/Omicron BA.1, Non-US Vaccine (Spikevax Bivalent), Moderna",
       "description": "COVID-19 mRNA, bivalent, original/Omicron BA.1, Non-US Vaccine (Spikevax Bivalent), Moderna",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "213": {
           "name": "COVID-19",
@@ -5783,7 +6163,9 @@
       "name": "COVID-19 mRNA, bivalent, original/Omicron BA.1, Non-US Vaccine Product, Pfizer-BioNTech",
       "description": "COVID-19 mRNA, bivalent, original/Omicron BA.1, Non-US Vaccine Product, Pfizer-BioNTech",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "213": {
           "name": "COVID-19",
@@ -5805,14 +6187,18 @@
       "name": "COVID-19 SP, protein-based, adjuvanted (VidPrevtyn Beta), Sanofi-GSK",
       "description": "COVID-19 SP, protein-based, adjuvanted (VidPrevtyn Beta), Sanofi-GSK",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "213": {
           "name": "COVID-19",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "53": {
       "cvx_code": "53",
@@ -5858,7 +6244,9 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "55": {
       "cvx_code": "55",
@@ -5877,7 +6265,9 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "56": {
       "cvx_code": "56",
@@ -5911,70 +6301,90 @@
       "name": "hantavirus",
       "description": "hantavirus",
       "status": "Never Active",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "57": {
           "name": "HANTAVIRUS",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "58": {
       "cvx_code": "58",
       "name": "Hep C",
       "description": "Hep C",
       "status": "Never Active",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "58": {
           "name": "HEP C",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "59": {
       "cvx_code": "59",
       "name": "Hep E",
       "description": "Hep E",
       "status": "Never Active",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "59": {
           "name": "HEP E",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "60": {
       "cvx_code": "60",
       "name": "herpes simplex 2",
       "description": "herpes simplex 2",
       "status": "Never Active",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "60": {
           "name": "HERPES SIMPLEX 2",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "61": {
       "cvx_code": "61",
       "name": "HIV",
       "description": "HIV",
       "status": "Never Active",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "61": {
           "name": "HIV",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "62": {
       "cvx_code": "62",
@@ -6008,42 +6418,54 @@
       "name": "Junin virus",
       "description": "Junin virus",
       "status": "Never Active",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "63": {
           "name": "JUNIN VIRUS",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "64": {
       "cvx_code": "64",
       "name": "leishmaniasis",
       "description": "leishmaniasis",
       "status": "Never Active",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "64": {
           "name": "LEISHMANIASIS",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "65": {
       "cvx_code": "65",
       "name": "leprosy",
       "description": "leprosy",
       "status": "Never Active",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "65": {
           "name": "LEPROSY",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "66": {
       "cvx_code": "66",
@@ -6062,119 +6484,153 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "67": {
       "cvx_code": "67",
       "name": "malaria",
       "description": "malaria",
       "status": "Never Active",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "67": {
           "name": "MALARIA",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "68": {
       "cvx_code": "68",
       "name": "melanoma",
       "description": "melanoma",
       "status": "Never Active",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "68": {
           "name": "MELANOMA",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "69": {
       "cvx_code": "69",
       "name": "parainfluenza-3",
       "description": "parainfluenza-3",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "69": {
           "name": "PARAINFLUENZA-3",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "70": {
       "cvx_code": "70",
       "name": "Q fever",
       "description": "Q fever",
       "status": "Never Active",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "70": {
           "name": "Q FEVER",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "71": {
       "cvx_code": "71",
       "name": "RSV-IGIV",
       "description": "RSV-IGIV",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "71": {
           "name": "RSV-IGIV",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "72": {
       "cvx_code": "72",
       "name": "rheumatic fever",
       "description": "rheumatic fever",
       "status": "Never Active",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "72": {
           "name": "RHEUMATIC FEVER",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "73": {
       "cvx_code": "73",
       "name": "Rift Valley fever",
       "description": "Rift Valley fever",
       "status": "Never Active",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "73": {
           "name": "RIFT VALLEY FEVER",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "74": {
       "cvx_code": "74",
       "name": "rotavirus, tetravalent",
       "description": "rotavirus, tetravalent",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "122": {
           "name": "ROTAVIRUS",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "75": {
       "cvx_code": "75",
@@ -6222,42 +6678,54 @@
       "name": "Staphylococcus bacterio lysate",
       "description": "Staphylococcus bacterio lysate",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "76": {
           "name": "STAPHYLOCOCCUS BACTERIO LYSATE",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "77": {
       "cvx_code": "77",
       "name": "Tick-borne encephalitis vaccine (non-US)",
       "description": "Tick-borne encephalitis vaccine (non-US)",
       "status": "Non-US",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "222": {
           "name": "Tick-borne encephalitis",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "78": {
       "cvx_code": "78",
       "name": "tularemia vaccine",
       "description": "tularemia vaccine",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "78": {
           "name": "TULAREMIA VACCINE",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "79": {
       "cvx_code": "79",
@@ -6276,28 +6744,36 @@
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "80": {
       "cvx_code": "80",
       "name": "VEE, live",
       "description": "VEE, live",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "92": {
           "name": "VEE",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "801": {
       "cvx_code": "801",
       "name": "AS03 Adjuvant",
       "description": "AS03 Adjuvant",
       "status": "Active",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "801": {
           "name": "AS03 ADJUVANT",
@@ -6319,28 +6795,36 @@
       "name": "VEE, inactivated",
       "description": "VEE, inactivated",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "92": {
           "name": "VEE",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "82": {
       "cvx_code": "82",
       "name": "adenovirus, unspecified formulation",
       "description": "adenovirus, unspecified formulation",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "82": {
           "name": "ADENO",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "83": {
       "cvx_code": "83",
@@ -6393,7 +6877,9 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "85": {
       "cvx_code": "85",
@@ -6412,7 +6898,9 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "86": {
       "cvx_code": "86",
@@ -6431,7 +6919,9 @@
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "87": {
       "cvx_code": "87",
@@ -6450,7 +6940,9 @@
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "88": {
       "cvx_code": "88",
@@ -6469,21 +6961,27 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "89": {
       "cvx_code": "89",
       "name": "polio, unspecified formulation",
       "description": "polio, unspecified formulation",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "89": {
           "name": "POLIO",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "90": {
       "cvx_code": "90",
@@ -6502,35 +7000,45 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "91": {
       "cvx_code": "91",
       "name": "typhoid, unspecified formulation",
       "description": "typhoid, unspecified formulation",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "91": {
           "name": "TYPHOID",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "92": {
       "cvx_code": "92",
       "name": "VEE, unspecified formulation",
       "description": "VEE, unspecified formulation",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "92": {
           "name": "VEE",
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "93": {
       "cvx_code": "93",
@@ -6549,7 +7057,9 @@
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "94": {
       "cvx_code": "94",
@@ -6587,98 +7097,126 @@
       "name": "TST-OT tine test",
       "description": "TST-OT tine test",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "95": {
           "name": "TST-OT TINE TEST",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "96": {
       "cvx_code": "96",
       "name": "TST-PPD intradermal",
       "description": "TST-PPD intradermal",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "96": {
           "name": "TST-PPD INTRADERMAL",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "97": {
       "cvx_code": "97",
       "name": "TST-PPD tine test",
       "description": "TST-PPD tine test",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "97": {
           "name": "TST-PPD TINE TEST",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "98": {
       "cvx_code": "98",
       "name": "TST, unspecified formulation",
       "description": "TST, unspecified formulation",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "98": {
           "name": "TST, UNSPECIFIED FORMULATION",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "99": {
       "cvx_code": "99",
       "name": "RESERVED - do not use",
       "description": "RESERVED - do not use",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "99": {
           "name": "RESERVED - DO NOT USE",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "998": {
       "cvx_code": "998",
       "name": "no vaccine administered",
       "description": "no vaccine administered",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "998": {
           "name": "NO VACCINE ADMINISTERED",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "999": {
       "cvx_code": "999",
       "name": "unknown",
       "description": "unknown",
       "status": "Inactive",
-      "cpt_codes": [],
+      "cpt_codes": [
+
+      ],
       "groups": {
         "999": {
           "name": "UNKNOWN",
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     }
   },
   "cpt": {
@@ -6699,7 +7237,9 @@
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "90283": {
       "cvx_code": "87",
@@ -6718,7 +7258,9 @@
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "90287": {
       "cvx_code": "27",
@@ -6737,7 +7279,9 @@
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "90291": {
       "cvx_code": "29",
@@ -6756,7 +7300,9 @@
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "90296": {
       "cvx_code": "12",
@@ -6779,7 +7325,9 @@
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "90371": {
       "cvx_code": "30",
@@ -6798,7 +7346,9 @@
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "90375": {
       "cvx_code": "34",
@@ -6821,7 +7371,9 @@
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "90376": {
       "cvx_code": "34",
@@ -6844,7 +7396,9 @@
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "90378": {
       "cvx_code": "93",
@@ -6863,7 +7417,9 @@
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "90380": {
       "cvx_code": "306",
@@ -6963,7 +7519,9 @@
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "90393": {
       "cvx_code": "79",
@@ -6982,7 +7540,9 @@
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "90396": {
       "cvx_code": "36",
@@ -7001,7 +7561,9 @@
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "90470": {
       "cvx_code": "128",
@@ -7024,7 +7586,9 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "90476": {
       "cvx_code": "54",
@@ -7043,7 +7607,9 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "90477": {
       "cvx_code": "55",
@@ -7062,7 +7628,9 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "90581": {
       "cvx_code": "318",
@@ -7628,7 +8196,9 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "90636": {
       "cvx_code": "104",
@@ -8244,7 +8814,9 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "90660": {
       "cvx_code": "111",
@@ -8362,7 +8934,9 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "90664": {
       "cvx_code": "125",
@@ -8408,7 +8982,9 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "90666": {
       "cvx_code": "126",
@@ -9209,7 +9785,9 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "90693": {
       "cvx_code": "53",
@@ -9442,7 +10020,9 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "90702": {
       "cvx_code": "28",
@@ -9630,7 +10210,9 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "90710": {
       "cvx_code": "94",
@@ -9680,7 +10262,9 @@
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "90713": {
       "cvx_code": "10",
@@ -9859,7 +10443,9 @@
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "90720": {
       "cvx_code": "22",
@@ -9975,7 +10561,9 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "90725": {
       "cvx_code": "26",
@@ -9994,7 +10582,9 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "90726": {
       "cvx_code": "90",
@@ -10013,7 +10603,9 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "90727": {
       "cvx_code": "23",
@@ -10032,7 +10624,9 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "90728": {
       "cvx_code": "19",
@@ -10089,7 +10683,9 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "90731": {
       "cvx_code": "45",
@@ -10108,7 +10704,9 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "90732": {
       "cvx_code": "33",
@@ -10269,7 +10867,9 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "90738": {
       "cvx_code": "134",
@@ -10394,7 +10994,9 @@
           "active": true
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "90743": {
       "cvx_code": "08",
@@ -10489,7 +11091,9 @@
           "active": false
         }
       },
-      "manufacturers": []
+      "manufacturers": [
+
+      ]
     },
     "90746": {
       "cvx_code": "43",
