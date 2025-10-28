@@ -8,7 +8,7 @@ You can run the task to generate the actual mapping with the following
 
 ```
 bundle install
-bundle exec rake load_mapping
+bundle exec rake load_cdc_mapping
 ```
 
 ## Creating a Release

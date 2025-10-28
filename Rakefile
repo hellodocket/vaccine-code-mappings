@@ -218,6 +218,12 @@ task :load_cdc_mapping do
     end
   end
 
+  extra_cvx_data(cvx_to_all).each do |cvx_code, cvx_data|
+    raise "Custom CVX code #{cvx_code} already exists in CDC data" if cvx_to_all.key?(cvx_code.to_s)
+
+    cvx_to_all[cvx_code.to_s] = cvx_data
+  end
+
   # Now produce a JSON file with all of the consolidated data we want
   json_result = { cvx: {}, cpt: {} }
   tn_overrides = trade_name_overrides
@@ -327,6 +333,25 @@ task :load_cdc_mapping do
 
   JSON::Validator.validate!('vaccine-code-mapping-schema.json', json_result)
   File.write("./vaccine-code-mapping.json", JSON.pretty_generate(json_result))
+end
+
+# From the 2014 USIIS implementation guide: "Note: Utah uses one valid custom vaccine code, CVX 943: HepB, 2 Dose (11-15
+# yrs, Merck only). This code may be returned in VXR messages."
+#
+# We should coerce map this to the same values used for CVX code 43. 43 is the obvious choice since Merck is a
+# manufacturer, it appears USIIS has simply prefixed it with "9", AND we can see in the ICE documentation that the
+# Adolescent 2-Dose Series Rules exception references CVX 43 specifically with similar wording to the USIIS
+# implementation guide: "If a.) CVX 43 (Hep B adult) is administered to a patient >= 11 years and < 16 years as dose 1
+# and dose 2 AND b.) there is a minimum interval of 4 months - 4 days between dose 1 and dose 2, THEN the series is
+# complete with 2 doses. If this rule is not met, default to the Hep B 3-dose Child/Adolescent Series."
+def extra_cvx_data(existing)
+  existing_hepb = existing['43']
+  raise 'CVX code 43 does not exist in the existing data' if existing_hepb.nil?
+
+  {
+    # Duplicate all the information for code 43 and attach it to the new custom code 943.
+    "943": existing_hepb
+  }
 end
 
 def extra_cpt_data

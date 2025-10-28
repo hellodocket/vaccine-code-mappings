@@ -7092,6 +7092,44 @@
         }
       ]
     },
+    "943": {
+      "cvx_code": "943",
+      "name": "Hep B, adult",
+      "description": "Hep B, adult",
+      "status": "Active",
+      "cpt_codes": [
+        {
+          "cpt_code": "90743",
+          "cpt_desc": "Hepatitis B vaccine (HepB), adolescent, 2 dose schedule, for intramuscular use"
+        },
+        {
+          "cpt_code": "90746",
+          "cpt_desc": "Hepatitis B vaccine (HepB), adult dosage, 3 dose schedule, for intramuscular use"
+        }
+      ],
+      "groups": {
+        "45": {
+          "name": "HepB",
+          "active": true
+        }
+      },
+      "manufacturers": [
+        {
+          "trade_name": "ENGERIX-B-ADULT",
+          "mvx_code": "SKB",
+          "manufacturer": "GlaxoSmithKline",
+          "last_updated": "2010-05-28",
+          "product_name_status": "Active"
+        },
+        {
+          "trade_name": "RECOMBIVAX-ADULT",
+          "mvx_code": "MSD",
+          "manufacturer": "Merck and Co., Inc.",
+          "last_updated": "2010-05-28",
+          "product_name_status": "Active"
+        }
+      ]
+    },
     "95": {
       "cvx_code": "95",
       "name": "TST-OT tine test",
