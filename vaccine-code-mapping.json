@@ -622,9 +622,9 @@
 
       ],
       "groups": {
-        "112": {
-          "name": "TETANUS TOXOID, UNSPECIFIED FORMULATION",
-          "active": true
+        "139": {
+          "name": "Td",
+          "active": false
         }
       },
       "manufacturers": [
@@ -1618,9 +1618,9 @@
 
       ],
       "groups": {
-        "142": {
-          "name": "TETANUS TOXOID, NOT ADSORBED",
-          "active": true
+        "139": {
+          "name": "Td",
+          "active": false
         }
       },
       "manufacturers": [
@@ -2392,9 +2392,9 @@
 
       ],
       "groups": {
-        "169": {
-          "name": "HEP A, LIVE ATTENUATED",
-          "active": true
+        "85": {
+          "name": "HepA",
+          "active": false
         }
       },
       "manufacturers": [
@@ -2640,9 +2640,9 @@
 
       ],
       "groups": {
-        "178": {
-          "name": "OPV BIVALENT",
-          "active": true
+        "89": {
+          "name": "POLIO",
+          "active": false
         }
       },
       "manufacturers": [
@@ -2658,9 +2658,9 @@
 
       ],
       "groups": {
-        "179": {
-          "name": "OPV ,MONOVALENT, UNSPECIFIED",
-          "active": true
+        "89": {
+          "name": "POLIO",
+          "active": false
         }
       },
       "manufacturers": [
@@ -2746,9 +2746,9 @@
         }
       ],
       "groups": {
-        "182": {
-          "name": "OPV, UNSPECIFIED",
-          "active": true
+        "89": {
+          "name": "POLIO",
+          "active": false
         }
       },
       "manufacturers": [
@@ -2998,9 +2998,9 @@
 
       ],
       "groups": {
-        "191": {
-          "name": "MENINGOCOCCAL A POLYSACCHARIDE (NON-US)",
-          "active": true
+        "108": {
+          "name": "MENING",
+          "active": false
         }
       },
       "manufacturers": [
@@ -3016,9 +3016,9 @@
 
       ],
       "groups": {
-        "192": {
-          "name": "MENINGOCOCCAL AC POLYSACCHARIDE (NON-US)",
-          "active": true
+        "108": {
+          "name": "MENING",
+          "active": false
         }
       },
       "manufacturers": [
@@ -3141,9 +3141,17 @@
 
       ],
       "groups": {
-        "198": {
-          "name": "DTP-HEPB-HIB PENTAVALENT NON-US",
-          "active": true
+        "17": {
+          "name": "HIB",
+          "active": false
+        },
+        "45": {
+          "name": "HepB",
+          "active": false
+        },
+        "107": {
+          "name": "DTAP",
+          "active": false
         }
       },
       "manufacturers": [
@@ -10295,9 +10303,9 @@
         }
       ],
       "groups": {
-        "182": {
-          "name": "OPV, UNSPECIFIED",
-          "active": true
+        "89": {
+          "name": "POLIO",
+          "active": false
         }
       },
       "manufacturers": [
