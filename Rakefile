@@ -1,4 +1,4 @@
-# frozen_string_literal: true
+Rakefile# frozen_string_literal: true
 require "httparty"
 require "nokogiri"
 require "htmlentities"
@@ -224,6 +224,23 @@ task :load_cdc_mapping do
     cvx_to_all[cvx_code.to_s] = cvx_data
   end
 
+  # Apply group overrides for CVX codes that should inherit groups from other CVX codes
+  group_overrides.each do |cvx_code, source_cvx_codes|
+    next unless cvx_to_all.key?(cvx_code)
+
+    # Initialize groups array if not present
+    cvx_to_all[cvx_code][:groups] = [] unless cvx_to_all[cvx_code].key?(:groups)
+
+    # Merge groups from each source CVX code
+    source_cvx_codes.each do |source_cvx|
+      next unless cvx_to_all.key?(source_cvx)
+      next unless cvx_to_all[source_cvx].key?(:groups)
+
+      # Append all groups from the source CVX code
+      cvx_to_all[cvx_code][:groups] += cvx_to_all[source_cvx][:groups]
+    end
+  end
+
   # Now produce a JSON file with all of the consolidated data we want
   json_result = { cvx: {}, cpt: {} }
   tn_overrides = trade_name_overrides
@@ -380,6 +397,32 @@ def trade_name_overrides
     "217": "Pfizer-BioNTech COVID-19 Vaccine",
     "218": "Pfizer-BioNTech COVID-19 Vaccine",
     "219": "Pfizer-BioNTech COVID-19 Vaccine"
+  }
+end
+
+def group_overrides
+  # Manual mapping for CVX codes that should inherit vaccine groups from other CVX codes. These are CVX codes that were
+  # identified as being absent from the CDC vaccine group mapping dataset. Without these overrides, we would create
+  # self-referential groups for the codes that can lead to incorrect vaccine group determinations downstream.
+  #
+  # The keys are CVX codes that should have overridden group information. The values are arrays of CVX codes whose
+  # groups should be merged together to form the groups for the key CVX code. It makes most sense to keep the values in
+  # the array CVX groups themselves.
+  {
+    # Polio Overrides
+    "182" => ["89"], # OPV, Unspecified
+    "179" => ["89"], # OPV ,monovalent, unspecified
+    "178" => ["89"], # OPV bivalent
+    # MenACWY Overrides
+    "192" => ["108"], # meningococcal AC polysaccharide (non-US)
+    "191" => ["108"], # meningococcal A polysaccharide (non-US)
+    # Hep A Overrides
+    "169" => ["85"], # Hep A, live attenuated
+    # Td Overrides
+    "142" => ["139"], # tetanus toxoid, not adsorbed
+    "112" => ["139"], # tetanus toxoid, unspecified formulation
+    # DTAP+HepB+Hib Overrides
+    "198" => ["107", "45", "17"] # DTP-hepB-Hib Pentavalent Non-US
   }
 end
 
