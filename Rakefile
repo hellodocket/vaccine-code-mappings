@@ -1,4 +1,4 @@
-Rakefile# frozen_string_literal: true
+# frozen_string_literal: true
 require "httparty"
 require "nokogiri"
 require "htmlentities"
