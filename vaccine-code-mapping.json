@@ -3361,8 +3361,8 @@
     },
     "206": {
       "cvx_code": "206",
-      "name": "Vaccinia, smallpox Mpox vaccine live, PF, SQ or ID injection",
-      "description": "Vaccinia, smallpox Mpox vaccine live, PF, SQ or ID injection",
+      "name": "Vaccinia, smallpox monkeypox vaccine live, PF, SQ or ID injection",
+      "description": "Vaccinia, smallpox monkeypox vaccine live, PF, SQ or ID injection",
       "status": "Active",
       "cpt_codes": [
         {
@@ -4960,8 +4960,8 @@
     },
     "325": {
       "cvx_code": "325",
-      "name": "Vaccinia (smallpox, mpox), unspecified",
-      "description": "Vaccinia (smallpox, mpox), unspecified",
+      "name": "Vaccinia (smallpox, monkeypox), unspecified",
+      "description": "Vaccinia (smallpox, monkeypox), unspecified",
       "status": "Inactive",
       "cpt_codes": [
 
@@ -6642,8 +6642,8 @@
     },
     "75": {
       "cvx_code": "75",
-      "name": "Vaccinia (smallpox, mpox), live",
-      "description": "Vaccinia (smallpox, mpox), live",
+      "name": "Vaccinia (smallpox, monkeypox), live",
+      "description": "Vaccinia (smallpox, monkeypox), live",
       "status": "Active",
       "cpt_codes": [
         {
@@ -7826,8 +7826,8 @@
     },
     "90611": {
       "cvx_code": "206",
-      "name": "Vaccinia, smallpox Mpox vaccine live, PF, SQ or ID injection",
-      "description": "Vaccinia, smallpox Mpox vaccine live, PF, SQ or ID injection",
+      "name": "Vaccinia, smallpox monkeypox vaccine live, PF, SQ or ID injection",
+      "description": "Vaccinia, smallpox monkeypox vaccine live, PF, SQ or ID injection",
       "status": "Active",
       "cpt_codes": [
         {
@@ -7941,8 +7941,8 @@
     },
     "90622": {
       "cvx_code": "75",
-      "name": "Vaccinia (smallpox, mpox), live",
-      "description": "Vaccinia (smallpox, mpox), live",
+      "name": "Vaccinia (smallpox, monkeypox), live",
+      "description": "Vaccinia (smallpox, monkeypox), live",
       "status": "Active",
       "cpt_codes": [
         {
