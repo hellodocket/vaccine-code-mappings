@@ -3,7 +3,7 @@ name: Update Vaccine Code Mappings and Create Release
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 15 * * 1-5'
+    - cron: "0 15 * * 1-5"
 
 jobs:
   build:
@@ -16,12 +16,12 @@ jobs:
       release_name: ${{ steps.releaseVersion.outputs.RELEASE_NAME }}
     steps:
       - uses: actions/checkout@v3
-      
+
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
-          
+
       - name: Run CDC Rake task
         run: bundle exec rake load_cdc_mapping
 
@@ -36,6 +36,7 @@ jobs:
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
           git add vaccine-code-mapping.json
+          git add ndc-code-mapping.json
           git add miic-mapping.csv
           if ! git diff --staged --quiet; then
             git commit -m "💉 Update vaccine code mappings for ${{ steps.releaseVersion.outputs.RELEASE_NAME }}"
@@ -57,5 +58,6 @@ jobs:
         with:
           files: |
             vaccine-code-mapping.json,
+            ndc-code-mapping.json,
             miic-mapping.csv
           tag_name: ${{ steps.releaseVersion.outputs.RELEASE_NAME }}

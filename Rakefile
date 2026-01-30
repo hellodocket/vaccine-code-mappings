@@ -11,6 +11,7 @@ CVXCode = Struct.new("CVXCode", :short_description, :full_vaccine_name, :cvx_cod
 CPTCode = Struct.new("CPTCode", :cpt_code, :cpt_desc, :status, :comments, :vaccine_name, :cvx_code, :last_updated)
 MVXCode = Struct.new("MVXCode", :cdc_product_name, :short_description, :cvx_code, :manufacturer, :mvx_code, :mvx_status, :product_name_status, :last_updated)
 VaccineGroup = Struct.new("VaccineGroup", :short_description, :cvx_code, :status, :vaccine_group_name, :cvx_for_vaccine_group)
+NDCCode = Struct.new("NDCCode", :sale_ndc11, :use_ndc11, :proprietary_name, :labeler, :mvx_code, :start_date, :end_date, :sale_gtin, :use_gtin, :cvx_code, :cvx_description, :sale_last_updated, :use_last_updated)
 
 # Convert a map of XML values that look like <Name>AttributeName</name><value>AttributeValue</value> into a standard Ruby map
 def parse_name_value_into_map(name_value_xml)
@@ -124,7 +125,7 @@ task :load_cdc_mapping do
     parsed = parse_name_value_into_map(node)
     cpt_struct = map_to_cpt_code(parsed)
     cvx_code = cpt_struct.cvx_code
-    
+
     if cvx_to_all.key? cvx_code
       # There's USUALLY only 1 CVX/CPT combo, but some times there are multiple options.
       unless cvx_to_all[cvx_code].key? :cpt
@@ -241,8 +242,54 @@ task :load_cdc_mapping do
     end
   end
 
+  # NDC (National Drug Code) data from CDC flat file
+  # The file is pipe-delimited with both Unit of Sale and Unit of Use NDC codes
+  # Each row maps to a CVX code for integration with existing vaccine data
+  ndc_data_response = HTTParty.get("https://www2a.cdc.gov/vaccines/iis/iisstandards/downloads/NDC/get_all_ndc_display.txt")
+  ndc_data = ndc_data_response.body.force_encoding("UTF-8")
+  # Remove UTF-8 BOM if present (the CDC file has a BOM at the start)
+  ndc_data = ndc_data.sub(/\A\xEF\xBB\xBF/, '')
+  ndc_csv = CSV.parse(ndc_data, col_sep: "|", headers: true, quote_char: '"')
+  ndc_csv.each do |row|
+    # Parse dates from MM/DD/YYYY format to YYYY-MM-DD, handling empty values
+    start_date = row["Start Date"].to_s.strip
+    start_date = start_date.empty? ? nil : Date.strptime(start_date, "%m/%d/%Y").strftime("%Y-%m-%d")
+    end_date = row["End Date"].to_s.strip
+    end_date = end_date.empty? ? nil : Date.strptime(end_date, "%m/%d/%Y").strftime("%Y-%m-%d")
+    sale_last_updated = row["Sale Last Update"].to_s.strip
+    sale_last_updated = sale_last_updated.empty? ? nil : Date.strptime(sale_last_updated, "%m/%d/%Y").strftime("%Y-%m-%d")
+    use_last_updated = row["Use Last Update"].to_s.strip
+    use_last_updated = use_last_updated.empty? ? nil : Date.strptime(use_last_updated, "%m/%d/%Y").strftime("%Y-%m-%d")
+
+    ndc_struct = NDCCode.new(
+      sale_ndc11: row["Sale NDC11"].to_s.strip,
+      use_ndc11: row["Use NDC11"].to_s.strip,
+      proprietary_name: row["Sale Proprietary Name"].to_s.strip,
+      labeler: row["Sale Labeler"].to_s.strip,
+      mvx_code: row["MVX Code"].to_s.strip,
+      start_date: start_date,
+      end_date: end_date,
+      sale_gtin: row["Sale GTIN"].to_s.strip,
+      use_gtin: row["Use GTIN"].to_s.strip,
+      cvx_code: row["CVX Code"].to_s.strip,
+      cvx_description: row["CVX Description"].to_s.strip,
+      sale_last_updated: sale_last_updated,
+      use_last_updated: use_last_updated
+    )
+
+    cvx_code = ndc_struct.cvx_code
+    if cvx_to_all.key?(cvx_code)
+      cvx_to_all[cvx_code][:ndc] = [] unless cvx_to_all[cvx_code].key?(:ndc)
+      cvx_to_all[cvx_code][:ndc].append(ndc_struct)
+    else
+      puts "NDC CVX code #{cvx_code} didn't exist in CVX data"
+      cvx_to_all[cvx_code] = { ndc: [ndc_struct] }
+    end
+  end
+
   # Now produce a JSON file with all of the consolidated data we want
   json_result = { cvx: {}, cpt: {} }
+  ndc_result = {}
   tn_overrides = trade_name_overrides
   # The entity encoder converts HTML escape chars like &amp; to their UTF-8 equivalent.
   entity_encoder = HTMLEntities.new
@@ -304,6 +351,25 @@ task :load_cdc_mapping do
       end
     end
 
+    ndc_codes = []
+    if v.key?(:ndc)
+      ndc_codes = v[:ndc].map do |ndc|
+        {
+          sale_ndc11: ndc.sale_ndc11,
+          use_ndc11: ndc.use_ndc11,
+          proprietary_name: entity_encoder.decode(ndc.proprietary_name),
+          labeler: entity_encoder.decode(ndc.labeler),
+          mvx_code: ndc.mvx_code,
+          start_date: ndc.start_date,
+          end_date: ndc.end_date,
+          sale_gtin: ndc.sale_gtin,
+          use_gtin: ndc.use_gtin,
+          sale_last_updated: ndc.sale_last_updated,
+          use_last_updated: ndc.use_last_updated
+        }
+      end
+    end
+
     item = {
       cvx_code: k,
       name: entity_encoder.decode(v[:cvx].short_description),
@@ -311,9 +377,8 @@ task :load_cdc_mapping do
       status: v[:cvx].status,
       cpt_codes: cpt_codes,
       groups: groups,
-    #group_name: entity_encoder.decode(group_name),
-    #group_cvx: group_cvx,
-      manufacturers: manufacturers
+      manufacturers: manufacturers,
+      ndc_codes: ndc_codes
     }
 
     if json_result[:cvx].key? k
@@ -331,6 +396,17 @@ task :load_cdc_mapping do
         end
       end
     end
+    if v.key? :ndc
+      ndc_codes.each do |ndc_code_item|
+        # Use sale_ndc11 as the primary key for the separate ndc-code-mapping.json file
+        ndc_code = ndc_code_item[:sale_ndc11]
+        if ndc_result.key? ndc_code
+          # Duplicate NDC keys are expected when a sale NDC maps to multiple use NDCs
+        else
+          ndc_result[ndc_code] = item
+        end
+      end
+    end
   end
 
   # Sort for stable changes between updates
@@ -339,6 +415,7 @@ task :load_cdc_mapping do
     json_result[:cvx][k][:cpt_codes] = v[:cpt_codes].sort_by { |i| i[:cpt_code] }
     json_result[:cvx][k][:manufacturers] = v[:manufacturers].sort_by { |i| "#{i[:trade_name]}#{i[:mvx_code]}" }
     json_result[:cvx][k][:groups] = v[:groups].sort_by { |i, _| i.to_i }.to_h
+    json_result[:cvx][k][:ndc_codes] = v[:ndc_codes].sort_by { |i| i[:sale_ndc11] }
   end
 
   json_result[:cpt] = json_result[:cpt].sort.to_h
@@ -346,10 +423,23 @@ task :load_cdc_mapping do
     json_result[:cpt][k][:cpt_codes] = v[:cpt_codes].sort_by { |i| i[:cpt_code] }
     json_result[:cpt][k][:manufacturers] = v[:manufacturers].sort_by { |i| "#{i[:trade_name]}#{i[:mvx_code]}" }
     json_result[:cpt][k][:groups] = v[:groups].sort_by { |i, _| i.to_i }.to_h
+    json_result[:cpt][k][:ndc_codes] = v[:ndc_codes].sort_by { |i| i[:sale_ndc11] }
   end
 
   JSON::Validator.validate!('vaccine-code-mapping-schema.json', json_result)
   File.write("./vaccine-code-mapping.json", JSON.pretty_generate(json_result))
+
+  # Write NDC mapping to a separate file keyed by sale NDC11
+  ndc_result = ndc_result.sort.to_h
+  ndc_result.each do |k, v|
+    ndc_result[k][:cpt_codes] = v[:cpt_codes].sort_by { |i| i[:cpt_code] }
+    ndc_result[k][:manufacturers] = v[:manufacturers].sort_by { |i| "#{i[:trade_name]}#{i[:mvx_code]}" }
+    ndc_result[k][:groups] = v[:groups].sort_by { |i, _| i.to_i }.to_h
+    ndc_result[k][:ndc_codes] = v[:ndc_codes].sort_by { |i| i[:sale_ndc11] }
+  end
+
+  JSON::Validator.validate!('ndc-code-mapping-schema.json', ndc_result)
+  File.write("./ndc-code-mapping.json", JSON.pretty_generate(ndc_result))
 end
 
 # From the 2014 USIIS implementation guide: "Note: Utah uses one valid custom vaccine code, CVX 943: HepB, 2 Dose (11-15
