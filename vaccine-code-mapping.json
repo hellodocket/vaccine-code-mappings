@@ -95,8 +95,8 @@
           "end_date": null,
           "sale_gtin": "00300064681000",
           "use_gtin": "00300064681017",
-          "sale_last_updated": "2022-06-22",
-          "use_last_updated": "2023-02-01"
+          "sale_last_updated": "2026-01-06",
+          "use_last_updated": "2026-01-06"
         },
         {
           "sale_ndc11": "50090-1860-00",
@@ -6473,10 +6473,10 @@
           "labeler": "Wyeth Pharmaceutical Division of Wyeth Holdings LLC",
           "mvx_code": "PFR",
           "start_date": "2014-11-05",
-          "end_date": null,
+          "end_date": "2026-01-28",
           "sale_gtin": "00300050100027",
           "use_gtin": "00300050100010",
-          "sale_last_updated": "2019-11-22",
+          "sale_last_updated": "2026-02-04",
           "use_last_updated": "2023-02-01"
         },
         {
@@ -7381,19 +7381,6 @@
         },
         {
           "sale_ndc11": "58160-0964-12",
-          "use_ndc11": "58160-0966-01",
-          "proprietary_name": "RabAvert",
-          "labeler": "GlaxoSmithKline Biologicals SA",
-          "mvx_code": "SKB",
-          "start_date": "2016-12-19",
-          "end_date": "2024-01-31",
-          "sale_gtin": "00358160964121",
-          "use_gtin": "",
-          "sale_last_updated": "2024-03-13",
-          "use_last_updated": "2024-03-13"
-        },
-        {
-          "sale_ndc11": "58160-0964-12",
           "use_ndc11": "58160-0966-12",
           "proprietary_name": "RabAvert",
           "labeler": "GlaxoSmithKline Biologicals SA",
@@ -7404,6 +7391,19 @@
           "use_gtin": "",
           "sale_last_updated": "2024-03-13",
           "use_last_updated": "2018-07-13"
+        },
+        {
+          "sale_ndc11": "58160-0964-12",
+          "use_ndc11": "58160-0966-01",
+          "proprietary_name": "RabAvert",
+          "labeler": "GlaxoSmithKline Biologicals SA",
+          "mvx_code": "SKB",
+          "start_date": "2016-12-19",
+          "end_date": "2024-01-31",
+          "sale_gtin": "00358160964121",
+          "use_gtin": "",
+          "sale_last_updated": "2024-03-13",
+          "use_last_updated": "2024-03-13"
         },
         {
           "sale_ndc11": "63851-0501-01",
@@ -8058,8 +8058,8 @@
           "end_date": null,
           "sale_gtin": "00343528003055",
           "use_gtin": "00343528003017",
-          "sale_last_updated": "2023-02-02",
-          "use_last_updated": "2023-02-02"
+          "sale_last_updated": "2026-01-06",
+          "use_last_updated": "2026-01-15"
         },
         {
           "sale_ndc11": "50090-3469-00",
@@ -9038,6 +9038,19 @@
           "use_gtin": "",
           "sale_last_updated": "2025-03-06",
           "use_last_updated": "2025-03-06"
+        },
+        {
+          "sale_ndc11": "50632-0024-02",
+          "use_ndc11": "50632-0024-04",
+          "proprietary_name": "JYNNEOS",
+          "labeler": "Bavarian Nordic A/S",
+          "mvx_code": "BN",
+          "start_date": "2025-12-31",
+          "end_date": null,
+          "sale_gtin": "",
+          "use_gtin": "",
+          "sale_last_updated": "2026-01-19",
+          "use_last_updated": "2026-01-16"
         }
       ]
     },
@@ -10791,8 +10804,8 @@
           "end_date": null,
           "sale_gtin": "00300690344010",
           "use_gtin": "10300690207015",
-          "sale_last_updated": "2024-09-17",
-          "use_last_updated": "2024-09-17"
+          "sale_last_updated": "2026-01-06",
+          "use_last_updated": "2026-01-13"
         },
         {
           "sale_ndc11": "00069-0344-05",
@@ -10804,8 +10817,8 @@
           "end_date": null,
           "sale_gtin": "00300690344058",
           "use_gtin": "10300690207015",
-          "sale_last_updated": "2024-09-17",
-          "use_last_updated": "2024-09-17"
+          "sale_last_updated": "2026-01-06",
+          "use_last_updated": "2026-01-13"
         },
         {
           "sale_ndc11": "00069-0344-10",
@@ -10817,8 +10830,8 @@
           "end_date": null,
           "sale_gtin": "00300690344102",
           "use_gtin": "10300690207015",
-          "sale_last_updated": "2024-09-17",
-          "use_last_updated": "2024-09-17"
+          "sale_last_updated": "2026-01-06",
+          "use_last_updated": "2026-01-13"
         },
         {
           "sale_ndc11": "00069-2465-01",
@@ -11060,11 +11073,11 @@
           "labeler": "Pfizer Laboratories Div Pfizer Inc",
           "mvx_code": "PFR",
           "start_date": "2024-08-22",
-          "end_date": null,
+          "end_date": "2026-01-22",
           "sale_gtin": "00300692432104",
           "use_gtin": "10300692432019",
-          "sale_last_updated": "2025-09-05",
-          "use_last_updated": "2025-09-05"
+          "sale_last_updated": "2026-02-04",
+          "use_last_updated": "2026-02-04"
         },
         {
           "sale_ndc11": "00069-2528-10",
@@ -11613,19 +11626,6 @@
         },
         {
           "sale_ndc11": "00069-0600-10",
-          "use_ndc11": "00069-0332-01",
-          "proprietary_name": "PENBRAYA",
-          "labeler": "Pfizer Laboratories Div Pfizer Inc",
-          "mvx_code": "PFR",
-          "start_date": "2023-11-27",
-          "end_date": null,
-          "sale_gtin": "00300690600109",
-          "use_gtin": "10300690332014",
-          "sale_last_updated": "2025-03-18",
-          "use_last_updated": "2025-03-18"
-        },
-        {
-          "sale_ndc11": "00069-0600-10",
           "use_ndc11": "00069-0271-01",
           "proprietary_name": "PENBRAYA",
           "labeler": "Pfizer Laboratories Div Pfizer Inc",
@@ -11634,6 +11634,19 @@
           "end_date": null,
           "sale_gtin": "00300690600109",
           "use_gtin": "10300690271016",
+          "sale_last_updated": "2025-03-18",
+          "use_last_updated": "2025-03-18"
+        },
+        {
+          "sale_ndc11": "00069-0600-10",
+          "use_ndc11": "00069-0332-01",
+          "proprietary_name": "PENBRAYA",
+          "labeler": "Pfizer Laboratories Div Pfizer Inc",
+          "mvx_code": "PFR",
+          "start_date": "2023-11-27",
+          "end_date": null,
+          "sale_gtin": "00300690600109",
+          "use_gtin": "10300690332014",
           "sale_last_updated": "2025-03-18",
           "use_last_updated": "2025-03-18"
         }
@@ -12394,11 +12407,11 @@
           "labeler": "Sanofi Pasteur Inc.",
           "mvx_code": "PMC",
           "start_date": "2025-03-06",
-          "end_date": null,
+          "end_date": "2025-12-31",
           "sale_gtin": "",
           "use_gtin": "",
-          "sale_last_updated": "2025-04-24",
-          "use_last_updated": "2025-04-24"
+          "sale_last_updated": "2026-01-08",
+          "use_last_updated": "2026-01-08"
         }
       ]
     },
@@ -14905,8 +14918,8 @@
           "end_date": "2024-01-08",
           "sale_gtin": "00358160855191",
           "use_gtin": "10358160855013",
-          "sale_last_updated": "2024-03-12",
-          "use_last_updated": "2024-02-21"
+          "sale_last_updated": "2026-01-13",
+          "use_last_updated": "2026-01-13"
         }
       ]
     },
@@ -15338,8 +15351,8 @@
           "end_date": null,
           "sale_gtin": "00300064171006",
           "use_gtin": "00300064171013",
-          "sale_last_updated": "2022-07-05",
-          "use_last_updated": "2023-02-01"
+          "sale_last_updated": "2026-01-06",
+          "use_last_updated": "2026-01-06"
         },
         {
           "sale_ndc11": "00006-4999-00",
@@ -16502,6 +16515,19 @@
           "use_gtin": "",
           "sale_last_updated": "2025-03-06",
           "use_last_updated": "2025-03-06"
+        },
+        {
+          "sale_ndc11": "50632-0024-02",
+          "use_ndc11": "50632-0024-04",
+          "proprietary_name": "JYNNEOS",
+          "labeler": "Bavarian Nordic A/S",
+          "mvx_code": "BN",
+          "start_date": "2025-12-31",
+          "end_date": null,
+          "sale_gtin": "",
+          "use_gtin": "",
+          "sale_last_updated": "2026-01-19",
+          "use_last_updated": "2026-01-16"
         }
       ]
     },
@@ -16708,10 +16734,10 @@
           "labeler": "Wyeth Pharmaceutical Division of Wyeth Holdings LLC",
           "mvx_code": "PFR",
           "start_date": "2014-11-05",
-          "end_date": null,
+          "end_date": "2026-01-28",
           "sale_gtin": "00300050100027",
           "use_gtin": "00300050100010",
-          "sale_last_updated": "2019-11-22",
+          "sale_last_updated": "2026-02-04",
           "use_last_updated": "2023-02-01"
         },
         {
@@ -16922,19 +16948,6 @@
         },
         {
           "sale_ndc11": "00069-0600-10",
-          "use_ndc11": "00069-0332-01",
-          "proprietary_name": "PENBRAYA",
-          "labeler": "Pfizer Laboratories Div Pfizer Inc",
-          "mvx_code": "PFR",
-          "start_date": "2023-11-27",
-          "end_date": null,
-          "sale_gtin": "00300690600109",
-          "use_gtin": "10300690332014",
-          "sale_last_updated": "2025-03-18",
-          "use_last_updated": "2025-03-18"
-        },
-        {
-          "sale_ndc11": "00069-0600-10",
           "use_ndc11": "00069-0271-01",
           "proprietary_name": "PENBRAYA",
           "labeler": "Pfizer Laboratories Div Pfizer Inc",
@@ -16943,6 +16956,19 @@
           "end_date": null,
           "sale_gtin": "00300690600109",
           "use_gtin": "10300690271016",
+          "sale_last_updated": "2025-03-18",
+          "use_last_updated": "2025-03-18"
+        },
+        {
+          "sale_ndc11": "00069-0600-10",
+          "use_ndc11": "00069-0332-01",
+          "proprietary_name": "PENBRAYA",
+          "labeler": "Pfizer Laboratories Div Pfizer Inc",
+          "mvx_code": "PFR",
+          "start_date": "2023-11-27",
+          "end_date": null,
+          "sale_gtin": "00300690600109",
+          "use_gtin": "10300690332014",
           "sale_last_updated": "2025-03-18",
           "use_last_updated": "2025-03-18"
         }
@@ -21481,8 +21507,8 @@
           "end_date": null,
           "sale_gtin": "00300690344010",
           "use_gtin": "10300690207015",
-          "sale_last_updated": "2024-09-17",
-          "use_last_updated": "2024-09-17"
+          "sale_last_updated": "2026-01-06",
+          "use_last_updated": "2026-01-13"
         },
         {
           "sale_ndc11": "00069-0344-05",
@@ -21494,8 +21520,8 @@
           "end_date": null,
           "sale_gtin": "00300690344058",
           "use_gtin": "10300690207015",
-          "sale_last_updated": "2024-09-17",
-          "use_last_updated": "2024-09-17"
+          "sale_last_updated": "2026-01-06",
+          "use_last_updated": "2026-01-13"
         },
         {
           "sale_ndc11": "00069-0344-10",
@@ -21507,8 +21533,8 @@
           "end_date": null,
           "sale_gtin": "00300690344102",
           "use_gtin": "10300690207015",
-          "sale_last_updated": "2024-09-17",
-          "use_last_updated": "2024-09-17"
+          "sale_last_updated": "2026-01-06",
+          "use_last_updated": "2026-01-13"
         },
         {
           "sale_ndc11": "00069-2465-01",
@@ -24531,8 +24557,8 @@
           "end_date": null,
           "sale_gtin": "00300064681000",
           "use_gtin": "00300064681017",
-          "sale_last_updated": "2022-06-22",
-          "use_last_updated": "2023-02-01"
+          "sale_last_updated": "2026-01-06",
+          "use_last_updated": "2026-01-06"
         },
         {
           "sale_ndc11": "50090-1860-00",
@@ -24640,8 +24666,8 @@
           "end_date": null,
           "sale_gtin": "00300064171006",
           "use_gtin": "00300064171013",
-          "sale_last_updated": "2022-07-05",
-          "use_last_updated": "2023-02-01"
+          "sale_last_updated": "2026-01-06",
+          "use_last_updated": "2026-01-06"
         },
         {
           "sale_ndc11": "00006-4999-00",
@@ -26059,8 +26085,8 @@
           "end_date": null,
           "sale_gtin": "00343528003055",
           "use_gtin": "00343528003017",
-          "sale_last_updated": "2023-02-02",
-          "use_last_updated": "2023-02-02"
+          "sale_last_updated": "2026-01-06",
+          "use_last_updated": "2026-01-15"
         },
         {
           "sale_ndc11": "50090-3469-00",
@@ -28206,11 +28232,11 @@
           "labeler": "Pfizer Laboratories Div Pfizer Inc",
           "mvx_code": "PFR",
           "start_date": "2024-08-22",
-          "end_date": null,
+          "end_date": "2026-01-22",
           "sale_gtin": "00300692432104",
           "use_gtin": "10300692432019",
-          "sale_last_updated": "2025-09-05",
-          "use_last_updated": "2025-09-05"
+          "sale_last_updated": "2026-02-04",
+          "use_last_updated": "2026-02-04"
         },
         {
           "sale_ndc11": "00069-2528-10",
