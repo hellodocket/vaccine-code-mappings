@@ -640,27 +640,27 @@
           "sale_ndc11": "49281-0790-20",
           "use_ndc11": "49281-0790-38",
           "proprietary_name": "Typhim Vi",
-          "labeler": "Sanofi Pasteur Inc.",
+          "labeler": "Sanofi Vaccines US Inc.",
           "mvx_code": "PMC",
           "start_date": "1994-11-28",
           "end_date": null,
           "sale_gtin": "00349281790201",
           "use_gtin": "00349281790386",
-          "sale_last_updated": "2025-08-20",
-          "use_last_updated": "2025-08-20"
+          "sale_last_updated": "2026-02-24",
+          "use_last_updated": "2026-02-24"
         },
         {
           "sale_ndc11": "49281-0790-51",
           "use_ndc11": "49281-0790-88",
           "proprietary_name": "Typhim Vi",
-          "labeler": "Sanofi Pasteur Inc.",
+          "labeler": "Sanofi Vaccines US Inc.",
           "mvx_code": "PMC",
           "start_date": "1994-11-28",
           "end_date": null,
           "sale_gtin": "00349281790515",
           "use_gtin": "00349281790881",
-          "sale_last_updated": "2025-08-20",
-          "use_last_updated": "2025-08-20"
+          "sale_last_updated": "2026-02-24",
+          "use_last_updated": "2026-02-24"
         }
       ]
     },
@@ -1332,14 +1332,14 @@
           "sale_ndc11": "49281-0589-05",
           "use_ndc11": "49281-0589-58",
           "proprietary_name": "Menactra",
-          "labeler": "Sanofi Pasteur Inc.",
+          "labeler": "Sanofi Vaccines US Inc.",
           "mvx_code": "PMC",
           "start_date": "2005-01-14",
           "end_date": "2022-10-01",
           "sale_gtin": "00349281589058",
           "use_gtin": "00349281589584",
-          "sale_last_updated": "2024-06-11",
-          "use_last_updated": "2024-06-11"
+          "sale_last_updated": "2026-03-03",
+          "use_last_updated": "2026-03-03"
         }
       ]
     },
@@ -3460,14 +3460,14 @@
           "sale_ndc11": "49281-0425-50",
           "use_ndc11": "49281-0425-88",
           "proprietary_name": "FLUZONE TRIVALENT NORTHERN HEMISPHERE",
-          "labeler": "Sanofi Pasteur Inc.",
+          "labeler": "Sanofi Vaccines US Inc.",
           "mvx_code": "PMC",
           "start_date": "2025-07-01",
           "end_date": null,
           "sale_gtin": "",
           "use_gtin": "",
-          "sale_last_updated": "2025-07-16",
-          "use_last_updated": "2025-07-16"
+          "sale_last_updated": "2026-04-14",
+          "use_last_updated": "2026-04-02"
         },
         {
           "sale_ndc11": "54868-6180-00",
@@ -4023,14 +4023,14 @@
           "sale_ndc11": "49281-0643-15",
           "use_ndc11": "49281-0643-78",
           "proprietary_name": "FLUZONE TRIVALENT NORTHERN HEMISPHERE",
-          "labeler": "Sanofi Pasteur Inc.",
+          "labeler": "Sanofi Vaccines US Inc.",
           "mvx_code": "PMC",
           "start_date": "2025-07-01",
           "end_date": null,
           "sale_gtin": "",
           "use_gtin": "",
-          "sale_last_updated": "2025-07-16",
-          "use_last_updated": "2025-07-16"
+          "sale_last_updated": "2026-04-02",
+          "use_last_updated": "2026-04-02"
         },
         {
           "sale_ndc11": "54868-6177-00",
@@ -7301,14 +7301,14 @@
           "sale_ndc11": "49281-0252-51",
           "use_ndc11": "49281-0246-58",
           "proprietary_name": "IMOVAX RABIES",
-          "labeler": "Sanofi Pasteur Inc.",
+          "labeler": "Sanofi Vaccines US Inc.",
           "mvx_code": "PMC",
           "start_date": "2019-10-25",
           "end_date": null,
           "sale_gtin": "00349281252518",
           "use_gtin": "00349281246586",
-          "sale_last_updated": "2025-08-20",
-          "use_last_updated": "2025-08-20"
+          "sale_last_updated": "2026-02-18",
+          "use_last_updated": "2026-02-18"
         }
       ]
     },
@@ -8058,8 +8058,8 @@
           "end_date": null,
           "sale_gtin": "00343528003055",
           "use_gtin": "00343528003017",
-          "sale_last_updated": "2026-01-06",
-          "use_last_updated": "2026-01-15"
+          "sale_last_updated": "2026-02-24",
+          "use_last_updated": "2026-02-24"
         },
         {
           "sale_ndc11": "50090-3469-00",
@@ -8774,40 +8774,40 @@
           "sale_ndc11": "49281-0590-01",
           "use_ndc11": "49281-0590-58",
           "proprietary_name": "MenQuadfi",
-          "labeler": "Sanofi Pasteur Inc.",
+          "labeler": "Sanofi Vaccines US Inc.",
           "mvx_code": "PMC",
           "start_date": "2020-04-23",
           "end_date": null,
           "sale_gtin": "00349281590016",
           "use_gtin": "00349281590580",
-          "sale_last_updated": "2024-09-19",
-          "use_last_updated": "2024-04-23"
+          "sale_last_updated": "2026-03-03",
+          "use_last_updated": "2026-03-03"
         },
         {
           "sale_ndc11": "49281-0590-05",
           "use_ndc11": "49281-0590-58",
           "proprietary_name": "MenQuadfi",
-          "labeler": "Sanofi Pasteur Inc.",
+          "labeler": "Sanofi Vaccines US Inc.",
           "mvx_code": "PMC",
           "start_date": "2020-04-23",
           "end_date": null,
           "sale_gtin": "00349281590054",
           "use_gtin": "00349281590580",
-          "sale_last_updated": "2024-04-23",
-          "use_last_updated": "2024-04-23"
+          "sale_last_updated": "2026-03-03",
+          "use_last_updated": "2026-03-03"
         },
         {
           "sale_ndc11": "49281-0590-10",
           "use_ndc11": "49281-0590-58",
           "proprietary_name": "MenQuadfi",
-          "labeler": "Sanofi Pasteur Inc.",
+          "labeler": "Sanofi Vaccines US Inc.",
           "mvx_code": "PMC",
           "start_date": "2020-04-23",
           "end_date": null,
           "sale_gtin": "",
           "use_gtin": "00349281590580",
-          "sale_last_updated": "2024-05-09",
-          "use_last_updated": "2024-04-23"
+          "sale_last_updated": "2026-03-03",
+          "use_last_updated": "2026-03-03"
         },
         {
           "sale_ndc11": "50090-6180-00",
@@ -11626,19 +11626,6 @@
         },
         {
           "sale_ndc11": "00069-0600-10",
-          "use_ndc11": "00069-0271-01",
-          "proprietary_name": "PENBRAYA",
-          "labeler": "Pfizer Laboratories Div Pfizer Inc",
-          "mvx_code": "PFR",
-          "start_date": "2023-11-27",
-          "end_date": null,
-          "sale_gtin": "00300690600109",
-          "use_gtin": "10300690271016",
-          "sale_last_updated": "2025-03-18",
-          "use_last_updated": "2025-03-18"
-        },
-        {
-          "sale_ndc11": "00069-0600-10",
           "use_ndc11": "00069-0332-01",
           "proprietary_name": "PENBRAYA",
           "labeler": "Pfizer Laboratories Div Pfizer Inc",
@@ -11647,6 +11634,19 @@
           "end_date": null,
           "sale_gtin": "00300690600109",
           "use_gtin": "10300690332014",
+          "sale_last_updated": "2025-03-18",
+          "use_last_updated": "2025-03-18"
+        },
+        {
+          "sale_ndc11": "00069-0600-10",
+          "use_ndc11": "00069-0271-01",
+          "proprietary_name": "PENBRAYA",
+          "labeler": "Pfizer Laboratories Div Pfizer Inc",
+          "mvx_code": "PFR",
+          "start_date": "2023-11-27",
+          "end_date": null,
+          "sale_gtin": "00300690600109",
+          "use_gtin": "10300690271016",
           "sale_last_updated": "2025-03-18",
           "use_last_updated": "2025-03-18"
         }
@@ -12412,6 +12412,19 @@
           "use_gtin": "",
           "sale_last_updated": "2026-01-08",
           "use_last_updated": "2026-01-08"
+        },
+        {
+          "sale_ndc11": "49281-0626-50",
+          "use_ndc11": "49281-0626-88",
+          "proprietary_name": "FLUZONE TIV SH 2026",
+          "labeler": "Sanofi Vaccines US Inc.",
+          "mvx_code": "PMC",
+          "start_date": "2026-02-20",
+          "end_date": null,
+          "sale_gtin": "",
+          "use_gtin": "",
+          "sale_last_updated": "2026-04-14",
+          "use_last_updated": "2026-04-09"
         }
       ]
     },
@@ -12577,6 +12590,45 @@
         }
       ]
     },
+    "337": {
+      "cvx_code": "337",
+      "name": "Influenza, Southern Hemisphere, high-dose, trivalent, PF",
+      "description": "Influenza, Southern Hemisphere, high-dose, trivalent, PF",
+      "status": "Active",
+      "cpt_codes": [
+
+      ],
+      "groups": {
+        "88": {
+          "name": "FLU",
+          "active": true
+        }
+      },
+      "manufacturers": [
+        {
+          "trade_name": "FLUZONE High-Dose Trivalent Southern Hemisphere",
+          "mvx_code": "PMC",
+          "manufacturer": "Sanofi Pasteur",
+          "last_updated": "2026-04-09",
+          "product_name_status": "Active"
+        }
+      ],
+      "ndc_codes": [
+        {
+          "sale_ndc11": "49281-0016-50",
+          "use_ndc11": "49281-0016-88",
+          "proprietary_name": "FLUZONE HD TIV SH 2026",
+          "labeler": "Sanofi Vaccines US Inc.",
+          "mvx_code": "PMC",
+          "start_date": "2026-02-20",
+          "end_date": null,
+          "sale_gtin": "",
+          "use_gtin": "",
+          "sale_last_updated": "2026-04-14",
+          "use_last_updated": "2026-04-08"
+        }
+      ]
+    },
     "34": {
       "cvx_code": "34",
       "name": "RIG",
@@ -12715,27 +12767,27 @@
           "sale_ndc11": "49281-0915-01",
           "use_ndc11": "49281-0915-58",
           "proprietary_name": "YF-VAX",
-          "labeler": "Sanofi Pasteur Inc.",
+          "labeler": "Sanofi Vaccines US Inc.",
           "mvx_code": "PMC",
           "start_date": "1953-05-22",
           "end_date": null,
           "sale_gtin": "00349281915017",
           "use_gtin": "00349281915581",
-          "sale_last_updated": "2023-02-02",
-          "use_last_updated": "2023-02-02"
+          "sale_last_updated": "2026-04-02",
+          "use_last_updated": "2026-04-02"
         },
         {
           "sale_ndc11": "49281-0915-05",
           "use_ndc11": "49281-0915-68",
           "proprietary_name": "YF-VAX",
-          "labeler": "Sanofi Pasteur Inc.",
+          "labeler": "Sanofi Vaccines US Inc.",
           "mvx_code": "PMC",
           "start_date": "1953-05-22",
           "end_date": null,
           "sale_gtin": "00349281915055",
           "use_gtin": "00349281915680",
-          "sale_last_updated": "2023-02-02",
-          "use_last_updated": "2023-02-02"
+          "sale_last_updated": "2026-04-02",
+          "use_last_updated": "2026-04-02"
         }
       ]
     },
@@ -13265,14 +13317,14 @@
           "sale_ndc11": "49281-0545-03",
           "use_ndc11": "49281-0547-58",
           "proprietary_name": "ActHIB",
-          "labeler": "Sanofi Pasteur Inc.",
+          "labeler": "Sanofi Vaccines US Inc.",
           "mvx_code": "PMC",
           "start_date": "2016-05-31",
           "end_date": null,
           "sale_gtin": "00349281545030",
           "use_gtin": "00349281547584",
-          "sale_last_updated": "2021-11-08",
-          "use_last_updated": "2015-10-30"
+          "sale_last_updated": "2026-02-18",
+          "use_last_updated": "2026-02-18"
         },
         {
           "sale_ndc11": "49281-0545-05",
@@ -13285,7 +13337,7 @@
           "sale_gtin": "",
           "use_gtin": "00349281547584",
           "sale_last_updated": "2018-07-12",
-          "use_last_updated": "2015-10-30"
+          "use_last_updated": "2026-02-18"
         },
         {
           "sale_ndc11": "58160-0726-15",
@@ -14229,14 +14281,14 @@
           "sale_ndc11": "49281-0605-01",
           "use_ndc11": "49281-0606-58",
           "proprietary_name": "Dengvaxia",
-          "labeler": "Sanofi Pasteur Inc.",
+          "labeler": "Sanofi Vaccines US Inc.",
           "mvx_code": "PMC",
           "start_date": "2019-05-01",
           "end_date": null,
           "sale_gtin": "00349281605017",
           "use_gtin": "00349281606588",
-          "sale_last_updated": "2025-08-20",
-          "use_last_updated": "2025-08-20"
+          "sale_last_updated": "2026-03-17",
+          "use_last_updated": "2026-03-17"
         }
       ]
     },
@@ -16329,14 +16381,14 @@
           "sale_ndc11": "49281-0605-01",
           "use_ndc11": "49281-0606-58",
           "proprietary_name": "Dengvaxia",
-          "labeler": "Sanofi Pasteur Inc.",
+          "labeler": "Sanofi Vaccines US Inc.",
           "mvx_code": "PMC",
           "start_date": "2019-05-01",
           "end_date": null,
           "sale_gtin": "00349281605017",
           "use_gtin": "00349281606588",
-          "sale_last_updated": "2025-08-20",
-          "use_last_updated": "2025-08-20"
+          "sale_last_updated": "2026-03-17",
+          "use_last_updated": "2026-03-17"
         }
       ]
     },
@@ -16562,40 +16614,40 @@
           "sale_ndc11": "49281-0590-01",
           "use_ndc11": "49281-0590-58",
           "proprietary_name": "MenQuadfi",
-          "labeler": "Sanofi Pasteur Inc.",
+          "labeler": "Sanofi Vaccines US Inc.",
           "mvx_code": "PMC",
           "start_date": "2020-04-23",
           "end_date": null,
           "sale_gtin": "00349281590016",
           "use_gtin": "00349281590580",
-          "sale_last_updated": "2024-09-19",
-          "use_last_updated": "2024-04-23"
+          "sale_last_updated": "2026-03-03",
+          "use_last_updated": "2026-03-03"
         },
         {
           "sale_ndc11": "49281-0590-05",
           "use_ndc11": "49281-0590-58",
           "proprietary_name": "MenQuadfi",
-          "labeler": "Sanofi Pasteur Inc.",
+          "labeler": "Sanofi Vaccines US Inc.",
           "mvx_code": "PMC",
           "start_date": "2020-04-23",
           "end_date": null,
           "sale_gtin": "00349281590054",
           "use_gtin": "00349281590580",
-          "sale_last_updated": "2024-04-23",
-          "use_last_updated": "2024-04-23"
+          "sale_last_updated": "2026-03-03",
+          "use_last_updated": "2026-03-03"
         },
         {
           "sale_ndc11": "49281-0590-10",
           "use_ndc11": "49281-0590-58",
           "proprietary_name": "MenQuadfi",
-          "labeler": "Sanofi Pasteur Inc.",
+          "labeler": "Sanofi Vaccines US Inc.",
           "mvx_code": "PMC",
           "start_date": "2020-04-23",
           "end_date": null,
           "sale_gtin": "",
           "use_gtin": "00349281590580",
-          "sale_last_updated": "2024-05-09",
-          "use_last_updated": "2024-04-23"
+          "sale_last_updated": "2026-03-03",
+          "use_last_updated": "2026-03-03"
         },
         {
           "sale_ndc11": "50090-6180-00",
@@ -16948,19 +17000,6 @@
         },
         {
           "sale_ndc11": "00069-0600-10",
-          "use_ndc11": "00069-0271-01",
-          "proprietary_name": "PENBRAYA",
-          "labeler": "Pfizer Laboratories Div Pfizer Inc",
-          "mvx_code": "PFR",
-          "start_date": "2023-11-27",
-          "end_date": null,
-          "sale_gtin": "00300690600109",
-          "use_gtin": "10300690271016",
-          "sale_last_updated": "2025-03-18",
-          "use_last_updated": "2025-03-18"
-        },
-        {
-          "sale_ndc11": "00069-0600-10",
           "use_ndc11": "00069-0332-01",
           "proprietary_name": "PENBRAYA",
           "labeler": "Pfizer Laboratories Div Pfizer Inc",
@@ -16969,6 +17008,19 @@
           "end_date": null,
           "sale_gtin": "00300690600109",
           "use_gtin": "10300690332014",
+          "sale_last_updated": "2025-03-18",
+          "use_last_updated": "2025-03-18"
+        },
+        {
+          "sale_ndc11": "00069-0600-10",
+          "use_ndc11": "00069-0271-01",
+          "proprietary_name": "PENBRAYA",
+          "labeler": "Pfizer Laboratories Div Pfizer Inc",
+          "mvx_code": "PFR",
+          "start_date": "2023-11-27",
+          "end_date": null,
+          "sale_gtin": "00300690600109",
+          "use_gtin": "10300690271016",
           "sale_last_updated": "2025-03-18",
           "use_last_updated": "2025-03-18"
         }
@@ -17881,14 +17933,14 @@
           "sale_ndc11": "49281-0545-03",
           "use_ndc11": "49281-0547-58",
           "proprietary_name": "ActHIB",
-          "labeler": "Sanofi Pasteur Inc.",
+          "labeler": "Sanofi Vaccines US Inc.",
           "mvx_code": "PMC",
           "start_date": "2016-05-31",
           "end_date": null,
           "sale_gtin": "00349281545030",
           "use_gtin": "00349281547584",
-          "sale_last_updated": "2021-11-08",
-          "use_last_updated": "2015-10-30"
+          "sale_last_updated": "2026-02-18",
+          "use_last_updated": "2026-02-18"
         },
         {
           "sale_ndc11": "49281-0545-05",
@@ -17901,7 +17953,7 @@
           "sale_gtin": "",
           "use_gtin": "00349281547584",
           "sale_last_updated": "2018-07-12",
-          "use_last_updated": "2015-10-30"
+          "use_last_updated": "2026-02-18"
         },
         {
           "sale_ndc11": "58160-0726-15",
@@ -18848,14 +18900,14 @@
           "sale_ndc11": "49281-0425-50",
           "use_ndc11": "49281-0425-88",
           "proprietary_name": "FLUZONE TRIVALENT NORTHERN HEMISPHERE",
-          "labeler": "Sanofi Pasteur Inc.",
+          "labeler": "Sanofi Vaccines US Inc.",
           "mvx_code": "PMC",
           "start_date": "2025-07-01",
           "end_date": null,
           "sale_gtin": "",
           "use_gtin": "",
-          "sale_last_updated": "2025-07-16",
-          "use_last_updated": "2025-07-16"
+          "sale_last_updated": "2026-04-14",
+          "use_last_updated": "2026-04-02"
         },
         {
           "sale_ndc11": "54868-6180-00",
@@ -19411,14 +19463,14 @@
           "sale_ndc11": "49281-0643-15",
           "use_ndc11": "49281-0643-78",
           "proprietary_name": "FLUZONE TRIVALENT NORTHERN HEMISPHERE",
-          "labeler": "Sanofi Pasteur Inc.",
+          "labeler": "Sanofi Vaccines US Inc.",
           "mvx_code": "PMC",
           "start_date": "2025-07-01",
           "end_date": null,
           "sale_gtin": "",
           "use_gtin": "",
-          "sale_last_updated": "2025-07-16",
-          "use_last_updated": "2025-07-16"
+          "sale_last_updated": "2026-04-02",
+          "use_last_updated": "2026-04-02"
         },
         {
           "sale_ndc11": "54868-6177-00",
@@ -19896,14 +19948,14 @@
           "sale_ndc11": "49281-0643-15",
           "use_ndc11": "49281-0643-78",
           "proprietary_name": "FLUZONE TRIVALENT NORTHERN HEMISPHERE",
-          "labeler": "Sanofi Pasteur Inc.",
+          "labeler": "Sanofi Vaccines US Inc.",
           "mvx_code": "PMC",
           "start_date": "2025-07-01",
           "end_date": null,
           "sale_gtin": "",
           "use_gtin": "",
-          "sale_last_updated": "2025-07-16",
-          "use_last_updated": "2025-07-16"
+          "sale_last_updated": "2026-04-02",
+          "use_last_updated": "2026-04-02"
         },
         {
           "sale_ndc11": "54868-6177-00",
@@ -21361,14 +21413,14 @@
           "sale_ndc11": "49281-0252-51",
           "use_ndc11": "49281-0246-58",
           "proprietary_name": "IMOVAX RABIES",
-          "labeler": "Sanofi Pasteur Inc.",
+          "labeler": "Sanofi Vaccines US Inc.",
           "mvx_code": "PMC",
           "start_date": "2019-10-25",
           "end_date": null,
           "sale_gtin": "00349281252518",
           "use_gtin": "00349281246586",
-          "sale_last_updated": "2025-08-20",
-          "use_last_updated": "2025-08-20"
+          "sale_last_updated": "2026-02-18",
+          "use_last_updated": "2026-02-18"
         }
       ]
     },
@@ -23741,27 +23793,27 @@
           "sale_ndc11": "49281-0790-20",
           "use_ndc11": "49281-0790-38",
           "proprietary_name": "Typhim Vi",
-          "labeler": "Sanofi Pasteur Inc.",
+          "labeler": "Sanofi Vaccines US Inc.",
           "mvx_code": "PMC",
           "start_date": "1994-11-28",
           "end_date": null,
           "sale_gtin": "00349281790201",
           "use_gtin": "00349281790386",
-          "sale_last_updated": "2025-08-20",
-          "use_last_updated": "2025-08-20"
+          "sale_last_updated": "2026-02-24",
+          "use_last_updated": "2026-02-24"
         },
         {
           "sale_ndc11": "49281-0790-51",
           "use_ndc11": "49281-0790-88",
           "proprietary_name": "Typhim Vi",
-          "labeler": "Sanofi Pasteur Inc.",
+          "labeler": "Sanofi Vaccines US Inc.",
           "mvx_code": "PMC",
           "start_date": "1994-11-28",
           "end_date": null,
           "sale_gtin": "00349281790515",
           "use_gtin": "00349281790881",
-          "sale_last_updated": "2025-08-20",
-          "use_last_updated": "2025-08-20"
+          "sale_last_updated": "2026-02-24",
+          "use_last_updated": "2026-02-24"
         }
       ]
     },
@@ -25123,27 +25175,27 @@
           "sale_ndc11": "49281-0915-01",
           "use_ndc11": "49281-0915-58",
           "proprietary_name": "YF-VAX",
-          "labeler": "Sanofi Pasteur Inc.",
+          "labeler": "Sanofi Vaccines US Inc.",
           "mvx_code": "PMC",
           "start_date": "1953-05-22",
           "end_date": null,
           "sale_gtin": "00349281915017",
           "use_gtin": "00349281915581",
-          "sale_last_updated": "2023-02-02",
-          "use_last_updated": "2023-02-02"
+          "sale_last_updated": "2026-04-02",
+          "use_last_updated": "2026-04-02"
         },
         {
           "sale_ndc11": "49281-0915-05",
           "use_ndc11": "49281-0915-68",
           "proprietary_name": "YF-VAX",
-          "labeler": "Sanofi Pasteur Inc.",
+          "labeler": "Sanofi Vaccines US Inc.",
           "mvx_code": "PMC",
           "start_date": "1953-05-22",
           "end_date": null,
           "sale_gtin": "00349281915055",
           "use_gtin": "00349281915680",
-          "sale_last_updated": "2023-02-02",
-          "use_last_updated": "2023-02-02"
+          "sale_last_updated": "2026-04-02",
+          "use_last_updated": "2026-04-02"
         }
       ]
     },
@@ -26085,8 +26137,8 @@
           "end_date": null,
           "sale_gtin": "00343528003055",
           "use_gtin": "00343528003017",
-          "sale_last_updated": "2026-01-06",
-          "use_last_updated": "2026-01-15"
+          "sale_last_updated": "2026-02-24",
+          "use_last_updated": "2026-02-24"
         },
         {
           "sale_ndc11": "50090-3469-00",
