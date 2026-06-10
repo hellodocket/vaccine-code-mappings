@@ -15,8 +15,7 @@
             "status",
             "cpt_codes",
             "manufacturers",
-            "groups",
-            "ndc_codes"
+            "groups"
           ],
           "additionalProperties": false,
           "properties": {
@@ -96,61 +95,6 @@
                 }
               },
               "minProperties": 1
-            },
-            "ndc_codes": {
-              "type": "array",
-              "items": {
-                "type": "object",
-                "properties": {
-                  "sale_ndc11": {
-                    "type": "string"
-                  },
-                  "use_ndc11": {
-                    "type": "string"
-                  },
-                  "proprietary_name": {
-                    "type": "string"
-                  },
-                  "labeler": {
-                    "type": "string"
-                  },
-                  "mvx_code": {
-                    "type": "string"
-                  },
-                  "start_date": {
-                    "type": ["string", "null"]
-                  },
-                  "end_date": {
-                    "type": ["string", "null"]
-                  },
-                  "sale_gtin": {
-                    "type": "string"
-                  },
-                  "use_gtin": {
-                    "type": "string"
-                  },
-                  "sale_last_updated": {
-                    "type": ["string", "null"]
-                  },
-                  "use_last_updated": {
-                    "type": ["string", "null"]
-                  }
-                },
-                "required": [
-                  "sale_ndc11",
-                  "use_ndc11",
-                  "proprietary_name",
-                  "labeler",
-                  "mvx_code",
-                  "start_date",
-                  "end_date",
-                  "sale_gtin",
-                  "use_gtin",
-                  "sale_last_updated",
-                  "use_last_updated"
-                ],
-                "additionalProperties": false
-              }
             }
           }
         }
