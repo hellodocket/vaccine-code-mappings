@@ -526,6 +526,21 @@
       "use_last_updated": "2024-07-11"
     },
     {
+      "cvx_code": "116",
+      "sale_ndc11": "00006-4379-02",
+      "use_ndc11": "00006-4379-01",
+      "no_use_ndc": false,
+      "proprietary_name": "RotaTeq",
+      "labeler": "Merck Sharp & Dohme LLC",
+      "mvx_code": "MSD",
+      "start_date": "2026-05-15",
+      "end_date": null,
+      "sale_gtin": null,
+      "use_gtin": null,
+      "sale_last_updated": "2026-06-10",
+      "use_last_updated": "2026-06-10"
+    },
+    {
       "cvx_code": "03",
       "sale_ndc11": "00006-4681-00",
       "use_ndc11": "00006-4681-01",
@@ -909,11 +924,11 @@
       "labeler": "Pfizer Laboratories Div Pfizer Inc",
       "mvx_code": "PFR",
       "start_date": "2023-07-12",
-      "end_date": null,
+      "end_date": "2026-05-31",
       "sale_gtin": "00300690344010",
       "use_gtin": "10300690207015",
-      "sale_last_updated": "2026-01-06",
-      "use_last_updated": "2026-01-13"
+      "sale_last_updated": "2026-06-16",
+      "use_last_updated": "2026-06-09"
     },
     {
       "cvx_code": "305",
@@ -924,11 +939,11 @@
       "labeler": "Pfizer Laboratories Div Pfizer Inc",
       "mvx_code": "PFR",
       "start_date": "2023-07-12",
-      "end_date": null,
+      "end_date": "2026-05-31",
       "sale_gtin": "00300690344058",
       "use_gtin": "10300690207015",
-      "sale_last_updated": "2026-01-06",
-      "use_last_updated": "2026-01-13"
+      "sale_last_updated": "2026-06-10",
+      "use_last_updated": "2026-06-09"
     },
     {
       "cvx_code": "305",
@@ -939,11 +954,11 @@
       "labeler": "Pfizer Laboratories Div Pfizer Inc",
       "mvx_code": "PFR",
       "start_date": "2023-07-12",
-      "end_date": null,
+      "end_date": "2026-05-31",
       "sale_gtin": "00300690344102",
       "use_gtin": "10300690207015",
-      "sale_last_updated": "2026-01-06",
-      "use_last_updated": "2026-01-13"
+      "sale_last_updated": "2026-06-10",
+      "use_last_updated": "2026-06-09"
     },
     {
       "cvx_code": "224",
@@ -2856,14 +2871,14 @@
       "use_ndc11": "49281-0215-58",
       "no_use_ndc": false,
       "proprietary_name": "TENIVAC",
-      "labeler": "Sanofi Pasteur Inc.",
+      "labeler": "Sanofi Vaccines US Inc.",
       "mvx_code": "PMC",
       "start_date": "2010-12-08",
       "end_date": null,
       "sale_gtin": "00349281215100",
       "use_gtin": "00349281215582",
-      "sale_last_updated": "2023-02-02",
-      "use_last_updated": "2023-02-02"
+      "sale_last_updated": "2026-04-27",
+      "use_last_updated": "2026-04-27"
     },
     {
       "cvx_code": "113",
@@ -2871,14 +2886,14 @@
       "use_ndc11": "49281-0215-88",
       "no_use_ndc": false,
       "proprietary_name": "TENIVAC",
-      "labeler": "Sanofi Pasteur Inc.",
+      "labeler": "Sanofi Vaccines US Inc.",
       "mvx_code": "PMC",
       "start_date": "2010-12-08",
       "end_date": null,
       "sale_gtin": "00349281215155",
       "use_gtin": "00349281215889",
-      "sale_last_updated": "2023-02-02",
-      "use_last_updated": "2023-02-22"
+      "sale_last_updated": "2026-04-27",
+      "use_last_updated": "2026-04-27"
     },
     {
       "cvx_code": "28",
@@ -2946,14 +2961,14 @@
       "use_ndc11": "49281-0286-58",
       "no_use_ndc": false,
       "proprietary_name": "DAPTACEL",
-      "labeler": "Sanofi Pasteur Inc.",
+      "labeler": "Sanofi Vaccines US Inc.",
       "mvx_code": "PMC",
       "start_date": "2002-05-14",
       "end_date": null,
       "sale_gtin": "00349281286018",
       "use_gtin": "00349281286582",
-      "sale_last_updated": "2023-04-24",
-      "use_last_updated": "2023-02-01"
+      "sale_last_updated": "2026-04-27",
+      "use_last_updated": "2026-04-27"
     },
     {
       "cvx_code": "106",
@@ -2961,14 +2976,14 @@
       "use_ndc11": "49281-0286-58",
       "no_use_ndc": false,
       "proprietary_name": "DAPTACEL",
-      "labeler": "Sanofi Pasteur Inc.",
+      "labeler": "Sanofi Vaccines US Inc.",
       "mvx_code": "PMC",
       "start_date": "2002-05-14",
       "end_date": null,
       "sale_gtin": "00349281286056",
       "use_gtin": "00349281286582",
-      "sale_last_updated": "2022-01-31",
-      "use_last_updated": "2023-02-01"
+      "sale_last_updated": "2026-04-27",
+      "use_last_updated": "2026-04-27"
     },
     {
       "cvx_code": "106",
@@ -2976,14 +2991,14 @@
       "use_ndc11": "49281-0286-58",
       "no_use_ndc": false,
       "proprietary_name": "DAPTACEL",
-      "labeler": "Sanofi Pasteur Inc.",
+      "labeler": "Sanofi Vaccines US Inc.",
       "mvx_code": "PMC",
       "start_date": "2002-05-14",
       "end_date": null,
       "sale_gtin": "00349281286100",
       "use_gtin": "00349281286582",
-      "sale_last_updated": "2022-01-31",
-      "use_last_updated": "2023-02-01"
+      "sale_last_updated": "2026-04-27",
+      "use_last_updated": "2026-04-27"
     },
     {
       "cvx_code": "113",
@@ -3411,14 +3426,14 @@
       "use_ndc11": "49281-0400-58",
       "no_use_ndc": false,
       "proprietary_name": "Adacel",
-      "labeler": "Sanofi Pasteur Inc.",
+      "labeler": "Sanofi Vaccines US Inc.",
       "mvx_code": "PMC",
       "start_date": "2005-06-10",
       "end_date": null,
       "sale_gtin": "00349281400056",
       "use_gtin": "00349281400582",
-      "sale_last_updated": "2023-04-24",
-      "use_last_updated": "2023-02-01"
+      "sale_last_updated": "2026-04-27",
+      "use_last_updated": "2026-04-27"
     },
     {
       "cvx_code": "115",
@@ -3426,14 +3441,14 @@
       "use_ndc11": "49281-0400-58",
       "no_use_ndc": false,
       "proprietary_name": "Adacel",
-      "labeler": "Sanofi Pasteur Inc.",
+      "labeler": "Sanofi Vaccines US Inc.",
       "mvx_code": "PMC",
       "start_date": "2005-06-10",
       "end_date": null,
       "sale_gtin": "00349281400100",
       "use_gtin": "00349281400582",
-      "sale_last_updated": "2022-01-31",
-      "use_last_updated": "2023-02-01"
+      "sale_last_updated": "2026-04-27",
+      "use_last_updated": "2026-04-27"
     },
     {
       "cvx_code": "115",
@@ -3456,14 +3471,14 @@
       "use_ndc11": "49281-0400-89",
       "no_use_ndc": false,
       "proprietary_name": "Adacel",
-      "labeler": "Sanofi Pasteur Inc.",
+      "labeler": "Sanofi Vaccines US Inc.",
       "mvx_code": "PMC",
       "start_date": "2005-06-10",
       "end_date": null,
       "sale_gtin": "00349281400209",
       "use_gtin": "00349281400896",
-      "sale_last_updated": "2022-01-31",
-      "use_last_updated": "2023-02-01"
+      "sale_last_updated": "2026-04-27",
+      "use_last_updated": "2026-04-27"
     },
     {
       "cvx_code": "135",
@@ -3921,14 +3936,14 @@
       "use_ndc11": "49281-0544-58",
       "no_use_ndc": false,
       "proprietary_name": "PENTACEL",
-      "labeler": "Sanofi Pasteur Inc.",
+      "labeler": "Sanofi Vaccines US Inc.",
       "mvx_code": "PMC",
       "start_date": "2020-01-01",
       "end_date": null,
       "sale_gtin": "00349281511059",
       "use_gtin": "00349281544583",
-      "sale_last_updated": "2021-11-08",
-      "use_last_updated": "2021-11-08"
+      "sale_last_updated": "2026-04-27",
+      "use_last_updated": "2026-04-27"
     },
     {
       "cvx_code": "120",
@@ -3936,14 +3951,14 @@
       "use_ndc11": "49281-0561-01",
       "no_use_ndc": false,
       "proprietary_name": "PENTACEL",
-      "labeler": "Sanofi Pasteur Inc.",
+      "labeler": "Sanofi Vaccines US Inc.",
       "mvx_code": "PMC",
       "start_date": "2020-01-01",
       "end_date": null,
       "sale_gtin": "00349281511059",
       "use_gtin": "00349281561016",
-      "sale_last_updated": "2021-11-08",
-      "use_last_updated": "2021-11-08"
+      "sale_last_updated": "2026-04-27",
+      "use_last_updated": "2026-04-27"
     },
     {
       "cvx_code": "161",
@@ -4116,14 +4131,14 @@
       "use_ndc11": "49281-0564-58",
       "no_use_ndc": false,
       "proprietary_name": "QUADRACEL",
-      "labeler": "Sanofi Pasteur Inc.",
+      "labeler": "Sanofi Vaccines US Inc.",
       "mvx_code": "PMC",
       "start_date": "2020-02-06",
       "end_date": null,
       "sale_gtin": "00349281564109",
       "use_gtin": "00349281564581",
-      "sale_last_updated": "2024-09-19",
-      "use_last_updated": "2024-09-19"
+      "sale_last_updated": "2026-04-27",
+      "use_last_updated": "2026-04-27"
     },
     {
       "cvx_code": "130",
@@ -4131,14 +4146,14 @@
       "use_ndc11": "49281-0564-88",
       "no_use_ndc": false,
       "proprietary_name": "QUADRACEL",
-      "labeler": "Sanofi Pasteur Inc.",
+      "labeler": "Sanofi Vaccines US Inc.",
       "mvx_code": "PMC",
       "start_date": "2022-02-04",
       "end_date": null,
       "sale_gtin": "00349281564154",
       "use_gtin": "00349281564888",
-      "sale_last_updated": "2022-10-17",
-      "use_last_updated": "2023-02-01"
+      "sale_last_updated": "2026-04-27",
+      "use_last_updated": "2026-04-27"
     },
     {
       "cvx_code": "307",
@@ -4146,14 +4161,14 @@
       "use_ndc11": "49281-0574-88",
       "no_use_ndc": false,
       "proprietary_name": "BEYFORTUS",
-      "labeler": "Sanofi Pasteur Inc.",
+      "labeler": "Sanofi Vaccines US Inc.",
       "mvx_code": "PMC",
       "start_date": "2023-07-18",
       "end_date": null,
       "sale_gtin": "00349281574153",
       "use_gtin": "00349281574887",
-      "sale_last_updated": "2025-02-18",
-      "use_last_updated": "2025-02-18"
+      "sale_last_updated": "2026-04-27",
+      "use_last_updated": "2026-04-27"
     },
     {
       "cvx_code": "306",
@@ -4161,14 +4176,14 @@
       "use_ndc11": "49281-0575-00",
       "no_use_ndc": false,
       "proprietary_name": "BEYFORTUS",
-      "labeler": "Sanofi Pasteur Inc.",
+      "labeler": "Sanofi Vaccines US Inc.",
       "mvx_code": "PMC",
       "start_date": "2023-07-18",
       "end_date": null,
       "sale_gtin": "00349281575150",
       "use_gtin": "00349281575006",
-      "sale_last_updated": "2025-02-18",
-      "use_last_updated": "2025-02-18"
+      "sale_last_updated": "2026-04-27",
+      "use_last_updated": "2026-04-27"
     },
     {
       "cvx_code": "114",
@@ -4821,14 +4836,14 @@
       "use_ndc11": "49281-0860-78",
       "no_use_ndc": false,
       "proprietary_name": "IPOL",
-      "labeler": "Sanofi Pasteur Inc.",
+      "labeler": "Sanofi Vaccines US Inc.",
       "mvx_code": "PMC",
       "start_date": "1990-12-21",
       "end_date": null,
       "sale_gtin": "00349281860102",
       "use_gtin": "00349281860782",
-      "sale_last_updated": "2021-11-08",
-      "use_last_updated": "2023-02-01"
+      "sale_last_updated": "2026-06-09",
+      "use_last_updated": "2026-06-09"
     },
     {
       "cvx_code": "10",
@@ -4836,13 +4851,13 @@
       "use_ndc11": "49281-0860-88",
       "no_use_ndc": false,
       "proprietary_name": "IPOL",
-      "labeler": "Sanofi Pasteur Inc.",
+      "labeler": "Sanofi Vaccines US Inc.",
       "mvx_code": "PMC",
       "start_date": "1990-12-21",
       "end_date": null,
       "sale_gtin": "00349281860102",
       "use_gtin": "00349281860881",
-      "sale_last_updated": "2021-11-08",
+      "sale_last_updated": "2026-06-09",
       "use_last_updated": "2018-06-08"
     },
     {
@@ -4858,7 +4873,7 @@
       "sale_gtin": "00349281860553",
       "use_gtin": "00349281860782",
       "sale_last_updated": "2021-11-08",
-      "use_last_updated": "2023-02-01"
+      "use_last_updated": "2026-06-09"
     },
     {
       "cvx_code": "183",
@@ -6211,21 +6226,6 @@
       "use_last_updated": "2025-03-11"
     },
     {
-      "cvx_code": "801",
-      "sale_ndc11": "58160-0855-19",
-      "use_ndc11": "58160-0855-01",
-      "no_use_ndc": false,
-      "proprietary_name": "AS03",
-      "labeler": "GlaxoSmithKline Biologicals SA",
-      "mvx_code": "SKB",
-      "start_date": "2020-11-10",
-      "end_date": "2024-01-08",
-      "sale_gtin": "00358160855191",
-      "use_gtin": "10358160855013",
-      "sale_last_updated": "2026-01-13",
-      "use_last_updated": "2026-01-13"
-    },
-    {
       "cvx_code": "140",
       "sale_ndc11": "58160-0879-52",
       "use_ndc11": "58160-0879-41",
@@ -6269,6 +6269,21 @@
       "use_gtin": "00358160881411",
       "sale_last_updated": "2018-05-30",
       "use_last_updated": "2018-05-30"
+    },
+    {
+      "cvx_code": "303",
+      "sale_ndc11": "58160-0882-12",
+      "use_ndc11": "58160-0719-03",
+      "no_use_ndc": false,
+      "proprietary_name": "Arexvy",
+      "labeler": "GlaxoSmithKline Biologicals SA",
+      "mvx_code": "SKB",
+      "start_date": "2026-04-30",
+      "end_date": null,
+      "sale_gtin": null,
+      "use_gtin": null,
+      "sale_last_updated": "2026-06-03",
+      "use_last_updated": "2026-06-10"
     },
     {
       "cvx_code": "140",
@@ -6344,6 +6359,21 @@
       "use_gtin": "10358160890410",
       "sale_last_updated": "2024-07-18",
       "use_last_updated": "2024-07-18"
+    },
+    {
+      "cvx_code": "303",
+      "sale_ndc11": "58160-0894-15",
+      "use_ndc11": "58160-0719-03",
+      "no_use_ndc": false,
+      "proprietary_name": "Arexvy",
+      "labeler": "GlaxoSmithKline Biologicals SA",
+      "mvx_code": "SKB",
+      "start_date": "2026-04-30",
+      "end_date": null,
+      "sale_gtin": null,
+      "use_gtin": null,
+      "sale_last_updated": "2026-06-03",
+      "use_last_updated": "2026-06-10"
     },
     {
       "cvx_code": "150",
@@ -6894,11 +6924,11 @@
       "labeler": "MSP Vaccine Company",
       "mvx_code": "MSP",
       "start_date": "2020-04-10",
-      "end_date": null,
+      "end_date": "2026-05-12",
       "sale_gtin": "00363361243104",
       "use_gtin": "00363361243586",
-      "sale_last_updated": "2024-09-19",
-      "use_last_updated": "2024-09-19"
+      "sale_last_updated": "2026-05-13",
+      "use_last_updated": "2026-05-13"
     },
     {
       "cvx_code": "146",
