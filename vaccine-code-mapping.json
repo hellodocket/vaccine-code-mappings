@@ -2740,10 +2740,7 @@
       "description": "OPV, Unspecified",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90712",
-          "cpt_desc": "Poliovirus vaccine, (any type[s]) (OPV), live, for oral use"
-        }
+
       ],
       "groups": {
         "89": {
@@ -4180,10 +4177,7 @@
       "description": "cholera, unspecified formulation",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90725",
-          "cpt_desc": "Cholera vaccine for injectable use"
-        }
+
       ],
       "groups": {
         "26": {
@@ -5561,10 +5555,7 @@
       "description": "Hep B, unspecified formulation",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90731",
-          "cpt_desc": "Hepatitis B vaccine"
-        }
+
       ],
       "groups": {
         "45": {
@@ -6919,10 +6910,7 @@
       "description": "Hep A, unspecified formulation",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90730",
-          "cpt_desc": "Hepatitis A vaccine"
-        }
+
       ],
       "groups": {
         "85": {
@@ -6982,10 +6970,7 @@
       "description": "influenza, unspecified formulation",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90724",
-          "cpt_desc": "Influenza virus vaccine"
-        }
+
       ],
       "groups": {
         "88": {
@@ -7021,10 +7006,7 @@
       "description": "rabies, unspecified formulation",
       "status": "Inactive",
       "cpt_codes": [
-        {
-          "cpt_code": "90726",
-          "cpt_desc": "Rabies vaccine"
-        }
+
       ],
       "groups": {
         "90": {
@@ -10315,27 +10297,6 @@
         }
       ]
     },
-    "90712": {
-      "cvx_code": "182",
-      "name": "OPV, Unspecified",
-      "description": "OPV, Unspecified",
-      "status": "Inactive",
-      "cpt_codes": [
-        {
-          "cpt_code": "90712",
-          "cpt_desc": "Poliovirus vaccine, (any type[s]) (OPV), live, for oral use"
-        }
-      ],
-      "groups": {
-        "89": {
-          "name": "POLIO",
-          "active": false
-        }
-      },
-      "manufacturers": [
-
-      ]
-    },
     "90713": {
       "cvx_code": "10",
       "name": "IPV",
@@ -10614,69 +10575,6 @@
         }
       ]
     },
-    "90724": {
-      "cvx_code": "88",
-      "name": "influenza, unspecified formulation",
-      "description": "influenza, unspecified formulation",
-      "status": "Inactive",
-      "cpt_codes": [
-        {
-          "cpt_code": "90724",
-          "cpt_desc": "Influenza virus vaccine"
-        }
-      ],
-      "groups": {
-        "88": {
-          "name": "FLU",
-          "active": false
-        }
-      },
-      "manufacturers": [
-
-      ]
-    },
-    "90725": {
-      "cvx_code": "26",
-      "name": "cholera, unspecified formulation",
-      "description": "cholera, unspecified formulation",
-      "status": "Inactive",
-      "cpt_codes": [
-        {
-          "cpt_code": "90725",
-          "cpt_desc": "Cholera vaccine for injectable use"
-        }
-      ],
-      "groups": {
-        "26": {
-          "name": "cholera",
-          "active": false
-        }
-      },
-      "manufacturers": [
-
-      ]
-    },
-    "90726": {
-      "cvx_code": "90",
-      "name": "rabies, unspecified formulation",
-      "description": "rabies, unspecified formulation",
-      "status": "Inactive",
-      "cpt_codes": [
-        {
-          "cpt_code": "90726",
-          "cpt_desc": "Rabies vaccine"
-        }
-      ],
-      "groups": {
-        "90": {
-          "name": "RABIES",
-          "active": false
-        }
-      },
-      "manufacturers": [
-
-      ]
-    },
     "90727": {
       "cvx_code": "23",
       "name": "plague",
@@ -10734,48 +10632,6 @@
           "last_updated": "2021-07-26",
           "product_name_status": "Active"
         }
-      ]
-    },
-    "90730": {
-      "cvx_code": "85",
-      "name": "Hep A, unspecified formulation",
-      "description": "Hep A, unspecified formulation",
-      "status": "Inactive",
-      "cpt_codes": [
-        {
-          "cpt_code": "90730",
-          "cpt_desc": "Hepatitis A vaccine"
-        }
-      ],
-      "groups": {
-        "85": {
-          "name": "HepA",
-          "active": false
-        }
-      },
-      "manufacturers": [
-
-      ]
-    },
-    "90731": {
-      "cvx_code": "45",
-      "name": "Hep B, unspecified formulation",
-      "description": "Hep B, unspecified formulation",
-      "status": "Inactive",
-      "cpt_codes": [
-        {
-          "cpt_code": "90731",
-          "cpt_desc": "Hepatitis B vaccine"
-        }
-      ],
-      "groups": {
-        "45": {
-          "name": "HepB",
-          "active": false
-        }
-      },
-      "manufacturers": [
-
       ]
     },
     "90732": {
