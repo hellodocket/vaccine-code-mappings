@@ -1,21 +1,6 @@
 {
   "mappings": [
     {
-      "cvx_code": null,
-      "sale_ndc11": null,
-      "use_ndc11": null,
-      "no_use_ndc": false,
-      "proprietary_name": null,
-      "labeler": null,
-      "mvx_code": null,
-      "start_date": null,
-      "end_date": null,
-      "sale_gtin": null,
-      "use_gtin": null,
-      "sale_last_updated": null,
-      "use_last_updated": null
-    },
-    {
       "cvx_code": "162",
       "sale_ndc11": "00005-0100-02",
       "use_ndc11": "00005-0100-01",
@@ -8939,6 +8924,21 @@
       "use_gtin": "00380777400174",
       "sale_last_updated": "2025-09-08",
       "use_last_updated": "2025-11-13"
+    },
+    {
+      "cvx_code": "338",
+      "sale_ndc11": "80777-0500-20",
+      "use_ndc11": "80777-0500-18",
+      "no_use_ndc": false,
+      "proprietary_name": "mFLUSIVA",
+      "labeler": "Moderna US, Inc.",
+      "mvx_code": "Influenza, mRNA, trivalent, PF",
+      "start_date": "2026-08-05",
+      "end_date": null,
+      "sale_gtin": null,
+      "use_gtin": null,
+      "sale_last_updated": "2026-08-19",
+      "use_last_updated": "2026-08-19"
     }
   ]
 }

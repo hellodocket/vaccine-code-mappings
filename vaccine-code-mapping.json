@@ -1269,7 +1269,7 @@
         {
           "trade_name": "IXIARO",
           "mvx_code": "VET",
-          "manufacturer": "Vetter Pharma Fertigung GmbH &amp; Co. KG",
+          "manufacturer": "Vetter Pharma Fertigung GmbH & Co. KG",
           "last_updated": "2017-12-04",
           "product_name_status": "Active"
         },
@@ -5253,6 +5253,33 @@
         }
       ]
     },
+    "338": {
+      "cvx_code": "338",
+      "name": "Influenza, mRNA, trivalent, PF",
+      "description": "Influenza, mRNA, trivalent, PF",
+      "status": "Active",
+      "cpt_codes": [
+        {
+          "cpt_code": "90616",
+          "cpt_desc": "Influenza virus vaccine, trivalent (tIRV), mRNA, 37.5 mcg/0.38 mL dosage, for intramuscular use"
+        }
+      ],
+      "groups": {
+        "88": {
+          "name": "FLU",
+          "active": true
+        }
+      },
+      "manufacturers": [
+        {
+          "trade_name": "mFLUSIVA",
+          "mvx_code": "MOD",
+          "manufacturer": "Moderna US, Inc.",
+          "last_updated": "2026-08-12",
+          "product_name_status": "Active"
+        }
+      ]
+    },
     "34": {
       "cvx_code": "34",
       "name": "RIG",
@@ -7853,6 +7880,33 @@
           "mvx_code": "BN",
           "manufacturer": "Bavarian Nordic A/S",
           "last_updated": "2022-05-20",
+          "product_name_status": "Active"
+        }
+      ]
+    },
+    "90616": {
+      "cvx_code": "338",
+      "name": "Influenza, mRNA, trivalent, PF",
+      "description": "Influenza, mRNA, trivalent, PF",
+      "status": "Active",
+      "cpt_codes": [
+        {
+          "cpt_code": "90616",
+          "cpt_desc": "Influenza virus vaccine, trivalent (tIRV), mRNA, 37.5 mcg/0.38 mL dosage, for intramuscular use"
+        }
+      ],
+      "groups": {
+        "88": {
+          "name": "FLU",
+          "active": true
+        }
+      },
+      "manufacturers": [
+        {
+          "trade_name": "mFLUSIVA",
+          "mvx_code": "MOD",
+          "manufacturer": "Moderna US, Inc.",
+          "last_updated": "2026-08-12",
           "product_name_status": "Active"
         }
       ]
@@ -10825,7 +10879,7 @@
         {
           "trade_name": "IXIARO",
           "mvx_code": "VET",
-          "manufacturer": "Vetter Pharma Fertigung GmbH &amp; Co. KG",
+          "manufacturer": "Vetter Pharma Fertigung GmbH & Co. KG",
           "last_updated": "2017-12-04",
           "product_name_status": "Active"
         },
