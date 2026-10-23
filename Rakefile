@@ -12,6 +12,8 @@ CPTCode = Struct.new("CPTCode", :cpt_code, :cpt_desc, :status, :comments, :vacci
 MVXCode = Struct.new("MVXCode", :cdc_product_name, :short_description, :cvx_code, :manufacturer, :mvx_code, :mvx_status, :product_name_status, :last_updated)
 VaccineGroup = Struct.new("VaccineGroup", :short_description, :cvx_code, :status, :vaccine_group_name, :cvx_for_vaccine_group)
 NDCCode = Struct.new("NDCCode", :sale_ndc11, :use_ndc11, :no_use_ndc, :proprietary_name, :labeler, :mvx_code, :start_date, :end_date, :sale_gtin, :use_gtin, :cvx_code, :cvx_description, :sale_last_updated, :use_last_updated)
+FDAPackage = Struct.new("FDAPackage", :fill_volume_ml, :container_type, :dose_kind, :strength_dose_volume_ml, :packaging_description)
+PackagingInfo = Struct.new("PackagingInfo", :fill_volume_ml, :dose_volume_ml, :doses_per_container, :container_type, :packaging_description)
 
 # Convert a map of XML values that look like <Name>AttributeName</name><value>AttributeValue</value> into a standard Ruby map
 def parse_name_value_into_map(name_value_xml)
@@ -395,8 +397,27 @@ task :load_cdc_mapping do
   # We don't key it by NDC code here — consumers build whatever lookup they need (e.g. by sale
   # or use NDC11) on top of this. Each row carries its own cvx_code, since a single NDC can
   # reference multiple CVX codes. uniq drops exact duplicate rows; the sort keeps diffs stable.
+  # Each row is enriched with container info from openFDA's packaging data and a verified dose volume.
+  fda_products = fetch_openfda_products("product_type:VACCINE")
+  puts "Fetched #{fda_products.length} vaccine products from openFDA"
+  # Some CDC products aren't filed as vaccines in openFDA (e.g. the RSV antibodies Beyfortus and Enflonsia are
+  # prescription drugs), so look up any NDCs the vaccine listings didn't cover directly.
+  fda_packaging = index_openfda_packaging(fda_products)
+  unmatched_ndcs = all_ndc_structs.reject { |n| lookup_fda_package(n, fda_packaging) }
+                                  .flat_map { |n| [n.sale_ndc11, n.use_ndc11] }
+  other_products = fetch_openfda_products_by_ndc(unmatched_ndcs)
+  puts "Fetched #{other_products.length} more openFDA products by NDC"
+  fda_packaging = index_openfda_packaging(fda_products + other_products)
+
+  matched_count = all_ndc_structs.count { |n| lookup_fda_package(n, fda_packaging) }
+  puts "openFDA packaging matched #{matched_count} of #{all_ndc_structs.length} NDC rows"
+  # About 180 rows match today. Far fewer means an NDC format changed on one side, which would otherwise publish
+  # all-null packaging that still passes schema validation.
+  raise "Only #{matched_count} NDC rows matched openFDA packaging; expected at least 100" if matched_count < 100
+
+  cvx_dose_volumes = json_result[:cvx].transform_values { |item| cvx_dose_volume(item[:name]) }
   mappings = all_ndc_structs
-             .map { |n| format_ndc(n, entity_encoder) }
+             .map { |n| format_ndc(n, entity_encoder, ndc_packaging(n, fda_packaging, cvx_dose_volumes)) }
              .uniq
              .sort_by { |i| [i[:sale_ndc11], i[:use_ndc11], i[:cvx_code]] }
   ndc_result = { mappings: mappings }
@@ -407,9 +428,9 @@ task :load_cdc_mapping do
   File.write("./ndc-code-mapping.json", JSON.pretty_generate(ndc_result))
 end
 
-# Format a single NDCCode struct into a row for ndc-code-mapping.json's `mappings` array.
+# Format a single NDCCode struct and its PackagingInfo into a row for ndc-code-mapping.json's `mappings` array.
 # Field order is kept stable only to minimize git diffs between updates.
-def format_ndc(ndc, entity_encoder)
+def format_ndc(ndc, entity_encoder, packaging)
   {
     cvx_code: ndc.cvx_code,
     sale_ndc11: ndc.sale_ndc11,
@@ -423,8 +444,175 @@ def format_ndc(ndc, entity_encoder)
     sale_gtin: ndc.sale_gtin,
     use_gtin: ndc.use_gtin,
     sale_last_updated: ndc.sale_last_updated,
-    use_last_updated: ndc.use_last_updated
+    use_last_updated: ndc.use_last_updated,
+    fill_volume_ml: packaging.fill_volume_ml,
+    dose_volume_ml: packaging.dose_volume_ml,
+    doses_per_container: packaging.doses_per_container,
+    container_type: packaging.container_type,
+    packaging_description: packaging.packaging_description
   }
+end
+
+# CDC writes NDCs in the 11-digit 5-4-2 form (00005-0100-02) while openFDA uses the 10-digit form, which pads only
+# some segments (0005-0100-02). Dropping each segment's leading zeros gives both forms the same key.
+def ndc_match_key(ndc)
+  ndc.to_s.split("-").map { |segment| segment.sub(/\A0+(?=\d)/, "") }.join("-")
+end
+
+# Fetch every product listing from the openFDA NDC API that matches an openFDA search expression.
+def fetch_openfda_products(search)
+  products = []
+  loop do
+    response = HTTParty.get("https://api.fda.gov/drug/ndc.json", query: {
+      search: search,
+      limit: 1000, # openFDA's maximum page size
+      skip: products.length
+    })
+    # openFDA answers a search with no matches with a 404
+    return products if response.code == 404 && response.parsed_response.dig("error", "code") == "NOT_FOUND"
+    raise "openFDA NDC request failed with HTTP #{response.code}: #{response.body}" unless response.success?
+
+    data = response.parsed_response
+    results = data.fetch("results")
+    raise "openFDA NDC request returned no results at skip #{products.length}" if results.empty?
+
+    products.concat(results)
+    break if products.length >= data.fetch("meta").fetch("results").fetch("total")
+  end
+  products
+end
+
+# Fetch the openFDA product listings that contain any of the given CDC 11-digit NDCs as a package.
+def fetch_openfda_products_by_ndc(ndc11s)
+  fda_ndcs = ndc11s.flat_map { |ndc| fda_ndc_spellings(ndc) }.uniq.sort
+  # 100 NDCs per search keeps each request URL to a few KB
+  fda_ndcs.each_slice(100).flat_map do |slice|
+    fetch_openfda_products("packaging.package_ndc:(#{slice.map { |ndc| %("#{ndc}") }.join(' ')})")
+  end
+end
+
+# The 10-digit spellings an 11-digit 5-4-2 NDC could have in openFDA. The 11-digit form adds one padding zero to
+# whichever segment the 10-digit form shortened, so drop a leading zero from each segment in turn.
+def fda_ndc_spellings(ndc11)
+  segments = ndc11.to_s.split("-")
+  return [] unless segments.length == 3
+
+  segments.each_index.select { |i| segments[i].start_with?("0") }.map do |i|
+    segments.each_with_index.map { |segment, j| j == i ? segment[1..] : segment }.join("-")
+  end
+end
+
+# Index openFDA products' parsed packages (FDAPackage) by ndc_match_key:
+#   by_package_ndc - each package under its own NDC (unit of sale)
+#   by_unit_ndc    - each package under every NDC its description mentions, including units nested inside it
+def index_openfda_packaging(products)
+  # openFDA doesn't guarantee result order, so sort before indexing to keep the output stable between runs.
+  packages = products.flat_map do |product|
+    strength_dose_volume = strength_dose_volume(product)
+    (product["packaging"] || []).map do |package|
+      [package, parse_fda_package(package["description"], strength_dose_volume)]
+    end
+  end.sort_by { |package, _| package["package_ndc"] }
+
+  by_package_ndc = packages.to_h { |package, info| [ndc_match_key(package["package_ndc"]), info] }
+  # Several packages can hold the same unit; the lowest package NDC wins.
+  by_unit_ndc = {}
+  packages.each do |package, info|
+    unit_ndcs = [package["package_ndc"]] + package["description"].scan(/\((\d+-\d+-\d+)\)/).flatten
+    unit_ndcs.each { |ndc| by_unit_ndc[ndc_match_key(ndc)] ||= info }
+  end
+  { by_package_ndc: by_package_ndc, by_unit_ndc: by_unit_ndc }
+end
+
+# The per-dose volume an openFDA product's strength states, e.g. "15 ug/.5mL", or nil. A bare "/mL" is only a
+# concentration. Only trusted for multi-dose vials: a single-dose product's strength can be written over its fill
+# volume instead (Comirnaty's 0.3 mL dose syringe lists ".042 mg/.418mL").
+def strength_dose_volume(product)
+  volumes = (product["active_ingredients"] || []).filter_map do |ingredient|
+    ingredient["strength"].to_s[%r{/([\d.]+)\s*mL\z}i, 1]&.to_f
+  end.uniq
+  volumes.length == 1 ? volumes.first : nil
+end
+
+# The administered dose volume a CVX description states, e.g. "COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose".
+# Nil when it states none, or more than one (e.g. "100 mcg/0.5mL dose or 50 mcg/0.25mL dose").
+def cvx_dose_volume(description)
+  volumes = description.to_s.scan(/([\d.]+)\s*mL\b/i).flatten.map(&:to_f).uniq
+  volumes.length == 1 ? volumes.first : nil
+end
+
+# Administered dose volumes from the package inserts of products whose CVX description and openFDA strength don't
+# state one. Keyed by upcased CDC proprietary name.
+def dose_volume_overrides
+  {
+    # Anthrax vaccines with a 100 ug/mL strength, given in 0.5 mL doses
+    "BIOTHRAX" => 0.5,
+    "CYFENDUS" => 0.5
+  }
+end
+
+# Whether an openFDA container type holds one dose (:single) or several (:multi). A plain "VIAL" could be either, so
+# it's nil.
+def container_dose_kind(container_type)
+  if container_type.include?("MULTI-DOSE")
+    :multi
+  elsif container_type.match?(/SINGLE-DOSE|SINGLE-USE|SYRINGE|AMPULE|TUBE|APPLICATOR/)
+    :single
+  end
+end
+
+# Parse an openFDA packaging description into the fill volume, container type and dose kind of one unit-of-use
+# container, e.g.
+#   "10 VIAL, SINGLE-DOSE in 1 CARTON (0006-4119-03)  / .5 mL in 1 VIAL, SINGLE-DOSE (0006-4119-01)"
+# " / " separates nesting levels (the last one is the unit of use) and " * " separates the parts of a kit. A kit is
+# single-dose when every part is a single-dose container, and has no one fill volume. Non-liquid units are left nil.
+def parse_fda_package(description, strength_dose_volume)
+  kit_parts = description.split(/\s+\*\s+/).drop(1)
+  units = kit_parts.any? ? kit_parts : [description.split(/\s+\/\s+/).last]
+  unit_matches = units.map { |unit| unit.match(/\A([\d.]+) mL in 1 (.+?)\s*(?:\(|\z)/) }
+  return FDAPackage.new(nil, nil, nil, nil, description) if unit_matches.any?(&:nil?)
+
+  if kit_parts.any?
+    dose_kind = :single if unit_matches.all? { |m| container_dose_kind(m[2]) == :single }
+    return FDAPackage.new(nil, "KIT", dose_kind, nil, description)
+  end
+
+  unit = unit_matches.first
+  FDAPackage.new(unit[1].to_f, unit[2], container_dose_kind(unit[2]), strength_dose_volume, description)
+end
+
+# Look up a CDC NDC row's openFDA package, or nil when openFDA has no match. A match on the row's sale NDC as an
+# openFDA package returns that package. Failing that, a match on its sale or use NDC as a unit inside some other
+# package still gives the right unit-of-use info, but that package's description isn't this row's sale package, so
+# it's dropped.
+def lookup_fda_package(ndc, fda_packaging)
+  package = fda_packaging[:by_package_ndc][ndc_match_key(ndc.sale_ndc11)]
+  return package if package
+
+  unit_package = fda_packaging[:by_unit_ndc][ndc_match_key(ndc.sale_ndc11)] ||
+                 fda_packaging[:by_unit_ndc][ndc_match_key(ndc.use_ndc11)]
+  unit_package && FDAPackage.new(**unit_package.to_h.merge(packaging_description: nil))
+end
+
+# Packaging fields for a CDC NDC row. Fill volume and container come from its openFDA package. The administered dose
+# volume comes only from a verified source: a package-insert override, the row's CVX description, or, for a
+# multi-dose vial, its per-dose strength. Single-dose containers count 1 dose whatever their fill, since they can
+# include overfill (Comirnaty's 0.3 mL dose vial holds 0.48 mL). Multi-dose vials count fill / dose when that's a
+# whole number.
+def ndc_packaging(ndc, fda_packaging, cvx_dose_volumes)
+  package = lookup_fda_package(ndc, fda_packaging)
+  dose_volume = dose_volume_overrides[ndc.proprietary_name.upcase] || cvx_dose_volumes[ndc.cvx_code]
+  return PackagingInfo.new(nil, dose_volume, nil, nil, nil) if package.nil?
+
+  doses =
+    case package.dose_kind
+    when :single then 1
+    when :multi
+      dose_volume ||= package.strength_dose_volume_ml
+      count = dose_volume && package.fill_volume_ml / dose_volume
+      count.round if count && (count - count.round).abs < 0.01
+    end
+  PackagingInfo.new(package.fill_volume_ml, dose_volume, doses, package.container_type, package.packaging_description)
 end
 
 # Recursively convert empty-string values ("") to nil so the NDC mapping never emits "".

@@ -50,6 +50,26 @@
           },
           "use_last_updated": {
             "type": ["string", "null"]
+          },
+          "fill_volume_ml": {
+            "description": "Volume in mL that openFDA lists for one unit-of-use container. May include overfill, so it is not the dose volume. Null for kits and non-liquid products.",
+            "type": ["number", "null"]
+          },
+          "dose_volume_ml": {
+            "description": "Administered dose volume in mL, from a package-insert override, the CVX description, or a multi-dose vial's per-dose strength. Null when no verified source states it.",
+            "type": ["number", "null"]
+          },
+          "doses_per_container": {
+            "description": "Doses in one unit-of-use container, not the sale package: 1 for single-dose containers (single-dose or single-use vials, syringes, ampules, tubes, applicators, and kits of these) and fill volume divided by dose volume for multi-dose vials. Null when unknown, including for vials not labeled single- or multi-dose.",
+            "type": ["integer", "null"]
+          },
+          "container_type": {
+            "description": "openFDA unit-of-use container type, e.g. \"VIAL, MULTI-DOSE\", \"SYRINGE\" or \"KIT\".",
+            "type": ["string", "null"]
+          },
+          "packaging_description": {
+            "description": "openFDA's packaging description for this row's sale NDC. Null when openFDA doesn't list the sale NDC as a package, even if the values above were found through the use NDC.",
+            "type": ["string", "null"]
           }
         },
         "required": [
@@ -65,7 +85,12 @@
           "sale_gtin",
           "use_gtin",
           "sale_last_updated",
-          "use_last_updated"
+          "use_last_updated",
+          "fill_volume_ml",
+          "dose_volume_ml",
+          "doses_per_container",
+          "container_type",
+          "packaging_description"
         ],
         "additionalProperties": false
       }
