@@ -797,3 +797,175 @@ task :load_miic_mapping do
   csv_with_replaced_header = ([header] + lines[1..]).join("\n")
   File.write(miic_map_path, csv_with_replaced_header)
 end
+
+# RxNorm "Current Prescribable Content": a monthly, license-free zip of pipe-delimited RRF files covering the
+# medications currently prescribable in the US. See https://www.nlm.nih.gov/research/umls/rxnorm/docs/prescribe.html
+RXNORM_PRESCRIBE_URL = "https://download.nlm.nih.gov/rxnorm/RxNorm_full_prescribe_current.zip"
+
+# Relationships we follow from a concept down to its ingredients (IN), e.g. SBD -> SBDC -> SCDC -> IN.
+RXNORM_INGREDIENT_PATHS = %w[consists_of tradename_of contains form_of has_part].freeze
+
+desc "Build medication-code-mapping.json (keyed by RxCUI) from NLM's RxNorm prescribable content."
+task :load_rxnorm_mapping do
+  require "zip"
+  require "tempfile"
+
+  # RXNORM_ZIP lets you point at an already-downloaded zip instead of fetching ~75MB again.
+  zip_path = ENV["RXNORM_ZIP"]
+  download = nil
+  unless zip_path
+    download = Tempfile.new(["rxnorm", ".zip"], binmode: true)
+    response = HTTParty.get(RXNORM_PRESCRIBE_URL, stream_body: true) { |chunk| download.write(chunk) }
+    raise "RxNorm download failed with HTTP #{response.code}" unless response.code == 200
+    download.close
+    zip_path = download.path
+  end
+
+  concepts = {}                                   # rxcui => { name:, tty:, prescribable_name:, synonyms: }
+  related = Hash.new { |h, k| h[k] = Hash.new { |h2, k2| h2[k2] = [] } } # rxcui => { rela => [rxcui] }
+  strengths = Hash.new { |h, k| h[k] = [] }       # rxcui => ["40 MG"]; drug groups have one per strength sold
+  version = nil
+
+  Zip::File.open(zip_path) do |zip|
+    # The release date only appears in the readme's file name, e.g. Readme_Full_Prescribe_11022026.txt
+    readmes = zip.glob("Readme_Full_Prescribe_*.txt")
+    raise "Expected exactly one readme in the RxNorm zip, found #{readmes.map(&:name)}" unless readmes.length == 1
+    raise "No MMDDYYYY release date in #{readmes.first.name}" unless readmes.first.name =~ /(\d{2})(\d{2})(\d{4})/
+    version = "#{$3}-#{$1}-#{$2}"
+
+    # RXNCONSO: one row per name ("atom"). We keep only RxNorm's own atoms; each concept has exactly one atom that
+    # carries its real term type (SCD, SBD, IN, BN, ...), plus optional synonyms and a prescribable name (PSN).
+    # Synonyms are SY (plain) and TMSY ("Tall Man" lettering that sets look-alike names apart, e.g. buPROPion).
+    #
+    # The release has a second source, MTHSPL (FDA drug-label data), which we deliberately skip. Nearly all of its
+    # concepts also have an RxNorm atom, so they are already here under a cleaner name; the ~1,000 that don't are
+    # things RxNorm chose not to normalize (bulk powders, excipients, herbal supplements). Its relationships are
+    # label-level active/inactive ingredient links, which the ingredient and brand walk below doesn't use.
+    # Read MTHSPL only if we later want what it alone carries: about half of the NDCs, inactive ingredients, labeler
+    # and marketing status, or pill appearance (colour, shape, imprint).
+    #
+    # Each concept keeps a single name, term type and prescribable name. Today the data has exactly one of each per
+    # concept, so nothing is lost; the raises below fail the run if that ever stops being true, instead of quietly
+    # keeping whichever row came last.
+    each_rrf_row(zip, "rrf/RXNCONSO.RRF") do |row|
+      rxcui, sab, tty, name = row[0], row[11], row[12], row[14]
+      next unless sab == "RXNORM"
+      concept = (concepts[rxcui] ||= {})
+      case tty
+      when "PSN"
+        raise "RxCUI #{rxcui} has more than one prescribable name (PSN)" if concept.key?(:prescribable_name)
+        concept[:prescribable_name] = name
+      when "SY", "TMSY" then (concept[:synonyms] ||= []) << name
+      else
+        raise "RxCUI #{rxcui} has two primary names: #{concept[:tty]} and #{tty}" if concept.key?(:tty)
+        concept[:tty] = tty
+        concept[:name] = name
+      end
+    end
+
+    # RXNREL: a row of (RXCUI1, RXCUI2, RELA) reads as "RXCUI2 <RELA> RXCUI1", e.g. "<SBD> has_ingredient <BN>".
+    wanted = (RXNORM_INGREDIENT_PATHS + %w[has_ingredient has_tradename has_dose_form]).to_set
+    each_rrf_row(zip, "rrf/RXNREL.RRF") do |row|
+      target, source, rela = row[0], row[4], row[7]
+      next unless row[2] == "CUI" && wanted.include?(rela)
+      related[source][rela] << target
+    end
+
+    each_rrf_row(zip, "rrf/RXNSAT.RRF") do |row|
+      strengths[row[0]] << row[10] if row[8] == "RXN_AVAILABLE_STRENGTH" && row[9] == "RXNORM"
+    end
+  end
+  download&.unlink
+
+  nameless = concepts.reject { |_, c| c[:tty] }.keys
+  raise "#{nameless.length} RxCUIs have only synonym rows and no primary name, e.g. #{nameless.first(5)}" if nameless.any?
+  # About 82,000 concepts today. Far fewer means the file layout changed, which would otherwise publish a mostly
+  # empty mapping that still passes schema validation.
+  raise "Only #{concepts.length} RxNorm concepts parsed; expected at least 50000" if concepts.length < 50_000
+
+  by_rxcui = ->(rxcui) { rxcui.to_i }
+  reference = ->(rxcui) { { rxcui: rxcui, name: concepts[rxcui][:name] } }
+  ingredient_memo = {}
+  result = concepts.keys.sort_by(&by_rxcui).to_h do |rxcui|
+    concept = concepts[rxcui]
+    dose_forms = related[rxcui]["has_dose_form"].uniq
+    raise "RxCUI #{rxcui} has more than one dose form: #{dose_forms}" if dose_forms.length > 1
+    dose_form = dose_forms.first
+    raise "RxCUI #{rxcui} has dose form #{dose_form}, which is not an RxNorm concept" if dose_form && !concepts[dose_form]
+    [rxcui, {
+      rxcui: rxcui,
+      name: concept[:name],
+      tty: concept[:tty],
+      prescribable_name: concept[:prescribable_name],
+      # Alternate names, for search. Sorted for stable diffs; the concept's own name is never repeated here.
+      synonyms: ((concept[:synonyms] || []).uniq - [concept[:name]]).sort,
+      # One entry for an actual drug (SCD, SBD); several for a drug group (SCDG, SBDG), which lists every strength
+      # the group is sold in; empty for concepts without a strength (ingredients, brands, ...).
+      strengths: strengths.key?(rxcui) ? strengths[rxcui].uniq.sort_by { |s| rxnorm_strength_sort_key(s) } : [],
+      dose_form: dose_form && concepts[dose_form][:name],
+      ingredients: rxnorm_ingredients(rxcui, concepts, related, ingredient_memo).sort_by(&by_rxcui).map(&reference),
+      brand_names: rxnorm_brand_names(rxcui, concepts, related).sort_by(&by_rxcui).map(&reference)
+    }]
+  end
+
+  json_result = { version: version, concepts: result }
+  JSON::Validator.validate!('medication-code-mapping-schema.json', json_result)
+  File.write("./medication-code-mapping.json", JSON.pretty_generate(json_result))
+  puts "Wrote #{result.length} RxNorm concepts (release #{version}) to medication-code-mapping.json"
+end
+
+# Yield each row of a pipe-delimited RRF file inside the zip as an array of fields. RRF has no quoting, so a plain
+# split is correct (and CSV would choke on names containing double quotes).
+def each_rrf_row(zip, entry_name)
+  entry = zip.find_entry(entry_name) or raise "#{entry_name} is missing from the RxNorm zip"
+  entry.get_input_stream do |io|
+    io.each_line { |line| yield line.force_encoding("UTF-8").chomp.split("|", -1) }
+  end
+end
+
+# Order strengths by their numbers, lowest first ("250 MG" before "500 MG", "25 MG / 200 MG" before "38 MG / 200 MG"),
+# falling back to the text so the order is always the same between runs. Units are not converted.
+def rxnorm_strength_sort_key(strength)
+  [strength.scan(/\d+(?:\.\d+)?/).map(&:to_f), strength]
+end
+
+# The base ingredients (term type IN) of any concept: an ingredient is its own ingredient, and everything else is
+# resolved by walking down through its components, e.g. branded drug -> generic drug -> drug components -> ingredients.
+def rxnorm_ingredients(rxcui, concepts, related, memo, visiting = Set.new)
+  return memo[rxcui] if memo.key?(rxcui)
+  return [] unless concepts[rxcui] && visiting.add?(rxcui)
+
+  found =
+    if concepts[rxcui][:tty] == "IN"
+      [rxcui]
+    else
+      direct = related[rxcui]["has_ingredient"].select { |r| concepts.dig(r, :tty) == "IN" }
+      if direct.empty?
+        RXNORM_INGREDIENT_PATHS.flat_map { |rela| related[rxcui][rela] }
+                               .flat_map { |r| rxnorm_ingredients(r, concepts, related, memo, visiting) }
+      else
+        direct
+      end
+    end
+  visiting.delete(rxcui)
+  memo[rxcui] = found.uniq
+end
+
+# Brand names (term type BN) for a concept. Branded concepts name their own brand; generic concepts list every brand
+# they are sold under.
+def rxnorm_brand_names(rxcui, concepts, related, depth = 0)
+  return [rxcui] if concepts.dig(rxcui, :tty) == "BN"
+
+  own = ->(r) { related[r]["has_ingredient"].select { |b| concepts.dig(b, :tty) == "BN" } }
+  direct = own.call(rxcui)
+  return direct.uniq unless direct.empty?
+  # Branded packs and precise-ingredient forms (BPCK, SBDFP) only reach their brand through the drugs they contain or
+  # the form they refine. Generic concepts have no brand of their own, so this finds nothing for them.
+  inherited = (related[rxcui]["contains"] + related[rxcui]["form_of"]).flat_map(&own)
+  return inherited.uniq unless inherited.empty?
+  # Generic -> branded is one or two hops in practice. Fail instead of quietly returning no brands if a chain is
+  # ever longer, since that would mean a loop or a shape of data this walk wasn't written for.
+  raise "Brand name lookup for RxCUI #{rxcui} went more than 3 has_tradename hops deep" if depth > 3
+
+  related[rxcui]["has_tradename"].flat_map { |r| rxnorm_brand_names(r, concepts, related, depth + 1) }.uniq
+end

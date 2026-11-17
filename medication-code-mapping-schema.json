@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "description": "Medications from NLM's RxNorm Current Prescribable Content, keyed by RxCUI. Each concept carries its own name plus its base ingredients and brand names, so a consumer can display a coded medication (e.g. from a CCD or a FHIR MedicationRequest) with a single lookup.",
+  "required": ["version", "concepts"],
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "type": "string",
+      "description": "RxNorm release date, YYYY-MM-DD.",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "concepts": {
+      "type": "object",
+      "patternProperties": {
+        "^\\d+$": {
+          "type": "object",
+          "required": ["rxcui", "name", "tty", "prescribable_name", "synonyms", "strengths", "dose_form", "ingredients", "brand_names"],
+          "additionalProperties": false,
+          "properties": {
+            "rxcui": { "type": "string" },
+            "name": { "type": "string" },
+            "tty": {
+              "type": "string",
+              "description": "RxNorm term type, e.g. IN (ingredient), BN (brand name), SCD (generic drug), SBD (branded drug), GPCK/BPCK (packs)."
+            },
+            "prescribable_name": { "type": ["string", "null"] },
+            "synonyms": {
+              "type": "array",
+              "description": "Alternate RxNorm names for the concept, including Tall Man spellings (e.g. buPROPion). May be empty.",
+              "items": { "type": "string" }
+            },
+            "strengths": {
+              "type": "array",
+              "description": "One entry for an actual drug (SCD, SBD); every strength sold for a drug group (SCDG, SBDG), lowest first; empty when the concept has no strength.",
+              "items": { "type": "string" }
+            },
+            "dose_form": { "type": ["string", "null"] },
+            "ingredients": { "$ref": "#/definitions/references" },
+            "brand_names": { "$ref": "#/definitions/references" }
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "definitions": {
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["rxcui", "name"],
+        "additionalProperties": false,
+        "properties": {
+          "rxcui": { "type": "string" },
+          "name": { "type": "string" }
+        }
+      }
+    }
+  }
+}
