@@ -804,6 +804,18 @@ RXNORM_PRESCRIBE_URL = "https://download.nlm.nih.gov/rxnorm/RxNorm_full_prescrib
 
 # Relationships we follow from a concept down to its ingredients (IN), e.g. SBD -> SBDC -> SCDC -> IN.
 RXNORM_INGREDIENT_PATHS = %w[consists_of tradename_of contains form_of has_part].freeze
+# How a concept relates to another concept. Each concept's `relations` list them in this order, then by RxCUI.
+#   ingredient: a base ingredient (IN) the concept contains
+#   dose_form:  its dose form (DF); at most one
+#   own_brand:  the brand name (BN) a branded concept is sold as
+#   sold_as:    a brand name (BN) a generic concept is marketed under
+#   generic:    the generic concept a branded concept is the brand of
+RXNORM_RELATION_TYPES = %w[ingredient dose_form own_brand sold_as generic].freeze
+# Branded term types whose generic counterpart is worth carrying. BN is left out on purpose: the "generic" of a
+# brand name is its ingredients, which it already lists.
+RXNORM_GENERIC_TTYS = %w[SBD BPCK SBDF SBDFP SBDC SBDG].freeze
+# A branded drug or pack is the brand of exactly one generic. The others can have several.
+RXNORM_SINGLE_GENERIC_TTYS = %w[SBD BPCK].freeze
 
 desc "Build medication-code-mapping.json (keyed by RxCUI) from NLM's RxNorm prescribable content."
 task :load_rxnorm_mapping do
@@ -884,7 +896,6 @@ task :load_rxnorm_mapping do
   raise "Only #{concepts.length} RxNorm concepts parsed; expected at least 50000" if concepts.length < 50_000
 
   by_rxcui = ->(rxcui) { rxcui.to_i }
-  reference = ->(rxcui) { { rxcui: rxcui, name: concepts[rxcui][:name] } }
   ingredient_memo = {}
   result = concepts.keys.sort_by(&by_rxcui).to_h do |rxcui|
     concept = concepts[rxcui]
@@ -902,9 +913,18 @@ task :load_rxnorm_mapping do
       # One entry for an actual drug (SCD, SBD); several for a drug group (SCDG, SBDG), which lists every strength
       # the group is sold in; empty for concepts without a strength (ingredients, brands, ...).
       strengths: strengths.key?(rxcui) ? strengths[rxcui].uniq.sort_by { |s| rxnorm_strength_sort_key(s) } : [],
-      dose_form: dose_form && concepts[dose_form][:name],
-      ingredients: rxnorm_ingredients(rxcui, concepts, related, ingredient_memo).sort_by(&by_rxcui).map(&reference),
-      brand_names: rxnorm_brand_names(rxcui, concepts, related).sort_by(&by_rxcui).map(&reference)
+      relations: RXNORM_RELATION_TYPES.flat_map do |type|
+        targets =
+          case type
+          when "ingredient" then rxnorm_ingredients(rxcui, concepts, related, ingredient_memo)
+          when "dose_form" then [dose_form].compact
+          when "own_brand" then rxnorm_own_brands(rxcui, concepts, related)
+          when "sold_as" then rxnorm_sold_as(rxcui, concepts, related)
+          when "generic" then rxnorm_generics(rxcui, concepts, related)
+          end
+        # A relation always points at another concept: an ingredient is not listed as its own ingredient.
+        (targets - [rxcui]).sort_by(&by_rxcui).map { |r| { type: type, rxcui: r, name: concepts[r][:name] } }
+      end
     }]
   end
 
@@ -951,21 +971,43 @@ def rxnorm_ingredients(rxcui, concepts, related, memo, visiting = Set.new)
   memo[rxcui] = found.uniq
 end
 
-# Brand names (term type BN) for a concept. Branded concepts name their own brand; generic concepts list every brand
-# they are sold under.
-def rxnorm_brand_names(rxcui, concepts, related, depth = 0)
-  return [rxcui] if concepts.dig(rxcui, :tty) == "BN"
+# The brand names (term type BN) a branded concept is itself sold as. Empty for generic concepts, which have no
+# brand of their own, and for a brand name, which is the brand.
+def rxnorm_own_brands(rxcui, concepts, related)
+  return [] if concepts.dig(rxcui, :tty) == "BN"
 
   own = ->(r) { related[r]["has_ingredient"].select { |b| concepts.dig(b, :tty) == "BN" } }
   direct = own.call(rxcui)
   return direct.uniq unless direct.empty?
   # Branded packs and precise-ingredient forms (BPCK, SBDFP) only reach their brand through the drugs they contain or
-  # the form they refine. Generic concepts have no brand of their own, so this finds nothing for them.
-  inherited = (related[rxcui]["contains"] + related[rxcui]["form_of"]).flat_map(&own)
-  return inherited.uniq unless inherited.empty?
+  # the form they refine.
+  (related[rxcui]["contains"] + related[rxcui]["form_of"]).flat_map(&own).uniq
+end
+
+# Every brand name (term type BN) a generic concept is marketed under, found through its branded counterparts. For
+# an ingredient that includes combination products that contain it. Empty for branded concepts.
+def rxnorm_sold_as(rxcui, concepts, related, depth = 0)
+  return [] if concepts.dig(rxcui, :tty) == "BN" || rxnorm_own_brands(rxcui, concepts, related).any?
   # Generic -> branded is one or two hops in practice. Fail instead of quietly returning no brands if a chain is
   # ever longer, since that would mean a loop or a shape of data this walk wasn't written for.
   raise "Brand name lookup for RxCUI #{rxcui} went more than 3 has_tradename hops deep" if depth > 3
 
-  related[rxcui]["has_tradename"].flat_map { |r| rxnorm_brand_names(r, concepts, related, depth + 1) }.uniq
+  related[rxcui]["has_tradename"].flat_map do |r|
+    next [r] if concepts.dig(r, :tty) == "BN"
+
+    own = rxnorm_own_brands(r, concepts, related)
+    own.empty? ? rxnorm_sold_as(r, concepts, related, depth + 1) : own
+  end.uniq
+end
+
+# The generic concepts a branded concept is the brand of, e.g. the SCD for an SBD.
+def rxnorm_generics(rxcui, concepts, related)
+  tty = concepts.dig(rxcui, :tty)
+  return [] unless RXNORM_GENERIC_TTYS.include?(tty)
+
+  generics = related[rxcui]["tradename_of"].select { |r| concepts.key?(r) }.uniq
+  if RXNORM_SINGLE_GENERIC_TTYS.include?(tty) && generics.length != 1
+    raise "#{tty} #{rxcui} should be the brand of exactly one generic, found #{generics}"
+  end
+  generics
 end

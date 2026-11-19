@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
-  "description": "Medications from NLM's RxNorm Current Prescribable Content, keyed by RxCUI. Each concept carries its own name plus its base ingredients and brand names, so a consumer can display a coded medication (e.g. from a CCD or a FHIR MedicationRequest) with a single lookup.",
+  "description": "Medications from NLM's RxNorm Current Prescribable Content, keyed by RxCUI. Each concept carries its own name plus its relations to other concepts (ingredients, dose form, brand names, generic), so a consumer can display a coded medication (e.g. from a CCD or a FHIR MedicationRequest) with a single lookup.",
   "required": ["version", "concepts"],
   "additionalProperties": false,
   "properties": {
@@ -15,7 +15,7 @@
       "patternProperties": {
         "^\\d+$": {
           "type": "object",
-          "required": ["rxcui", "name", "tty", "prescribable_name", "synonyms", "strengths", "dose_form", "ingredients", "brand_names"],
+          "required": ["rxcui", "name", "tty", "prescribable_name", "synonyms", "strengths", "relations"],
           "additionalProperties": false,
           "properties": {
             "rxcui": { "type": "string" },
@@ -35,27 +35,28 @@
               "description": "One entry for an actual drug (SCD, SBD); every strength sold for a drug group (SCDG, SBDG), lowest first; empty when the concept has no strength.",
               "items": { "type": "string" }
             },
-            "dose_form": { "type": ["string", "null"] },
-            "ingredients": { "$ref": "#/definitions/references" },
-            "brand_names": { "$ref": "#/definitions/references" }
+            "relations": {
+              "type": "array",
+              "description": "The other concepts this one points at, ordered by type (in the order of the enum) and then by RxCUI. Never includes the concept itself. May be empty.",
+              "items": {
+                "type": "object",
+                "required": ["type", "rxcui", "name"],
+                "additionalProperties": false,
+                "properties": {
+                  "type": {
+                    "type": "string",
+                    "description": "ingredient: a base ingredient (IN) the concept contains. dose_form: its dose form (DF), at most one. own_brand: the brand name (BN) a branded concept is sold as. sold_as: a brand name (BN) a generic concept is marketed under; for an ingredient this includes combination products. generic: the generic concept a branded concept is the brand of (exactly one for SBD and BPCK).",
+                    "enum": ["ingredient", "dose_form", "own_brand", "sold_as", "generic"]
+                  },
+                  "rxcui": { "type": "string" },
+                  "name": { "type": "string" }
+                }
+              }
+            }
           }
         }
       },
       "additionalProperties": false
-    }
-  },
-  "definitions": {
-    "references": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "required": ["rxcui", "name"],
-        "additionalProperties": false,
-        "properties": {
-          "rxcui": { "type": "string" },
-          "name": { "type": "string" }
-        }
-      }
     }
   }
 }
