@@ -1338,7 +1338,7 @@
       "dose_volume_ml": null,
       "doses_per_container": null,
       "container_type": "KIT",
-      "packaging_description": "1 KIT in 1 CARTON (0069-0600-01)  / 1 KIT in 1 KIT (0069-0600-99)  *  .5 mL in 1 SYRINGE (0069-0332-01)  *  .5 mL in 1 VIAL, GLASS (0069-0271-01)"
+      "packaging_description": "1 KIT in 1 CARTON (0069-0600-01)  / 1 KIT in 1 KIT (0069-0600-99)  *  .5 mL in 1 VIAL, GLASS (0069-0271-01)  *  .5 mL in 1 SYRINGE (0069-0332-01)"
     },
     {
       "cvx_code": "316",
@@ -1358,7 +1358,7 @@
       "dose_volume_ml": null,
       "doses_per_container": null,
       "container_type": "KIT",
-      "packaging_description": "1 KIT in 1 CARTON (0069-0600-01)  / 1 KIT in 1 KIT (0069-0600-99)  *  .5 mL in 1 SYRINGE (0069-0332-01)  *  .5 mL in 1 VIAL, GLASS (0069-0271-01)"
+      "packaging_description": "1 KIT in 1 CARTON (0069-0600-01)  / 1 KIT in 1 KIT (0069-0600-99)  *  .5 mL in 1 VIAL, GLASS (0069-0271-01)  *  .5 mL in 1 SYRINGE (0069-0332-01)"
     },
     {
       "cvx_code": "316",
@@ -1378,7 +1378,7 @@
       "dose_volume_ml": null,
       "doses_per_container": null,
       "container_type": "KIT",
-      "packaging_description": "5 KIT in 1 CARTON (0069-0600-05)  / 1 KIT in 1 KIT (0069-0600-99)  *  .5 mL in 1 SYRINGE (0069-0332-01)  *  .5 mL in 1 VIAL, GLASS (0069-0271-01)"
+      "packaging_description": "5 KIT in 1 CARTON (0069-0600-05)  / 1 KIT in 1 KIT (0069-0600-99)  *  .5 mL in 1 VIAL, GLASS (0069-0271-01)  *  .5 mL in 1 SYRINGE (0069-0332-01)"
     },
     {
       "cvx_code": "316",
@@ -1398,7 +1398,7 @@
       "dose_volume_ml": null,
       "doses_per_container": null,
       "container_type": "KIT",
-      "packaging_description": "5 KIT in 1 CARTON (0069-0600-05)  / 1 KIT in 1 KIT (0069-0600-99)  *  .5 mL in 1 SYRINGE (0069-0332-01)  *  .5 mL in 1 VIAL, GLASS (0069-0271-01)"
+      "packaging_description": "5 KIT in 1 CARTON (0069-0600-05)  / 1 KIT in 1 KIT (0069-0600-99)  *  .5 mL in 1 VIAL, GLASS (0069-0271-01)  *  .5 mL in 1 SYRINGE (0069-0332-01)"
     },
     {
       "cvx_code": "316",
@@ -1418,7 +1418,7 @@
       "dose_volume_ml": null,
       "doses_per_container": null,
       "container_type": "KIT",
-      "packaging_description": "10 KIT in 1 CARTON (0069-0600-10)  / 1 KIT in 1 KIT (0069-0600-99)  *  .5 mL in 1 SYRINGE (0069-0332-01)  *  .5 mL in 1 VIAL, GLASS (0069-0271-01)"
+      "packaging_description": "10 KIT in 1 CARTON (0069-0600-10)  / 1 KIT in 1 KIT (0069-0600-99)  *  .5 mL in 1 VIAL, GLASS (0069-0271-01)  *  .5 mL in 1 SYRINGE (0069-0332-01)"
     },
     {
       "cvx_code": "316",
@@ -1438,7 +1438,7 @@
       "dose_volume_ml": null,
       "doses_per_container": null,
       "container_type": "KIT",
-      "packaging_description": "10 KIT in 1 CARTON (0069-0600-10)  / 1 KIT in 1 KIT (0069-0600-99)  *  .5 mL in 1 SYRINGE (0069-0332-01)  *  .5 mL in 1 VIAL, GLASS (0069-0271-01)"
+      "packaging_description": "10 KIT in 1 CARTON (0069-0600-10)  / 1 KIT in 1 KIT (0069-0600-99)  *  .5 mL in 1 VIAL, GLASS (0069-0271-01)  *  .5 mL in 1 SYRINGE (0069-0332-01)"
     },
     {
       "cvx_code": "217",
