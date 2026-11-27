@@ -3874,11 +3874,11 @@
       "use_gtin": null,
       "sale_last_updated": "2026-09-01",
       "use_last_updated": "2026-09-01",
-      "fill_volume_ml": 0.5,
+      "fill_volume_ml": null,
       "dose_volume_ml": null,
-      "doses_per_container": 1,
-      "container_type": "SYRINGE, GLASS",
-      "packaging_description": "5 SYRINGE, GLASS in 1 PACKAGE (49281-126-65)  / .5 mL in 1 SYRINGE, GLASS (49281-126-88)"
+      "doses_per_container": null,
+      "container_type": null,
+      "packaging_description": null
     },
     {
       "cvx_code": "200",
@@ -3934,11 +3934,11 @@
       "use_gtin": "00349281215582",
       "sale_last_updated": "2026-04-27",
       "use_last_updated": "2026-04-27",
-      "fill_volume_ml": 0.5,
+      "fill_volume_ml": null,
       "dose_volume_ml": null,
-      "doses_per_container": 1,
-      "container_type": "VIAL, SINGLE-DOSE",
-      "packaging_description": "10 VIAL, SINGLE-DOSE in 1 PACKAGE (49281-215-10)  / .5 mL in 1 VIAL, SINGLE-DOSE (49281-215-58)"
+      "doses_per_container": null,
+      "container_type": null,
+      "packaging_description": null
     },
     {
       "cvx_code": "113",
@@ -3954,11 +3954,11 @@
       "use_gtin": "00349281215889",
       "sale_last_updated": "2026-04-27",
       "use_last_updated": "2026-04-27",
-      "fill_volume_ml": 0.5,
+      "fill_volume_ml": null,
       "dose_volume_ml": null,
-      "doses_per_container": 1,
-      "container_type": "SYRINGE",
-      "packaging_description": "10 SYRINGE in 1 PACKAGE (49281-215-15)  / .5 mL in 1 SYRINGE (49281-215-88)"
+      "doses_per_container": null,
+      "container_type": null,
+      "packaging_description": null
     },
     {
       "cvx_code": "28",
@@ -5258,7 +5258,7 @@
       "dose_volume_ml": null,
       "doses_per_container": null,
       "container_type": null,
-      "packaging_description": "10 SYRINGE, GLASS in 1 PACKAGE (49281-426-50)  / .5 mg in 1 SYRINGE, GLASS (49281-426-88)"
+      "packaging_description": null
     },
     {
       "cvx_code": "32",
@@ -5674,11 +5674,11 @@
       "use_gtin": "00349281574887",
       "sale_last_updated": "2026-04-27",
       "use_last_updated": "2026-04-27",
-      "fill_volume_ml": 1.0,
+      "fill_volume_ml": null,
       "dose_volume_ml": 1.0,
-      "doses_per_container": 1,
-      "container_type": "SYRINGE",
-      "packaging_description": "5 SYRINGE in 1 CARTON (49281-574-15)  / 1 mL in 1 SYRINGE"
+      "doses_per_container": null,
+      "container_type": null,
+      "packaging_description": null
     },
     {
       "cvx_code": "306",
@@ -5694,11 +5694,11 @@
       "use_gtin": "00349281575006",
       "sale_last_updated": "2026-04-27",
       "use_last_updated": "2026-04-27",
-      "fill_volume_ml": 0.5,
+      "fill_volume_ml": null,
       "dose_volume_ml": 0.5,
-      "doses_per_container": 1,
-      "container_type": "SYRINGE",
-      "packaging_description": "5 SYRINGE in 1 CARTON (49281-575-15)  / .5 mL in 1 SYRINGE"
+      "doses_per_container": null,
+      "container_type": null,
+      "packaging_description": null
     },
     {
       "cvx_code": "114",
@@ -6094,11 +6094,11 @@
       "use_gtin": null,
       "sale_last_updated": "2026-09-01",
       "use_last_updated": "2026-09-01",
-      "fill_volume_ml": 5.0,
-      "dose_volume_ml": 0.5,
-      "doses_per_container": 10,
-      "container_type": "VIAL, MULTI-DOSE",
-      "packaging_description": "1 VIAL, MULTI-DOSE in 1 PACKAGE (49281-645-15)  / 5 mL in 1 VIAL, MULTI-DOSE (49281-645-78)"
+      "fill_volume_ml": null,
+      "dose_volume_ml": null,
+      "doses_per_container": null,
+      "container_type": null,
+      "packaging_description": null
     },
     {
       "cvx_code": "126",
